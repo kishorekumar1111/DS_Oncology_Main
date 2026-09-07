@@ -1,0 +1,1001 @@
+Patient_ID,Age,Sex,Cancer_Type,Cancer_Stage,Gene_Mutation,ctDNA_Level,Protein_Biomarker,SpO2,Heart_Rate,WBC_Count,Platelet_Count,Creatinine,Bilirubin,BMI,ECOG_Status,Treatment,Dose_mg,Treatment_Response,Toxicity_Risk
+ONC10001,64.0,F,Liver Cancer,I,BRCA2,1.3,38.4,94.7,74,8.0,264,1.43,0.74,24.9,2,Immunotherapy,54.7,Stable Disease,Low
+ONC10002,56.0,Female,Prostate Cancer,IV,BRCA1,2.93,47.4,96.2,91,8.2,303,0.94,0.99,26.1,1,Nivolumab,71.9,,Low
+ONC10003,68.0,Female,Liver Cancer,IV,TP53,24.14,30.8,92.0,92,10.2,260,1.39,0.55,20.0,1,Targeted Therapy,,Complete Response,Low
+ONC10004,44.0,,Ovarian Cancer,stage iv,,2.44,46.0,96.5,90,8.8,181,1.23,1.59,25.3,1,Carboplatin+Paclitaxel,55.3,PD,Low
+ONC10005,63.0,M,Prostate Cancer,stage iv,KRAS,1.49,63.7,95.3,81,9.2,201,1.18,0.38,17.9,1,Targeted Therapy,96.1,Progressive Disease,Moderate
+ONC10006,87.0,Female,Ovarian Cancer,IV,BRAF,4.74,44.2,92.3,78,7.9,307,0.82,0.86,26.1,2,Osimertinib,96.2,Complete Response,Moderate
+ONC10007,52.0,Male,Prostate Cancer,I,EGFR,0.41,32.8,95.6,85,8.1,217,0.94,1.2,18.9,2,Nivolumab,30.5,Partial Response,Low
+ONC10008,47.0,,Prostate Cancer,3,MET,4.23,13.1,96.8,109,6.1,239,1.52,0.36,22.1,4,Chemotherapy,118.2,Complete Response,H
+ONC10009,47.0,,Prostate Cancer,I,PIK3CA,4.67,59.2,94.7,60,12.7,175,0.83,1.04,31.7,2,Osimertinib,76.5,,Low
+ONC10010,55.0,male,Prostate Cancer,4,HER2,4.56,24.2,96.6,92,7.8,336,0.44,1.08,23.9,2,Osimertinib,47.8,PD,Low
+ONC10011,66.0,,Colorectal Cancer,I,ROS1,4.6,59.4,96.0,63,6.8,234,0.35,1.07,30.5,2,FOLFOX,74.4,SD,Low
+ONC10012,91.0,male,Prostate Cancer,III,MET,0.98,57.1,99.4,98,9.5,242,0.35,0.62,27.9,4,Osimertinib,66.8,CR,Moderate
+ONC10013,62.0,male,Breast Cancer,I,HER2,4.73,27.3,94.8,73,2.3,268,1.07,0.9,27.8,3,Chemotherapy,,Partial Response,Low
+ONC10014,76.0,F,Colorectal Cancer,3,EGFR,2.14,56.9,97.6,61,8.3,369,0.8,0.24,29.5,0,Pembrolizumab,49.0,Partial Response,Low
+ONC10015,82.0,female,Colorectal Cancer,3,KRAS,3.36,24.5,94.7,98,7.6,269,0.35,1.43,22.5,1,Sorafenib,71.7,stable,Low
+ONC10016,32.0,M,Pancreatic Cancer,Stage III,HER2,1.95,52.1,96.5,90,11.7,197,0.46,0.85,22.2,0,Immunotherapy,122.0,Stable Disease,Moderate
+ONC10017,54.0,,Renal Cancer,II,PD-L1,0.26,105.4,92.4,75,4.6,227,0.58,1.73,33.9,0,Targeted Therapy,77.9,Progressive Disease,Low
+ONC10018,59.0,female,Colorectal Cancer,I,None,3.36,56.4,93.4,84,8.1,309,1.28,1.46,28.1,3,Sorafenib,85.6,Partial Response,Moderate
+ONC10019,59.0,male,Gastric Cancer,IV,HER2,1.26,48.9,91.7,67,11.1,166,1.54,0.99,23.6,1,Trastuzumab,104.2,,Moderate
+ONC10020,64.0,male,Liver Cancer,stage iv,PD-L1,10.65,63.4,92.2,87,6.3,206,1.45,1.1,33.9,2,Cisplatin+Gemcitabine,100.2,,High
+ONC10021,66.0,female,Melanoma,3,MET,2.45,80.6,94.9,98,5.7,378,1.45,0.2,24.1,1,Immunotherapy,48.7,,Low
+ONC10022,63.0,M,Pancreatic Cancer,3,HER2,8.32,44.2,92.4,62,7.8,209,0.87,1.1,28.3,0,Sorafenib,59.2,Stable Disease,Low
+ONC10023,57.0,Male,Pancreatic Cancer,Stage III,None,1.8,52.0,96.2,61,7.1,333,1.34,1.22,21.0,0,Trastuzumab,56.4,Progressive Disease,Low
+ONC10024,58.0, Female ,Prostate Cancer,II,HER2,3.13,33.5,98.2,84,10.8,312,1.87,0.65,27.6,1,Immunotherapy,123.2,Partial Response,High
+ONC10025,47.0,M,Liver Cancer,II,EGFR,2.07,50.6,97.7,80,7.1,199,0.44,0.32,19.5,1,Trastuzumab,89.3,SD,Low
+ONC10026,71.0,male,Melanoma,3,MET,2.15,52.1,96.5,75,5.7,345,1.15,1.55,31.8,1,Trastuzumab,,Stable Disease,Moderate
+ONC10027,53.0,Female,Pancreatic Cancer,stage iv,RET,3.29,64.9,99.2,86,8.5,294,0.62,0.31,18.3,0,Immunotherapy,58.5,CR,Low
+ONC10028,50.0,Female,Prostate Cancer,I,BRCA2,20.17,50.1,100.0,99,8.7,329,1.13,1.02,23.0,1,Docetaxel,55.9,SD,Low
+ONC10029,82.0,,Liver Cancer,3,KRAS,7.46,28.2,94.5,56,6.8,253,0.87,0.48,26.5,2,Docetaxel,95.1,,Moderate
+ONC10030,64.0,M,Liver Cancer,II,MET,6.15,6.9,92.4,79,6.1,211,0.74,0.75,25.2,2,Olaparib,76.3,PR,Low
+ONC10031,69.0,F,Gastric Cancer,III,PIK3CA,2.02,48.5,99.4,105,5.8,225,0.35,0.32,22.7,2,Immunotherapy,69.5,Partial Response,Low
+ONC10032,70.0,,Prostate Cancer,3,PIK3CA,0.48,74.6,130.0,94,5.3,145,0.8,0.51,32.4,1,Docetaxel,74.8,PD,Low
+ONC10033,44.0,F,Pancreatic Cancer,3,BRCA1,8.56,62.4,96.3,76,3.9,111,1.41,1.01,24.6,1,FOLFOX,69.8,PR,Low
+ONC10034,59.0,Male,Prostate Cancer,I,BRCA2,2.01,15.5,94.3,89,7.4,297,0.42,1.24,22.2,2,Osimertinib,58.2,PR,Low
+ONC10035,43.0,Male,Liver Cancer,III,BRCA1,1.84,71.2,94.6,93,7.3,184,0.9,1.45,26.7,1,Osimertinib,50.1,CR,Low
+ONC10036,64.0,M,Colorectal Cancer,III,TP53,1.91,42.3,94.5,90,8.4,355,1.0,1.05,27.2,3,Cisplatin+Gemcitabine,68.0,,Moderate
+ONC10037,54.0,,Breast Cancer,stage iv,EGFR,0.65,52.4,100.0,86,4.7,114,0.92,1.01,29.8,2,FOLFOX,70.2,PR,Low
+ONC10038,38.0,M,Renal Cancer,I,KRAS,1.55,31.6,94.8,87,11.5,242,1.36,1.45,31.0,2,Targeted Therapy,89.5,Progressive Disease,Moderate
+ONC10039,87.0,male,Melanoma,IV,TP-53,1.4,51.1,95.7,105,14.6,343,0.87,,21.3,1,Docetaxel,86.4,SD,Moderate
+ONC10040,68.0,Female,NSCLC,IV,HER2,2.88,56.0,100.0,90,7.7,430,0.97,1.02,28.4,0,Olaparib,79.8,PR,Low
+ONC10041,53.0,Female,Prostate Cancer,I,EGFR,4.11,,92.6,101,6.2,158,0.63,1.24,23.4,0,Olaparib,59.8,PR,Low
+ONC10042,36.0,Male,Pancreatic Cancer,II,EGFR,1.14,45.2,96.0,63,3.4,226,0.62,0.93,19.7,2,Trastuzumab,92.7,Complete Response,Moderate
+ONC10043,54.0,M,NSCLC,Stage III,HER2,3.01,53.5,97.7,80,7.6,197,1.11,0.65,20.5,0,Osimertinib,78.4,Stable Disease,Low
+ONC10044,73.0,,Ovarian Cancer,IV,RET,0.41,79.5,92.5,71,10.3,99,0.92,0.83,31.7,1,Nivolumab,50.6,PD,Low
+ONC10045,67.0,F,Prostate Cancer,IV,TP-53,3.24,,95.4,93,6.9,280,0.65,0.84,20.4,0,Pembrolizumab,54.3,,Low
+ONC10046,45.0,female,Melanoma,Stage III,HER2,5.35,46.3,98.5,74,10.6,312,1.14,1.34,31.6,3,Olaparib,67.8,,Moderate
+ONC10047,53.0,Male,Gastric Cancer,II,,2.3,36.8,95.7,113,7.8,264,1.06,0.4,27.6,4,Chemotherapy,20.0,Progressive Disease,Moderate
+ONC10048,52.0,F,Melanoma,III,PD-L1,7.12,53.7,95.8,45,10.6,253,0.76,1.0,30.5,3,FOLFOX,62.6,PD,Low
+ONC10049,67.0,M,Melanoma,III,ROS1,7.31,72.1,93.5,84,7.8,343,0.86,0.2,19.5,1,Nivolumab,70.1,PD,Low
+ONC10050,46.0, Female ,Breast Cancer,Stage III,BRAF,21.63,65.8,96.0,72,7.4,257,1.28,0.32,21.2,2,Docetaxel,37.8,Complete Response,Low
+ONC10051,79.0,male,Gastric Cancer,3,RET,1.65,71.2,98.5,69,7.0,223,0.8,1.3,22.3,2,FOLFOX,76.0,PD,Low
+ONC10052,71.0,Female,Ovarian Cancer,I,TP53,0.86,64.0,98.8,80,9.2,254,1.22,0.9,25.2,1,Docetaxel,64.8,Stable Disease,Low
+ONC10053,46.0,Male,Renal Cancer,IV,ALK,0.45,60.8,99.5,99,10.4,346,0.35,1.08,37.8,3,Carboplatin+Paclitaxel,93.4,SD,Moderate
+ONC10054,58.0,M,Liver Cancer,4,EGFR,1.84,61.4,91.3,77,5.2,230,1.16,0.2,37.2,1,Olaparib,85.0,Complete Response,Low
+ONC10055,45.0,female,Pancreatic Cancer,Stage III,RET,1.85,40.5,98.3,80,9.2,264,1.07,1.11,24.3,3,Sorafenib,76.2,Stable Disease,Moderate
+ONC10056,56.0,male,Colorectal Cancer,stage iv,TP53,4.4,47.9,96.3,58,7.4,140,1.29,2.1,27.6,2,Targeted Therapy,78.7,,Moderate
+ONC10057,78.0,male,Melanoma,4,BRCA2,2.29,38.7,96.3,57,8.7,283,1.46,0.62,33.6,0,Osimertinib,47.3,Partial Response,Low
+ONC10058,60.0,Male,Liver Cancer,Stage III,RET,1.56,68.0,97.5,76,6.0,318,1.31,1.83,15.0,2,Olaparib,88.0,CR,Moderate
+ONC10059,71.0,,Breast Cancer,4,EGFR,2.65,59.7,95.0,82,7.6,329,0.74,1.17,32.4,2,Docetaxel,103.1,Partial Response,Moderate
+ONC10060,33.0,Female,Prostate Cancer,III,KRAS,15.22,55.4,99.0,61,7.9,216,1.25,1.02,28.4,2,Immunotherapy,78.9,PR,Moderate
+ONC10061,54.0,female,NSCLC,III,BRCA1,13.67,55.9,94.9,80,5.4,125,1.58,1.51,33.8,0,Targeted Therapy,48.1,Progressive Disease,Low
+ONC10062,51.0,male,NSCLC,I,PIK3CA,4.63,63.5,93.2,65,8.3,262,0.92,1.7,27.6,1,Pembrolizumab,95.7,PD,Moderate
+ONC10063,52.0,F,Ovarian Cancer,I,,2.67,54.6,98.3,79,4.2,219,1.06,0.71,23.3,0,Olaparib,45.5,PR,Low
+ONC10064,37.0,F,Liver Cancer,4,PIK3CA,4.59,55.7,92.0,92,6.1,112,0.88,0.2,18.3,2,Carboplatin+Paclitaxel,92.3,PD,Moderate
+ONC10065,53.0,,Breast Cancer,II,KRAS,1.9,53.0,98.7,90,4.3,249,0.75,0.79,25.7,1,Carboplatin+Paclitaxel,53.5,,Low
+ONC10066,47.0,female,Pancreatic Cancer,II,MET,8.48,,97.3,100,8.1,232,1.11,1.23,33.2,2,Carboplatin+Paclitaxel,121.5,,High
+ONC10067,55.0,M,Ovarian Cancer,4,BRCA2,11.01,79.1,90.9,89,9.9,410,0.89,0.84,20.0,2,FOLFOX,83.3,,Moderate
+ONC10068,63.0,female,nsclc,II,PD-L1,4.59,21.6,94.8,104,6.6,128,,1.29,20.4,2,Olaparib,48.0,Progressive Disease,Moderate
+ONC10069,56.0,Female,Gastric Cancer,IV,PD-L1,8.07,38.1,90.3,75,8.3,182,0.53,0.7,23.8,2,Pembrolizumab,88.7,SD,Moderate
+ONC10070,49.0,female,Breast Cancer,III,TP53,2.7,67.3,94.3,85,6.7,185,1.64,1.81,22.3,1,Osimertinib,45.8,PD,Low
+ONC10071,36.0,male,NSCLC,I,KRAS,4.16,63.2,94.5,79,6.5,110,0.8,1.88,32.5,1,Trastuzumab,49.8,,Low
+ONC10072,73.0,M,Melanoma,I,BRCA2,4.15,29.4,96.1,72,6.4,271,0.93,0.75,27.2,2,Immunotherapy,,Progressive Disease,Low
+ONC10073,69.0,F,Melanoma,3,KRAS,0.62,63.7,97.6,85,14.5,184,1.2,0.58,27.1,1,Sorafenib,60.7,Partial Response,Low
+ONC10074,64.0, Female ,Breast Cancer,4,EGFR,2.04,65.0,97.3,95,6.2,264,1.28,1.06,28.5,3,Olaparib,34.3,Complete Response,Moderate
+ONC10075,71.0,Male,Ovarian Cancer,III,PD-L1,10.08,21.6,92.9,90,8.3,227,1.42,1.54,24.4,2,Nivolumab,90.4,,Moderate
+ONC10076,46.0,F,Renal Cancer,II,BRCA1,1.0,43.8,90.6,106,2.2,319,1.89,1.5,30.5,2,Carboplatin+Paclitaxel,,CR,Moderate
+ONC10077,58.0,male,Melanoma,3,HER2,1.06,50.3,97.4,90,3.1,316,1.98,1.62,30.6,1,Carboplatin+Paclitaxel,93.8,Progressive Disease,Moderate
+ONC10078,62.0,Female,Breast Cancer,I,None,4.55,,96.4,101,3.0,238,0.67,0.5,24.6,0,Sorafenib,95.2,,Low
+ONC10079,44.0,M,Renal Cancer,3,None,2.0,69.7,95.6,75,8.5,311,0.8,0.63,25.8,3,FOLFOX,100.4,,Moderate
+ONC10080,62.0,,Renal Cancer,I,EGFR,7.17,56.2,93.9,67,9.0,227,1.17,1.68,28.1,0,Cisplatin+Gemcitabine,90.2,Complete Response,Low
+ONC10081,43.0,Male,Liver Cancer,stage iv,KRAS,2.83,60.0,94.1,89,9.9,153,1.1,0.52,24.4,1,Pembrolizumab,48.8,Stable Disease,Low
+ONC10082,37.0,Male,Gastric Cancer,I,ALK,0.68,78.9,94.1,94,8.2,329,1.31,0.88,17.1,2,Olaparib,99.9,SD,Moderate
+ONC10083,58.0,F,Breast Cancer,3,HER2,1.88,,100.0,65,9.0,317,1.09,1.21,22.0,0,FOLFOX,47.9,Progressive Disease,Low
+ONC10084,49.0,male,Gastric Cancer,stage iv,Unknown,3.99,42.9,95.9,87,6.4,161,1.52,0.86,26.0,2,Docetaxel,54.9,,Low
+ONC10085,73.0,Female,Liver Cancer,Stage III,BRAF,1.71,49.1,97.5,67,7.8,208,1.19,1.23,26.1,1,Carboplatin+Paclitaxel,55.4,complete response,Low
+ONC10086,37.0,M,Colorectal Cancer,stage iv,PD-L1,2.79,6.7,96.1,47,8.3,207,1.69,1.85,26.4,3,FOLFOX,94.5,progressive,High
+ONC10087,49.0,F,NSCLC,IV,TP53,1.23,38.7,96.4,78,6.3,172,1.55,1.02,30.0,0,Carboplatin+Paclitaxel,79.3,,Low
+ONC10088,70.0,female,Breast Cancer,Stage III,KRAS,6.35,50.6,95.0,86,9.6,55,1.01,0.97,27.8,0,FOLFOX,89.5,Partial Response,Low
+ONC10089,45.0,female,Prostate Cancer,3,ALK,2.56,34.8,95.2,76,10.9,255,0.92,0.72,27.4,0,Targeted Therapy,78.7,Progressive Disease,Low
+ONC10090,48.0,M,nsclc,II,KRAS,4.13,27.1,91.1,119,6.1,337,0.57,1.61,29.8,2,Trastuzumab,66.1,PR,Moderate
+ONC10091,63.0,male,Melanoma,IV,ALK,4.23,41.0,97.3,62,4.2,310,0.86,0.46,31.7,2,Pembrolizumab,58.2,progressive,Low
+ONC10092,65.0,female,Ovarian Cancer,II,HER2,7.42,35.2,96.8,79,8.4,236,1.23,1.07,27.5,3,FOLFOX,92.8,PD,Moderate
+ONC10093,62.0,Female,Prostate Cancer,III,None,2.94,28.6,96.2,82,7.8,300,1.52,0.94,24.3,1,Trastuzumab,63.1,PR,Low
+ONC10094,34.0,Male,Liver Cancer,II,BRCA1,5.81,58.0,95.2,78,9.7,192,0.51,1.68,22.0,0,Pembrolizumab,104.2,CR,Moderate
+ONC10095,,F,Renal Cancer,I,KRAS,5.61,53.7,93.7,78,7.1,410,1.21,1.1,20.7,0,Immunotherapy,57.9,Stable Disease,Low
+ONC10096,55.0,female,Pancreatic Cancer,stage iv,Unknown,5.54,61.2,99.0,80,8.0,263,1.37,0.63,26.9,1,FOLFOX,94.5,Partial Response,Moderate
+ONC10097,62.0,F,Colorectal Cancer,3,TP53,2.97,53.9,94.8,91,8.5,215,0.69,1.67,22.4,0,Trastuzumab,106.6,PD,Moderate
+ONC10098,69.0,Male,Liver Cancer,IV,BRCA2,2.96,56.0,100.0,87,6.7,185,0.83,1.26,24.4,1,Sorafenib,48.7,PR,Low
+ONC10099,68.0,,Colorectal Cancer,II,HER2,4.83,78.3,93.6,98,8.4,261,0.35,0.87,29.1,2,Trastuzumab,88.6,PR,Moderate
+ONC10100,48.0,Female,nsclc,III,ALK,2.21,50.0,95.5,77,9.7,227,1.73,1.04,23.7,1,Immunotherapy,69.6,Stable Disease,Low
+ONC10101,47.0,,NSCLC,II,HER2,6.94,61.9,98.0,75,5.6,311,1.31,0.2,25.5,0,FOLFOX,55.5,Complete Response,Low
+ONC10102,69.0,Female,Colorectal Cancer,Stage III,PIK3CA,1.34,27.8,100.0,103,6.6,177,0.91,1.49,33.9,2,FOLFOX,64.2,PR,Low
+ONC10103,33.0,Male,Gastric Cancer,I,EGFR,2.12,43.1,88.8,81,3.2,280,0.85,0.47,26.3,3,Cisplatin+Gemcitabine,114.0,PD,high
+ONC10104,45.0,male,Prostate Cancer,II,PD-L1,2.96,45.0,94.8,91,4.8,178,0.64,0.2,24.1,1,Olaparib,78.8,CR,Low
+ONC10105,26.0,,Melanoma,II,KRAS,3.62,32.9,94.5,94,7.4,294,1.09,0.95,29.5,1,Osimertinib,54.8,Stable Disease,Low
+ONC10106,65.0,male,Liver Cancer,3,PIK3CA,2.72,22.9,96.9,82,5.7,359,1.15,0.73,26.9,4,Osimertinib,64.2,Partial Response,Moderate
+ONC10107,56.0,female,Renal Cancer,III,EGFR,4.17,36.7,100.0,82,9.5,79,<1,1.28,21.8,1,Nivolumab,59.0,CR,Low
+ONC10108,65.0,female,NSCLC,II,BRCA2,1.47,34.8,96.8,81,3.6,251,0.91,1.23,23.3,2,FOLFOX,73.7,SD,Low
+ONC10109,71.0,,Gastric Cancer,II,KRAS,3.27,65.7,98.7,75,3.6,309,0.8,1.84,27.8,1,Nivolumab,103.2,Stable Disease,Moderate
+ONC10110,66.0,F,Pancreatic Cancer,III,PD-L1,2.45,36.7,98.0,89,13.6,257,1.01,0.86,29.1,0,Immunotherapy,97.1,SD,Low
+ONC10111,56.0,Female,Renal Cancer,stage iv,HER2,7.11,56.7,95.3,107,10.8,161,0.95,1.01,27.5,4,FOLFOX,79.9,Stable Disease,Moderate
+ONC10112,54.0,male,Prostate Cancer,II,BRAF,5.2,39.7,94.9,77,9.0,205,1.08,1.47,26.7,1,Pembrolizumab,80.4,,Low
+ONC10113,83.0,,Pancreatic Cancer,3,ALK,4.15,57.3,97.3,94,8.2,210,1.16,0.58,18.2,2,Immunotherapy,66.7,Complete Response,Low
+ONC10114,60.0,F,Colorectal Cancer,III,None,4.96,45.8,95.7,68,8.2,228,1.31,1.85,28.8,2,Chemotherapy,99.4,Progressive Disease,Moderate
+ONC10115,57.0,F,Melanoma,Stage III,EGFR,4.51,17.4,100.0,71,9.4,315,1.83,1.26,24.1,0,Chemotherapy,121.0,CR,High
+ONC10116,64.0,F,Breast Cancer,Stage III,,1.35,39.6,97.8,72,8.3,307,1.39,1.1,20.8,2,Trastuzumab,76.8,Progressive Disease,Moderate
+ONC10117,57.0,female,Pancreatic Cancer,4,None,2.04,73.8,98.2,76,7.3,208,,0.97,18.7,2,Carboplatin+Paclitaxel,55.5,Progressive Disease,Low
+ONC10118,54.0,male,Gastric Cancer,III,ROS1,4.02,39.5,94.4,60,5.0,179,1.18,0.99,21.8,1,Osimertinib,77.3,,Low
+ONC10119,55.0,F,Renal Cancer,III,EGFR,0.97,62.9,94.1,86,9.1,250,0.5,0.86,16.2,1,Osimertinib,104.5,,Moderate
+ONC10120,50.0,male,Gastric Cancer,4,TP53,8.15,27.8,97.9,80,6.1,249,0.94,1.05,26.1,3,Targeted Therapy,66.9,partial response,Low
+ONC10121,51.0,female,Gastric Cancer,IV,PD-L1,3.35,17.9,90.5,69,5.7,195,1.18,0.63,26.2,1,Olaparib,68.2,SD,Low
+ONC10122,46.0,male,Gastric Cancer,II,EGFR,1.35,78.4,97.1,66,7.8,308,0.62,1.0,33.5,2,Immunotherapy,79.6,Stable Disease,Low
+ONC10123,47.0,F,Breast Cancer,4,RET,2.64,15.3,95.6,97,3.5,318,0.92,0.67,25.0,1,Sorafenib,77.9,,Low
+ONC10124,48.0,male,NSCLC,I,TP53,2.32,39.0,96.6,52,4.0,248,0.9,1.06,25.1,1,Trastuzumab,103.0,PD,Moderate
+ONC10125,41.0,,Pancreatic Cancer,III,HER2,12.41,43.3,94.8,80,6.0,241,0.61,1.0,22.8,4,Sorafenib,84.0,CR,Moderate
+ONC10126,78.0,M,Breast Cancer,Stage III,MET,6.71,55.2,96.5,71,1.2,159,1.06,1.07,23.6,1,Chemotherapy,74.6,SD,Low
+ONC10127,34.0,,Breast Cancer,III,ALK,1.17,60.8,91.4,79,5.0,249,1.24,1.43,23.1,1,Pembrolizumab,50.6,PD,Low
+ONC10128,69.0,F,Melanoma,stage iv,MET,1.87,10.2,100.0,103,5.5,276,<1,1.34,30.3,1,Immunotherapy,61.9,CR,Low
+ONC10129,49.0,,Liver Cancer,III,TP53,3.99,69.5,99.2,69,7.1,323,1.03,0.2,29.4,3,Cisplatin+Gemcitabine,60.6,SD,Low
+ONC10130,53.0,F,Renal Cancer,II,TP53,2.58,65.1,96.0,76,8.7,55,1.3,1.09,30.7,3,Trastuzumab,99.7,Partial Response,High
+ONC10131,73.0,,Gastric Cancer,3,BRCA1,2.74,45.1,97.2,86,6.3,202,1.12,1.21,21.6,1,FOLFOX,89.8,Stable Disease,Moderate
+ONC10132,48.0,,Breast Cancer,3,HER2,5.41,70.2,93.1,80,5.4,268,0.87,1.28,35.0,2,Nivolumab,96.6,PD,Moderate
+ONC10133,68.0,Male,Ovarian Cancer,3,PD-L1,0.95,71.4,99.0,70,6.9,250,1.06,,24.6,1,FOLFOX,82.4,Progressive Disease,Low
+ONC10134,55.0,Male,NSCLC,3,KRAS,15.86,62.6,94.3,103,5.3,172,1.25,,27.4,1,Osimertinib,87.2,Partial Response,Moderate
+ONC10135,70.0,female,Breast Cancer,3,None,5.58,14.2,94.0,75,5.0,198,0.93,0.39,20.9,0,Docetaxel,94.2,Stable Disease,Low
+ONC10136,42.0,M,Prostate Cancer,III,TP53,,67.1,96.5,82,11.1,152,1.25,0.63,26.7,1,Trastuzumab,51.8,Complete Response,Low
+ONC10137,63.0,M,Prostate Cancer,3,PIK3CA,1.02,64.8,95.6,75,1.5,206,0.59,0.77,24.9,1,FOLFOX,107.0,PD,Moderate
+ONC10138,53.0,F,Renal Cancer,Stage III,ALK,4.62,57.3,100.0,68,7.0,214,1.1,,30.7,2,Trastuzumab,97.0,CR,Moderate
+ONC10139,60.0,Male,Prostate Cancer,3,MET,1.58,50.2,96.9,80,10.2,227,1.22,1.28,25.9,0,Sorafenib,64.3,PR,Low
+ONC10140,78.0,Male,Gastric Cancer,4,ALK,3.47,52.4,96.4,82,7.5,353,0.58,0.34,24.4,1,Chemotherapy,78.8,Progressive Disease,Low
+ONC10141,61.0,female,Breast Cancer,III,None,1.89,44.3,96.1,84,13.2,257,0.88,1.07,28.0,3,Chemotherapy,39.9,SD,Low
+ONC10142,49.0,female,Pancreatic Cancer,4,PIK3CA,1.43,25.4,100.0,67,4.4,262,1.24,1.51,27.0,2,Olaparib,57.2,,Low
+ONC10143,72.0,F,Melanoma,stage iv,ROS1,0.92,44.8,94.0,88,7.2,237,0.84,1.47,30.5,3,Sorafenib,71.7,Stable Disease,Moderate
+ONC10144,75.0,Female,Pancreatic Cancer,IV,RET,1.19,36.1,100.0,62,6.1,286,0.44,1.21,24.6,1,Targeted Therapy,,Partial Response,Low
+ONC10145,47.0,female,Gastric Cancer,II,MET,2.8,42.4,94.1,102,8.2,273,1.25,0.52,32.6,3,Sorafenib,70.1,Progressive Disease,Moderate
+ONC10146,57.0,male,Renal Cancer,IV,ROS1,2.57,46.8,94.8,85,4.1,287,1.39,,28.3,1,Docetaxel,65.4,SD,Low
+ONC10147,40.0,Female,Renal Cancer,Stage III,None,0.74,33.5,98.2,65,9.7,197,1.35,0.2,18.3,2,Osimertinib,91.1,Complete Response,Moderate
+ONC10148,67.0,,Ovarian Cancer,II,PD-L1,1.57,28.0,98.3,75,11.4,208,0.35,1.76,27.5,1,Trastuzumab,70.2,Progressive Disease,Low
+ONC10149,39.0,,nsclc,III,RET,5.26,70.2,93.7,80,3.1,251,0.93,0.37,26.5,1,Docetaxel,97.7,PD,Moderate
+ONC10150,44.0,Female,Gastric Cancer,3,ALK,4.12,48.6,96.9,75,2.8,267,0.86,0.96,21.2,3,Trastuzumab,60.1,Progressive Disease,Low
+ONC10151,66.0,male,Pancreatic Cancer,IV,Unknown,2.49,,97.4,75,10.0,170,0.59,1.39,20.3,2,Trastuzumab,50.0,PD,Low
+ONC10152,76.0,M,Melanoma,stage iv,MET,3.57,30.0,97.6,60,5.1,281,1.21,1.63,22.8,2,Olaparib,98.1,Stable Disease,Moderate
+ONC10153,65.0,male,Liver Cancer,Stage III,KRAS,6.76,59.6,98.3,76,9.7,302,1.02,1.49,24.7,3,Trastuzumab,89.9,Stable Disease,Moderate
+ONC10154,43.0,F,Renal Cancer,I,None,2.15,,89.9,84,11.3,94,0.98,0.2,26.9,2,Targeted Therapy,66.2,SD,Low
+ONC10155,68.0,,Colorectal Cancer,IV,ALK,4.37,51.4,97.1,88,7.3,245,0.8,1.31,21.0,2,Cisplatin+Gemcitabine,63.4,SD,Low
+ONC10156,60.0,female,NSCLC,stage iv,BRAF,1.97,40.2,94.3,75,6.7,212,1.06,1.05,29.9,1,Olaparib,48.0,CR,Low
+ONC10157,51.0,,Pancreatic Cancer,Stage III,KRAS,2.17,30.7,98.9,65,6.8,282,0.99,1.62,17.8,2,Sorafenib,86.5,,Moderate
+ONC10158,45.0,Female,Breast Cancer,I,PIK3CA,3.18,36.3,91.4,68,6.6,180,1.39,1.47,19.5,4,Pembrolizumab,42.1,PD,Moderate
+ONC10159,60.0,F,Liver Cancer,III,ROS1,,66.3,99.1,98,7.7,258,0.74,1.67,25.8,2,Osimertinib,97.3,Stable Disease,Moderate
+ONC10160,61.0,female,Liver Cancer,Stage III,TP53,3.7,46.9,92.2,89,9.8,326,0.96,0.98,24.5,2,FOLFOX,87.6,,Moderate
+ONC10161,46.0,female,Gastric Cancer,3,KRAS,2.72,54.5,99.5,63,9.3,214,0.44,1.79,24.9,2,Osimertinib,0.0,,Moderate
+ONC10162,65.0,,Gastric Cancer,stage iv,HER2,5.07,4.7,97.9,77,8.4,150,0.4,1.57,24.4,1,FOLFOX,72.1,partial response,Low
+ONC10163,70.0,female,Breast Cancer,IV,KRAS,4.7,40.9,95.4,96,5.7,304,0.9,1.45,22.1,1,FOLFOX,84.6,,Moderate
+ONC10164,76.0,Male,Renal Cancer,IV,TP53,1.12,29.9,97.8,79,6.0,242,0.79,0.59,27.3,1,Nivolumab,75.9,Stable Disease,Low
+ONC10165,65.0,Male,Ovarian Cancer,stage iv,PD-L1,1.41,45.7,97.3,96,4.4,251,0.42,0.2,29.9,0,Sorafenib,64.7,Complete Response,Low
+ONC10166,62.0,,Colorectal Cancer,stage iv,,3.02,56.7,96.9,77,6.6,185,1.12,2.34,28.7,3,FOLFOX,95.3,,High
+ONC10167,64.0,female,Breast Cancer,I,ALK,1.38,31.8,97.1,71,9.1,252,1.71,0.87,21.3,0,FOLFOX,68.7,Stable Disease,Low
+ONC10168,51.0,Female,Colorectal Cancer,Stage III,PD-L1,1.66,59.7,93.9,106,7.1,260,1.25,1.16,30.9,2,Pembrolizumab,58.3,Complete Response,Moderate
+ONC10169,67.0,male,Colorectal Cancer,3,PD-L1,,61.1,97.8,96,8.2,265,0.89,1.49,25.5,1,Olaparib,82.0,PR,Low
+ONC10170,45.0,M,Colorectal Cancer,III,EGFR,11.23,42.6,95.4,102,8.1,268,0.35,0.92,26.8,3,Olaparib,82.3,PD,Moderate
+ONC10171,40.0,male,Pancreatic Cancer,stage iv,HER2,3.37,44.6,96.0,81,10.2,242,1.19,1.13,25.1,2,Chemotherapy,62.4,Progressive Disease,Low
+ONC10172,49.0,Female,Melanoma,4,MET,2.23,80.8,94.1,85,10.0,216,0.9,1.47,24.9,3,Nivolumab,38.5,Progressive Disease,Moderate
+ONC10173,63.0, Female ,Prostate Cancer,II,TP53,1.75,29.4,96.5,89,8.5,255,1.01,1.16,21.6,2,Sorafenib,106.7,PR,Moderate
+ONC10174,63.0,male,Renal Cancer,3,TP53,0.8,52.3,96.9,104,9.8,264,1.2,1.3,31.7,1,Osimertinib,52.1,PR,Low
+ONC10175,86.0,,Ovarian Cancer,stage iv,MET,3.39,61.3,92.8,90,3.4,234,1.54,1.4,27.9,2,Osimertinib,86.6,PD,Moderate
+ONC10176,68.0,male,Prostate Cancer,IV,BRAF,0.93,50.3,94.8,91,4.1,326,1.3,0.87,27.1,0,Chemotherapy,59.4,Stable Disease,Low
+ONC10177,56.0,female,Ovarian Cancer,3,BRCA2,2.92,16.5,92.7,90,6.9,268,1.59,1.49,23.2,0,Carboplatin+Paclitaxel,104.2,,Moderate
+ONC10178,38.0,,Melanoma,III,BRCA1,1.91,20.9,95.2,95,5.1,273,1.68,1.84,26.4,2,Pembrolizumab,105.6,Progressive Disease,High
+ONC10179,56.0,Male,Liver Cancer,stage iv,ROS1,4.91,55.3,97.6,84,7.2,214,1.45,1.09,30.6,3,Cisplatin+Gemcitabine,64.3,Complete Response,Moderate
+ONC10180,44.0,F,Breast Cancer,Stage III,RET,1.55,103.1,98.1,88,9.6,278,1.25,1.6,28.0,1,Pembrolizumab,53.4,Progressive Disease,Low
+ONC10181,60.0,male,Gastric Cancer,4,,10.19,52.5,93.3,82,9.1,259,1.33,1.36,24.1,0,Olaparib,131.4,Stable Disease,High
+ONC10182,60.0,M,Colorectal Cancer,stage iv,HER2,1.86,53.7,91.0,64,11.3,343,0.92,0.61,22.8,2,Pembrolizumab,91.1,SD,Moderate
+ONC10183,49.0,F,Gastric Cancer,Stage III,ALK,2.08,41.1,97.2,94,6.5,227,0.96,0.97,22.3,1,Osimertinib,60.7,Progressive Disease,Low
+ONC10184,50.0,,Pancreatic Cancer,II,BRCA2,3.44,53.1,91.2,79,6.3,268,1.38,0.83,23.4,1,Docetaxel,104.7,Stable Disease,Moderate
+ONC10185,55.0,,Renal Cancer,3,EGFR,9.58,51.1,93.3,85,5.3,184,0.52,0.76,30.2,4,Olaparib,75.5,PD,Moderate
+ONC10186,44.0,female,Liver Cancer,4,KRAS,2.07,31.4,98.4,76,7.1,364,1.52,0.97,20.2,1,Targeted Therapy,37.5,Complete Response,Low
+ONC10187,58.0,female,Melanoma,stage iv,NTRK,6.84,,96.4,72,7.3,272,1.02,1.04,31.6,2,FOLFOX,66.2,PR,Low
+ONC10188,54.0,Male,Liver Cancer,3,ALK,4.19,56.7,98.9,84,10.2,209,0.78,0.9,25.8,0,Sorafenib,63.3,Progressive Disease,Low
+ONC10189,47.0,Female,Gastric Cancer,II,None,3.75,50.6,93.0,71,8.1,339,1.31,0.94,21.5,0,Chemotherapy,69.2,SD,Low
+ONC10190,65.0,,NSCLC,4,ALK,9.39,61.5,95.5,107,11.9,253,0.98,1.27,29.4,2,Olaparib,,Progressive Disease,Moderate
+ONC10191,64.0,male,NSCLC,III,RET,3.13,73.7,95.2,85,5.9,328,0.97,0.3,42.0,0,Chemotherapy,55.3,Complete Response,Low
+ONC10192,50.0,M,Colorectal Cancer,II,TP53,1.03,36.2,95.4,75,3.6,170,0.89,1.7,26.8,3,Carboplatin+Paclitaxel,38.2,SD,Moderate
+ONC10193,67.0,male,NSCLC,II,BRAF,5.77,39.6,99.7,73,6.1,182,1.41,1.39,18.9,2,Cisplatin+Gemcitabine,69.9,partial response,high
+ONC10194,42.0,Female,Colorectal Cancer,III,ROS1,1.27,62.7,100.0,76,7.1,278,0.42,1.0,27.0,0,Carboplatin+Paclitaxel,93.1,Complete Response,Low
+ONC10195,45.0,Male,Prostate Cancer,stage iv,KRAS,2.45,29.5,94.8,70,8.7,167,1.4,0.77,33.4,1,Targeted Therapy,33.5,Progressive Disease,Low
+ONC10196,57.0,female,NSCLC,4,RET,8.41,11.1,100.0,85,3.2,159,1.07,0.88,29.0,2,Targeted Therapy,105.6,CR,Moderate
+ONC10197,48.0,M,Gastric Cancer,3,TP53,3.83,39.7,96.8,88,6.6,293,1.43,1.44,24.4,2,Olaparib,67.9,SD,Moderate
+ONC10198,38.0,Male,Pancreatic Cancer,stage iv,PD-L1,4.21,39.5,97.2,60,6.2,377,1.26,0.4,25.2,1,Docetaxel,98.8,Complete Response,Moderate
+ONC10199,43.0,Male,Melanoma,4,PD-L1,0.96,54.0,94.8,76,1.2,213,1.26,1.54,22.6,0,Sorafenib,100.4,CR,Moderate
+ONC10200,83.0,male,Colorectal Cancer,IV,TP53,1.62,44.8,99.9,82,3.4,321,0.78,0.66,20.6,2,Sorafenib,76.7,PD,Low
+ONC10201,,male,Prostate Cancer,Stage III,ALK,2.86,81.3,96.7,72,8.5,259,1.67,,17.1,3,Carboplatin+Paclitaxel,54.3,PR,Moderate
+ONC10202,60.0,M,Ovarian Cancer,IV,BRCA1,1.3,46.4,94.7,78,7.1,200,0.47,0.55,21.6,3,Targeted Therapy,70.2,SD,Low
+ONC10203,59.0,female,Pancreatic Cancer,4,PD-L1,0.69,70.5,99.0,54,4.4,231,1.17,0.97,31.1,3,Chemotherapy,78.2,complete response,Moderate
+ONC10204,60.0,Female,Colorectal Cancer,I,,7.35,87.3,95.2,68,8.3,219,0.96,1.58,20.7,1,Nivolumab,56.7,Complete Response,Low
+ONC10205,34.0,F,Ovarian Cancer,3,EGFR,2.78,66.9,95.3,95,1.2,258,0.65,1.63,22.7,1,Pembrolizumab,99.4,Stable Disease,Moderate
+ONC10206,79.0,,NSCLC ,IV,BRAF,2.05,66.8,95.0,62,4.5,182,,0.57,28.4,3,Cisplatin+Gemcitabine,59.8,SD,Low
+ONC10207,89.0,Female,Prostate Cancer,IV,EGFR,3.09,22.0,93.3,76,4.4,163,0.93,0.69,31.4,2,Nivolumab,70.2,SD,Low
+ONC10208,69.0,female,Liver Cancer,stage iv,BRAF,1.83,56.2,99.3,86,4.6,130,0.58,1.05,25.5,1,Pembrolizumab,61.7,PR,Low
+ONC10209,56.0,,Liver Cancer,IV,TP53,0.79,41.2,93.3,94,9.5,201,1.33,0.43,25.1,3,Cisplatin+Gemcitabine,82.5,SD,Moderate
+ONC10210,73.0,Female,Prostate Cancer,II,HER2,8.15,15.1,98.6,85,6.3,230,1.28,1.5,22.0,2,Immunotherapy,,PD,Low
+ONC10211,72.0,female,Colorectal Cancer,II,,3.45,60.3,94.3,71,8.3,260,1.54,0.57,26.4,1,Osimertinib,93.3,PD,Moderate
+ONC10212,57.0,Male,Renal Cancer,4,RET,5.12,11.5,97.9,81,7.9,175,0.73,1.56,21.9,0,Cisplatin+Gemcitabine,65.8,SD,Low
+ONC10213,44.0,F,Melanoma,II,KRAS,1.99,54.8,100.0,71,5.0,260,1.08,1.73,34.1,2,FOLFOX,75.0,PD,Moderate
+ONC10214,62.0,M,Prostate Cancer,Stage III,TP53,5.09,50.6,92.2,89,3.2,306,unknown,1.5,29.5,4,Nivolumab,69.8,PR,Moderate
+ONC10215,66.0,M,Colorectal Cancer,I,TP53,2.82,72.0,98.3,90,1.2,292,0.93,0.39,26.8,3,FOLFOX,67.8,Partial Response,Moderate
+ONC10216,60.0,,NSCLC,I,BRCA1,9.28,66.3,98.7,83,6.5,201,1.04,1.12,18.5,1,Cisplatin+Gemcitabine,62.6,PR,Low
+ONC10217,79.0,M,Liver Cancer,stage iv,ROS1,5.65,74.0,94.4,83,10.2,258,0.67,1.35,29.0,1,Chemotherapy,71.2,Stable Disease,high
+ONC10218,57.0,,Renal Cancer,II,RET,0.97,55.9,98.5,88,4.7,170,1.4,0.66,26.8,1,FOLFOX,74.5,Partial Response,Low
+ONC10219,83.0,Female,Pancreatic Cancer,stage iv,BRAF,5.96,48.8,92.6,62,3.3,356,1.27,1.63,25.4,1,Trastuzumab,71.7,PD,Low
+ONC10220,67.0,male,Liver Cancer,II,RET,5.77,66.8,98.0,52,8.8,258,0.6,1.49,23.2,4,Targeted Therapy,60.6,Stable Disease,Moderate
+ONC10221,57.0,,Pancreatic Cancer,I,None,2.71,46.6,93.7,50,9.9,350,1.61,0.2,22.3,0,Nivolumab,48.7,Partial Response,Low
+ONC10222,42.0,male,Gastric Cancer,Stage III,ALK,1.39,52.6,96.2,72,4.4,219,0.73,1.3,17.9,0,Cisplatin+Gemcitabine,96.9,Partial Response,Low
+ONC10223,83.0,,Renal Cancer,4,TP53,2.45,88.9,98.3,88,6.5,255,1.44,0.85,27.0,2,Cisplatin+Gemcitabine,127.0,Partial Response,High
+ONC10224,52.0,,Liver Cancer,stage iv,EGFR,1.9,71.1,89.8,68,4.7,131,1.53,1.2,21.2,2,Nivolumab,86.6,Complete Response,Moderate
+ONC10225,32.0,Female,Gastric Cancer,stage iv,,2.55,47.0,92.6,73,6.5,358,0.95,0.88,29.4,2,Nivolumab,57.0,,Low
+ONC10226,67.0,,Colorectal Cancer,III,PIK3CA,,61.3,98.0,74,7.2,221,1.24,1.25,25.0,1,Targeted Therapy,27.1,Stable Disease,Low
+ONC10227,56.0,M,Colorectal Cancer,4,ALK,0.51,38.7,96.0,83,6.4,231,1.12,0.67,23.0,1,Nivolumab,58.8,complete response,Low
+ONC10228,53.0,male,Pancreatic Cancer,3,PIK3CA,,24.9,96.1,67,6.1,229,1.02,0.96,35.0,0,Olaparib,59.2,Partial Response,Low
+ONC10229,70.0,  ,Melanoma,I,EGFR,2.67,25.3,100.0,89,6.2,212,1.6,1.43,20.1,0,Sorafenib,76.3,SD,Low
+ONC10230,64.0,male,Ovarian Cancer,stage iv,KRAS,1.71,44.8,99.0,66,12.2,175,1.43,1.19,24.0,2,FOLFOX,125.8,Stable Disease,High
+ONC10231,73.0,F,Ovarian Cancer,IV,Unknown,7.39,55.2,95.1,78,7.9,268,1.16,1.07,21.6,1,Immunotherapy,51.5,PD,Low
+ONC10232,47.0,Female,Gastric Cancer,III,RET,1.25,76.7,95.7,64,2.6,171,1.62,1.84,31.7,1,Carboplatin+Paclitaxel,121.1,SD,High
+ONC10233,62.0,M,NSCLC,IV,BRCA2,4.76,14.9,100.0,76,11.6,290,1.36,0.88,32.0,1,FOLFOX,61.5,PR,Low
+ONC10234,57.0,female,Liver Cancer,Stage III,BRCA2,2.29,48.9,90.5,98,6.9,154,1.14,0.66,25.8,3,Chemotherapy,96.1,Partial Response,High
+ONC10235,60.0,Female,Liver Cancer,Stage III,TP53,,35.6,94.0,73,6.1,255,1.36,0.74,29.6,2,Olaparib,58.5,SD,Low
+ONC10236,59.0,Male,Colorectal Cancer,I,PD-L1,5.27,29.5,98.5,77,6.6,247,1.52,0.26,29.6,2,Nivolumab,50.5,CR,Low
+ONC10237,82.0,Female,Gastric Cancer,I,MET,1.45,33.5,94.2,110,9.7,268,0.96,0.63,28.9,2,Nivolumab,75.0,SD,Moderate
+ONC10238,35.0,M,Renal Cancer,3,TP53,3.27,33.2,95.8,87,9.7,195,1.34,1.47,25.7,3,Nivolumab,83.4,PR,Moderate
+ONC10239,45.0,male,Ovarian Cancer,stage iv,KRAS,6.53,45.8,97.1,73,3.6,302,1.07,1.21,23.8,1,Carboplatin+Paclitaxel,98.1,Complete Response,Moderate
+ONC10240,63.0,Male,Pancreatic Cancer,4,EGFR,1.74,57.9,98.0,75,5.2,167,1.15,1.1,25.4,0,FOLFOX,84.0,,Low
+ONC10241,59.0,F,Ovarian Cancer,I,Unknown,1.65,34.3,94.6,76,4.6,243,1.0,1.11,23.7,1,FOLFOX,90.2,Progressive Disease,Low
+ONC10242,60.0,male,NSCLC,III,,8.16,14.8,98.7,101,7.0,242,1.24,,32.1,1,Carboplatin+Paclitaxel,107.1,Progressive Disease,Moderate
+ONC10243,56.0,,Pancreatic Cancer,III,TP53,4.21,23.1,93.5,66,7.7,214,0.75,1.14,28.5,1,Carboplatin+Paclitaxel,48.5,,Low
+ONC10244,68.0,F,Gastric Cancer,III,ALK,3.31,30.2,94.7,81,7.7,127,0.91,0.84,25.1,0,Osimertinib,70.2,CR,Low
+ONC10245,70.0,Female,Prostate Cancer,Stage III,TP53,8.58,32.9,100.0,58,6.2,280,0.87,0.55,33.2,1,Olaparib,68.7,CR,Low
+ONC10246,72.0,  ,NSCLC,I,KRAS,0.7,59.3,98.1,94,8.9,446,1.36,0.75,30.5,1,Cisplatin+Gemcitabine,83.2,Partial Response,Moderate
+ONC10247,59.0,Male,Melanoma,III,TP53,5.35,68.5,92.4,80,5.1,298,0.74,1.35,24.5,2,Nivolumab,56.9,PR,Low
+ONC10248,58.0,male,Pancreatic Cancer,4,ROS1,2.95,66.5,92.4,74,7.8,131,1.16,0.75,26.7,1,Osimertinib,63.4,Complete Response,Low
+ONC10249,61.0,Male,Gastric Cancer,stage iv,PIK3CA,0.76,30.7,95.2,67,4.1,99,1.02,0.93,19.5,1,Pembrolizumab,49.2,Stable Disease,Low
+ONC10250,42.0,Female,Prostate Cancer,stage iv,TP53,1.14,92.8,95.1,82,6.7,167,0.49,0.96,25.1,2,Nivolumab,76.9,Stable Disease,Low
+ONC10251,45.0,Male,Ovarian Cancer,3,ROS1,4.3,41.1,93.6,73,9.7,367,0.69,0.89,28.3,1,Targeted Therapy,89.6,SD,Low
+ONC10252,56.0,Female,NSCLC,I,BRCA2,2.72,56.8,94.3,98,6.2,263,1.03,1.08,28.0,0,Nivolumab,49.1,Stable Disease,Low
+ONC10253,65.0,female,NSCLC,I,KRAS,3.62,33.9,97.0,89,10.4,282,1.13,1.51,29.5,3,Immunotherapy,116.1,PD,High
+ONC10254,44.0,female,Pancreatic Cancer,4,PIK3CA,19.66,41.2,96.8,49,5.0,288,0.35,0.2,28.9,2,Osimertinib,46.1,,Low
+ONC10255,39.0,M,NSCLC ,3,ROS1,2.01,31.3,95.5,91,6.5,170,1.03,1.21,28.2,1,Targeted Therapy,57.2,Partial Response,Low
+ONC10256,71.0,,Colorectal Cancer,II,PD-L1,2.67,47.9,95.6,77,7.2,232,1.69,1.79,26.4,0,Olaparib,41.8,Complete Response,Low
+ONC10257,50.0,female,Prostate Cancer,Stage III,TP53,3.34,58.1,91.2,76,9.3,293,1.27,0.64,15.0,1,Docetaxel,97.0,PR,Moderate
+ONC10258,31.0,Female,Ovarian Cancer,I,PIK3CA,2.72,77.2,93.2,88,5.8,380,0.77,1.58,23.0,1,Targeted Therapy,81.5,Progressive Disease,Low
+ONC10259,46.0,female,Breast Cancer,IV,NTRK,12.08,47.8,95.2,95,7.8,220,0.44,0.88,15.0,3,Docetaxel,85.2,Partial Response,Moderate
+ONC10260,67.0,male,Pancreatic Cancer,IV,PD-L1,6.83,23.8,92.1,96,7.3,296,0.55,0.99,24.4,1,Chemotherapy,80.3,CR,Low
+ONC10261,64.0,Female,Gastric Cancer,Stage III,HER2,1.21,48.9,97.3,90,6.6,267,1.75,0.47,27.4,1,Pembrolizumab,33.7,,Low
+ONC10262,67.0,Male,nsclc,II,BRCA2,4.52,10.9,93.9,90,9.8,315,1.12,1.4,28.1,1,Chemotherapy,71.6,,Low
+ONC10263,68.0,Male,NSCLC,II,PIK3CA,1.98,47.5,97.5,78,10.5,326,1.06,1.34,28.2,1,Immunotherapy,94.0,SD,Moderate
+ONC10264,50.0,,Renal Cancer,III,ALK,3.41,62.3,92.2,45,4.2,332,0.83,0.63,22.8,1,Olaparib,90.4,Progressive Disease,Low
+ONC10265,60.0,female,Colorectal Cancer,III,TP53,2.16,14.7,100.0,78,10.5,111,0.59,1.17,25.3,1,Docetaxel,56.5,PD,Low
+ONC10266,68.0,Male,Gastric Cancer,II,EGFR,1.63,65.2,93.1,45,11.2,301,1.38,0.36,24.3,0,Docetaxel,57.2,Partial Response,Low
+ONC10267,60.0,Female,Melanoma,3,TP-53,1.69,29.6,96.1,101,4.1,258,1.49,0.58,28.9,2,Docetaxel,39.1,,Moderate
+ONC10268,60.0,M,Pancreatic Cancer,I,ALK,2.51,37.6,97.9,97,7.8,301,0.9,,29.8,2,Immunotherapy,54.9,CR,Low
+ONC10269,57.0,M,Pancreatic Cancer,IV,HER2,7.22,44.8,93.8,82,6.7,272,1.22,0.32,26.1,1,Pembrolizumab,62.7,SD,Low
+ONC10270,60.0,male,Pancreatic Cancer,III,ALK,4.11,49.3,97.5,73,6.9,260,1.52,0.54,26.3,1,FOLFOX,72.1,Progressive Disease,Low
+ONC10271,44.0,M,Liver Cancer,3,BRCA1,8.89,32.9,97.4,91,10.5,276,1.3,1.93,17.8,1,Immunotherapy,40.6,Progressive Disease,Low
+ONC10272,67.0,Male,Prostate Cancer,3,ALK,0.73,35.7,100.0,96,4.3,127,1.1,0.71,24.4,0,Osimertinib,112.3,PD,Moderate
+ONC10273,61.0,male,Prostate Cancer,4,BRCA1,1.62,55.0,94.7,107,9.9,326,1.07,0.2,23.9,1,FOLFOX,81.5,Complete Response,Low
+ONC10274,56.0,,NSCLC,II,RET,2.93,56.6,94.4,83,9.7,229,1.25,0.79,22.1,2,Carboplatin+Paclitaxel,75.3,,Low
+ONC10275,58.0,male,Colorectal Cancer,Stage III,EGFR,7.07,30.5,95.6,59,6.1,243,0.97,0.83,19.6,2,Trastuzumab,67.7,CR,Low
+ONC10276,70.0,  ,Renal Cancer,III,TP53,2.72,48.4,99.5,86,8.5,122,1.15,0.6,28.5,1,Docetaxel,94.7,SD,Moderate
+ONC10277,58.0,male,Liver Cancer,4,KRAS,2.59,56.9,98.1,99,2.9,267,1.0,1.25,22.7,3,Nivolumab,82.4,Progressive Disease,Moderate
+ONC10278,20.0,Male,Ovarian Cancer,IV,EGFR,2.48,15.5,100.0,75,9.2,114,1.07,1.25,22.9,1,Cisplatin+Gemcitabine,82.1,PR,Low
+ONC10279,51.0,M,NSCLC,II,ALK,3.67,-4.3,98.7,69,5.6,257,0.35,0.73,24.2,1,Chemotherapy,88.0,Partial Response,Low
+ONC10280,65.0,,Colorectal Cancer,III,TP53,3.92,59.0,95.0,73,9.1,238,0.63,1.72,29.4,1,Immunotherapy,111.1,Progressive Disease,Moderate
+ONC10281,51.0,,Liver Cancer,3,BRCA2,2.33,29.9,95.4,78,6.3,204,0.92,0.84,29.7,3,FOLFOX,80.3,SD,Moderate
+ONC10282,50.0,F,Breast Cancer,IV,TP53,0.61,58.9,94.9,84,10.1,313,0.75,1.09,19.6,2,FOLFOX,108.2,Partial Response,Moderate
+ONC10283,35.0,male,Melanoma,4,PIK3CA,1.7,37.5,94.0,68,8.1,242,0.76,0.68,22.1,3,Docetaxel,95.5,,Moderate
+ONC10284,41.0,Male,Colorectal Cancer,I,PIK3CA,5.2,29.2,96.3,83,4.4,182,1.63,1.01,22.7,0,Olaparib,105.7,Progressive Disease,Moderate
+ONC10285,49.0,Male,Gastric Cancer,stage iv,TP53,1.32,44.4,93.7,48,6.8,263,1.16,1.07,23.1,3,Trastuzumab,114.6,SD,High
+ONC10286,35.0,,NSCLC,Stage III,PD-L1,1.15,13.1,94.9,84,6.1,241,0.36,0.8,26.3,2,Targeted Therapy,117.7,SD,High
+ONC10287,60.0,  ,Breast Cancer,stage iv,EGFR,2.21,48.0,98.5,106,7.9,317,1.22,1.84,24.0,2,Sorafenib,20.2,Partial Response,Moderate
+ONC10288,72.0,M,Renal Cancer,Stage III,EGFR,2.59,37.5,95.7,93,14.9,142,0.59,1.39,24.2,2,Nivolumab,83.4,CR,Moderate
+ONC10289,54.0,M,Prostate Cancer,III,EGFR,2.9,67.4,92.9,102,8.4,438,1.15,0.89,21.1,3,Trastuzumab,71.0,SD,Moderate
+ONC10290,70.0,Female,Breast Cancer,IV,MET,8.09,46.9,97.4,94,6.9,304,1.01,0.83,31.5,0,Sorafenib,60.3,Partial Response,Low
+ONC10291,61.0,M,NSCLC,4,TP53,2.85,15.9,99.2,68,7.8,91,0.92,1.51,16.7,0,Trastuzumab,95.3,Partial Response,Low
+ONC10292,29.0,female,Gastric Cancer,II,TP53,4.47,60.2,92.6,85,10.1,225,0.92,,30.0,1,Pembrolizumab,87.1,,Low
+ONC10293,90.0,F,Pancreatic Cancer,3,RET,5.6,27.2,95.7,68,9.5,228,,1.26,29.2,2,Chemotherapy,69.1,PD,Low
+ONC10294,40.0,Male,Melanoma,III,None,4.34,67.7,93.2,95,8.5,300,1.31,1.14,25.2,1,Sorafenib,50.9,progressive,Low
+ONC10295,41.0,female,NSCLC,I,BRAF,6.8,26.5,98.6,91,5.5,259,0.84,1.26,20.2,2,Nivolumab,74.9,PD,Low
+ONC10296,61.0,male,NSCLC,3,BRCA2,0.91,32.1,92.9,91,6.0,218,,1.73,25.3,3,Cisplatin+Gemcitabine,85.4,CR,Moderate
+ONC10297,60.0,,Prostate Cancer,IV,BRCA1,1.46,50.7,96.9,91,3.8,134,1.21,0.9,25.3,1,Osimertinib,80.8,PD,Low
+ONC10298,62.0,female,Melanoma,II,BRAF,0.76,49.7,97.8,88,4.7,247,0.52,0.2,29.3,1,Olaparib,56.2,Partial Response,Low
+ONC10299,83.0, F ,NSCLC,III,ALK,1.06,31.8,98.4,89,9.1,241,0.84,1.08,27.4,2,Chemotherapy,55.7,CR,Low
+ONC10300,48.0,M,Breast Cancer,stage iv,BRAF,8.04,59.0,94.8,114,5.0,256,1.31,0.96,24.5,1,FOLFOX,66.8,PD,Low
+ONC10301,66.0,Female,Melanoma,stage iv,Unknown,1.52,38.9,93.9,79,7.0,302,1.11,1.78,30.2,1,Osimertinib,72.1,Stable Disease,Low
+ONC10302,55.0,Female,Breast Cancer,Stage III,NTRK,2.07,30.3,94.6,93,5.3,229,,1.82,24.2,2,Sorafenib,79.6,,Moderate
+ONC10303,52.0,Female,NSCLC,II,RET,2.59,30.4,95.7,101,5.7,254,1.05,1.61,20.6,2,Pembrolizumab,68.1,Partial Response,Moderate
+ONC10304,68.0,Female,Ovarian Cancer,IV,PIK3CA,1.82,-3.1,96.1,77,7.4,103,1.6,0.77,22.2,2,Carboplatin+Paclitaxel,100.2,CR,Moderate
+ONC10305,46.0,Male,Ovarian Cancer,I,BRCA1,1.09,57.4,99.0,90,8.2,289,0.55,0.86,29.0,2,Targeted Therapy,66.3,SD,Low
+ONC10306,42.0,F,Pancreatic Cancer,stage iv,None,3.95,33.7,94.2,84,9.0,216,1.65,1.31,15.0,0,Nivolumab,59.5,Stable Disease,Low
+ONC10307,68.0,Female,Gastric Cancer,III,TP53,1.12,59.7,95.7,77,6.8,227,1.01,1.53,26.7,1,Carboplatin+Paclitaxel,54.4,Partial Response,Low
+ONC10308,36.0,,Renal Cancer,stage iv,NTRK,5.2,35.4,95.4,73,8.9,322,1.38,1.11,19.8,2,FOLFOX,107.4,,High
+ONC10309,56.0,Male,Pancreatic Cancer,3,KRAS,2.41,49.1,96.3,61,7.9,275,0.86,0.78,26.6,1,Immunotherapy,96.1,Progressive Disease,Moderate
+ONC10310,43.0, Female ,Gastric Cancer,3,,1.95,24.8,97.2,82,4.3,200,unknown,1.27,26.6,2,Trastuzumab,81.0,Stable Disease,Moderate
+ONC10311,67.0,Male,Colorectal Cancer,I,BRCA2,0.65,41.5,100.0,80,12.5,189,1.05,1.02,26.0,2,Olaparib,109.9,,Moderate
+ONC10312,63.0,Female,Prostate Cancer,IV,RET,4.56,42.9,96.0,87,3.8,294,1.25,1.22,25.6,0,Cisplatin+Gemcitabine,110.3,SD,Moderate
+ONC10313,56.0,Female,NSCLC,II,PD-L1,4.17,30.1,94.8,97,7.5,265,1.28,0.88,25.9,1,Carboplatin+Paclitaxel,58.3,Partial Response,Low
+ONC10314,61.0,F,NSCLC,3,TP53,2.68,37.8,99.3,87,1.7,216,1.22,0.2,30.7,2,Olaparib,98.8,Complete Response,Moderate
+ONC10315,59.0,Male,Ovarian Cancer,4,PD-L1,3.5,39.7,95.2,79,9.2,425,1.52,1.1,26.6,3,Carboplatin+Paclitaxel,47.4,Complete Response,Moderate
+ONC10316,54.0,,NSCLC,3,TP53,7.42,19.1,96.6,73,7.2,150,1.41,0.58,20.1,1,FOLFOX,73.6,Partial Response,Low
+ONC10317,44.0,female,Renal Cancer,4,KRAS,1.45,76.3,93.9,84,8.6,225,1.53,0.73,36.2,2,Chemotherapy,36.7,Progressive Disease,Low
+ONC10318,65.0,M,Melanoma,3,PD-L1,3.85,34.3,91.2,83,9.4,161,1.27,1.28,17.8,2,Chemotherapy,64.7,Partial Response,Low
+ONC10319,77.0,female,Ovarian Cancer,I,PIK3CA,0.64,35.8,93.6,89,13.1,267,0.87,1.23,78.5,2,FOLFOX,57.5,CR,Low
+ONC10320,63.0,F,Colorectal Cancer,IV,KRAS,1.62,70.6,94.7,84,3.8,195,0.35,0.86,23.4,1,Targeted Therapy,76.0,Partial Response,Low
+ONC10321,69.0,Male,Gastric Cancer,IV,EGFR,1.8,49.0,97.2,90,9.6,314,1.57,0.62,17.9,1,Sorafenib,64.6,Stable Disease,Low
+ONC10322,70.0,M,Breast Cancer,3,PIK3CA,2.63,48.7,96.4,57,9.0,268,0.64,1.36,16.6,2,Immunotherapy,68.5,SD,Low
+ONC10323,47.0,female,Gastric Cancer,III,HER2,2.04,27.9,96.5,96,10.5,302,1.11,0.43,24.3,2,Pembrolizumab,66.7,Stable Disease,Low
+ONC10324,66.0,,Melanoma,III,RET,5.51,8.6,92.8,79,8.3,209,0.88,1.11,29.4,2,Osimertinib,99.1,Stable Disease,Moderate
+ONC10325,55.0,Female,Ovarian Cancer,4,ALK,3.01,66.4,95.5,83,10.3,313,0.52,,26.3,4,Immunotherapy,59.0,PD,Moderate
+ONC10326,52.0,F,Gastric Cancer,II,BRAF,,26.2,98.7,70,4.7,97,0.73,1.03,25.7,0,Chemotherapy,97.2,PD,Low
+ONC10327,58.0,Male,NSCLC,Stage III,TP53,3.41,37.9,98.5,69,14.3,321,1.17,0.98,24.7,0,FOLFOX,100.1,PD,Low
+ONC10328,54.0,M,Renal Cancer,stage iv,PIK3CA,8.45,35.2,98.0,87,3.2,102,0.58,1.51,21.3,0,Docetaxel,42.9,progressive,Low
+ONC10329,55.0,male,Ovarian Cancer,IV,EGFR,5.21,55.5,95.6,104,4.0,318,1.24,0.67,19.4,1,Sorafenib,91.1,PD,Moderate
+ONC10330,51.0,Female,Melanoma,I,KRAS,,48.1,97.3,98,7.4,307,0.53,1.33,20.9,3,Chemotherapy,59.3,,Moderate
+ONC10331,61.0,male,NSCLC,stage iv,KRAS,15.47,83.3,91.8,79,5.5,358,1.2,1.22,29.6,1,Chemotherapy,57.1,PD,Low
+ONC10332,34.0,Male,Liver Cancer,3,HER2,2.61,41.0,96.3,54,6.6,265,0.93,1.33,30.5,2,Immunotherapy,95.7,,Moderate
+ONC10333,68.0,,Renal Cancer,4,BRCA2,6.05,51.4,94.7,63,2.8,265,0.86,1.59,28.4,1,Cisplatin+Gemcitabine,74.3,CR,Low
+ONC10334,120.0,female,Breast Cancer,II,Unknown,2.73,38.0,95.0,77,9.8,315,1.35,0.44,27.7,3,Osimertinib,37.4,PR,Moderate
+ONC10335,66.0,male,NSCLC,IV,PIK3CA,1.06,43.2,93.2,71,11.5,236,0.92,1.4,24.3,1,FOLFOX,76.5,,Low
+ONC10336,38.0,male,Ovarian Cancer,4,PIK3CA,3.49,47.8,100.0,77,7.4,173,,0.55,27.3,1,Immunotherapy,,progressive,Low
+ONC10337,40.0,Male,Ovarian Cancer,III,TP53,2.35,55.1,93.9,90,4.9,199,1.28,0.98,23.5,4,Targeted Therapy,89.7,Partial Response,High
+ONC10338,63.0,M,Melanoma,II,,1.01,51.4,96.6,88,5.9,403,1.08,1.1,26.3,2,Chemotherapy,67.5,PD,Low
+ONC10339,43.0,F,Ovarian Cancer,I,EGFR,3.0,50.5,96.2,54,10.0,254,0.95,1.14,22.4,3,Pembrolizumab,90.3,,Moderate
+ONC10340,91.0,F,Prostate Cancer,Stage III,egfr,0.67,58.3,92.3,105,8.3,122,1.14,1.43,24.7,1,Trastuzumab,52.8,stable,Low
+ONC10341,78.0,Female,Pancreatic Cancer,stage iv,,3.54,30.4,91.1,76,6.1,230,1.19,1.47,16.5,0,Targeted Therapy,79.7,,Low
+ONC10342,71.0,Male,Ovarian Cancer,IV,ALK,2.18,91.9,96.7,79,8.3,288,0.83,0.84,17.2,1,Olaparib,,,Moderate
+ONC10343,36.0,,Renal Cancer,4,PIK3CA,3.42,44.0,100.0,95,7.8,203,1.1,1.16,24.7,2,FOLFOX,113.3,Stable Disease,High
+ONC10344,45.0,Female,Gastric Cancer,4,BRCA1,3.41,85.2,93.4,78,8.7,312,1.74,1.23,31.4,0,Nivolumab,81.8,,Low
+ONC10345,80.0,Female,Prostate Cancer,I,KRAS,9.98,39.6,93.6,63,9.3,244,0.71,1.4,21.5,1,Sorafenib,68.2,SD,Low
+ONC10346,38.0,Female,NSCLC,stage iv,ROS1,2.22,33.3,96.7,87,3.1,386,1.53,0.65,21.8,1,Docetaxel,101.2,Progressive Disease,Moderate
+ONC10347,40.0,female,Renal Cancer,III,RET,14.67,18.7,93.3,90,8.1,281,,1.5,28.8,2,Sorafenib,29.2,Stable Disease,Moderate
+ONC10348,49.0,F,Breast Cancer,IV,KRAS,0.91,9.7,94.0,71,9.9,224,0.8,1.37,31.1,1,Nivolumab,74.5,,Low
+ONC10349,64.0,female,Breast Cancer,III,PD-L1,18.52,30.3,95.1,80,5.1,342,N/A,1.02,21.9,1,Cisplatin+Gemcitabine,100.3,,Moderate
+ONC10350,52.0,Male,Ovarian Cancer,3,KRAS,2.62,54.1,95.6,95,8.6,328,1.22,1.3,20.4,2,Immunotherapy,62.2,,Low
+ONC10351,52.0,Female,Prostate Cancer,4,BRCA2,1.75,70.5,100.0,115,7.1,358,1.64,2.0,23.6,3,FOLFOX,84.6,CR,High
+ONC10352,63.0,M,Renal Cancer,stage iv,KRAS,2.95,68.9,97.5,87,6.5,90,0.35,1.02,26.7,0,Targeted Therapy,78.7,Complete Response,Low
+ONC10353,43.0,F,NSCLC,III,MET,12.1,28.3,97.3,64,10.1,285,0.35,1.26,29.4,1,Cisplatin+Gemcitabine,80.7,Progressive Disease,Low
+ONC10354,57.0,F,Melanoma,II,HER2,12.06,48.4,45.0,105,8.7,206,0.83,0.72,24.8,1,FOLFOX,93.5,CR,Moderate
+ONC10355,66.0,female,Renal Cancer,3,PD-L1,6.19,49.9,98.2,46,9.4,99,1.12,0.78,18.1,2,Osimertinib,500.0,PR,Low
+ONC10356,59.0,male,Liver Cancer,Stage III,PIK3CA,0.99,49.6,93.0,76,7.8,296,0.35,1.14,30.4,1,FOLFOX,86.8,Partial Response,Low
+ONC10357,55.0,male,Pancreatic Cancer,IV,BRAF,4.67,48.6,93.4,91,5.5,306,0.76,0.71,30.5,1,Targeted Therapy,73.8,,Low
+ONC10358,42.0,male,Liver Cancer,stage iv,PD-L1,0.49,37.0,96.3,77,5.3,120,0.79,0.72,24.7,3,Immunotherapy,90.1,,Moderate
+ONC10359,41.0,Female,Pancreatic Cancer,II,EGFR,3.95,29.3,97.6,61,12.2,232,1.12,1.91,32.4,2,Carboplatin+Paclitaxel,57.5,Complete Response,Low
+ONC10360,55.0,F,Breast Cancer,I,BRCA1,2.46,54.9,95.2,83,2.3,243,1.16,1.11,16.6,2,Docetaxel,108.3,Progressive Disease,Moderate
+ONC10361,66.0,F,NSCLC,Stage III,TP53,3.2,22.6,97.1,72,7.3,78,1.33,1.06,15.9,2,FOLFOX,66.5,PD,Low
+ONC10362,56.0,Male,Ovarian Cancer,Stage III,HER2,5.4,27.4,100.0,82,3.4,157,1.2,0.63,23.4,0,Olaparib,45.2,PD,Low
+ONC10363,55.0,,Colorectal Cancer,I,HER2,11.58,66.0,96.3,88,9.3,227,1.31,0.81,24.9,3,Nivolumab,65.8,Progressive Disease,Moderate
+ONC10364,52.0,female,Prostate Cancer,I,EGFR,1.28,45.0,97.1,92,6.6,268,0.72,1.49,27.1,2,Carboplatin+Paclitaxel,59.0,,Low
+ONC10365,66.0,Male,Breast Cancer,stage iv,EGFR,7.52,,97.2,75,6.7,219,0.41,1.92,18.2,2,Osimertinib,104.2,Complete Response,Moderate
+ONC10366,66.0,female,Gastric Cancer,3,TP53,2.92,60.4,94.4,92,7.1,299,0.65,0.99,30.2,1,Carboplatin+Paclitaxel,75.7,PD,Low
+ONC10367,42.0,Male,Renal Cancer,I,EGFR,1.44,37.5,96.0,108,2.3,198,1.12,0.39,25.5,1,Targeted Therapy,97.5,Partial Response,Moderate
+ONC10368,38.0,,Ovarian Cancer,II,TP53,9.54,60.4,98.9,86,7.8,280,0.92,0.6,30.8,1,Sorafenib,43.2,SD,Low
+ONC10369,46.0,F,NSCLC ,III,HER2,1.56,34.0,96.9,81,8.4,198,1.44,0.7,28.6,0,Osimertinib,,,Moderate
+ONC10370,57.0,,Renal Cancer,III,TP53,2.68,68.0,97.5,87,12.2,213,1.03,0.44,27.3,1,Trastuzumab,107.7,Progressive Disease,Moderate
+ONC10371,59.0,,Colorectal Cancer,III,BRAF,3.04,31.4,97.8,93,9.7,229,0.86,0.45,23.3,2,Cisplatin+Gemcitabine,62.5,Partial Response,Low
+ONC10372,71.0,M,Gastric Cancer,II,ALK,2.96,43.1,98.7,74,4.8,267,0.74,1.42,15.0,2,Sorafenib,58.2,Complete Response,Low
+ONC10373,55.0,female,Liver Cancer,Stage III,MET,1.13,30.9,98.0,84,6.9,214,0.81,1.36,16.6,1,Sorafenib,77.6,PR,Low
+ONC10374,53.0,male,Melanoma,I,KRAS,1.73,29.2,96.2,57,10.3,210,0.57,0.92,22.9,1,Nivolumab,82.3,,Low
+ONC10375,57.0,male,Liver Cancer,III,PIK3CA,3.35,57.0,96.3,71,10.0,112,1.37,0.66,27.4,2,Pembrolizumab,96.1,PD,Moderate
+ONC10376,49.0,Male,Prostate Cancer,4,egfr,5.58,77.3,94.4,55,7.1,197,0.57,1.06,32.8,3,Trastuzumab,45.7,,Low
+ONC10377,48.0,Female,NSCLC,stage iv,HER2,,40.6,96.8,81,1.2,149,0.63,1.05,22.8,2,Targeted Therapy,66.6,Complete Response,Low
+ONC10378,59.0,male,Breast Cancer,II,TP-53,3.26,51.6,96.5,74,2.3,292,1.07,1.24,31.4,3,Osimertinib,94.7,Progressive Disease,Moderate
+ONC10379,77.0,female,Pancreatic Cancer,4,Unknown,5.77,49.9,93.1,71,4.7,70,0.86,0.91,20.5,0,Osimertinib,94.1,PD,Low
+ONC10380,53.0,F,Melanoma,II,MET,25.16,60.6,97.1,77,8.9,186,1.17,0.41,18.5,2,Cisplatin+Gemcitabine,75.6,Progressive Disease,Moderate
+ONC10381,63.0,male,Melanoma,stage iv,EGFR,9.96,103.8,91.8,107,5.1,442,0.35,0.85,34.9,3,Sorafenib,69.2,,Moderate
+ONC10382,54.0,male,Renal Cancer,Stage III,KRAS,5.06,74.0,100.0,78,10.1,254,0.35,0.84,27.2,1,Nivolumab,99.3,PD,High risk
+ONC10383,26.0,M,Melanoma,III,RET,2.7,27.8,95.3,108,5.1,373,1.28,0.71,28.6,2,Osimertinib,54.2,SD,Moderate
+ONC10384,71.0,male,Melanoma,IV,TP53,0.25,8.2,95.7,70,4.3,496,0.85,0.91,27.6,2,Cisplatin+Gemcitabine,80.4,Stable Disease,Low
+ONC10385,46.0,Female,NSCLC,III,KRAS,1.07,71.1,94.4,99,2.7,89,0.85,0.86,28.3,2,Osimertinib,102.0,Stable Disease,Moderate
+ONC10386,,Female,Liver Cancer,II,ALK,3.15,56.4,94.4,89,6.5,350,1.27,1.2,30.6,0,Docetaxel,65.6,,Low
+ONC10387,54.0,male,Pancreatic Cancer,3,BRAF,2.84,48.7,98.3,83,7.7,212,,1.06,23.1,4,Osimertinib,77.3,Progressive Disease,Moderate
+ONC10388,72.0,female,Ovarian Cancer,4,NTRK,6.65,56.5,94.0,106,6.7,168,0.35,0.96,24.8,1,Targeted Therapy,77.2,SD,Low
+ONC10389,72.0,Female,NSCLC,I,KRAS,4.88,47.4,96.2,57,4.5,332,1.11,1.29,26.4,0,Docetaxel,56.1,SD,Low
+ONC10390,37.0,Male,Breast Cancer,3,ROS1,2.68,65.0,96.8,83,9.2,293,1.5,0.58,16.0,2,Trastuzumab,53.9,Stable Disease,Low
+ONC10391,,female,Renal Cancer,I,KRAS,1.99,60.7,98.1,86,7.2,279,0.88,0.76,26.5,1,Carboplatin+Paclitaxel,84.9,SD,Low
+ONC10392,51.0,male,Melanoma,4,BRAF,4.72,62.3,100.0,94,12.7,203,0.54,0.9,24.9,2,Nivolumab,88.3,PD,Moderate
+ONC10393,51.0,F,Liver Cancer,I,KRAS,9.07,83.8,95.5,71,9.4,194,0.42,2.04,29.0,2,Docetaxel,105.5,Partial Response,High
+ONC10394,63.0,,NSCLC,3,BRAF,7.21,37.7,93.8,97,7.5,254,0.55,0.72,27.3,1,Olaparib,86.1,SD,Low
+ONC10395,64.0,M,Liver Cancer,III,PIK3CA,1.83,87.2,94.6,97,4.6,144,0.83,0.2,20.2,1,Immunotherapy,70.8,,Low
+ONC10396,60.0,Female,Ovarian Cancer,4,ALK,2.72,37.4,98.7,60,13.4,225,0.93,,29.6,2,FOLFOX,31.8,Complete Response,Low
+ONC10397,39.0,male,Ovarian Cancer,3,TP53,1.76,48.0,98.4,78,7.6,286,1.33,1.37,25.8,1,Olaparib,120.2,PR,High
+ONC10398,77.0,,NSCLC,Stage III,ROS1,1.1,58.8,96.2,96,6.3,304,1.18,1.68,29.4,2,Osimertinib,133.1,SD,High
+ONC10399,77.0,male,Prostate Cancer,III,PD-L1,0.79,33.0,100.0,72,7.2,273,0.63,1.24,35.0,2,Sorafenib,84.4,Progressive Disease,Moderate
+ONC10400,80.0,,Pancreatic Cancer,II,EGFR,1.41,36.5,95.1,81,7.4,210,1.42,1.29,29.6,0,Trastuzumab,69.0,SD,Low
+ONC10401,61.0,male,Colorectal Cancer,IV,TP53,4.05,,100.0,91,7.8,294,1.0,1.74,25.3,2,Docetaxel,80.0,PD,Moderate
+ONC10402,45.0,Female,Prostate Cancer,4,TP53,2.84,56.3,100.0,92,10.5,229,1.07,1.45,22.8,0,Docetaxel,77.3,SD,Low
+ONC10403,58.0,F,Colorectal Cancer,Stage III,BRCA2,4.16,39.3,97.9,91,9.7,217,0.35,0.8,27.2,2,Olaparib,104.5,complete response,Moderate
+ONC10404,57.0,Male,Gastric Cancer,Stage III,Unknown,0.91,58.2,96.3,89,12.3,245,0.49,0.7,22.0,3,Targeted Therapy,53.3,CR,Low
+ONC10405,62.0,,Ovarian Cancer,II,TP53,2.67,43.3,98.2,64,4.9,251,0.46,1.06,23.0,3,Cisplatin+Gemcitabine,41.3,,Low
+ONC10406,41.0,male,Breast Cancer,4,RET,2.49,31.8,89.8,70,7.3,207,0.63,1.28,21.1,2,Carboplatin+Paclitaxel,92.3,PR,Moderate
+ONC10407,44.0,Male,Ovarian Cancer,II,ROS1,6.77,48.7,95.6,61,4.5,197,1.41,0.2,25.4,0,Olaparib,64.5,PR,Low
+ONC10408,54.0,F,Prostate Cancer,I,EGFR,2.14,42.6,98.4,86,10.6,279,0.74,1.53,20.3,1,FOLFOX,74.1,Complete Response,Low
+ONC10409,91.0,M,Pancreatic Cancer,III,NTRK,1.74,46.4,96.7,77,10.8,243,1.31,1.56,28.0,1,Trastuzumab,,Progressive Disease,Low
+ONC10410,82.0,,NSCLC,3,EGFR,1.54,63.8,98.2,73,6.9,357,1.02,0.91,17.8,2,Olaparib,101.5,SD,Moderate
+ONC10411,86.0,Male,Prostate Cancer,stage iv,PIK3CA,4.17,46.9,92.4,85,7.1,241,1.0,1.46,23.6,0,Carboplatin+Paclitaxel,56.9,PR,Low
+ONC10412,51.0,Female,Ovarian Cancer,stage iv,ALK,5.63,57.0,96.6,74,8.8,322,0.66,0.78,34.3,1,Nivolumab,87.6,Progressive Disease,Low
+ONC10413,47.0,Female,Pancreatic Cancer,3,TP53,2.22,42.1,96.1,83,7.4,308,0.98,0.46,23.8,1,Cisplatin+Gemcitabine,79.1,Stable Disease,Low
+ONC10414,78.0,Female,Prostate Cancer,I,PIK3CA,1.15,29.6,96.3,87,8.6,263,1.48,1.93,30.0,0,Sorafenib,55.6,Complete Response,Low
+ONC10415,59.0, F ,Ovarian Cancer,4,BRCA1,1.64,33.3,99.0,64,9.3,240,1.06,0.92,29.0,1,Trastuzumab,88.4,SD,Low
+ONC10416,86.0,Female,Liver Cancer,Stage III,PD-L1,4.23,23.6,99.5,83,6.0,146,0.85,1.28,27.3,1,Trastuzumab,104.0,Stable Disease,Moderate
+ONC10417,66.0,female,Melanoma,I,BRAF,2.17,12.1,97.6,58,11.7,265,0.83,1.44,23.5,1,Trastuzumab,52.2,CR,Low
+ONC10418,41.0,Female,Renal Cancer,Stage III,None,1.99,55.2,92.9,68,5.9,219,0.92,1.08,28.5,1,Chemotherapy,112.0,Complete Response,Moderate
+ONC10419,67.0,M,Pancreatic Cancer,II,BRCA2,9.04,43.4,94.1,63,1.2,322,0.95,0.67,29.3,3,Osimertinib,61.5,Progressive Disease,Low
+ONC10420,, male ,Breast Cancer,3,BRAF,2.73,79.1,96.0,103,4.0,275,1.7,0.98,23.2,2,Carboplatin+Paclitaxel,53.7,PR,Moderate
+ONC10421,34.0,F,Melanoma,III,HER2,3.85,48.8,99.3,80,5.2,219,1.24,1.23,26.7,2,Sorafenib,81.7,Stable Disease,Moderate
+ONC10422,,male,Prostate Cancer,III,PIK3CA,2.03,46.8,97.9,65,6.3,197,0.83,1.56,25.8,2,Cisplatin+Gemcitabine,76.9,PR,Low
+ONC10423,75.0,male,NSCLC,IV,TP53,2.55,36.7,95.6,73,4.7,82,0.91,0.78,23.4,4,Nivolumab,115.2,,High
+ONC10424,48.0,Male,Pancreatic Cancer,4,MET,1.67,36.9,95.3,95,5.3,212,0.35,1.15,21.1,2,Targeted Therapy,50.8,PD,Low
+ONC10425,81.0,Female,Colorectal Cancer,II,None,8.64,53.6,95.8,70,6.0,289,1.02,1.48,28.5,0,Targeted Therapy,105.2,PR,Moderate
+ONC10426,60.0,F,Melanoma,stage iv,TP53,1.82,41.3,94.2,77,7.9,161,1.16,0.2,23.3,1,Pembrolizumab,39.7,Stable Disease,Low
+ONC10427,70.0, Female ,Gastric Cancer,I,Unknown,0.81,70.8,96.4,64,4.9,167,1.3,1.36,30.8,0,Docetaxel,114.3,Stable Disease,Moderate
+ONC10428,,Male,NSCLC,II,BRAF,0.92,54.1,100.0,84,5.3,223,1.11,0.68,31.4,2,Olaparib,20.0,SD,Low
+ONC10429,53.0,female,Renal Cancer,III,None,2.59,30.4,96.5,90,10.1,280,1.05,0.8,29.1,2,Targeted Therapy,60.5,,Low
+ONC10430,66.0,male,Renal Cancer,IV,egfr,0.34,54.6,96.1,82,7.8,175,,1.29,34.1,1,Nivolumab,95.8,,Moderate
+ONC10431,66.0,F,nsclc,Stage III,TP53,4.05,20.0,98.8,91,5.3,225,0.52,0.95,27.4,1,Docetaxel,105.8,Complete Response,Moderate
+ONC10432,48.0,female,Melanoma,stage iv,None,2.6,38.8,97.8,90,4.0,260,1.24,0.98,32.1,3,Cisplatin+Gemcitabine,74.2,,Moderate
+ONC10433,78.0,Male,Ovarian Cancer,stage iv,EGFR,5.37,83.1,98.3,85,6.4,397,0.35,1.66,25.2,3,Olaparib,76.8,Partial Response,Moderate
+ONC10434,,,Pancreatic Cancer,IV,PIK3CA,8.13,59.7,97.2,68,8.2,143,1.25,0.2,17.2,0,Targeted Therapy,65.2,,Low
+ONC10435,65.0,F,Ovarian Cancer,Stage III,ALK,0.74,5.2,93.4,84,9.7,304,0.82,0.35,25.3,2,Osimertinib,78.9,Progressive Disease,Low
+ONC10436,60.0,male,Melanoma,Stage III,ROS1,2.7,34.3,92.1,88,8.1,346,0.83,1.2,20.6,0,Osimertinib,66.3,PR,Low
+ONC10437,49.0,M,NSCLC,stage iv,Unknown,2.23,28.7,94.3,68,7.1,168,1.73,0.62,26.1,3,Pembrolizumab,114.6,SD,High
+ONC10438,47.0,F,Melanoma,stage iv,KRAS,5.45,76.8,98.1,97,5.2,289,0.89,1.21,26.7,2,Chemotherapy,79.4,Stable Disease,Moderate
+ONC10439,52.0,,Gastric Cancer,Stage III,,4.01,49.6,96.3,95,9.0,261,0.8,1.17,17.7,0,Trastuzumab,92.1,Complete Response,Low
+ONC10440,58.0,,Renal Cancer,3,BRAF,3.52,28.6,95.4,88,2.8,196,1.23,0.68,19.9,1,Targeted Therapy,86.5,,Low
+ONC10441,35.0,M,Melanoma,4,None,2.91,44.1,93.5,86,4.1,287,1.47,0.99,25.0,1,Chemotherapy,116.7,,High
+ONC10442,47.0,,Ovarian Cancer,IV,KRAS,3.63,38.3,96.7,96,9.3,331,0.96,1.09,20.4,0,Targeted Therapy,97.7,Complete Response,Moderate
+ONC10443,35.0,Female,Prostate Cancer,Stage III,BRAF,3.36,25.1,96.8,123,5.5,288,1.24,1.37,18.4,2,Pembrolizumab,52.4,Stable Disease,Moderate
+ONC10444,55.0,male,Colorectal Cancer,IV,EGFR,1.15,73.5,96.9,75,5.9,214,,0.86,30.8,1,Cisplatin+Gemcitabine,79.0,,Low
+ONC10445,61.0,female,Liver Cancer,4,TP53,0.61,47.6,94.4,81,8.2,394,,1.74,27.3,2,Sorafenib,75.7,Progressive Disease,Moderate
+ONC10446,47.0,female,Liver Cancer,III,NTRK,1.3,53.0,96.2,104,9.4,255,1.14,0.98,18.9,1,Cisplatin+Gemcitabine,58.1,Partial Response,Low
+ONC10447,50.0,male,Renal Cancer,III,TP53,1.25,69.0,96.1,85,1.2,272,0.95,1.18,30.5,1,Targeted Therapy,104.4,CR,Moderate
+ONC10448,62.0,Female,Breast Cancer,I,BRCA1,11.91,58.3,99.0,91,8.3,230,0.41,1.73,35.0,1,Cisplatin+Gemcitabine,75.0,SD,Low
+ONC10449,64.0,male,NSCLC,IV,HER2,4.31,76.9,96.1,81,4.6,249,0.47,0.77,25.0,1,Carboplatin+Paclitaxel,46.6,Progressive Disease,Low
+ONC10450,46.0,F,Pancreatic Cancer,I,TP53,6.6,37.9,95.6,93,6.1,246,0.82,0.92,19.4,2,Immunotherapy,29.1,CR,Low
+ONC10451,43.0,female,Colorectal Cancer,I,TP53,11.81,59.3,98.6,83,7.3,281,1.32,1.52,28.5,2,Chemotherapy,76.5,PD,Moderate
+ONC10452,43.0,,Breast Cancer,Stage III,BRCA2,8.57,34.0,91.8,73,6.8,118,0.66,0.94,25.7,4,Olaparib,64.0,Progressive Disease,Moderate
+ONC10453,56.0,,Liver Cancer,stage iv,,6.41,65.0,98.6,74,9.3,286,0.8,0.8,32.7,3,Sorafenib,46.7,PR,Low
+ONC10454,58.0,F,Renal Cancer,stage iv,NTRK,0.85,37.6,93.5,99,7.1,329,1.07,0.76,26.7,3,Sorafenib,67.8,CR,high
+ONC10455,68.0,Female,Prostate Cancer,3,BRCA1,11.17,56.4,94.2,53,7.1,263,0.81,1.19,34.1,1,Immunotherapy,45.9,PD,Low
+ONC10456,,F,NSCLC,I,PIK3CA,2.2,51.6,97.1,68,5.1,312,1.09,0.32,21.4,2,Trastuzumab,58.0,Progressive Disease,Low
+ONC10457,52.0,male,Gastric Cancer,III,EGFR,1.01,60.1,90.3,85,9.5,228,0.65,1.31,16.9,1,Nivolumab,100.3,CR,Moderate
+ONC10458,72.0,Male,Pancreatic Cancer,Stage III,EGFR,4.86,51.2,96.6,82,8.5,119,0.98,0.9,28.2,1,Olaparib,63.7,PD,Low
+ONC10459,44.0,male,Ovarian Cancer,II,PD-L1,3.28,55.0,96.7,71,5.5,252,1.95,1.13,25.3,1,Trastuzumab,112.6,SD,High
+ONC10460,47.0,female,Liver Cancer,3,HER2,1.82,64.9,98.5,73,8.2,148,0.86,0.97,24.3,1,Cisplatin+Gemcitabine,99.5,Partial Response,Moderate
+ONC10461,62.0,male,Gastric Cancer,IV,TP53,3.17,55.9,93.6,81,13.6,104,1.17,0.8,24.2,1,Sorafenib,72.7,PD,Low
+ONC10462,62.0,male,Prostate Cancer,3,KRAS,3.57,65.8,100.0,82,10.9,291,1.22,1.45,24.4,4,FOLFOX,66.0,Partial Response,Moderate
+ONC10463,48.0,F,Ovarian Cancer,4,MET,0.92,55.9,95.0,88,4.9,84,0.75,1.34,26.6,3,Pembrolizumab,41.5,PR,Moderate
+ONC10464,62.0,F,Pancreatic Cancer,III,TP53,6.64,58.8,100.0,91,7.6,124,0.95,0.99,27.0,3,Cisplatin+Gemcitabine,108.8,Complete Response,High
+ONC10465,38.0,,Colorectal Cancer,IV,TP53,6.46,-5.9,94.0,78,10.6,174,,1.39,22.5,0,Targeted Therapy,108.4,Stable Disease,Moderate
+ONC10466,69.0,Male,Prostate Cancer,I,BRCA2,12.25,92.8,98.1,88,5.9,331,0.82,1.04,28.3,2,Nivolumab,104.7,Complete Response,Moderate
+ONC10467,46.0,F,Ovarian Cancer,4,HER2,1.17,71.7,91.2,97,9.4,241,1.46,1.08,19.2,0,FOLFOX,,Stable Disease,Low
+ONC10468,45.0,female,Renal Cancer,II,PD-L1,7.66,13.2,94.8,81,5.1,293,0.88,0.62,24.7,2,Nivolumab,104.5,Partial Response,Moderate
+ONC10469,45.0,F,Breast Cancer,stage iv,BRCA2,1.4,53.6,97.9,71,9.8,288,1.09,1.27,19.3,3,Trastuzumab,87.3,PR,Moderate
+ONC10470,64.0,M,Melanoma,I,HER2,4.26,76.8,98.0,91,5.7,247,1.12,1.17,29.9,2,Trastuzumab,66.6,complete response,Low
+ONC10471,42.0,F,Colorectal Cancer,3,PIK3CA,12.47,40.5,95.4,79,6.9,320,1.06,0.78,34.4,0,Osimertinib,88.3,Complete Response,Low
+ONC10472,48.0,M,NSCLC,3,PD-L1,0.36,53.9,100.0,65,9.5,288,1.44,1.91,24.2,1,Osimertinib,,PR,Low
+ONC10473,56.0,Female,Ovarian Cancer,II,MET,3.34,57.8,96.4,85,7.4,301,0.73,0.22,27.7,2,Sorafenib,107.8,CR,Moderate
+ONC10474,55.0,Male,NSCLC,IV,HER2,12.05,59.1,92.5,96,5.7,283,1.48,1.21,20.5,1,Olaparib,49.9,PR,Low
+ONC10475,74.0,Female,Colorectal Cancer,4,TP53,2.48,47.8,94.9,70,7.9,179,0.67,1.31,28.4,1,Olaparib,60.8,PR,Low
+ONC10476,57.0,male,NSCLC,II,None,1.42,71.0,92.4,80,6.9,333,1.5,1.09,27.9,1,Nivolumab,78.2,Progressive Disease,Low
+ONC10477,50.0,F,Gastric Cancer,III,PD-L1,,51.3,96.4,77,5.2,316,1.3,1.38,36.5,3,Osimertinib,73.5,PD,Moderate
+ONC10478,47.0,female,Melanoma,IV,BRAF,7.91,55.1,96.6,76,1.2,322,0.85,0.84,24.6,1,Targeted Therapy,64.9,,Low
+ONC10479,71.0,female,Colorectal Cancer,II,ALK,2.95,56.9,95.8,63,9.4,147,0.96,0.93,30.2,1,FOLFOX,,,Low
+ONC10480,50.0,M,Ovarian Cancer,3,ALK,0.31,27.9,94.2,75,10.1,279,1.03,0.96,27.6,2,Trastuzumab,52.8,PD,Low
+ONC10481,41.0,Female,Prostate Cancer,II,BRCA2,4.84,80.1,97.8,98,6.9,213,1.14,1.21,21.1,2,Trastuzumab,84.0,PR,Moderate
+ONC10482,87.0,M,Pancreatic Cancer,4,PIK3CA,2.12,29.7,98.1,69,7.2,329,0.82,1.19,24.3,1,Olaparib,65.1,Progressive Disease,Low
+ONC10483,55.0,F,Colorectal Cancer,3,KRAS,2.68,43.1,96.0,70,8.4,290,0.52,1.13,36.8,2,Osimertinib,73.5,,High risk
+ONC10484,67.0,male,Prostate Cancer,4,PD-L1,1.62,36.1,95.8,96,11.4,298,1.54,0.53,31.8,0,Trastuzumab,44.2,PR,Low
+ONC10485,68.0,female,Colorectal Cancer,II,BRCA2,2.37,,96.2,63,8.0,275,1.37,1.58,24.0,1,Immunotherapy,67.4,SD,Low
+ONC10486,65.0,Female,Breast Cancer,3,EGFR,1.36,55.2,98.6,83,6.3,293,0.35,1.53,29.2,1,Trastuzumab,70.0,SD,Low
+ONC10487,61.0,female,Melanoma,3,BRCA2,3.58,56.3,95.0,78,11.1,250,0.64,0.46,22.1,1,Osimertinib,62.5,Complete Response,Low
+ONC10488,45.0,F,Liver Cancer,Stage III,Unknown,1.43,75.0,96.2,93,3.4,289,1.72,2.26,25.1,0,Trastuzumab,35.8,Progressive Disease,Low
+ONC10489,63.0,female,Liver Cancer,4,PIK3CA,1.35,26.7,97.9,73,9.8,171,0.65,0.59,27.3,1,Cisplatin+Gemcitabine,45.3,PD,Low
+ONC10490,2.0,female,NSCLC,I,,3.93,79.1,92.9,99,6.1,288,1.41,0.86,21.0,1,Targeted Therapy,72.9,Progressive Disease,Low
+ONC10491,68.0,Female,Renal Cancer,3,TP53,1.9,40.2,98.8,71,8.1,209,0.7,1.78,23.2,1,Osimertinib,71.1,SD,Low
+ONC10492,61.0,male,Breast Cancer,stage iv,TP53,0.36,35.5,100.0,104,9.8,173,1.19,0.84,26.1,2,Immunotherapy,125.1,Complete Response,High
+ONC10493,49.0,male,NSCLC ,II,TP53,0.95,31.9,96.2,94,9.2,256,0.59,0.64,15.4,0,Cisplatin+Gemcitabine,107.5,SD,Moderate
+ONC10494,48.0,Male,Ovarian Cancer,4,TP53,5.52,65.9,94.9,74,8.2,242,0.87,0.52,23.1,1,Carboplatin+Paclitaxel,111.0,progressive,Moderate
+ONC10495,41.0,Female,Prostate Cancer,stage iv,BRCA2,1.73,54.2,99.4,96,6.4,287,1.03,1.36,19.6,1,Cisplatin+Gemcitabine,85.4,PD,Moderate
+ONC10496,61.0,,NSCLC,stage iv,EGFR,4.36,31.4,97.6,67,10.2,230,0.35,0.95,18.7,2,Sorafenib,104.3,CR,Moderate
+ONC10497,35.0,F,Breast Cancer,I,PIK3CA,2.47,74.6,95.4,72,4.4,246,0.76,1.69,21.0,0,FOLFOX,118.4,Partial Response,Moderate
+ONC10498,59.0,F,Pancreatic Cancer,II,PIK3CA,2.68,62.1,97.1,81,7.3,242,0.35,0.63,65.0,3,Nivolumab,85.2,CR,Moderate
+ONC10499,54.0,M,Colorectal Cancer,stage iv,EGFR,7.0,41.2,98.6,78,2.1,222,1.56,0.49,17.5,3,Docetaxel,84.6,PD,Moderate
+ONC10500,57.0,F,Renal Cancer,3,BRCA2,3.03,38.9,92.7,87,11.0,169,1.11,1.67,16.4,0,Sorafenib,57.4,CR,Low
+ONC10501,64.0,M,Renal Cancer,stage iv,HER2,0.9,58.9,97.8,107,8.2,320,0.73,1.43,20.4,2,Chemotherapy,65.8,SD,Low
+ONC10502,59.0,male,Gastric Cancer,IV,PIK3CA,2.45,59.7,92.8,97,1.3,173,0.84,0.86,16.4,2,Chemotherapy,59.3,Complete Response,Low
+ONC10503,65.0,Female,Pancreatic Cancer,I,TP53,5.87,28.0,95.9,92,8.8,172,0.87,1.0,28.3,1,Pembrolizumab,30.7,CR,Low
+ONC10504,54.0,female,Prostate Cancer,IV,ALK,1.84,75.4,94.8,68,7.3,167,0.78,1.38,26.4,2,Immunotherapy,121.2,CR,High
+ONC10505,66.0,female,Colorectal Cancer,IV,Unknown,1.29,43.7,97.4,81,9.4,315,1.3,0.91,32.1,2,Osimertinib,53.5,,Low
+ONC10506,56.0,male,Ovarian Cancer,3,BRCA2,3.32,25.8,94.2,98,6.6,268,1.54,1.3,28.9,0,Nivolumab,68.4,CR,Low
+ONC10507,46.0,Male,Prostate Cancer,stage iv,PD-L1,2.83,44.5,95.6,75,5.8,332,1.56,1.04,24.6,3,Carboplatin+Paclitaxel,77.0,Progressive Disease,Moderate
+ONC10508,64.0,male,Renal Cancer,Stage III,PIK3CA,1.75,49.2,97.4,60,2.5,222,0.38,0.71,28.9,4,Immunotherapy,70.8,,Moderate
+ONC10509,29.0,Male,Breast Cancer,4,ALK,8.05,61.1,95.9,118,9.0,173,1.28,1.66,22.7,1,FOLFOX,37.1,CR,Moderate
+ONC10510,78.0,,Ovarian Cancer,stage iv,HER2,7.34,67.8,100.0,84,10.2,221,1.45,1.29,22.9,0,Olaparib,73.9,Complete Response,Low
+ONC10511,83.0,F,Pancreatic Cancer,II,ALK,5.63,-0.4,94.1,91,10.5,230,N/A,1.44,28.6,4,Chemotherapy,54.8,Complete Response,Moderate
+ONC10512,56.0,M,Gastric Cancer,II,RET,10.01,24.6,92.5,70,8.5,249,N/A,0.58,27.8,3,Pembrolizumab,79.7,Progressive Disease,Moderate
+ONC10513,61.0,F,Gastric Cancer,III,egfr,2.87,39.7,97.9,90,6.6,258,0.61,0.91,23.1,2,Immunotherapy,69.1,Complete Response,Low
+ONC10514,49.0,,Prostate Cancer,IV,TP53,2.5,67.2,97.1,61,6.2,247,1.9,1.16,28.9,1,Nivolumab,104.8,Partial Response,Moderate
+ONC10515,57.0,,Renal Cancer,III,HER2,3.94,35.6,93.8,45,8.6,174,0.73,0.46,21.1,2,Cisplatin+Gemcitabine,87.0,SD,Moderate
+ONC10516,51.0,M,Breast Cancer,III,TP53,5.17,39.6,100.0,89,5.7,434,0.86,2.34,20.3,2,Chemotherapy,81.5,Partial Response,Moderate
+ONC10517,58.0,Male,Colorectal Cancer,stage iv,TP53,0.52,26.5,93.5,72,5.6,355,0.5,1.1,25.7,3,Nivolumab,117.2,,High
+ONC10518,44.0,male,Prostate Cancer,4,MET,3.27,44.9,98.8,93,8.3,191,0.45,0.82,28.2,1,FOLFOX,84.0,Progressive Disease,Low
+ONC10519,54.0,male,Liver Cancer,Stage III,PD-L1,1.2,71.6,97.0,79,11.8,106,1.69,1.04,36.9,0,Olaparib,75.7,Complete Response,Low
+ONC10520,73.0,M,Colorectal Cancer,3,MET,3.71,46.5,98.3,61,9.8,193,1.07,1.5,25.8,3,Cisplatin+Gemcitabine,52.5,,Moderate
+ONC10521,55.0,female,Ovarian Cancer,Stage III,TP53,5.04,40.4,99.8,66,1.2,56,0.6,1.07,31.6,3,FOLFOX,56.2,Progressive Disease,Low
+ONC10522,81.0,F,Pancreatic Cancer,stage iv,EGFR,,86.9,99.4,111,3.7,313,0.95,0.37,25.6,3,Osimertinib,74.1,Partial Response,Moderate
+ONC10523,40.0,,Breast Cancer,4,Unknown,4.11,70.7,93.3,85,7.2,239,1.23,0.59,30.3,1,FOLFOX,37.0,Progressive Disease,Low
+ONC10524,44.0,male,Gastric Cancer,II,NTRK,4.26,72.8,99.0,93,13.1,134,0.53,1.31,34.3,2,FOLFOX,98.8,,Moderate
+ONC10525,65.0,M,Prostate Cancer,stage iv,PD-L1,3.84,46.8,94.7,79,5.1,360,1.84,0.99,19.6,1,Nivolumab,90.7,CR,Moderate
+ONC10526,73.0,F,Gastric Cancer,3,TP53,2.88,90.1,96.5,99,3.6,214,1.17,0.91,25.0,2,Osimertinib,63.6,Partial Response,Low
+ONC10527,18.0,,Renal Cancer,IV,ALK,3.1,42.3,93.2,94,4.3,195,0.83,1.87,24.9,1,Carboplatin+Paclitaxel,100.5,Stable Disease,Moderate
+ONC10528,5.0,female,Colorectal Cancer,II,HER2,2.37,76.3,93.1,92,12.2,260,1.02,0.62,19.7,0,Cisplatin+Gemcitabine,90.6,,Low
+ONC10529,69.0,Female,Colorectal Cancer,Stage III,None,5.55,80.6,96.0,67,1.2,276,1.38,0.43,31.5,2,Chemotherapy,97.6,Partial Response,Moderate
+ONC10530,63.0,male,Ovarian Cancer,IV,ROS1,1.66,39.1,99.6,87,9.4,216,1.59,0.94,22.7,1,Immunotherapy,96.4,Progressive Disease,Moderate
+ONC10531,59.0,M,Ovarian Cancer,4,TP53,2.22,47.3,97.8,72,7.8,281,0.97,0.48,33.5,0,Olaparib,55.9,Stable Disease,Low
+ONC10532,50.0,,Prostate Cancer,stage iv,TP53,5.55,31.1,97.7,79,6.1,319,0.35,0.33,25.3,2,Nivolumab,71.2,PR,Low
+ONC10533,60.0,F,Pancreatic Cancer,II,ALK,4.45,56.4,93.8,73,8.7,161,1.11,1.38,29.9,1,Immunotherapy,93.9,Partial Response,Moderate
+ONC10534,61.0,Female,NSCLC,4,ROS1,2.56,34.8,92.0,86,3.4,236,0.7,1.27,26.0,1,Cisplatin+Gemcitabine,61.1,CR,Low
+ONC10535,68.0,Male,NSCLC ,IV,KRAS,,43.4,95.6,126,7.0,194,0.45,1.57,18.7,1,Carboplatin+Paclitaxel,57.2,CR,Low
+ONC10536,74.0,Male,Pancreatic Cancer,I,KRAS,7.75,71.0,99.2,58,9.4,266,1.49,0.8,23.1,0,Immunotherapy,39.3,Stable Disease,Low
+ONC10537,80.0,,nsclc,3,TP53,5.26,,96.6,91,5.6,189,1.78,0.88,30.9,0,Cisplatin+Gemcitabine,35.7,Partial Response,Low
+ONC10538,85.0,Female,Gastric Cancer,3,PD-L1,10.64,19.9,95.0,75,1.2,331,0.84,0.64,25.7,2,Nivolumab,88.5,Progressive Disease,Moderate
+ONC10539,46.0,F,Pancreatic Cancer,Stage III,BRAF,1.34,43.4,91.6,70,6.3,283,1.86,0.93,22.7,2,Targeted Therapy,89.5,,Moderate
+ONC10540,61.0,F,Liver Cancer,3,Unknown,5.7,22.3,94.8,72,4.4,230,0.48,1.53,31.1,1,Pembrolizumab,89.6,SD,Moderate
+ONC10541,66.0,,Gastric Cancer,stage iv,PIK3CA,1.4,84.2,93.0,76,4.9,262,,0.88,23.9,1,Docetaxel,74.3,,Low
+ONC10542,44.0,F,NSCLC,III,KRAS,1.78,62.3,98.1,67,6.7,238,0.35,0.91,27.3,1,Docetaxel,58.5,,Low
+ONC10543,51.0,,Melanoma,4,EGFR,3.26,61.7,94.4,60,4.0,129,1.33,1.46,23.8,2,Osimertinib,26.4,,Low
+ONC10544,50.0,Female,Prostate Cancer,Stage III,TP53,6.91,52.2,100.0,75,10.0,257,1.13,1.09,22.5,1,Immunotherapy,,CR,Moderate
+ONC10545,49.0,,Liver Cancer,stage iv,ALK,1.46,62.7,96.5,89,7.1,346,1.31,1.13,24.3,2,Carboplatin+Paclitaxel,72.6,SD,Low
+ONC10546,135.0,Female,Renal Cancer,stage iv,BRCA1,4.39,60.8,95.5,98,6.8,227,1.07,0.94,32.3,1,Pembrolizumab,78.3,PD,Low
+ONC10547,48.0,M,Pancreatic Cancer,III,RET,6.02,54.8,95.4,64,8.2,184,0.83,1.38,21.5,1,Carboplatin+Paclitaxel,73.2,CR,Low
+ONC10548,51.0,M,Breast Cancer,3,PD-L1,1.98,27.9,92.5,80,8.3,373,0.75,1.1,18.7,3,Chemotherapy,88.6,PR,Moderate
+ONC10549,65.0,,Renal Cancer,4,TP53,1.93,46.8,96.1,75,8.2,163,0.44,1.35,27.2,1,Osimertinib,51.6,stable,Low
+ONC10550,53.0,Male,Prostate Cancer,3,KRAS,3.3,41.8,97.0,80,11.3,270,0.83,0.44,18.9,1,Pembrolizumab,109.6,,Moderate
+ONC10551,66.0,Female,Gastric Cancer,II,PIK3CA,4.19,57.4,98.9,80,7.7,268,,0.2,4.2,1,Osimertinib,90.6,CR,Moderate
+ONC10552,68.0,,Gastric Cancer,3,HER2,,51.1,91.8,78,4.0,300,1.0,0.68,33.8,1,Cisplatin+Gemcitabine,67.9,SD,Low
+ONC10553,59.0,,Melanoma,Stage III,,1.48,44.8,98.1,77,6.2,151,0.84,0.79,28.0,0,Trastuzumab,65.1,Stable Disease,Low
+ONC10554,56.0,Female,Renal Cancer,III,NTRK,15.76,19.7,97.9,66,7.6,175,1.15,0.94,28.5,2,Targeted Therapy,76.2,progressive,Moderate
+ONC10555,63.0,Male,Melanoma,Stage III,KRAS,3.17,,98.9,75,6.4,269,0.89,0.97,25.6,2,Docetaxel,83.5,PD,Moderate
+ONC10556,67.0,,Renal Cancer,Stage III,ROS1,1.09,55.6,98.8,111,6.8,320,1.03,0.87,35.5,3,Carboplatin+Paclitaxel,53.6,CR,Moderate
+ONC10557,46.0,female,Renal Cancer,stage iv,None,1.6,63.3,97.4,96,8.0,244,1.07,0.85,29.3,1,Chemotherapy,87.7,,Moderate
+ONC10558,58.0,female,Melanoma,I,TP53,8.89,62.6,93.4,90,1.2,271,1.61,0.61,30.6,1,Trastuzumab,49.2,PR,Low
+ONC10559,66.0,male,Pancreatic Cancer,Stage III,PIK3CA,2.04,64.9,96.5,66,7.7,209,0.72,1.68,25.7,2,Targeted Therapy,44.7,CR,Low
+ONC10560,60.0,M,Breast Cancer,stage iv,MET,1.08,,92.1,83,8.2,193,0.88,1.0,24.1,1,Olaparib,,SD,Low
+ONC10561,61.0,M,Gastric Cancer,Stage III,ROS1,2.8,79.8,96.5,49,10.1,216,1.32,1.42,29.0,1,Cisplatin+Gemcitabine,75.4,Stable Disease,Low
+ONC10562,64.0,Female,Melanoma,Stage III,ALK,3.31,59.3,96.4,73,7.2,175,0.35,1.19,28.0,1,Targeted Therapy,39.4,Stable Disease,Low
+ONC10563,48.0, Male ,Liver Cancer,I,BRCA2,3.88,58.7,94.6,99,13.5,222,1.1,1.38,24.6,1,Sorafenib,40.3,SD,Low
+ONC10564,71.0,female,Breast Cancer,II,BRCA2,9.02,22.9,94.5,94,8.3,174,0.95,0.43,25.4,1,Pembrolizumab,90.0,,Moderate
+ONC10565,36.0,male,Ovarian Cancer,II,PD-L1,1.66,48.9,96.5,77,8.9,225,1.5,1.46,29.6,0,Olaparib,96.1,SD,Moderate
+ONC10566,55.0,female,Breast Cancer,3,PD-L1,1.15,12.5,98.9,84,8.5,201,1.66,0.65,20.4,2,Sorafenib,80.5,Partial Response,Moderate
+ONC10567,81.0,female,Renal Cancer,IV,PIK3CA,4.58,65.5,100.0,82,6.9,299,0.6,0.84,29.5,1,Targeted Therapy,77.8,PD,Low
+ONC10568,61.0,,Pancreatic Cancer,III,BRCA2,4.23,77.6,97.2,91,7.7,212,1.18,0.46,18.4,2,Immunotherapy,77.6,Complete Response,Moderate
+ONC10569,36.0,,Ovarian Cancer,II,PD-L1,3.36,22.9,90.4,85,8.4,270,1.35,1.09,29.2,0,Sorafenib,76.9,SD,Low
+ONC10570,59.0,female,Prostate Cancer,IV,MET,5.93,58.3,98.1,91,4.3,260,1.53,0.95,25.3,1,Chemotherapy,78.1,Progressive Disease,Low
+ONC10571,50.0,M,Breast Cancer,4,Unknown,0.72,67.6,94.4,85,6.2,353,1.03,1.23,23.9,3,Nivolumab,110.9,PD,High
+ONC10572,36.0,female,Breast Cancer,IV,TP53,1.65,45.2,95.4,92,7.5,98,0.4,1.11,27.9,2,Nivolumab,73.5,Stable Disease,Low
+ONC10573,44.0,male,Colorectal Cancer,4,PIK3CA,1.71,57.8,94.3,80,11.0,254,1.39,1.92,18.6,2,Cisplatin+Gemcitabine,69.0,Progressive Disease,Moderate
+ONC10574,68.0,male,nsclc,IV,TP53,2.21,46.1,96.1,95,5.1,125,0.97,1.03,24.9,4,Targeted Therapy,99.9,PD,High
+ONC10575,58.0,F,NSCLC,stage iv,PD-L1,9.98,45.2,97.3,66,6.2,207,0.59,1.35,29.0,2,Trastuzumab,27.4,Partial Response,Low
+ONC10576,65.0,male,Pancreatic Cancer,3,NTRK,1.2,,96.5,71,6.3,264,0.97,0.87,29.1,1,Trastuzumab,70.6,Progressive Disease,Low
+ONC10577,52.0,Male,Melanoma,III,BRCA1,1.27,51.5,95.2,95,8.3,306,1.12,1.0,32.8,1,Sorafenib,34.7,Progressive Disease,Low
+ONC10578,59.0,F,Renal Cancer,stage iv,TP53,1.62,34.5,91.1,98,5.9,177,1.25,0.47,19.1,1,Sorafenib,50.1,Progressive Disease,Low
+ONC10579,45.0,F,Melanoma,3,HER2,2.09,38.3,92.6,101,9.6,294,1.04,0.75,26.9,1,Immunotherapy,88.0,PR,Moderate
+ONC10580,53.0,F,Gastric Cancer,3,HER2,1.72,38.5,94.2,80,6.1,135,0.75,1.83,27.5,2,Targeted Therapy,106.2,PD,High
+ONC10581,76.0,male,Melanoma,I,KRAS,3.7,24.7,96.2,57,5.1,248,0.53,1.48,24.2,2,Targeted Therapy,68.4,PR,Low
+ONC10582,54.0,M,Colorectal Cancer,4,ROS1,2.27,43.4,95.3,91,7.6,325,1.26,1.14,15.8,1,Immunotherapy,93.2,SD,Moderate
+ONC10583,65.0,,Ovarian Cancer,III,,6.86,58.2,97.9,65,3.6,251,1.44,,18.8,1,Pembrolizumab,91.9,Stable Disease,Moderate
+ONC10584,66.0,M,Liver Cancer,I,KRAS,3.83,40.7,95.9,94,5.9,254,0.54,1.25,28.4,2,Olaparib,86.5,,Moderate
+ONC10585,53.0,Male,Breast Cancer,III,TP53,1.41,10.4,93.5,90,7.5,219,1.12,1.01,19.1,1,Osimertinib,73.9,PD,Low
+ONC10586,49.0,male,Renal Cancer,II,KRAS,,43.4,91.5,90,5.8,115,0.76,1.23,31.9,1,FOLFOX,81.2,Progressive Disease,Low
+ONC10587,44.0,,Gastric Cancer,stage iv,EGFR,3.81,58.9,97.1,86,10.0,187,1.27,0.96,25.4,1,Carboplatin+Paclitaxel,65.9,PR,Low
+ONC10588,48.0,female,Breast Cancer,II,BRAF,2.89,44.6,100.0,77,9.0,200,1.36,0.94,26.9,1,Sorafenib,41.1,Partial Response,Low
+ONC10589,40.0,,Prostate Cancer,Stage III,TP53,3.89,45.2,93.9,87,7.1,332,0.45,1.93,20.7,2,Pembrolizumab,61.7,,Low
+ONC10590,42.0,,Liver Cancer,III,TP53,2.45,34.8,95.5,68,8.1,154,0.35,1.07,30.8,2,Immunotherapy,37.6,CR,Low
+ONC10591,69.0,female,Prostate Cancer,I,None,11.9,71.9,98.1,70,5.9,256,0.76,1.77,21.9,1,FOLFOX,28.7,Partial Response,Low
+ONC10592,56.0,,Breast Cancer,Stage III,ALK,2.42,39.4,100.0,88,6.3,197,1.09,1.18,28.6,0,Nivolumab,107.8,SD,Moderate
+ONC10593,23.0,female,Renal Cancer,3,EGFR,1.16,55.2,93.2,68,5.6,422,0.57,1.08,29.3,2,FOLFOX,39.8,Progressive Disease,Low
+ONC10594,47.0,,Prostate Cancer,III,TP53,1.95,75.8,92.0,102,10.9,295,1.4,0.77,33.4,1,Chemotherapy,120.2,Progressive Disease,High
+ONC10595,67.0,female,Prostate Cancer,3,TP53,8.43,39.8,94.6,91,6.2,387,1.81,0.94,25.4,1,Nivolumab,67.4,SD,Low
+ONC10596,45.0,M,Breast Cancer,II,TP53,2.06,63.0,97.1,71,10.7,196,0.51,1.65,26.0,3,Sorafenib,84.6,PD,Moderate
+ONC10597,64.0,,Renal Cancer,I,KRAS,3.69,46.5,92.7,105,6.3,161,0.8,1.59,18.5,4,Osimertinib,81.9,Progressive Disease,High
+ONC10598,75.0,Female,Melanoma,IV,KRAS,0.39,84.2,97.4,95,8.7,249,1.27,0.63,27.0,3,Trastuzumab,101.9,,High
+ONC10599,47.0,female,Colorectal Cancer,stage iv,KRAS,6.53,59.9,99.5,70,2.9,252,1.02,1.04,23.9,0,Cisplatin+Gemcitabine,105.5,PR,Moderate
+ONC10600,61.0,M,Melanoma,Stage III,BRAF,3.08,67.2,94.6,80,8.0,285,1.58,1.54,25.3,1,Osimertinib,89.8,CR,Moderate
+ONC10601,61.0,F,Colorectal Cancer,stage iv,HER2,2.36,44.1,99.0,73,6.2,164,1.65,0.78,27.0,1,Trastuzumab,100.7,,Moderate
+ONC10602,62.0,Female,NSCLC,IV,BRCA1,1.92,89.8,97.1,100,5.1,132,0.64,1.47,20.0,3,Pembrolizumab,45.9,PD,Moderate
+ONC10603,61.0,Female,Ovarian Cancer,3,BRCA2,1.41,26.8,94.9,105,3.4,352,1.59,0.2,27.7,3,Olaparib,64.5,Stable Disease,Moderate
+ONC10604,70.0,male,Prostate Cancer,IV,None,3.34,69.6,99.0,89,7.8,307,0.5,0.58,22.2,0,Carboplatin+Paclitaxel,61.4,Complete Response,Low
+ONC10605,62.0,F,Renal Cancer,IV,PIK3CA,1.01,69.2,94.1,93,2.7,114,1.46,1.28,27.8,4,Olaparib,61.9,partial response,Moderate
+ONC10606,40.0,,Breast Cancer,Stage III,None,4.0,34.3,96.0,66,5.1,160,1.35,0.97,32.1,3,Pembrolizumab,68.4,PD,Moderate
+ONC10607,75.0, female ,Renal Cancer,II,PD-L1,3.91,97.8,95.6,67,5.4,151,0.89,0.67,18.0,3,Pembrolizumab,93.5,CR,H
+ONC10608,54.0,M,Colorectal Cancer,I,ROS1,2.27,71.0,100.0,75,4.9,292,0.96,0.2,19.7,2,Carboplatin+Paclitaxel,107.9,Progressive Disease,Moderate
+ONC10609,52.0,,Pancreatic Cancer,II,BRCA2,3.21,35.9,92.6,101,4.7,275,1.3,0.79,27.3,0,Targeted Therapy,75.8,Stable Disease,Low
+ONC10610,62.0,M,Liver Cancer,I,PIK3CA,14.08,38.3,95.3,86,8.7,267,1.06,1.27,22.0,2,Immunotherapy,46.3,,Low
+ONC10611,61.0,,Renal Cancer,II,KRAS,1.25,26.7,98.2,64,8.9,325,0.95,1.54,23.5,2,Docetaxel,123.2,SD,High
+ONC10612,52.0,M,Gastric Cancer,I,ALK,3.77,52.3,95.0,103,4.1,251,1.43,1.48,28.7,2,Cisplatin+Gemcitabine,103.7,Progressive Disease,High
+ONC10613,56.0,Female,Renal Cancer,3,PIK3CA,2.37,54.0,96.7,79,7.9,189,0.75,0.89,21.6,2,Pembrolizumab,107.2,,Moderate
+ONC10614,69.0,F,Pancreatic Cancer,stage iv,MET,1.64,72.1,97.3,51,9.5,65,1.56,0.34,26.6,1,Targeted Therapy,65.6,Complete Response,Low
+ONC10615,58.0,Female,Liver Cancer,IV,EGFR,2.94,29.4,99.3,95,7.5,322,0.48,0.85,24.7,2,Olaparib,83.1,SD,Moderate
+ONC10616,56.0,male,Renal Cancer,Stage III,TP53,1.64,64.8,100.0,69,5.3,105,0.96,0.29,34.5,2,Immunotherapy,87.4,SD,Moderate
+ONC10617,46.0,F,Pancreatic Cancer,3,BRAF,6.77,41.7,96.8,60,6.6,287,1.18,0.57,28.9,0,Docetaxel,83.8,PD,Low
+ONC10618,79.0,Female,Pancreatic Cancer,IV,KRAS,20.01,53.9,96.3,103,8.6,312,0.35,0.54,27.7,2,Osimertinib,88.9,CR,Moderate
+ONC10619,48.0,M,Melanoma,III,ROS1,2.42,51.9,94.7,76,5.5,213,1.4,1.12,31.5,0,Docetaxel,72.1,PD,Low
+ONC10620,40.0,Male,Ovarian Cancer,4,KRAS,1.61,63.2,95.6,97,4.7,135,0.65,1.17,29.4,0,Chemotherapy,73.6,PD,Low
+ONC10621,39.0,F,Liver Cancer,IV,TP53,1.88,45.7,100.0,82,11.2,307,1.24,0.67,16.8,4,Sorafenib,81.6,Stable Disease,Moderate
+ONC10622,55.0,,Melanoma,Stage III,ROS1,,29.8,94.3,70,5.9,288,0.91,1.27,25.8,2,FOLFOX,101.8,Stable Disease,Moderate
+ONC10623,77.0,male,Colorectal Cancer,stage iv,EGFR,2.85,51.8,94.6,73,6.8,293,1.35,0.73,21.3,1,Olaparib,121.5,CR,High
+ONC10624,57.0,F,Melanoma,III,TP53,1.64,42.6,92.5,75,7.9,280,0.35,1.12,26.8,1,Olaparib,76.0,Stable Disease,Low
+ONC10625,56.0,Female,Gastric Cancer,I,TP53,2.22,49.5,97.3,79,2.3,167,0.95,0.95,28.8,1,Osimertinib,80.5,SD,Low
+ONC10626,52.0,M,Liver Cancer,III,PD-L1,1.95,55.4,94.2,97,3.2,218,1.33,1.6,20.4,2,Cisplatin+Gemcitabine,88.7,CR,Moderate
+ONC10627,55.0,Female,Gastric Cancer,4,RET,5.36,60.1,96.9,78,6.0,278,1.03,1.08,21.2,2,FOLFOX,83.2,PR,Moderate
+ONC10628,67.0,Female,Gastric Cancer,I,KRAS,3.82,66.8,97.5,73,3.3,252,1.71,1.78,24.0,1,Chemotherapy,43.1,Complete Response,Low
+ONC10629,47.0,,Ovarian Cancer,3,TP53,9.3,19.0,98.1,72,6.5,228,0.5,1.33,26.6,2,Pembrolizumab,113.5,SD,High risk
+ONC10630,67.0,,Gastric Cancer,3,EGFR,4.22,42.5,92.1,101,8.7,236,1.33,0.72,27.9,2,Olaparib,63.1,Stable Disease,Low
+ONC10631,61.0,,Prostate Cancer,I,HER2,7.26,22.3,95.4,84,7.7,416,1.22,1.57,15.0,2,Osimertinib,89.1,PR,Moderate
+ONC10632,64.0,Male,Ovarian Cancer,3,PD-L1,5.46,38.8,98.6,72,6.1,273,1.44,0.47,17.9,1,Pembrolizumab,83.0,Stable Disease,Low
+ONC10633,65.0,male,NSCLC,3,BRCA1,1.57,17.9,94.3,81,12.3,385,1.01,0.87,19.4,1,Olaparib,44.1,,Low
+ONC10634,55.0,Male,NSCLC,3,HER2,3.15,49.4,95.6,78,6.9,141,0.94,1.32,26.7,0,Osimertinib,75.6,PR,Low
+ONC10635,65.0,F,Pancreatic Cancer,II,EGFR,8.92,51.4,95.7,100,6.0,258,0.95,0.82,17.2,1,Chemotherapy,40.0,PR,Low
+ONC10636,63.0,Female,Pancreatic Cancer,I,BRAF,1.83,34.0,95.0,62,4.6,356,1.16,1.0,32.0,2,Carboplatin+Paclitaxel,96.7,Complete Response,Moderate
+ONC10637,33.0,F,Pancreatic Cancer,3,Unknown,0.86,42.1,96.5,89,6.7,243,1.43,0.63,18.6,4,Cisplatin+Gemcitabine,71.7,CR,Moderate
+ONC10638,67.0,Female,Pancreatic Cancer,4,TP53,9.16,46.8,92.8,77,3.8,169,0.65,1.31,29.0,2,Docetaxel,85.0,Progressive Disease,Moderate
+ONC10639,65.0, Male ,NSCLC,3,BRCA1,,40.8,94.0,95,7.6,308,1.25,1.75,18.2,2,Immunotherapy,65.7,CR,Moderate
+ONC10640,62.0,Male,Prostate Cancer,IV,BRAF,4.07,44.4,94.7,87,8.3,105,1.28,0.75,29.7,1,Olaparib,108.5,PD,Moderate
+ONC10641,42.0,Female,Gastric Cancer,4,ALK,9.07,42.6,99.7,78,6.1,251,1.28,1.43,25.5,2,Cisplatin+Gemcitabine,66.2,PD,Low
+ONC10642,78.0,male,Breast Cancer,II,Unknown,3.12,57.4,96.7,58,5.7,271,1.54,0.2,28.0,0,Immunotherapy,123.1,Stable Disease,Moderate
+ONC10643,68.0,Male,Renal Cancer,Stage III,,8.76,68.7,95.5,109,8.1,256,1.03,0.48,27.0,1,Docetaxel,66.7,PD,Low
+ONC10644,58.0,female,NSCLC,3,Unknown,2.91,54.5,93.0,82,3.7,142,0.82,0.83,24.3,1,Nivolumab,51.5,PD,Low
+ONC10645,67.0,,Pancreatic Cancer,III,ROS1,1.64,34.0,94.5,89,6.1,232,0.47,0.24,23.8,2,Carboplatin+Paclitaxel,60.6,SD,Low
+ONC10646,48.0,,Breast Cancer,3,,6.63,34.0,93.1,73,4.3,315,1.51,0.49,35.2,2,Pembrolizumab,43.9,Progressive Disease,Low
+ONC10647,52.0,female,Breast Cancer,I,TP53,7.62,76.0,96.4,85,7.3,121,1.36,1.86,25.3,2,Immunotherapy,57.8,SD,Moderate
+ONC10648,61.0,male,Ovarian Cancer,Stage III,EGFR,1.19,23.0,92.5,71,3.1,230,0.98,0.66,30.3,2,Trastuzumab,,SD,Low
+ONC10649,68.0,M,Renal Cancer,III,BRAF,,52.6,94.1,86,7.0,273,0.97,0.49,26.8,1,Trastuzumab,72.3,PD,Low
+ONC10650,43.0,female,Liver Cancer,Stage III,ROS1,5.75,54.7,100.0,95,6.9,190,0.88,0.88,21.2,0,Targeted Therapy,95.6,Progressive Disease,Low
+ONC10651,66.0,female,Renal Cancer,stage iv,EGFR,5.73,29.5,93.2,78,8.0,343,1.21,1.36,36.0,2,Olaparib,92.9,Complete Response,Moderate
+ONC10652,60.0,F,Gastric Cancer,III,None,2.88,36.7,95.5,71,6.2,170,1.11,0.6,16.6,1,Chemotherapy,79.3,stable,Low
+ONC10653,26.0,male,Pancreatic Cancer,IV,HER2,2.81,44.4,97.5,75,13.1,230,0.38,1.3,24.5,0,Osimertinib,121.8,Complete Response,Moderate
+ONC10654,74.0,female,Gastric Cancer,III,HER2,4.51,55.7,97.0,67,5.0,177,1.15,1.31,24.1,0,Cisplatin+Gemcitabine,89.3,PR,Low
+ONC10655,57.0, Male ,Gastric Cancer,3,PIK3CA,2.55,54.9,95.3,76,6.1,290,0.35,0.78,22.9,2,Cisplatin+Gemcitabine,66.8,PD,Low
+ONC10656,58.0,,Gastric Cancer,Stage III,TP53,1.32,,91.9,82,8.7,215,0.78,1.06,29.0,0,Targeted Therapy,109.4,PR,Moderate
+ONC10657,71.0,M,Melanoma,II,ALK,1.81,45.0,94.1,96,6.4,203,1.09,1.54,23.4,2,Targeted Therapy,57.8,stable,Low
+ONC10658,44.0,Male,Prostate Cancer,4,PD-L1,3.1,63.1,96.3,106,8.5,179,1.77,0.32,29.2,2,Carboplatin+Paclitaxel,88.0,Stable Disease,Moderate
+ONC10659,35.0,,Ovarian Cancer,II,HER2,1.78,32.7,99.5,69,8.3,234,1.11,0.91,25.1,2,Immunotherapy,64.8,,Low
+ONC10660,58.0,,Ovarian Cancer,II,None,4.04,24.2,94.3,66,7.2,209,0.83,1.16,20.3,0,Pembrolizumab,63.8,Stable Disease,Low
+ONC10661,64.0,Male,Liver Cancer,3,,5.47,59.5,95.5,72,10.2,218,2.06,0.84,19.0,3,Cisplatin+Gemcitabine,87.0,Complete Response,High
+ONC10662,69.0,,Breast Cancer,III,PIK3CA,7.46,28.3,90.3,102,1.5,261,0.7,1.47,30.9,2,Chemotherapy,56.0,Stable Disease,Low
+ONC10663,52.0,,NSCLC,III,PIK3CA,1.18,80.1,95.5,85,6.4,248,1.08,1.9,20.4,1,Pembrolizumab,39.2,PR,Low
+ONC10664,49.0,Female,Gastric Cancer,stage iv,RET,19.88,44.7,95.0,60,5.1,310,0.48,0.36,24.5,1,Docetaxel,111.9,PR,Moderate
+ONC10665,57.0,,NSCLC,stage iv,TP53,1.61,32.6,96.3,76,7.8,257,0.35,0.99,21.1,2,Nivolumab,45.9,Stable Disease,Low
+ONC10666,54.0,,NSCLC ,4,TP53,0.76,88.6,97.7,75,8.8,261,0.57,0.82,20.1,1,Trastuzumab,43.8,Complete Response,Low
+ONC10667,57.0,F,NSCLC,3,NTRK,8.7,39.5,92.9,57,7.1,188,1.19,0.41,20.1,1,Docetaxel,87.0,Progressive Disease,Low
+ONC10668,62.0,Female,Breast Cancer,4,MET,1.83,61.8,100.0,100,6.5,330,1.08,0.69,32.4,1,Pembrolizumab,80.2,,Low
+ONC10669,55.0,female,Breast Cancer,I,PD-L1,1.92,42.0,94.3,45,8.2,254,0.7,1.73,24.2,0,Sorafenib,64.6,PD,Low
+ONC10670,65.0,Female,Colorectal Cancer,III,HER2,4.35,38.6,91.7,90,8.2,340,0.59,1.53,24.3,3,Carboplatin+Paclitaxel,106.2,PR,High
+ONC10671,60.0,Male,Liver Cancer,stage iv,RET,4.22,10.9,95.9,76,7.8,289,0.52,0.95,27.3,2,Immunotherapy,57.6,PR,Low
+ONC10672,63.0,male,Prostate Cancer,stage iv,NTRK,0.98,79.4,93.4,90,9.5,249,1.41,1.29,31.6,0,Trastuzumab,89.7,Complete Response,Low
+ONC10673,79.0,,Melanoma,Stage III,PIK3CA,2.39,55.4,99.5,82,9.1,215,0.48,1.34,22.6,4,Cisplatin+Gemcitabine,39.7,Stable Disease,Moderate
+ONC10674,44.0,F,Colorectal Cancer,I,HER2,2.54,74.9,95.1,71,7.0,194,1.34,0.88,27.5,0,Pembrolizumab,80.1,Stable Disease,Low
+ONC10675,67.0,M,Renal Cancer,II,None,3.66,57.7,97.0,49,4.0,338,1.34,1.45,27.3,1,FOLFOX,99.0,Partial Response,Moderate
+ONC10676,83.0,,NSCLC,IV,HER2,2.03,76.3,96.3,78,4.7,147,0.72,0.92,23.0,1,Cisplatin+Gemcitabine,23.2,,Low
+ONC10677,82.0,,Prostate Cancer,Stage III,ROS1,3.89,36.2,96.2,59,7.3,300,1.06,0.76,21.2,0,Cisplatin+Gemcitabine,88.5,PD,Low
+ONC10678,69.0,female,Breast Cancer,II,TP53,3.53,24.3,98.6,78,10.0,389,1.15,1.27,25.2,2,Docetaxel,79.0,Progressive Disease,Moderate
+ONC10679,43.0,F,Prostate Cancer,Stage III,PD-L1,2.3,43.0,95.1,60,8.9,211,1.46,1.11,23.1,3,Pembrolizumab,89.6,,Moderate
+ONC10680,60.0,female,Liver Cancer,stage iv,TP53,2.13,45.1,94.3,78,8.5,290,1.45,,24.8,1,Docetaxel,113.7,SD,Moderate
+ONC10681,65.0,F,Breast Cancer,II,ALK,3.21,66.0,97.6,67,5.4,262,0.58,0.57,20.4,0,Nivolumab,86.8,Stable Disease,Low
+ONC10682,73.0,Female,Renal Cancer,stage iv,KRAS,2.54,35.1,94.0,94,7.4,248,1.63,1.35,22.0,0,Cisplatin+Gemcitabine,47.6,Progressive Disease,Low
+ONC10683,44.0,,Gastric Cancer,I,ALK,3.53,64.0,100.0,95,3.6,256,1.58,1.64,30.3,2,Carboplatin+Paclitaxel,85.5,SD,Moderate
+ONC10684,68.0,Male,Prostate Cancer,3,BRCA2,0.74,83.8,94.4,79,7.2,149,0.88,1.26,24.3,0,Carboplatin+Paclitaxel,112.3,,Moderate
+ONC10685,91.0,Male,Renal Cancer,stage iv,BRCA1,5.7,37.0,96.0,68,7.2,318,1.2,1.01,27.7,3,FOLFOX,86.2,Partial Response,Moderate
+ONC10686,50.0,male,Renal Cancer,II,PD-L1,6.57,35.4,96.8,97,8.5,128,0.74,0.51,29.0,1,Osimertinib,84.9,Complete Response,Low
+ONC10687,71.0,F,Pancreatic Cancer,IV,RET,1.43,24.6,100.0,64,6.0,207,2.05,0.81,29.7,2,Pembrolizumab,53.2,,Moderate
+ONC10688,53.0,male,Ovarian Cancer,III,BRCA2,1.61,28.8,96.7,83,7.7,151,1.04,1.12,21.1,2,Cisplatin+Gemcitabine,69.7,PR,Low
+ONC10689,40.0,M,Renal Cancer,I,TP53,0.9,61.4,93.5,69,5.4,258,0.45,1.06,28.3,2,FOLFOX,103.6,Progressive Disease,Moderate
+ONC10690,62.0,,Liver Cancer,Stage III,PIK3CA,3.18,46.6,96.0,113,2.4,253,0.54,0.92,29.0,3,Olaparib,73.7,,Moderate
+ONC10691,64.0,Female,NSCLC,I,HER2,5.35,59.4,99.1,97,2.6,296,0.58,0.93,26.5,1,Targeted Therapy,104.2,,Moderate
+ONC10692,63.0,Female,Breast Cancer,Stage III,PD-L1,1.21,23.8,99.7,49,7.0,231,1.31,1.83,18.2,3,Trastuzumab,68.2,Progressive Disease,Moderate
+ONC10693,43.0,Female,NSCLC ,II,EGFR,1.04,33.9,97.9,99,8.4,69,0.83,1.13,28.8,2,Olaparib,114.1,Complete Response,High
+ONC10694,86.0,Female,Breast Cancer,3,BRAF,2.11,71.4,90.4,80,8.1,100,0.82,1.1,27.6,3,FOLFOX,97.2,partial response,Moderate
+ONC10695,59.0,female,Liver Cancer,II,TP53,1.89,46.0,92.2,76,10.4,202,1.64,,26.5,2,Osimertinib,117.1,CR,High
+ONC10696,59.0,male,Breast Cancer,Stage III,MET,4.63,65.2,93.2,68,7.4,369,0.97,1.85,30.9,2,Immunotherapy,54.6,Partial Response,Low
+ONC10697,66.0,F,Liver Cancer,Stage III,HER2,3.04,54.0,92.9,55,7.2,204,0.43,0.79,20.9,2,FOLFOX,73.3,,Low
+ONC10698,60.0,,Gastric Cancer,I,ALK,5.84,35.1,99.0,78,6.1,276,1.22,1.61,24.3,2,Immunotherapy,103.6,Progressive Disease,Moderate
+ONC10699,53.0,male,Breast Cancer,stage iv,EGFR,0.99,83.3,100.0,87,8.6,220,0.35,0.69,18.6,0,FOLFOX,91.9,Stable Disease,Low
+ONC10700,62.0,,Liver Cancer,4,EGFR,4.92,55.7,97.5,89,9.1,272,1.02,,25.1,2,Pembrolizumab,79.4,Partial Response,Low
+ONC10701,76.0,male,Renal Cancer,stage iv,None,2.7,69.9,96.6,73,13.7,132,1.97,0.94,26.6,1,Carboplatin+Paclitaxel,40.5,Progressive Disease,Low
+ONC10702,71.0,F,Ovarian Cancer,II,EGFR,0.81,38.9,91.9,78,6.8,299,0.45,0.62,27.2,0,FOLFOX,101.7,Partial Response,Low
+ONC10703,68.0,female,Gastric Cancer,II,EGFR,2.43,69.2,96.7,105,9.0,268,0.81,1.23,27.0,2,Sorafenib,105.3,,High
+ONC10704,36.0,M,Breast Cancer,IV,MET,2.26,49.3,95.5,54,7.3,297,1.62,1.09,18.9,1,Pembrolizumab,75.6,Partial Response,Low
+ONC10705,48.0,,NSCLC,3,PD-L1,0.54,20.7,94.7,68,4.4,135,1.18,0.77,22.1,1,Carboplatin+Paclitaxel,20.0,,Low
+ONC10706,64.0,female,Gastric Cancer,stage iv,TP53,4.93,67.3,98.5,85,10.4,254,0.86,0.86,23.9,2,FOLFOX,89.2,CR,Moderate
+ONC10707,87.0,F,Breast Cancer,IV,TP53,1.58,83.9,88.4,65,5.4,196,1.17,,31.3,2,Immunotherapy,65.2,CR,Low
+ONC10708,60.0,,Liver Cancer,Stage III,PIK3CA,3.18,66.6,95.3,109,4.0,213,1.29,0.36,27.3,1,Trastuzumab,71.6,SD,Low
+ONC10709,31.0,,Gastric Cancer,II,,0.72,10.6,97.3,86,6.0,248,1.51,0.74,29.8,3,Sorafenib,76.0,Partial Response,Moderate
+ONC10710,47.0,Male,Gastric Cancer,stage iv,HER2,1.72,54.7,93.5,81,7.4,259,1.05,1.77,21.1,0,Cisplatin+Gemcitabine,40.4,partial response,Low
+ONC10711,50.0,F,Liver Cancer,4,PD-L1,1.82,19.4,97.8,74,9.8,239,0.73,0.64,22.8,2,Osimertinib,86.2,PR,Moderate
+ONC10712,62.0,,Breast Cancer,stage iv,EGFR,2.57,37.3,93.6,70,5.4,263,1.49,1.41,23.8,2,Carboplatin+Paclitaxel,59.8,SD,Low
+ONC10713,65.0,Male,Prostate Cancer,II,MET,2.32,52.8,96.0,70,4.7,294,0.89,0.79,28.3,3,Pembrolizumab,108.6,Complete Response,High
+ONC10714,60.0,M,Breast Cancer,IV,TP53,1.86,31.0,97.3,90,5.0,172,0.9,1.67,27.0,1,Pembrolizumab,81.3,Partial Response,Low
+ONC10715,72.0,male,Breast Cancer,4,HER2,,39.8,91.6,57,6.1,306,0.95,0.73,26.8,0,Sorafenib,79.7,Progressive Disease,Low
+ONC10716,68.0,F,Ovarian Cancer,IV,HER2,2.65,47.7,92.4,89,5.8,196,1.02,1.15,35.3,0,Osimertinib,57.4,SD,Low
+ONC10717,79.0,M,Renal Cancer,4,BRCA1,2.71,27.0,96.2,78,10.4,203,1.19,0.2,19.4,4,Nivolumab,49.0,CR,Moderate
+ONC10718,59.0,,Gastric Cancer,Stage III,BRCA2,3.1,41.8,93.2,67,8.9,217,0.35,1.3,26.6,0,Sorafenib,90.1,PR,Low
+ONC10719,67.0,M,Renal Cancer,stage iv,KRAS,0.94,38.1,95.4,111,7.6,181,0.68,0.52,37.7,2,Cisplatin+Gemcitabine,77.0,Complete Response,Moderate
+ONC10720,57.0,Female,Gastric Cancer,III,PD-L1,6.06,67.0,96.1,69,3.7,189,0.63,0.84,30.6,3,Carboplatin+Paclitaxel,96.3,PD,Moderate
+ONC10721,58.0,Female,NSCLC,3,KRAS,3.15,24.4,95.6,78,4.7,192,1.5,1.28,25.0,2,Trastuzumab,71.2,PR,Low
+ONC10722,61.0,Female,Ovarian Cancer,4,BRAF,2.83,24.9,92.3,93,4.5,323,0.91,1.37,25.6,1,Cisplatin+Gemcitabine,105.0,Complete Response,Moderate
+ONC10723,63.0,Female,Gastric Cancer,IV,MET,3.91,22.0,90.3,99,5.6,187,1.51,1.05,29.1,0,Chemotherapy,61.9,PR,Low
+ONC10724,59.0,M,Colorectal Cancer,Stage III,TP53,3.61,41.5,94.8,91,8.2,156,0.96,0.92,27.1,2,Carboplatin+Paclitaxel,61.1,Progressive Disease,Low
+ONC10725,55.0,Male,Pancreatic Cancer,3,TP53,1.02,55.0,96.1,63,7.9,279,0.95,0.21,22.8,0,Trastuzumab,84.4,Complete Response,Low
+ONC10726,58.0,F,Renal Cancer,Stage III,BRCA2,7.74,26.2,97.7,106,11.7,366,1.02,1.27,20.7,0,Osimertinib,82.6,Stable Disease,Low
+ONC10727,54.0,Male,Colorectal Cancer,3,PD-L1,1.66,53.2,92.0,99,2.8,317,1.15,0.2,36.6,1,Trastuzumab,79.2,PD,Low
+ONC10728,47.0,,Gastric Cancer,Stage III,PD-L1,1.22,65.4,95.5,84,3.8,415,0.7,1.19,21.6,2,Docetaxel,72.3,,Low
+ONC10729,37.0,Male,Gastric Cancer,4,None,4.97,37.2,92.1,69,6.2,204,1.45,0.55,24.0,1,Immunotherapy,120.0,PR,High
+ONC10730,50.0,Female,Prostate Cancer,IV,ROS1,6.2,59.2,97.2,105,8.7,248,0.54,0.2,21.7,0,Carboplatin+Paclitaxel,81.9,Progressive Disease,Low
+ONC10731,65.0,M,Pancreatic Cancer,II,KRAS,3.94,45.6,93.0,74,10.1,257,0.54,0.57,17.6,1,Cisplatin+Gemcitabine,71.0,SD,Low
+ONC10732,44.0,F,Pancreatic Cancer,4,TP53,2.56,41.2,94.8,86,7.5,358,0.68,,18.9,1,FOLFOX,52.6,Progressive Disease,Low
+ONC10733,62.0,Female,Liver Cancer,3,MET,16.47,66.4,95.7,94,7.7,156,1.42,0.95,33.8,1,Carboplatin+Paclitaxel,82.4,Complete Response,Moderate
+ONC10734,61.0,F,Melanoma,4,EGFR,3.43,61.8,99.0,72,2.3,225,1.0,1.06,23.9,1,Nivolumab,66.9,,Low
+ONC10735,61.0,female,NSCLC,IV,,10.09,56.8,95.2,74,6.5,199,1.32,0.2,25.8,1,Osimertinib,80.7,PR,Low
+ONC10736,79.0,Male,NSCLC,3,BRCA2,4.36,18.1,93.7,78,10.0,236,1.29,0.83,27.7,2,Chemotherapy,73.3,SD,Low
+ONC10737,74.0,,Prostate Cancer,3,None,3.77,42.2,96.5,63,5.7,258,1.0,0.96,38.3,0,Docetaxel,75.9,SD,Low
+ONC10738,64.0,F,Renal Cancer,II,RET,1.87,29.8,97.5,82,1.2,278,0.99,1.43,34.0,0,Olaparib,51.5,SD,Low
+ONC10739,80.0,Male,NSCLC,IV,ALK,3.86,47.1,95.2,90,6.4,198,0.35,0.96,27.0,1,Docetaxel,86.8,,Low
+ONC10740,40.0,Female,Renal Cancer,Stage III,KRAS,4.29,53.9,93.1,75,7.4,243,1.37,1.24,32.7,1,FOLFOX,116.7,,High
+ONC10741,85.0,male,Prostate Cancer,III,EGFR,2.03,69.2,93.2,102,5.8,191,0.77,1.74,24.0,0,Carboplatin+Paclitaxel,67.7,Complete Response,Low
+ONC10742,81.0,male,Gastric Cancer,I,TP53,1.19,42.9,91.1,75,5.2,170,1.08,1.23,17.5,1,Sorafenib,67.9,Progressive Disease,Low
+ONC10743,50.0,Female,Pancreatic Cancer,3,BRCA1,6.48,54.8,95.9,89,9.1,282,0.46,0.83,32.9,3,Docetaxel,127.8,CR,High
+ONC10744,,male,Liver Cancer,I,ROS1,3.11,54.2,94.0,75,8.3,308,1.1,1.3,29.1,3,Carboplatin+Paclitaxel,82.7,PR,Moderate
+ONC10745,66.0,male,Melanoma,III,EGFR,3.48,70.1,95.2,63,7.3,294,0.57,1.28,28.1,2,Immunotherapy,84.4,,Moderate
+ONC10746,63.0,M,Colorectal Cancer,stage iv,TP53,4.5,33.4,100.0,88,10.7,298,1.18,1.04,19.5,2,Targeted Therapy,69.7,PD,Low
+ONC10747,55.0,M,Colorectal Cancer,4,RET,13.16,48.2,95.4,75,5.4,155,0.61,0.5,28.4,2,Osimertinib,97.5,PR,Moderate
+ONC10748,42.0,Female,Pancreatic Cancer,IV,HER2,2.57,68.5,96.9,96,11.5,139,0.89,1.06,26.5,1,Pembrolizumab,,Partial Response,Moderate
+ONC10749,53.0,M,Pancreatic Cancer,4,ALK,3.39,20.2,97.2,78,9.7,209,1.0,1.11,26.9,1,Olaparib,66.3,Stable Disease,Low
+ONC10750,70.0,male,NSCLC,III,BRAF,1.77,,95.9,74,8.2,262,1.06,0.71,16.5,1,Osimertinib,68.3,PR,Low
+ONC10751,54.0,F,Prostate Cancer,Stage III,TP53,2.96,81.6,95.2,81,4.0,286,1.04,1.64,24.0,1,Trastuzumab,42.7,Progressive Disease,Low
+ONC10752,53.0,,Pancreatic Cancer,II,BRAF,2.61,59.3,92.6,98,8.8,332,0.51,1.21,20.5,2,Trastuzumab,80.1,stable,Moderate
+ONC10753,75.0,F,Gastric Cancer,I,BRCA1,1.72,56.1,92.2,128,6.2,286,1.22,0.74,34.4,2,Sorafenib,71.9,,Moderate
+ONC10754,65.0,F,Gastric Cancer,3,BRCA2,2.02,71.2,97.1,86,4.3,305,0.35,0.44,20.6,1,Targeted Therapy,52.5,Partial Response,Low
+ONC10755,51.0,male,Melanoma,I,HER2,6.78,41.6,97.9,66,6.6,293,1.11,1.16,23.1,0,Osimertinib,88.8,SD,Low
+ONC10756,55.0,F,Colorectal Cancer,IV,TP53,16.81,22.9,98.5,83,9.9,220,1.5,1.48,26.6,2,Targeted Therapy,60.3,Stable Disease,Moderate
+ONC10757,75.0,Female,NSCLC,4,EGFR,5.87,34.4,100.0,73,4.0,200,1.27,1.38,15.0,1,FOLFOX,57.1,PR,Low
+ONC10758,39.0,male,Prostate Cancer,3,ALK,2.32,46.4,99.6,68,7.7,335,1.13,0.33,29.0,2,Docetaxel,102.6,,Moderate
+ONC10759,49.0,female,NSCLC,3,KRAS,,38.8,100.0,96,4.4,256,0.62,0.47,30.4,1,Nivolumab,74.9,SD,Low
+ONC10760,76.0,male,Melanoma,4,ALK,3.05,38.5,98.7,76,7.7,225,0.87,0.54,23.6,2,Cisplatin+Gemcitabine,86.5,SD,Moderate
+ONC10761,61.0,M,Renal Cancer,II,,1.02,35.0,92.3,99,4.0,171,1.65,0.73,19.9,2,Chemotherapy,88.1,Partial Response,Moderate
+ONC10762,56.0,Female,Melanoma,II,KRAS,8.0,30.5,93.9,88,4.2,141,0.48,1.33,23.5,4,Targeted Therapy,76.9,,Moderate
+ONC10763,63.0,M,Ovarian Cancer,III,KRAS,2.31,50.3,99.3,79,9.5,260,1.39,0.86,34.3,0,Immunotherapy,53.6,Progressive Disease,Low
+ONC10764,39.0,M,Breast Cancer,stage iv,ALK,9.65,47.4,95.5,90,9.6,257,1.03,0.89,25.9,2,Trastuzumab,83.1,,Moderate
+ONC10765,77.0,Female,NSCLC,stage iv,BRCA2,1.54,39.9,100.0,92,9.5,243,0.91,0.34,15.0,3,Immunotherapy,93.6,Progressive Disease,Moderate
+ONC10766,33.0,M,Pancreatic Cancer,4,TP53,4.88,38.3,96.3,71,5.0,203,1.64,0.72,20.7,3,FOLFOX,93.5,Stable Disease,High
+ONC10767,68.0,Female,Gastric Cancer,4,PIK3CA,1.67,69.3,97.4,74,9.0,337,1.05,1.23,24.5,1,Osimertinib,87.4,Partial Response,Low
+ONC10768,64.0,female,Ovarian Cancer,4,HER2,3.2,25.8,94.7,67,5.8,368,1.61,0.79,31.7,1,Osimertinib,61.1,PR,Low
+ONC10769,53.0,M,Ovarian Cancer,I,PD-L1,1.8,39.1,95.3,113,7.6,314,1.45,1.36,28.6,1,Targeted Therapy,75.7,CR,Moderate
+ONC10770,41.0,Male,Gastric Cancer,III,RET,5.93,35.5,95.1,63,5.1,367,0.97,0.55,30.5,0,Cisplatin+Gemcitabine,106.5,PD,Moderate
+ONC10771,35.0,female,NSCLC,4,EGFR,1.57,49.2,93.8,71,7.2,217,1.3,0.7,30.2,1,Pembrolizumab,77.5,PD,Low
+ONC10772,48.0,Female,Prostate Cancer,3,ALK,2.53,74.5,96.7,58,9.4,287,1.21,0.2,20.7,0,Osimertinib,89.2,Progressive Disease,Low
+ONC10773,59.0,,Renal Cancer,stage iv,HER2,6.39,51.8,95.7,67,14.9,257,1.01,0.52,33.3,2,Pembrolizumab,70.9,PR,Low
+ONC10774,65.0,female,Prostate Cancer,stage iv,KRAS,5.91,81.2,96.1,93,5.3,194,1.27,1.16,27.8,1,Nivolumab,49.5,CR,Low
+ONC10775,70.0,male,Renal Cancer,Stage III,,0.94,53.3,94.6,55,11.0,355,1.06,1.6,17.7,2,Docetaxel,58.3,Partial Response,Low
+ONC10776,63.0,male,Melanoma,4,TP53,4.01,53.9,100.0,91,6.1,182,1.72,0.2,29.9,1,Osimertinib,68.1,,Low
+ONC10777,59.0,M,Prostate Cancer,IV,BRCA1,8.77,53.7,95.2,81,5.8,171,1.24,1.06,28.5,1,Chemotherapy,38.3,Stable Disease,Low
+ONC10778,79.0,Female,Breast Cancer,II,EGFR,3.25,39.7,96.7,90,6.8,239,1.22,1.48,26.8,2,Docetaxel,50.0,Complete Response,Low
+ONC10779,71.0,male,Colorectal Cancer,II,ROS1,8.71,58.5,99.0,97,3.9,258,1.33,0.79,19.6,1,Olaparib,73.2,SD,Low
+ONC10780,45.0,,Breast Cancer,I,EGFR,2.23,39.2,94.2,89,12.5,191,0.8,1.03,34.8,2,FOLFOX,73.9,Stable Disease,Low
+ONC10781,72.0,female,Ovarian Cancer,II,BRCA2,4.81,45.8,92.3,70,9.1,236,1.78,0.39,17.2,1,Olaparib,75.1,CR,Low
+ONC10782,53.0,,Colorectal Cancer,stage iv,BRCA1,6.27,71.3,95.6,67,9.2,241,1.15,0.35,26.3,3,Trastuzumab,118.0,PD,High
+ONC10783,32.0,F,Pancreatic Cancer,II,BRCA1,1.79,17.5,94.2,66,7.1,262,0.55,0.94,25.1,2,Targeted Therapy,80.7,PR,Low
+ONC10784,55.0,male,Ovarian Cancer,3,PIK3CA,3.79,23.7,92.9,88,10.7,381,<1,0.76,28.7,0,Nivolumab,93.4,Complete Response,Low
+ONC10785,45.0,,NSCLC,I,HER2,1.86,68.3,97.1,110,11.3,313,1.35,1.35,21.3,2,Pembrolizumab,76.0,Partial Response,Moderate
+ONC10786,46.0,Male,Colorectal Cancer,3,BRCA2,2.66,75.1,95.4,76,6.5,313,1.58,0.96,32.9,1,Olaparib,82.7,Complete Response,Low
+ONC10787,47.0,F,Prostate Cancer,II,HER2,3.66,47.0,92.6,84,3.6,177,0.74,0.7,33.6,1,Targeted Therapy,999.0,,Low
+ONC10788,39.0,Female,nsclc,Stage III,TP53,5.16,41.7,98.8,83,10.1,252,1.07,0.69,28.4,0,Olaparib,70.0,,Low
+ONC10789,71.0,,Melanoma,Stage III,Unknown,4.21,19.8,93.6,98,4.2,239,,0.95,23.4,3,Nivolumab,33.7,CR,Moderate
+ONC10790,91.0,F,Prostate Cancer,IV,RET,5.42,68.9,97.2,74,3.7,250,1.32,1.58,22.7,2,Olaparib,105.5,,High
+ONC10791,63.0,Female,Melanoma,II,TP53,,23.4,95.0,63,10.4,197,1.57,0.2,20.2,1,Osimertinib,104.8,Complete Response,Moderate
+ONC10792,37.0,M,Liver Cancer,4,BRCA1,0.47,51.3,94.9,90,10.4,151,unknown,0.89,23.3,4,Olaparib,65.9,,Moderate
+ONC10793,,Male,Prostate Cancer,3,PD-L1,,11.6,99.7,91,7.6,269,0.92,1.22,20.2,0,Pembrolizumab,92.8,Partial Response,Low
+ONC10794,65.0,,NSCLC,II,BRCA1,4.41,52.6,92.9,64,2.2,217,0.35,0.59,20.4,3,Targeted Therapy,76.5,PD,Moderate
+ONC10795,75.0,Female,Gastric Cancer,4,ROS1,2.65,55.9,96.0,64,9.0,295,0.92,0.95,22.8,2,Osimertinib,66.4,,Low
+ONC10796,71.0,Male,NSCLC,4,BRAF,4.48,46.6,94.1,70,6.4,295,1.11,1.22,29.1,1,Docetaxel,95.8,Partial Response,Moderate
+ONC10797,56.0,Female,Pancreatic Cancer,III,BRAF,3.33,41.3,95.5,93,10.7,314,1.62,1.09,29.0,1,Docetaxel,55.2,Stable Disease,Low
+ONC10798,58.0,female,Gastric Cancer,IV,PD-L1,2.74,55.0,93.8,80,6.3,183,1.25,1.56,23.8,1,Osimertinib,50.9,Complete Response,Low
+ONC10799,58.0,F,Colorectal Cancer,II,EGFR,1.79,97.7,96.9,53,7.0,239,1.08,2.14,26.8,2,Osimertinib,63.1,PR,Low
+ONC10800,54.0,Female,Ovarian Cancer,3,TP53,3.93,62.1,97.9,78,7.2,244,1.43,1.34,24.4,1,Osimertinib,89.9,SD,Moderate
+ONC10801,61.0,Male,Breast Cancer,I,EGFR,3.97,38.3,92.0,80,12.5,254,1.01,0.49,31.8,0,Pembrolizumab,120.3,PD,Moderate
+ONC10802,44.0,male,Colorectal Cancer,stage iv,PD-L1,,50.3,95.1,80,1.8,331,1.51,,25.4,1,Osimertinib,76.1,PD,Low
+ONC10803,50.0,Female,Liver Cancer,I,Unknown,1.93,66.1,100.0,73,5.0,266,1.13,0.88,31.5,1,Carboplatin+Paclitaxel,26.0,Complete Response,Low
+ONC10804,52.0,F,Gastric Cancer,stage iv,ROS1,2.3,24.7,97.1,78,11.1,451,1.15,0.7,26.8,2,Docetaxel,95.4,Progressive Disease,Moderate
+ONC10805,69.0,M,Ovarian Cancer,stage iv,PD-L1,1.16,30.5,94.6,60,9.0,108,1.02,1.5,29.3,2,Carboplatin+Paclitaxel,78.2,,Moderate
+ONC10806,,Female,Liver Cancer,Stage III,KRAS,3.37,62.3,91.8,81,12.1,196,0.81,0.99,24.2,3,Cisplatin+Gemcitabine,70.7,Complete Response,Low
+ONC10807,51.0,Male,Breast Cancer,4,TP53,3.17,73.0,96.8,72,6.7,352,1.36,0.65,19.6,0,Carboplatin+Paclitaxel,66.3,Partial Response,Low
+ONC10808,55.0,male,Melanoma,3,Unknown,1.84,61.6,93.9,63,8.6,377,1.67,1.2,28.4,2,Carboplatin+Paclitaxel,66.5,,Low
+ONC10809,73.0,M,Melanoma,stage iv,PD-L1,2.45,61.0,93.7,87,11.5,314,0.44,0.92,24.4,2,Carboplatin+Paclitaxel,74.3,,Low
+ONC10810,40.0,Female,Liver Cancer,Stage III,None,10.11,61.8,95.0,77,6.4,285,1.24,1.21,24.4,1,Immunotherapy,59.0,stable,Low
+ONC10811,38.0,male,Prostate Cancer,III,HER2,0.51,54.9,96.1,74,6.7,309,1.27,0.78,21.4,0,Trastuzumab,78.3,PD,Low
+ONC10812,85.0,Male,Colorectal Cancer,II,BRCA2,2.2,86.9,94.8,70,8.2,153,1.94,0.61,28.6,0,FOLFOX,95.6,PD,Moderate
+ONC10813,59.0,female,NSCLC,II,KRAS,12.75,51.6,93.6,87,7.2,294,1.02,0.96,20.9,0,Carboplatin+Paclitaxel,130.8,,High
+ONC10814,63.0,Female,Liver Cancer,II,BRAF,6.5,20.2,92.9,76,9.5,187,0.83,1.04,26.0,3,FOLFOX,46.9,Partial Response,Low
+ONC10815,44.0,female,Liver Cancer,4,HER2,6.49,26.0,99.0,80,10.1,172,1.18,0.88,23.2,2,Carboplatin+Paclitaxel,73.8,SD,Low
+ONC10816,69.0,,Gastric Cancer,3,TP53,1.9,43.2,94.3,63,8.4,166,1.41,1.97,24.1,2,Sorafenib,71.0,Progressive Disease,Moderate
+ONC10817,54.0,Female,Colorectal Cancer,I,PD-L1,3.75,16.2,100.0,70,5.6,200,0.5,0.62,25.9,4,Sorafenib,48.7,,Moderate
+ONC10818,63.0,Female,Prostate Cancer,IV,HER2,2.06,42.8,90.6,59,7.2,170,1.24,0.25,23.6,1,FOLFOX,65.8,Partial Response,Low
+ONC10819,67.0,M,Ovarian Cancer,stage iv,EGFR,1.99,31.4,95.3,86,4.2,308,1.19,1.11,24.5,1,Osimertinib,102.9,CR,Moderate
+ONC10820,71.0,F,Renal Cancer,I,KRAS,2.37,38.2,110.0,61,7.2,310,,1.06,26.7,2,Sorafenib,77.3,Complete Response,Low
+ONC10821,45.0,female,Prostate Cancer,stage iv,None,1.7,37.0,94.9,60,4.8,235,1.49,1.0,27.5,3,FOLFOX,87.1,PR,Moderate
+ONC10822,58.0,M,Breast Cancer,III,KRAS,2.43,59.8,93.6,74,9.4,238,1.05,0.76,25.9,1,Osimertinib,58.0,CR,Low
+ONC10823,58.0,Female,Prostate Cancer,II,KRAS,0.91,50.8,94.7,71,8.8,359,0.7,0.91,23.0,3,Nivolumab,55.7,Complete Response,Low
+ONC10824,50.0,male,Prostate Cancer,4,HER2,2.92,,96.6,70,2.8,305,1.03,0.8,23.4,1,Targeted Therapy,65.9,CR,Low
+ONC10825,57.0,Female,Pancreatic Cancer,stage iv,ALK,6.84,46.3,99.2,77,2.2,317,1.38,0.51,25.2,1,Trastuzumab,62.0,SD,Low
+ONC10826,84.0,Female,Pancreatic Cancer,II,TP53,2.55,63.7,95.2,61,7.8,275,0.55,0.86,24.4,1,Sorafenib,58.1,PR,Low
+ONC10827,82.0,M,Pancreatic Cancer,3,ALK,7.68,51.3,96.9,86,6.9,219,0.92,1.39,26.0,3,Carboplatin+Paclitaxel,92.5,,Moderate
+ONC10828,81.0,F,Renal Cancer,IV,NTRK,2.79,47.2,94.8,81,11.4,284,1.2,1.11,27.4,2,Carboplatin+Paclitaxel,59.3,,Low
+ONC10829,60.0,F,Colorectal Cancer,4,PD-L1,2.98,21.9,95.4,108,8.5,198,1.18,1.6,19.0,4,Nivolumab,76.1,PD,High
+ONC10830,55.0,,Prostate Cancer,II,MET,4.29,63.4,97.2,72,7.0,268,1.13,0.48,27.1,3,FOLFOX,51.5,partial response,Low
+ONC10831,75.0,F,Ovarian Cancer,IV,EGFR,1.78,57.0,95.8,75,10.3,241,0.98,0.94,28.4,3,Pembrolizumab,79.7,Partial Response,Moderate
+ONC10832,36.0,Female,Renal Cancer,3,TP53,5.6,45.2,94.1,75,4.5,371,0.95,1.34,24.0,2,Docetaxel,115.8,PR,High
+ONC10833,70.0,M,Melanoma,3,HER2,0.47,55.6,96.3,77,6.8,327,1.01,0.82,24.3,4,Carboplatin+Paclitaxel,75.7,PD,Moderate
+ONC10834,64.0,Male,NSCLC,3,ALK,11.46,47.2,95.8,83,6.1,391,0.35,0.74,27.9,0,Cisplatin+Gemcitabine,77.6,PD,Low
+ONC10835,63.0,Female,Gastric Cancer,I,KRAS,1.53,23.5,95.7,66,8.9,275,0.67,0.56,33.6,1,Carboplatin+Paclitaxel,99.0,PD,Moderate
+ONC10836,55.0,,Renal Cancer,II,RET,3.09,61.3,99.6,77,5.2,277,0.83,0.94,27.8,0,Chemotherapy,119.5,Partial Response,Moderate
+ONC10837,52.0,female,Renal Cancer,I,KRAS,0.74,16.7,99.1,92,8.1,184,0.78,1.14,19.0,2,Olaparib,84.4,Progressive Disease,Moderate
+ONC10838,52.0,M,NSCLC,IV,KRAS,6.97,51.4,96.5,90,10.1,340,0.83,1.03,20.3,3,Chemotherapy,75.3,SD,Moderate
+ONC10839,50.0,male,Gastric Cancer,IV,EGFR,4.05,30.7,91.8,59,4.3,184,0.76,1.69,23.9,2,FOLFOX,81.2,,Moderate
+ONC10840,61.0,Female,Breast Cancer,3,EGFR,,41.8,97.1,106,7.7,102,0.68,1.44,27.2,1,Osimertinib,112.0,CR,High
+ONC10841,43.0,Male,Colorectal Cancer,III,HER2,5.85,25.7,99.4,65,3.1,142,0.42,0.64,23.6,3,FOLFOX,49.7,Stable Disease,Low
+ONC10842,63.0,male,Gastric Cancer,stage iv,TP53,4.53,38.1,99.1,89,4.4,137,1.15,1.07,25.9,2,Docetaxel,64.3,Stable Disease,Low
+ONC10843,55.0,male,Liver Cancer,II,BRAF,2.24,32.6,97.7,66,7.5,281,0.85,0.79,31.7,1,Nivolumab,58.6,SD,Low
+ONC10844,77.0,,Colorectal Cancer,IV,PD-L1,2.48,37.5,92.7,97,10.7,225,1.07,0.2,23.9,2,Osimertinib,74.9,Progressive Disease,Low
+ONC10845,74.0,M,Gastric Cancer,4,EGFR,4.1,64.3,93.8,91,9.1,298,1.09,1.1,23.0,1,Cisplatin+Gemcitabine,67.7,Partial Response,Low
+ONC10846,68.0,Female,Pancreatic Cancer,stage iv,BRAF,3.91,36.5,96.9,82,4.6,256,1.1,0.9,15.5,0,Osimertinib,77.7,Complete Response,Low
+ONC10847,56.0,Female,NSCLC ,stage iv,EGFR,1.18,51.9,97.3,59,9.2,199,1.01,1.67,25.4,1,Pembrolizumab,36.1,Partial Response,Low
+ONC10848,59.0,F,Melanoma,stage iv,KRAS,1.38,52.7,99.3,62,11.5,257,0.45,1.15,25.0,0,Trastuzumab,52.0,PR,Low
+ONC10849,55.0,,Renal Cancer,II,TP53,1.16,49.9,94.0,66,4.6,251,1.47,0.39,29.2,1,FOLFOX,81.3,Complete Response,Low
+ONC10850,27.0,M,Gastric Cancer,Stage III,TP53,1.96,70.2,99.4,75,1.2,243,1.51,1.06,32.2,3,Sorafenib,71.3,PR,Moderate
+ONC10851,71.0,F,NSCLC,II,TP53,1.01,80.7,96.6,79,5.6,278,0.73,1.12,30.7,1,Chemotherapy,93.3,Complete Response,Moderate
+ONC10852,58.0,female,Colorectal Cancer,4,ALK,5.44,34.2,93.5,92,6.5,252,0.92,1.15,30.7,1,Immunotherapy,74.3,SD,Low
+ONC10853,35.0,male,Prostate Cancer,Stage III,EGFR,2.12,73.5,90.2,99,8.3,228,0.83,1.59,27.9,1,Cisplatin+Gemcitabine,63.0,Progressive Disease,Low
+ONC10854,48.0,female,Melanoma,stage iv,EGFR,1.28,30.0,97.6,77,6.8,182,0.74,0.84,23.9,1,Cisplatin+Gemcitabine,98.7,Progressive Disease,Moderate
+ONC10855,68.0, F ,Gastric Cancer,4,PIK3CA,3.22,57.6,91.6,62,5.3,146,1.19,0.2,25.9,2,Nivolumab,90.7,PR,Moderate
+ONC10856,63.0,,Pancreatic Cancer,Stage III,BRCA1,1.87,20.6,99.0,102,3.6,317,0.93,0.48,33.9,0,Olaparib,107.3,PD,Moderate
+ONC10857,84.0,F,Pancreatic Cancer,II,EGFR,1.53,62.1,97.0,89,7.2,218,0.64,0.93,28.3,1,Chemotherapy,122.7,PR,High
+ONC10858,68.0,F,Ovarian Cancer,II,ALK,1.79,25.4,98.7,68,6.9,210,0.85,0.8,27.7,3,Osimertinib,77.0,Complete Response,Moderate
+ONC10859,57.0,Male,Ovarian Cancer,3,PIK3CA,3.94,49.8,97.2,67,9.7,276,1.1,2.08,21.4,1,Sorafenib,97.5,,Moderate
+ONC10860,58.0,female,Liver Cancer,3,MET,1.03,45.6,93.4,74,3.3,255,1.09,0.74,26.0,1,Nivolumab,67.6,Stable Disease,Low
+ONC10861,52.0,M,Prostate Cancer,IV,MET,4.01,53.4,95.3,80,4.9,215,1.33,0.32,21.2,2,FOLFOX,74.2,,Low
+ONC10862,53.0,,Renal Cancer,I,EGFR,2.13,74.0,96.1,121,6.3,276,0.84,0.68,36.0,2,Olaparib,110.1,Progressive Disease,High
+ONC10863,,F,Breast Cancer,II,MET,5.44,54.8,98.0,64,7.8,181,1.55,0.24,28.5,0,Cisplatin+Gemcitabine,116.5,stable,Moderate
+ONC10864,53.0,male,Gastric Cancer,III,TP53,3.58,39.3,98.3,107,10.3,249,0.75,1.63,23.5,1,Olaparib,67.5,PD,H
+ONC10865,84.0,female,Breast Cancer,IV,BRAF,3.61,46.5,100.0,70,4.4,224,1.11,0.81,24.5,0,Cisplatin+Gemcitabine,100.9,PR,Low
+ONC10866,68.0,female,Pancreatic Cancer,I,TP53,1.65,46.0,97.3,74,4.1,198,1.31,1.09,33.0,3,Targeted Therapy,106.3,PR,High
+ONC10867,91.0,female,Liver Cancer,III,KRAS,7.92,56.0,96.3,99,14.4,249,1.09,0.96,25.6,3,Chemotherapy,76.9,SD,Moderate
+ONC10868,73.0,Female,Renal Cancer,I,TP53,8.82,21.2,99.5,83,7.3,311,0.77,1.0,30.3,1,Carboplatin+Paclitaxel,78.2,Partial Response,Low
+ONC10869,66.0,F,Liver Cancer,stage iv,PD-L1,4.28,49.8,97.4,62,7.0,127,0.58,0.6,21.3,0,Cisplatin+Gemcitabine,54.9,partial response,Low
+ONC10870,65.0,male,Gastric Cancer,II,egfr,7.69,46.5,97.2,89,6.7,228,1.75,1.17,21.0,0,Cisplatin+Gemcitabine,88.5,PR,Moderate
+ONC10871,59.0,Female,Gastric Cancer,IV,EGFR,5.46,40.3,95.5,91,1.2,375,1.07,0.61,32.8,2,Cisplatin+Gemcitabine,97.8,Progressive Disease,Moderate
+ONC10872,59.0,F,Ovarian Cancer,Stage III,RET,4.34,36.4,98.7,69,8.3,268,1.22,0.39,24.3,3,Docetaxel,70.9,PD,Moderate
+ONC10873,43.0,Male,Gastric Cancer,III,PIK3CA,3.07,49.3,93.7,54,7.4,214,0.39,0.5,18.7,3,Nivolumab,50.5,SD,Low
+ONC10874,50.0,Male,Colorectal Cancer,4,HER2,0.88,74.9,100.0,67,9.0,251,0.89,1.17,27.6,2,Pembrolizumab,84.2,SD,Moderate
+ONC10875,37.0,,Breast Cancer,II,TP53,4.33,46.3,94.5,71,13.2,315,1.53,0.91,27.3,1,Targeted Therapy,64.3,CR,Low
+ONC10876,62.0,Male,Renal Cancer,II,PD-L1,7.76,65.8,99.1,89,5.6,246,0.78,1.28,26.8,0,Chemotherapy,73.2,Stable Disease,Low
+ONC10877,49.0,Female,Melanoma,3,None,2.04,59.4,92.5,78,5.2,234,1.69,0.34,23.2,1,Sorafenib,45.0,,Low
+ONC10878,56.0,Female,Colorectal Cancer,3,TP53,8.22,51.4,96.9,91,8.3,251,1.53,1.25,28.2,3,Nivolumab,36.3,CR,Moderate
+ONC10879,75.0,F,Breast Cancer,4,,6.39,8.9,93.9,55,8.4,269,1.79,1.35,28.0,2,Chemotherapy,69.7,Progressive Disease,Moderate
+ONC10880,57.0,Female,Ovarian Cancer,4,PIK3CA,2.72,29.9,93.8,83,4.6,176,1.03,0.65,27.4,3,Nivolumab,41.9,Partial Response,Low
+ONC10881,35.0,,Prostate Cancer,3,ROS1,3.19,52.9,94.6,69,6.6,337,1.09,1.41,30.2,0,Cisplatin+Gemcitabine,71.4,PR,Low
+ONC10882,51.0,F,Liver Cancer,IV,NTRK,5.24,51.1,93.1,87,5.4,222,1.53,1.19,31.0,1,Osimertinib,102.3,PR,Moderate
+ONC10883,61.0,Male,Pancreatic Cancer,stage iv,BRCA2,3.81,51.9,97.6,69,9.3,162,0.88,0.67,18.4,2,Immunotherapy,87.4,,Moderate
+ONC10884,44.0,M,Prostate Cancer,IV,KRAS,,54.6,96.1,79,5.9,249,0.51,1.91,15.0,2,Targeted Therapy,83.4,Stable Disease,Moderate
+ONC10885,62.0,M,Liver Cancer,III,None,1.68,17.6,97.6,84,7.9,255,1.38,1.3,26.4,1,Pembrolizumab,38.1,Partial Response,Low
+ONC10886,50.0,female,Breast Cancer,stage iv,BRAF,,47.1,97.6,62,13.0,244,0.89,0.68,25.0,2,Sorafenib,62.9,Stable Disease,Low
+ONC10887,28.0,,Prostate Cancer,IV,RET,1.47,35.0,97.8,91,9.3,210,0.76,0.64,25.1,2,Nivolumab,96.1,,Moderate
+ONC10888,67.0,male,Gastric Cancer,Stage III,RET,3.26,33.1,91.6,91,9.0,237,0.88,0.66,24.4,1,Immunotherapy,107.2,SD,Moderate
+ONC10889,56.0,Female,NSCLC,III,EGFR,3.24,37.9,98.3,85,8.1,224,0.93,0.2,22.2,0,Targeted Therapy,108.2,Stable Disease,Moderate
+ONC10890,79.0,M,NSCLC,III,ROS1,4.39,38.6,94.9,62,5.8,394,0.66,0.68,28.4,4,Trastuzumab,63.2,PR,Moderate
+ONC10891,51.0,Male,Ovarian Cancer,3,PIK3CA,4.14,30.6,98.6,77,7.5,345,0.48,0.94,23.5,2,Cisplatin+Gemcitabine,54.9,Stable Disease,Low
+ONC10892,53.0,male,NSCLC,3,EGFR,2.83,72.3,93.8,82,7.6,296,1.57,1.14,24.4,1,Carboplatin+Paclitaxel,115.0,SD,High
+ONC10893,62.0,female,Colorectal Cancer,I,None,0.86,54.5,94.4,93,7.6,216,0.87,1.67,22.8,2,Nivolumab,51.8,PR,Low
+ONC10894,42.0,Male,Pancreatic Cancer,IV,Unknown,3.86,32.4,98.1,78,9.2,300,1.59,0.72,32.0,0,Docetaxel,62.8,Stable Disease,Low
+ONC10895,61.0,female,Pancreatic Cancer,stage iv,TP53,2.55,61.8,95.6,69,5.5,313,1.37,0.57,30.6,1,Docetaxel,55.6,Partial Response,Low
+ONC10896,45.0,female,Renal Cancer,Stage III,EGFR,4.74,39.0,95.0,50,7.9,148,0.96,1.09,19.3,1,Carboplatin+Paclitaxel,111.6,PR,Moderate
+ONC10897,66.0,Female,Melanoma,3,MET,3.08,43.9,95.9,78,11.0,369,1.08,2.11,18.2,2,Chemotherapy,94.0,Partial Response,Moderate
+ONC10898,85.0,,NSCLC,II,BRCA1,2.91,64.6,94.6,72,4.9,294,1.39,0.62,19.3,1,Olaparib,108.4,Progressive Disease,Moderate
+ONC10899,70.0,male,NSCLC,Stage III,TP53,5.14,48.4,92.3,68,9.5,177,1.22,0.69,31.9,0,Sorafenib,58.5,Complete Response,Low
+ONC10900,57.0,F,Gastric Cancer,stage iv,TP53,4.82,31.0,97.3,81,4.3,307,0.86,1.5,20.2,1,Pembrolizumab,92.8,SD,Moderate
+ONC10046,45.0, female ,Melanoma,Stage III,HER2,5.35,46.3,98.5,74,10.6,312,1.14,1.34,31.6,3,Olaparib,67.8,,Moderate
+ONC10211,72.0,female,Colorectal Cancer,II,,3.45,60.3,94.3,71,8.3,260,1.54,0.57,26.4,1,Osimertinib,93.3,PD,Moderate
+ONC10679,43.0,F,Prostate Cancer,Stage III,PD-L1,2.3,43.0,95.1,60,8.9,211,1.46,1.11,23.1,3,Pembrolizumab,89.6,,Moderate
+ONC10904,64.0,Female,NSCLC,Stage III,KRAS,2.58,41.3,96.0,79,6.0,377,0.77,0.94,16.5,2,Trastuzumab,104.6,Stable Disease,Moderate
+ONC10905,65.0,Male,Colorectal Cancer,4,ALK,16.96,62.5,98.7,48,5.3,222,1.03,0.69,19.5,0,Targeted Therapy,63.3,CR,Low
+ONC10906,36.0,Male,Breast Cancer,3,BRCA1,8.63,39.7,95.5,71,2.0,245,1.55,0.86,28.5,3,Targeted Therapy,101.3,Complete Response,High
+ONC10907,62.0,M,Melanoma,IV,TP53,9.87,61.4,95.3,77,9.6,381,1.07,1.13,24.6,0,Pembrolizumab,52.1,Partial Response,Low
+ONC10908,58.0,M,Pancreatic Cancer,III,EGFR,2.39,7.7,94.2,49,11.5,274,1.9,1.06,30.7,1,FOLFOX,81.6,Progressive Disease,Moderate
+ONC10909,57.0,Female,Gastric Cancer,4,TP53,0.56,81.5,96.5,71,10.1,228,0.72,1.15,32.1,3,Sorafenib,46.7,CR,Low
+ONC10910,61.0,Female,Liver Cancer,4,PIK3CA,5.01,55.1,93.7,80,8.7,315,1.1,0.75,25.8,0,Trastuzumab,42.0,PR,Low
+ONC10911,67.0,M,Pancreatic Cancer,IV,MET,1.1,69.2,94.7,69,9.3,200,1.31,1.2,34.4,1,Osimertinib,87.7,Partial Response,Moderate
+ONC10912,41.0,,Colorectal Cancer,Stage III,HER2,5.36,47.9,99.4,71,8.0,243,1.75,1.5,22.4,2,Chemotherapy,66.6,Progressive Disease,Moderate
+ONC10913,65.0,Male,Melanoma,Stage III,BRCA1,0.34,41.9,96.8,81,3.6,299,1.82,1.41,26.1,4,Sorafenib,112.0,Partial Response,High
+ONC10914,,F,Pancreatic Cancer,IV,EGFR,1.08,48.6,94.9,74,5.3,151,1.42,0.57,27.1,0,Pembrolizumab,79.8,Stable Disease,Low
+ONC10915,54.0,female,Melanoma,stage iv,PD-L1,6.56,46.7,100.0,89,7.5,276,0.82,1.21,26.8,3,Carboplatin+Paclitaxel,99.3,Complete Response,High
+ONC10916,38.0,M,Pancreatic Cancer,IV,TP53,6.29,29.8,98.5,92,8.2,250,1.12,0.92,28.8,0,Nivolumab,53.4,PR,Low
+ONC10917,65.0,Male,Colorectal Cancer,stage iv,BRCA1,2.37,16.5,95.8,87,7.8,337,0.83,1.18,30.8,3,Trastuzumab,60.6,,Moderate
+ONC10918,50.0,male,NSCLC,Stage III,TP53,4.55,65.5,96.5,52,8.0,216,0.65,0.92,23.9,0,Carboplatin+Paclitaxel,83.6,,Low
+ONC10919,47.0,female,Melanoma,Stage III,ROS1,0.68,45.2,98.5,73,5.8,191,0.42,0.81,34.1,2,Chemotherapy,66.7,,Low
+ONC10920,33.0,,Melanoma,Stage III,RET,1.02,47.8,99.6,86,9.2,305,1.17,1.14,31.9,0,Carboplatin+Paclitaxel,89.0,Progressive Disease,Low
+ONC10921,74.0,,Pancreatic Cancer,Stage III,None,0.75,45.4,97.7,89,11.6,202,0.92,0.41,22.0,0,Carboplatin+Paclitaxel,68.5,Progressive Disease,Low
+ONC10922,55.0,M,NSCLC,II,ALK,3.39,52.3,100.0,80,4.0,259,0.71,1.14,29.0,1,Immunotherapy,51.3,Complete Response,Low
+ONC10923,56.0,Female,Ovarian Cancer,III,MET,2.83,45.5,94.6,92,4.6,316,1.19,1.29,24.6,2,Docetaxel,50.4,SD,Low
+ONC10924,63.0,Male,Gastric Cancer,4,PIK3CA,1.41,40.4,95.8,85,7.0,201,1.31,1.41,15.0,1,Cisplatin+Gemcitabine,27.5,PR,Low
+ONC10925,61.0,M,Colorectal Cancer,II,HER2,1.54,57.8,93.7,84,7.2,256,1.25,1.26,18.4,0,Sorafenib,96.0,,Moderate
+ONC10926,78.0,,Ovarian Cancer,II,KRAS,5.27,60.2,94.5,78,6.0,177,1.08,1.04,28.6,2,Pembrolizumab,43.8,PR,Low
+ONC10927,79.0,Female,Melanoma,I,BRCA1,11.31,61.0,94.4,93,10.6,288,1.18,0.88,19.7,3,FOLFOX,70.6,Progressive Disease,Moderate
+ONC10928,60.0,Female,Gastric Cancer,II,HER2,1.19,,99.1,73,8.6,220,1.79,1.33,23.0,2,Pembrolizumab,98.3,progressive,High
+ONC10929,72.0,,NSCLC,Stage III,HER2,2.08,63.8,95.1,86,7.9,180,1.26,1.1,28.8,2,Osimertinib,88.0,Progressive Disease,Moderate
+ONC10930,47.0,Female,Melanoma,II,EGFR,1.9,55.4,97.5,52,5.2,324,1.04,0.91,24.7,3,Carboplatin+Paclitaxel,85.4,PR,Moderate
+ONC10931,45.0,Male,Melanoma,IV,,4.28,75.2,97.0,65,5.0,194,1.26,0.6,31.9,1,Carboplatin+Paclitaxel,74.5,Partial Response,Low
+ONC10932,36.0,Female,Melanoma,stage iv,KRAS,8.8,54.7,94.3,48,9.5,322,1.24,1.48,28.9,2,Docetaxel,89.3,Stable Disease,Moderate
+ONC10933,52.0,F,Prostate Cancer,IV,ALK,4.71,77.6,93.7,106,6.4,203,0.94,0.63,25.6,1,Cisplatin+Gemcitabine,92.6,complete response,Moderate
+ONC10934,36.0,,Gastric Cancer,3,PIK3CA,2.88,,97.1,79,3.7,262,0.84,1.53,30.6,1,Targeted Therapy,59.2,PR,Low
+ONC10935,61.0,,Prostate Cancer,I,None,2.23,35.2,97.1,93,5.8,204,0.81,1.1,19.1,2,Carboplatin+Paclitaxel,89.6,,Moderate
+ONC10936,80.0,M,Melanoma,4,HER2,8.74,24.1,90.6,68,4.3,329,1.8,0.84,18.4,0,Immunotherapy,60.7,Progressive Disease,Low
+ONC10937,79.0,Female,NSCLC,Stage III,NTRK,1.35,46.5,96.7,71,7.8,236,0.88,0.61,36.4,0,Chemotherapy,36.9,PR,Low
+ONC10938,69.0,Female,Gastric Cancer,I,HER2,2.28,55.8,92.5,83,7.6,191,1.03,1.13,29.8,3,Osimertinib,101.7,CR,High
+ONC10939,47.0,M,Ovarian Cancer,stage iv,KRAS,17.89,35.7,95.0,81,7.0,371,1.18,0.63,24.0,3,Osimertinib,67.5,Complete Response,Moderate
+ONC10940,34.0,male,Gastric Cancer,IV,PIK3CA,5.04,54.6,96.8,83,9.3,305,1.08,0.9,27.1,1,Osimertinib,72.9,Progressive Disease,Low
+ONC10941,66.0,M,NSCLC,Stage III,MET,4.42,74.1,94.4,82,8.6,221,1.12,0.94,33.6,1,Osimertinib,77.5,Complete Response,Low
+ONC10942,43.0,Male,Colorectal Cancer,IV,BRAF,0.97,43.2,96.7,93,9.1,299,0.83,1.88,27.5,2,Immunotherapy,72.7,,Moderate
+ONC10943,84.0,M,Breast Cancer,Stage III,MET,1.92,35.8,95.4,63,6.0,262,0.63,0.65,26.6,2,FOLFOX,65.0,Progressive Disease,Low
+ONC10944,67.0,F,Breast Cancer,I,RET,7.05,47.8,98.1,58,4.7,319,0.95,0.89,21.7,0,Pembrolizumab,74.2,,Low
+ONC10945,51.0,Male,Melanoma,II,HER2,4.64,39.1,93.1,81,7.0,300,1.26,1.42,24.7,1,Targeted Therapy,99.9,CR,Moderate
+ONC10946,54.0,male,Liver Cancer,III,BRAF,3.61,66.9,100.0,65,5.0,247,0.67,1.19,32.0,2,Pembrolizumab,90.1,SD,Moderate
+ONC10947,48.0,F,Renal Cancer,3,TP53,2.61,72.1,96.4,83,5.2,266,1.53,0.51,25.6,1,Cisplatin+Gemcitabine,27.8,Stable Disease,Low
+ONC10948,60.0,female,Gastric Cancer,I,EGFR,1.75,42.2,94.8,56,9.7,251,1.7,1.05,19.9,0,Olaparib,59.2,CR,Low
+ONC10949,46.0,female,Colorectal Cancer,I,PIK3CA,6.48,43.8,91.9,97,9.0,189,0.73,1.37,27.7,1,Targeted Therapy,90.2,PD,Moderate
+ONC10950,55.0,male,nsclc,Stage III,BRCA1,2.7,37.4,97.3,77,10.1,246,1.35,1.32,31.7,2,Docetaxel,78.8,CR,Moderate
+ONC10951,69.0,,Renal Cancer,I,TP53,5.59,38.9,93.2,88,9.6,375,1.46,0.96,25.5,2,Olaparib,70.7,PR,Low
+ONC10952,60.0,female,Prostate Cancer,II,TP53,4.55,72.4,93.5,80,7.6,356,,1.23,25.7,1,Docetaxel,39.0,PR,Low
+ONC10953,45.0,male,Liver Cancer,IV,BRCA1,3.5,60.0,95.5,85,10.0,151,1.44,0.68,27.6,0,Sorafenib,98.5,PR,Moderate
+ONC10954,48.0,  ,Ovarian Cancer,4,BRAF,3.68,104.0,94.7,88,5.0,235,,1.56,29.5,1,Targeted Therapy,89.0,Complete Response,Moderate
+ONC10955,77.0,female,Prostate Cancer,Stage III,MET,5.51,43.6,95.4,65,4.8,215,0.72,0.4,24.4,1,Carboplatin+Paclitaxel,71.2,SD,Low
+ONC10956,59.0,Male,Breast Cancer,4,NTRK,3.23,40.5,93.8,66,9.2,274,1.2,0.95,26.5,1,FOLFOX,59.4,,Low
+ONC10957,69.0,Female,Melanoma,Stage III,KRAS,0.89,54.1,97.3,52,8.3,338,1.77,1.15,24.9,2,Targeted Therapy,121.2,Partial Response,High
+ONC10958,48.0,F,Liver Cancer,Stage III,ALK,3.3,75.5,100.0,64,8.2,189,1.58,0.66,35.4,1,Trastuzumab,81.0,Complete Response,Low
+ONC10959,57.0,female,Colorectal Cancer,3,RET,1.27,42.8,99.0,97,6.7,349,0.82,0.94,31.9,2,Trastuzumab,81.7,Progressive Disease,Moderate
+ONC10960,44.0,F,Gastric Cancer,Stage III,EGFR,2.25,56.6,93.4,95,8.8,224,1.16,0.31,27.5,2,Nivolumab,79.0,Stable Disease,Moderate
+ONC10961,58.0,Male,Ovarian Cancer,Stage III,BRAF,3.53,64.4,99.0,77,4.9,276,1.12,1.28,30.8,1,Chemotherapy,55.6,Complete Response,Low
+ONC10962,54.0,female,Pancreatic Cancer,III,KRAS,6.13,23.3,98.4,87,13.8,249,1.59,1.38,27.0,2,Cisplatin+Gemcitabine,95.9,PD,Moderate
+ONC10963,73.0,M,Renal Cancer,3,,2.12,32.7,96.4,67,5.7,329,0.84,1.13,29.1,1,Trastuzumab,96.3,PD,Moderate
+ONC10964,77.0,male,Ovarian Cancer,II,TP53,3.94,92.8,99.5,75,9.2,249,1.23,0.41,23.9,3,Pembrolizumab,72.2,Progressive Disease,Moderate
+ONC10965,45.0,male,Prostate Cancer,II,BRCA2,2.56,50.9,98.5,88,6.5,227,1.25,1.39,34.7,1,Sorafenib,35.4,,Low
+ONC10966,85.0,M,Colorectal Cancer,IV,EGFR,1.87,58.1,97.7,69,4.0,202,1.19,1.16,24.7,2,Targeted Therapy,57.9,Stable Disease,Low
+ONC10967,56.0,M,NSCLC,stage iv,,3.27,53.2,92.2,96,4.6,326,0.99,1.01,28.2,1,Carboplatin+Paclitaxel,88.8,Stable Disease,Moderate
+ONC10968,60.0,M,NSCLC,II,BRAF,13.32,64.3,94.1,100,9.8,224,0.6,0.62,26.3,1,Chemotherapy,65.1,SD,Low
+ONC10969,,,Colorectal Cancer,III,RET,2.66,39.8,93.0,77,5.9,214,0.91,0.39,24.1,0,Trastuzumab,109.2,,Moderate
+ONC10970,52.0,female,Melanoma,I,PD-L1,5.25,52.0,100.0,79,4.9,330,1.52,1.28,26.5,1,Carboplatin+Paclitaxel,77.8,CR,Low
+ONC10971,53.0,M,NSCLC,II,,1.59,52.4,96.8,84,7.8,250,1.49,0.79,34.3,0,Olaparib,93.3,PR,Low
+ONC10972,62.0,,Prostate Cancer,3,RET,1.4,36.0,98.8,70,10.6,276,unknown,1.7,31.2,3,Trastuzumab,88.9,Stable Disease,Moderate
+ONC10973,57.0,female,Gastric Cancer,II,PIK3CA,7.99,48.2,93.3,69,6.6,194,N/A,0.85,25.4,0,Sorafenib,77.0,PD,Low
+ONC10974,,female,Pancreatic Cancer,Stage III,ALK,6.01,65.7,98.3,84,4.1,205,1.04,0.75,26.9,2,Sorafenib,70.7,Complete Response,Low
+ONC10975,52.0,male,Liver Cancer,Stage III,TP53,6.47,58.2,98.2,83,11.0,304,1.25,1.15,17.8,3,Docetaxel,96.7,PD,Moderate
+ONC10976,56.0,M,Breast Cancer,stage iv,PIK3CA,9.5,59.7,93.6,93,9.4,327,1.26,0.35,27.1,3,Docetaxel,76.2,PD,Moderate
+ONC10977,82.0,Female,Breast Cancer,II,TP53,3.51,56.4,99.9,69,4.0,157,0.9,0.97,31.9,0,Nivolumab,64.2,Partial Response,Low
+ONC10978,40.0,Female,Colorectal Cancer,IV,KRAS,1.78,27.9,100.0,87,6.1,226,0.82,0.3,28.5,0,Nivolumab,107.4,Stable Disease,Moderate
+ONC10979,68.0,F,Pancreatic Cancer,Stage III,TP53,2.92,31.2,96.2,116,6.5,281,1.28,0.25,25.4,1,Nivolumab,45.6,PD,Low
+ONC10980,60.0,M,Melanoma,3,PD-L1,1.99,42.6,99.7,89,11.1,278,0.55,1.14,24.3,3,Immunotherapy,80.7,Partial Response,Moderate
+ONC10981,67.0,,Breast Cancer,II,BRCA1,12.54,54.3,97.7,90,5.8,231,0.73,0.96,22.1,2,Immunotherapy,111.1,PR,High
+ONC10982,41.0,female,Melanoma,IV,egfr,3.14,46.8,93.3,71,9.5,216,1.43,1.35,20.5,1,Carboplatin+Paclitaxel,67.4,PD,Low
+ONC10983,68.0,female,Prostate Cancer,I,TP53,5.69,47.0,96.6,77,6.4,339,1.4,1.1,20.5,2,Docetaxel,55.0,Partial Response,Low
+ONC10984,44.0,,Melanoma,IV,PIK3CA,6.11,26.3,99.7,85,8.6,324,0.92,1.48,28.2,3,Sorafenib,50.7,Progressive Disease,Moderate
+ONC10985,52.0,male,Prostate Cancer,stage iv,TP53,5.02,36.5,92.9,83,7.5,336,0.62,1.23,19.0,0,Trastuzumab,91.3,CR,Low
+ONC10986,57.0,,Breast Cancer,stage iv,BRCA1,7.51,40.0,91.9,58,11.4,489,0.93,0.83,21.0,1,Cisplatin+Gemcitabine,56.1,Complete Response,Low
+ONC10987,51.0,male,NSCLC,III,TP53,3.55,76.6,92.8,54,9.0,202,,0.84,26.4,0,Sorafenib,60.3,Partial Response,Low
+ONC10988,58.0,female,Colorectal Cancer,3,BRAF,2.61,28.4,94.4,68,9.2,278,<1,0.77,28.8,1,Immunotherapy,,Progressive Disease,Low
+ONC10989,53.0,,Breast Cancer,Stage III,BRCA1,0.59,33.3,94.7,98,7.3,240,1.21,0.71,32.2,3,FOLFOX,67.6,PD,Moderate
+ONC10990,50.0,male,Liver Cancer,III,BRCA2,3.54,22.4,97.7,63,8.1,327,1.01,1.34,24.5,0,Trastuzumab,107.4,,Moderate
+ONC10991,70.0,Female,NSCLC,3,None,1.07,31.7,98.6,68,10.1,295,1.05,1.98,15.9,3,Targeted Therapy,100.8,Partial Response,High
+ONC10992,44.0,,Pancreatic Cancer,Stage III,PIK3CA,3.51,65.5,97.2,97,5.4,174,0.91,0.75,23.2,2,Trastuzumab,89.6,Progressive Disease,Moderate
+ONC10993,59.0,F,Melanoma,3,HER2,2.01,90.7,93.5,57,9.1,266,1.54,1.26,24.7,2,Cisplatin+Gemcitabine,81.8,SD,Moderate
+ONC10994,40.0,male,Melanoma,I,BRAF,4.99,44.1,96.9,71,5.5,247,1.71,1.18,28.3,0,FOLFOX,104.5,,Moderate
+ONC10995,52.0,Female,Prostate Cancer,stage iv,EGFR,1.6,67.8,94.1,66,5.9,55,1.84,1.25,23.3,4,Chemotherapy,64.1,Stable Disease,Moderate
+ONC10996,,,Liver Cancer,Stage III,EGFR,1.23,78.5,99.6,93,7.6,392,0.7,1.54,28.4,0,Olaparib,63.2,Stable Disease,Low
+ONC10997,54.0,M,Melanoma,I,EGFR,2.43,19.5,96.0,67,6.6,328,1.31,1.12,21.1,4,FOLFOX,27.0,SD,Moderate
+ONC10998,35.0,M,Ovarian Cancer,I,TP53,1.16,47.9,93.3,75,10.5,221,1.08,1.05,26.8,1,Sorafenib,114.3,,Moderate
+ONC10999,64.0,male,Liver Cancer,III,MET,3.95,40.9,98.2,84,11.4,183,0.86,1.1,28.3,2,FOLFOX,103.3,PD,Moderate
+ONC11000,,female,Ovarian Cancer,I,None,3.45,43.6,95.8,50,7.8,196,1.31,0.82,20.8,1,Trastuzumab,72.3,Complete Response,Low

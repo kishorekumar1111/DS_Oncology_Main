@@ -1,0 +1,998 @@
+Patient_ID,Record_Timestamp,Age,Sex,Cancer_Type,Cancer_Stage,Gene_Mutation,ctDNA_Level,Protein_Biomarker,SpO2,Heart_Rate,WBC_Count,Platelet_Count,Creatinine,Bilirubin,BMI,ECOG_Status,Treatment,Dose_mg,Treatment_Response,Toxicity_Risk
+ONC10001,2026-01-01 00:00:00,64.0,Female,Liver Cancer,I,BRCA2,1.3,38.4,94.7,74,8.0,264,1.43,0.74,24.9,2.0,Immunotherapy,54.7,Stable Disease,Low
+ONC10002,2026-01-01 01:00:00,56.0,Female,Prostate Cancer,IV,BRCA1,2.93,47.4,96.2,91,8.2,303,0.94,0.99,26.1,1.0,Nivolumab,71.9,Unknown,Low
+ONC10003,2026-01-01 02:00:00,68.0,Female,Liver Cancer,IV,TP53,24.14,30.8,92.0,92,10.2,260,1.39,0.55,20.0,1.0,Targeted Therapy,75.85,Complete Response,Low
+ONC10004,2026-01-01 03:00:00,44.0,Unknown,Ovarian Cancer,IV,Unknown,2.44,46.0,96.5,90,8.8,181,1.23,1.59,25.3,1.0,Carboplatin+Paclitaxel,55.3,Progressive Disease,Low
+ONC10005,2026-01-01 04:00:00,63.0,Male,Prostate Cancer,IV,KRAS,1.49,63.7,95.3,81,9.2,201,1.18,0.38,17.9,1.0,Targeted Therapy,96.1,Progressive Disease,Moderate
+ONC10006,2026-01-01 05:00:00,87.0,Female,Ovarian Cancer,IV,BRAF,4.74,44.2,92.3,78,7.9,307,0.82,0.86,26.1,2.0,Osimertinib,96.2,Complete Response,Moderate
+ONC10007,2026-01-01 06:00:00,52.0,Male,Prostate Cancer,I,EGFR,0.41,32.8,95.6,85,8.1,217,0.94,1.2,18.9,2.0,Nivolumab,30.5,Partial Response,Low
+ONC10008,2026-01-01 07:00:00,47.0,Unknown,Prostate Cancer,III,MET,4.23,13.1,96.8,109,6.1,239,1.52,0.36,22.1,4.0,Chemotherapy,118.2,Complete Response,High
+ONC10009,2026-01-01 08:00:00,47.0,Unknown,Prostate Cancer,I,PIK3CA,4.67,59.2,94.7,60,12.7,175,0.83,1.04,31.7,2.0,Osimertinib,76.5,Unknown,Low
+ONC10010,2026-01-01 09:00:00,55.0,Male,Prostate Cancer,IV,HER2,4.56,24.2,96.6,92,7.8,336,0.44,1.08,23.9,2.0,Osimertinib,47.8,Progressive Disease,Low
+ONC10011,2026-01-01 10:00:00,66.0,Unknown,Colorectal Cancer,I,ROS1,4.6,59.4,96.0,63,6.8,234,0.35,1.07,30.5,2.0,FOLFOX,74.4,Stable Disease,Low
+ONC10012,2026-01-01 11:00:00,91.0,Male,Prostate Cancer,III,MET,0.98,57.1,99.4,98,9.5,242,0.35,0.62,27.9,4.0,Osimertinib,66.8,Complete Response,Moderate
+ONC10013,2026-01-01 12:00:00,62.0,Male,Breast Cancer,I,HER2,4.73,27.3,94.8,73,2.3,268,1.07,0.9,27.8,3.0,Chemotherapy,75.85,Partial Response,Low
+ONC10014,2026-01-01 13:00:00,76.0,Female,Colorectal Cancer,III,EGFR,2.14,56.9,97.6,61,8.3,369,0.8,0.24,29.5,0.0,Pembrolizumab,49.0,Partial Response,Low
+ONC10015,2026-01-01 14:00:00,82.0,Female,Colorectal Cancer,III,KRAS,3.36,24.5,94.7,98,7.6,269,0.35,1.43,22.5,1.0,Sorafenib,71.7,Stable Disease,Low
+ONC10016,2026-01-01 15:00:00,32.0,Male,Pancreatic Cancer,III,HER2,1.95,52.1,96.5,90,11.7,197,0.46,0.85,22.2,0.0,Immunotherapy,122.0,Stable Disease,Moderate
+ONC10017,2026-01-01 16:00:00,54.0,Unknown,Renal Cancer,II,PD-L1,0.26,105.4,92.4,75,4.6,227,0.58,1.73,33.9,0.0,Targeted Therapy,77.9,Progressive Disease,Low
+ONC10018,2026-01-01 17:00:00,59.0,Female,Colorectal Cancer,I,Unknown,3.36,56.4,93.4,84,8.1,309,1.28,1.46,28.1,3.0,Sorafenib,85.6,Partial Response,Moderate
+ONC10019,2026-01-01 18:00:00,59.0,Male,Gastric Cancer,IV,HER2,1.26,48.9,91.7,67,11.1,166,1.54,0.99,23.6,1.0,Trastuzumab,104.2,Unknown,Moderate
+ONC10020,2026-01-01 19:00:00,64.0,Male,Liver Cancer,IV,PD-L1,10.65,63.4,92.2,87,6.3,206,1.45,1.1,33.9,2.0,Cisplatin+Gemcitabine,100.2,Unknown,High
+ONC10021,2026-01-01 20:00:00,66.0,Female,Melanoma,III,MET,2.45,80.6,94.9,98,5.7,378,1.45,0.2,24.1,1.0,Immunotherapy,48.7,Unknown,Low
+ONC10022,2026-01-01 21:00:00,63.0,Male,Pancreatic Cancer,III,HER2,8.32,44.2,92.4,62,7.8,209,0.87,1.1,28.3,0.0,Sorafenib,59.2,Stable Disease,Low
+ONC10023,2026-01-01 22:00:00,57.0,Male,Pancreatic Cancer,III,Unknown,1.8,52.0,96.2,61,7.1,333,1.34,1.22,21.0,0.0,Trastuzumab,56.4,Progressive Disease,Low
+ONC10024,2026-01-01 23:00:00,58.0,Female,Prostate Cancer,II,HER2,3.13,33.5,98.2,84,10.8,312,1.87,0.65,27.6,1.0,Immunotherapy,123.2,Partial Response,High
+ONC10025,2026-01-02 00:00:00,47.0,Male,Liver Cancer,II,EGFR,2.07,50.6,97.7,80,7.1,199,0.44,0.32,19.5,1.0,Trastuzumab,89.3,Stable Disease,Low
+ONC10026,2026-01-02 01:00:00,71.0,Male,Melanoma,III,MET,2.15,52.1,96.5,75,5.7,345,1.15,1.55,31.8,1.0,Trastuzumab,75.85,Stable Disease,Moderate
+ONC10027,2026-01-02 02:00:00,53.0,Female,Pancreatic Cancer,IV,RET,3.29,64.9,99.2,86,8.5,294,0.62,0.31,18.3,0.0,Immunotherapy,58.5,Complete Response,Low
+ONC10028,2026-01-02 03:00:00,50.0,Female,Prostate Cancer,I,BRCA2,20.17,50.1,100.0,99,8.7,329,1.13,1.02,23.0,1.0,Docetaxel,55.9,Stable Disease,Low
+ONC10029,2026-01-02 04:00:00,82.0,Unknown,Liver Cancer,III,KRAS,7.46,28.2,94.5,56,6.8,253,0.87,0.48,26.5,2.0,Docetaxel,95.1,Unknown,Moderate
+ONC10030,2026-01-02 05:00:00,64.0,Male,Liver Cancer,II,MET,6.15,6.9,92.4,79,6.1,211,0.74,0.75,25.2,2.0,Olaparib,76.3,Partial Response,Low
+ONC10031,2026-01-02 06:00:00,69.0,Female,Gastric Cancer,III,PIK3CA,2.02,48.5,99.4,105,5.8,225,0.35,0.32,22.7,2.0,Immunotherapy,69.5,Partial Response,Low
+ONC10032,2026-01-02 07:00:00,70.0,Unknown,Prostate Cancer,III,PIK3CA,0.48,74.6,96.0,94,5.3,145,0.8,0.51,32.4,1.0,Docetaxel,74.8,Progressive Disease,Low
+ONC10033,2026-01-02 08:00:00,44.0,Female,Pancreatic Cancer,III,BRCA1,8.56,62.4,96.3,76,3.9,111,1.41,1.01,24.6,1.0,FOLFOX,69.8,Partial Response,Low
+ONC10034,2026-01-02 09:00:00,59.0,Male,Prostate Cancer,I,BRCA2,2.01,15.5,94.3,89,7.4,297,0.42,1.24,22.2,2.0,Osimertinib,58.2,Partial Response,Low
+ONC10035,2026-01-02 10:00:00,43.0,Male,Liver Cancer,III,BRCA1,1.84,71.2,94.6,93,7.3,184,0.9,1.45,26.7,1.0,Osimertinib,50.1,Complete Response,Low
+ONC10036,2026-01-02 11:00:00,64.0,Male,Colorectal Cancer,III,TP53,1.91,42.3,94.5,90,8.4,355,1.0,1.05,27.2,3.0,Cisplatin+Gemcitabine,68.0,Unknown,Moderate
+ONC10037,2026-01-02 12:00:00,54.0,Unknown,Breast Cancer,IV,EGFR,0.65,52.4,100.0,86,4.7,114,0.92,1.01,29.8,2.0,FOLFOX,70.2,Partial Response,Low
+ONC10038,2026-01-02 13:00:00,38.0,Male,Renal Cancer,I,KRAS,1.55,31.6,94.8,87,11.5,242,1.36,1.45,31.0,2.0,Targeted Therapy,89.5,Progressive Disease,Moderate
+ONC10039,2026-01-02 14:00:00,87.0,Male,Melanoma,IV,TP53,1.4,51.1,95.7,105,14.6,343,0.87,1.0,21.3,1.0,Docetaxel,86.4,Stable Disease,Moderate
+ONC10040,2026-01-02 15:00:00,68.0,Female,NSCLC,IV,HER2,2.88,56.0,100.0,90,7.7,430,0.97,1.02,28.4,0.0,Olaparib,79.8,Partial Response,Low
+ONC10041,2026-01-02 16:00:00,53.0,Female,Prostate Cancer,I,EGFR,4.11,47.9,92.6,101,6.2,158,0.63,1.24,23.4,0.0,Olaparib,59.8,Partial Response,Low
+ONC10042,2026-01-02 17:00:00,36.0,Male,Pancreatic Cancer,II,EGFR,1.14,45.2,96.0,63,3.4,226,0.62,0.93,19.7,2.0,Trastuzumab,92.7,Complete Response,Moderate
+ONC10043,2026-01-02 18:00:00,54.0,Male,NSCLC,III,HER2,3.01,53.5,97.7,80,7.6,197,1.11,0.65,20.5,0.0,Osimertinib,78.4,Stable Disease,Low
+ONC10044,2026-01-02 19:00:00,73.0,Unknown,Ovarian Cancer,IV,RET,0.41,79.5,92.5,71,10.3,99,0.92,0.83,31.7,1.0,Nivolumab,50.6,Progressive Disease,Low
+ONC10045,2026-01-02 20:00:00,67.0,Female,Prostate Cancer,IV,TP53,3.24,47.9,95.4,93,6.9,280,0.65,0.84,20.4,0.0,Pembrolizumab,54.3,Unknown,Low
+ONC10046,2026-01-02 21:00:00,45.0,Female,Melanoma,III,HER2,5.35,46.3,98.5,74,10.6,312,1.14,1.34,31.6,3.0,Olaparib,67.8,Unknown,Moderate
+ONC10047,2026-01-02 22:00:00,53.0,Male,Gastric Cancer,II,Unknown,2.3,36.8,95.7,113,7.8,264,1.06,0.4,27.6,4.0,Chemotherapy,20.0,Progressive Disease,Moderate
+ONC10048,2026-01-02 23:00:00,52.0,Female,Melanoma,III,PD-L1,7.12,53.7,95.8,45,10.6,253,0.76,1.0,30.5,3.0,FOLFOX,62.6,Progressive Disease,Low
+ONC10049,2026-01-03 00:00:00,67.0,Male,Melanoma,III,ROS1,7.31,72.1,93.5,84,7.8,343,0.86,0.2,19.5,1.0,Nivolumab,70.1,Progressive Disease,Low
+ONC10050,2026-01-03 01:00:00,46.0,Female,Breast Cancer,III,BRAF,21.63,65.8,96.0,72,7.4,257,1.28,0.32,21.2,2.0,Docetaxel,37.8,Complete Response,Low
+ONC10051,2026-01-03 02:00:00,79.0,Male,Gastric Cancer,III,RET,1.65,71.2,98.5,69,7.0,223,0.8,1.3,22.3,2.0,FOLFOX,76.0,Progressive Disease,Low
+ONC10052,2026-01-03 03:00:00,71.0,Female,Ovarian Cancer,I,TP53,0.86,64.0,98.8,80,9.2,254,1.22,0.9,25.2,1.0,Docetaxel,64.8,Stable Disease,Low
+ONC10053,2026-01-03 04:00:00,46.0,Male,Renal Cancer,IV,ALK,0.45,60.8,99.5,99,10.4,346,0.35,1.08,37.8,3.0,Carboplatin+Paclitaxel,93.4,Stable Disease,Moderate
+ONC10054,2026-01-03 05:00:00,58.0,Male,Liver Cancer,IV,EGFR,1.84,61.4,91.3,77,5.2,230,1.16,0.2,37.2,1.0,Olaparib,85.0,Complete Response,Low
+ONC10055,2026-01-03 06:00:00,45.0,Female,Pancreatic Cancer,III,RET,1.85,40.5,98.3,80,9.2,264,1.07,1.11,24.3,3.0,Sorafenib,76.2,Stable Disease,Moderate
+ONC10056,2026-01-03 07:00:00,56.0,Male,Colorectal Cancer,IV,TP53,4.4,47.9,96.3,58,7.4,140,1.29,2.1,27.6,2.0,Targeted Therapy,78.7,Unknown,Moderate
+ONC10057,2026-01-03 08:00:00,78.0,Male,Melanoma,IV,BRCA2,2.29,38.7,96.3,57,8.7,283,1.46,0.62,33.6,0.0,Osimertinib,47.3,Partial Response,Low
+ONC10058,2026-01-03 09:00:00,60.0,Male,Liver Cancer,III,RET,1.56,68.0,97.5,76,6.0,318,1.31,1.83,15.0,2.0,Olaparib,88.0,Complete Response,Moderate
+ONC10059,2026-01-03 10:00:00,71.0,Unknown,Breast Cancer,IV,EGFR,2.65,59.7,95.0,82,7.6,329,0.74,1.17,32.4,2.0,Docetaxel,103.1,Partial Response,Moderate
+ONC10060,2026-01-03 11:00:00,33.0,Female,Prostate Cancer,III,KRAS,15.22,55.4,99.0,61,7.9,216,1.25,1.02,28.4,2.0,Immunotherapy,78.9,Partial Response,Moderate
+ONC10061,2026-01-03 12:00:00,54.0,Female,NSCLC,III,BRCA1,13.67,55.9,94.9,80,5.4,125,1.58,1.51,33.8,0.0,Targeted Therapy,48.1,Progressive Disease,Low
+ONC10062,2026-01-03 13:00:00,51.0,Male,NSCLC,I,PIK3CA,4.63,63.5,93.2,65,8.3,262,0.92,1.7,27.6,1.0,Pembrolizumab,95.7,Progressive Disease,Moderate
+ONC10063,2026-01-03 14:00:00,52.0,Female,Ovarian Cancer,I,Unknown,2.67,54.6,98.3,79,4.2,219,1.06,0.71,23.3,0.0,Olaparib,45.5,Partial Response,Low
+ONC10064,2026-01-03 15:00:00,37.0,Female,Liver Cancer,IV,PIK3CA,4.59,55.7,92.0,92,6.1,112,0.88,0.2,18.3,2.0,Carboplatin+Paclitaxel,92.3,Progressive Disease,Moderate
+ONC10065,2026-01-03 16:00:00,53.0,Unknown,Breast Cancer,II,KRAS,1.9,53.0,98.7,90,4.3,249,0.75,0.79,25.7,1.0,Carboplatin+Paclitaxel,53.5,Unknown,Low
+ONC10066,2026-01-03 17:00:00,47.0,Female,Pancreatic Cancer,II,MET,8.48,47.9,97.3,100,8.1,232,1.11,1.23,33.2,2.0,Carboplatin+Paclitaxel,121.5,Unknown,High
+ONC10067,2026-01-03 18:00:00,55.0,Male,Ovarian Cancer,IV,BRCA2,11.01,79.1,90.9,89,9.9,410,0.89,0.84,20.0,2.0,FOLFOX,83.3,Unknown,Moderate
+ONC10068,2026-01-03 19:00:00,63.0,Female,NSCLC,II,PD-L1,4.59,21.6,94.8,104,6.6,128,1.04,1.29,20.4,2.0,Olaparib,48.0,Progressive Disease,Moderate
+ONC10069,2026-01-03 20:00:00,56.0,Female,Gastric Cancer,IV,PD-L1,8.07,38.1,90.3,75,8.3,182,0.53,0.7,23.8,2.0,Pembrolizumab,88.7,Stable Disease,Moderate
+ONC10070,2026-01-03 21:00:00,49.0,Female,Breast Cancer,III,TP53,2.7,67.3,94.3,85,6.7,185,1.64,1.81,22.3,1.0,Osimertinib,45.8,Progressive Disease,Low
+ONC10071,2026-01-03 22:00:00,36.0,Male,NSCLC,I,KRAS,4.16,63.2,94.5,79,6.5,110,0.8,1.88,32.5,1.0,Trastuzumab,49.8,Unknown,Low
+ONC10072,2026-01-03 23:00:00,73.0,Male,Melanoma,I,BRCA2,4.15,29.4,96.1,72,6.4,271,0.93,0.75,27.2,2.0,Immunotherapy,75.85,Progressive Disease,Low
+ONC10073,2026-01-04 00:00:00,69.0,Female,Melanoma,III,KRAS,0.62,63.7,97.6,85,14.5,184,1.2,0.58,27.1,1.0,Sorafenib,60.7,Partial Response,Low
+ONC10074,2026-01-04 01:00:00,64.0,Female,Breast Cancer,IV,EGFR,2.04,65.0,97.3,95,6.2,264,1.28,1.06,28.5,3.0,Olaparib,34.3,Complete Response,Moderate
+ONC10075,2026-01-04 02:00:00,71.0,Male,Ovarian Cancer,III,PD-L1,10.08,21.6,92.9,90,8.3,227,1.42,1.54,24.4,2.0,Nivolumab,90.4,Unknown,Moderate
+ONC10076,2026-01-04 03:00:00,46.0,Female,Renal Cancer,II,BRCA1,1.0,43.8,90.6,106,2.2,319,1.89,1.5,30.5,2.0,Carboplatin+Paclitaxel,75.85,Complete Response,Moderate
+ONC10077,2026-01-04 04:00:00,58.0,Male,Melanoma,III,HER2,1.06,50.3,97.4,90,3.1,316,1.98,1.62,30.6,1.0,Carboplatin+Paclitaxel,93.8,Progressive Disease,Moderate
+ONC10078,2026-01-04 05:00:00,62.0,Female,Breast Cancer,I,Unknown,4.55,47.9,96.4,101,3.0,238,0.67,0.5,24.6,0.0,Sorafenib,95.2,Unknown,Low
+ONC10079,2026-01-04 06:00:00,44.0,Male,Renal Cancer,III,Unknown,2.0,69.7,95.6,75,8.5,311,0.8,0.63,25.8,3.0,FOLFOX,100.4,Unknown,Moderate
+ONC10080,2026-01-04 07:00:00,62.0,Unknown,Renal Cancer,I,EGFR,7.17,56.2,93.9,67,9.0,227,1.17,1.68,28.1,0.0,Cisplatin+Gemcitabine,90.2,Complete Response,Low
+ONC10081,2026-01-04 08:00:00,43.0,Male,Liver Cancer,IV,KRAS,2.83,60.0,94.1,89,9.9,153,1.1,0.52,24.4,1.0,Pembrolizumab,48.8,Stable Disease,Low
+ONC10082,2026-01-04 09:00:00,37.0,Male,Gastric Cancer,I,ALK,0.68,78.9,94.1,94,8.2,329,1.31,0.88,17.1,2.0,Olaparib,99.9,Stable Disease,Moderate
+ONC10083,2026-01-04 10:00:00,58.0,Female,Breast Cancer,III,HER2,1.88,47.9,100.0,65,9.0,317,1.09,1.21,22.0,0.0,FOLFOX,47.9,Progressive Disease,Low
+ONC10084,2026-01-04 11:00:00,49.0,Male,Gastric Cancer,IV,Unknown,3.99,42.9,95.9,87,6.4,161,1.52,0.86,26.0,2.0,Docetaxel,54.9,Unknown,Low
+ONC10085,2026-01-04 12:00:00,73.0,Female,Liver Cancer,III,BRAF,1.71,49.1,97.5,67,7.8,208,1.19,1.23,26.1,1.0,Carboplatin+Paclitaxel,55.4,Complete Response,Low
+ONC10086,2026-01-04 13:00:00,37.0,Male,Colorectal Cancer,IV,PD-L1,2.79,6.7,96.1,47,8.3,207,1.69,1.85,26.4,3.0,FOLFOX,94.5,Progressive Disease,High
+ONC10087,2026-01-04 14:00:00,49.0,Female,NSCLC,IV,TP53,1.23,38.7,96.4,78,6.3,172,1.55,1.02,30.0,0.0,Carboplatin+Paclitaxel,79.3,Unknown,Low
+ONC10088,2026-01-04 15:00:00,70.0,Female,Breast Cancer,III,KRAS,6.35,50.6,95.0,86,9.6,55,1.01,0.97,27.8,0.0,FOLFOX,89.5,Partial Response,Low
+ONC10089,2026-01-04 16:00:00,45.0,Female,Prostate Cancer,III,ALK,2.56,34.8,95.2,76,10.9,255,0.92,0.72,27.4,0.0,Targeted Therapy,78.7,Progressive Disease,Low
+ONC10090,2026-01-04 17:00:00,48.0,Male,NSCLC,II,KRAS,4.13,27.1,91.1,119,6.1,337,0.57,1.61,29.8,2.0,Trastuzumab,66.1,Partial Response,Moderate
+ONC10091,2026-01-04 18:00:00,63.0,Male,Melanoma,IV,ALK,4.23,41.0,97.3,62,4.2,310,0.86,0.46,31.7,2.0,Pembrolizumab,58.2,Progressive Disease,Low
+ONC10092,2026-01-04 19:00:00,65.0,Female,Ovarian Cancer,II,HER2,7.42,35.2,96.8,79,8.4,236,1.23,1.07,27.5,3.0,FOLFOX,92.8,Progressive Disease,Moderate
+ONC10093,2026-01-04 20:00:00,62.0,Female,Prostate Cancer,III,Unknown,2.94,28.6,96.2,82,7.8,300,1.52,0.94,24.3,1.0,Trastuzumab,63.1,Partial Response,Low
+ONC10094,2026-01-04 21:00:00,34.0,Male,Liver Cancer,II,BRCA1,5.81,58.0,95.2,78,9.7,192,0.51,1.68,22.0,0.0,Pembrolizumab,104.2,Complete Response,Moderate
+ONC10095,2026-01-04 22:00:00,58.0,Female,Renal Cancer,I,KRAS,5.61,53.7,93.7,78,7.1,410,1.21,1.1,20.7,0.0,Immunotherapy,57.9,Stable Disease,Low
+ONC10096,2026-01-04 23:00:00,55.0,Female,Pancreatic Cancer,IV,Unknown,5.54,61.2,99.0,80,8.0,263,1.37,0.63,26.9,1.0,FOLFOX,94.5,Partial Response,Moderate
+ONC10097,2026-01-05 00:00:00,62.0,Female,Colorectal Cancer,III,TP53,2.97,53.9,94.8,91,8.5,215,0.69,1.67,22.4,0.0,Trastuzumab,106.6,Progressive Disease,Moderate
+ONC10098,2026-01-05 01:00:00,69.0,Male,Liver Cancer,IV,BRCA2,2.96,56.0,100.0,87,6.7,185,0.83,1.26,24.4,1.0,Sorafenib,48.7,Partial Response,Low
+ONC10099,2026-01-05 02:00:00,68.0,Unknown,Colorectal Cancer,II,HER2,4.83,78.3,93.6,98,8.4,261,0.35,0.87,29.1,2.0,Trastuzumab,88.6,Partial Response,Moderate
+ONC10100,2026-01-05 03:00:00,48.0,Female,NSCLC,III,ALK,2.21,50.0,95.5,77,9.7,227,1.73,1.04,23.7,1.0,Immunotherapy,69.6,Stable Disease,Low
+ONC10101,2026-01-05 04:00:00,47.0,Unknown,NSCLC,II,HER2,6.94,61.9,98.0,75,5.6,311,1.31,0.2,25.5,0.0,FOLFOX,55.5,Complete Response,Low
+ONC10102,2026-01-05 05:00:00,69.0,Female,Colorectal Cancer,III,PIK3CA,1.34,27.8,100.0,103,6.6,177,0.91,1.49,33.9,2.0,FOLFOX,64.2,Partial Response,Low
+ONC10103,2026-01-05 06:00:00,33.0,Male,Gastric Cancer,I,EGFR,2.12,43.1,88.8,81,3.2,280,0.85,0.47,26.3,3.0,Cisplatin+Gemcitabine,114.0,Progressive Disease,High
+ONC10104,2026-01-05 07:00:00,45.0,Male,Prostate Cancer,II,PD-L1,2.96,45.0,94.8,91,4.8,178,0.64,0.2,24.1,1.0,Olaparib,78.8,Complete Response,Low
+ONC10105,2026-01-05 08:00:00,26.0,Unknown,Melanoma,II,KRAS,3.62,32.9,94.5,94,7.4,294,1.09,0.95,29.5,1.0,Osimertinib,54.8,Stable Disease,Low
+ONC10106,2026-01-05 09:00:00,65.0,Male,Liver Cancer,III,PIK3CA,2.72,22.9,96.9,82,5.7,359,1.15,0.73,26.9,4.0,Osimertinib,64.2,Partial Response,Moderate
+ONC10107,2026-01-05 10:00:00,56.0,Female,Renal Cancer,III,EGFR,4.17,36.7,100.0,82,9.5,79,1.04,1.28,21.8,1.0,Nivolumab,59.0,Complete Response,Low
+ONC10108,2026-01-05 11:00:00,65.0,Female,NSCLC,II,BRCA2,1.47,34.8,96.8,81,3.6,251,0.91,1.23,23.3,2.0,FOLFOX,73.7,Stable Disease,Low
+ONC10109,2026-01-05 12:00:00,71.0,Unknown,Gastric Cancer,II,KRAS,3.27,65.7,98.7,75,3.6,309,0.8,1.84,27.8,1.0,Nivolumab,103.2,Stable Disease,Moderate
+ONC10110,2026-01-05 13:00:00,66.0,Female,Pancreatic Cancer,III,PD-L1,2.45,36.7,98.0,89,13.6,257,1.01,0.86,29.1,0.0,Immunotherapy,97.1,Stable Disease,Low
+ONC10111,2026-01-05 14:00:00,56.0,Female,Renal Cancer,IV,HER2,7.11,56.7,95.3,107,10.8,161,0.95,1.01,27.5,4.0,FOLFOX,79.9,Stable Disease,Moderate
+ONC10112,2026-01-05 15:00:00,54.0,Male,Prostate Cancer,II,BRAF,5.2,39.7,94.9,77,9.0,205,1.08,1.47,26.7,1.0,Pembrolizumab,80.4,Unknown,Low
+ONC10113,2026-01-05 16:00:00,83.0,Unknown,Pancreatic Cancer,III,ALK,4.15,57.3,97.3,94,8.2,210,1.16,0.58,18.2,2.0,Immunotherapy,66.7,Complete Response,Low
+ONC10114,2026-01-05 17:00:00,60.0,Female,Colorectal Cancer,III,Unknown,4.96,45.8,95.7,68,8.2,228,1.31,1.85,28.8,2.0,Chemotherapy,99.4,Progressive Disease,Moderate
+ONC10115,2026-01-05 18:00:00,57.0,Female,Melanoma,III,EGFR,4.51,17.4,100.0,71,9.4,315,1.83,1.26,24.1,0.0,Chemotherapy,121.0,Complete Response,High
+ONC10116,2026-01-05 19:00:00,64.0,Female,Breast Cancer,III,Unknown,1.35,39.6,97.8,72,8.3,307,1.39,1.1,20.8,2.0,Trastuzumab,76.8,Progressive Disease,Moderate
+ONC10117,2026-01-05 20:00:00,57.0,Female,Pancreatic Cancer,IV,Unknown,2.04,73.8,98.2,76,7.3,208,1.04,0.97,18.7,2.0,Carboplatin+Paclitaxel,55.5,Progressive Disease,Low
+ONC10118,2026-01-05 21:00:00,54.0,Male,Gastric Cancer,III,ROS1,4.02,39.5,94.4,60,5.0,179,1.18,0.99,21.8,1.0,Osimertinib,77.3,Unknown,Low
+ONC10119,2026-01-05 22:00:00,55.0,Female,Renal Cancer,III,EGFR,0.97,62.9,94.1,86,9.1,250,0.5,0.86,16.2,1.0,Osimertinib,104.5,Unknown,Moderate
+ONC10120,2026-01-05 23:00:00,50.0,Male,Gastric Cancer,IV,TP53,8.15,27.8,97.9,80,6.1,249,0.94,1.05,26.1,3.0,Targeted Therapy,66.9,Partial Response,Low
+ONC10121,2026-01-06 00:00:00,51.0,Female,Gastric Cancer,IV,PD-L1,3.35,17.9,90.5,69,5.7,195,1.18,0.63,26.2,1.0,Olaparib,68.2,Stable Disease,Low
+ONC10122,2026-01-06 01:00:00,46.0,Male,Gastric Cancer,II,EGFR,1.35,78.4,97.1,66,7.8,308,0.62,1.0,33.5,2.0,Immunotherapy,79.6,Stable Disease,Low
+ONC10123,2026-01-06 02:00:00,47.0,Female,Breast Cancer,IV,RET,2.64,15.3,95.6,97,3.5,318,0.92,0.67,25.0,1.0,Sorafenib,77.9,Unknown,Low
+ONC10124,2026-01-06 03:00:00,48.0,Male,NSCLC,I,TP53,2.32,39.0,96.6,52,4.0,248,0.9,1.06,25.1,1.0,Trastuzumab,103.0,Progressive Disease,Moderate
+ONC10125,2026-01-06 04:00:00,41.0,Unknown,Pancreatic Cancer,III,HER2,12.41,43.3,94.8,80,6.0,241,0.61,1.0,22.8,4.0,Sorafenib,84.0,Complete Response,Moderate
+ONC10126,2026-01-06 05:00:00,78.0,Male,Breast Cancer,III,MET,6.71,55.2,96.5,71,1.2,159,1.06,1.07,23.6,1.0,Chemotherapy,74.6,Stable Disease,Low
+ONC10127,2026-01-06 06:00:00,34.0,Unknown,Breast Cancer,III,ALK,1.17,60.8,91.4,79,5.0,249,1.24,1.43,23.1,1.0,Pembrolizumab,50.6,Progressive Disease,Low
+ONC10128,2026-01-06 07:00:00,69.0,Female,Melanoma,IV,MET,1.87,10.2,100.0,103,5.5,276,1.04,1.34,30.3,1.0,Immunotherapy,61.9,Complete Response,Low
+ONC10129,2026-01-06 08:00:00,49.0,Unknown,Liver Cancer,III,TP53,3.99,69.5,99.2,69,7.1,323,1.03,0.2,29.4,3.0,Cisplatin+Gemcitabine,60.6,Stable Disease,Low
+ONC10130,2026-01-06 09:00:00,53.0,Female,Renal Cancer,II,TP53,2.58,65.1,96.0,76,8.7,55,1.3,1.09,30.7,3.0,Trastuzumab,99.7,Partial Response,High
+ONC10131,2026-01-06 10:00:00,73.0,Unknown,Gastric Cancer,III,BRCA1,2.74,45.1,97.2,86,6.3,202,1.12,1.21,21.6,1.0,FOLFOX,89.8,Stable Disease,Moderate
+ONC10132,2026-01-06 11:00:00,48.0,Unknown,Breast Cancer,III,HER2,5.41,70.2,93.1,80,5.4,268,0.87,1.28,35.0,2.0,Nivolumab,96.6,Progressive Disease,Moderate
+ONC10133,2026-01-06 12:00:00,68.0,Male,Ovarian Cancer,III,PD-L1,0.95,71.4,99.0,70,6.9,250,1.06,1.0,24.6,1.0,FOLFOX,82.4,Progressive Disease,Low
+ONC10134,2026-01-06 13:00:00,55.0,Male,NSCLC,III,KRAS,15.86,62.6,94.3,103,5.3,172,1.25,1.0,27.4,1.0,Osimertinib,87.2,Partial Response,Moderate
+ONC10135,2026-01-06 14:00:00,70.0,Female,Breast Cancer,III,Unknown,5.58,14.2,94.0,75,5.0,198,0.93,0.39,20.9,0.0,Docetaxel,94.2,Stable Disease,Low
+ONC10136,2026-01-06 15:00:00,42.0,Male,Prostate Cancer,III,TP53,2.92,67.1,96.5,82,11.1,152,1.25,0.63,26.7,1.0,Trastuzumab,51.8,Complete Response,Low
+ONC10137,2026-01-06 16:00:00,63.0,Male,Prostate Cancer,III,PIK3CA,1.02,64.8,95.6,75,1.5,206,0.59,0.77,24.9,1.0,FOLFOX,107.0,Progressive Disease,Moderate
+ONC10138,2026-01-06 17:00:00,53.0,Female,Renal Cancer,III,ALK,4.62,57.3,100.0,68,7.0,214,1.1,1.0,30.7,2.0,Trastuzumab,97.0,Complete Response,Moderate
+ONC10139,2026-01-06 18:00:00,60.0,Male,Prostate Cancer,III,MET,1.58,50.2,96.9,80,10.2,227,1.22,1.28,25.9,0.0,Sorafenib,64.3,Partial Response,Low
+ONC10140,2026-01-06 19:00:00,78.0,Male,Gastric Cancer,IV,ALK,3.47,52.4,96.4,82,7.5,353,0.58,0.34,24.4,1.0,Chemotherapy,78.8,Progressive Disease,Low
+ONC10141,2026-01-06 20:00:00,61.0,Female,Breast Cancer,III,Unknown,1.89,44.3,96.1,84,13.2,257,0.88,1.07,28.0,3.0,Chemotherapy,39.9,Stable Disease,Low
+ONC10142,2026-01-06 21:00:00,49.0,Female,Pancreatic Cancer,IV,PIK3CA,1.43,25.4,100.0,67,4.4,262,1.24,1.51,27.0,2.0,Olaparib,57.2,Unknown,Low
+ONC10143,2026-01-06 22:00:00,72.0,Female,Melanoma,IV,ROS1,0.92,44.8,94.0,88,7.2,237,0.84,1.47,30.5,3.0,Sorafenib,71.7,Stable Disease,Moderate
+ONC10144,2026-01-06 23:00:00,75.0,Female,Pancreatic Cancer,IV,RET,1.19,36.1,100.0,62,6.1,286,0.44,1.21,24.6,1.0,Targeted Therapy,75.85,Partial Response,Low
+ONC10145,2026-01-07 00:00:00,47.0,Female,Gastric Cancer,II,MET,2.8,42.4,94.1,102,8.2,273,1.25,0.52,32.6,3.0,Sorafenib,70.1,Progressive Disease,Moderate
+ONC10146,2026-01-07 01:00:00,57.0,Male,Renal Cancer,IV,ROS1,2.57,46.8,94.8,85,4.1,287,1.39,1.0,28.3,1.0,Docetaxel,65.4,Stable Disease,Low
+ONC10147,2026-01-07 02:00:00,40.0,Female,Renal Cancer,III,Unknown,0.74,33.5,98.2,65,9.7,197,1.35,0.2,18.3,2.0,Osimertinib,91.1,Complete Response,Moderate
+ONC10148,2026-01-07 03:00:00,67.0,Unknown,Ovarian Cancer,II,PD-L1,1.57,28.0,98.3,75,11.4,208,0.35,1.76,27.5,1.0,Trastuzumab,70.2,Progressive Disease,Low
+ONC10149,2026-01-07 04:00:00,39.0,Unknown,NSCLC,III,RET,5.26,70.2,93.7,80,3.1,251,0.93,0.37,26.5,1.0,Docetaxel,97.7,Progressive Disease,Moderate
+ONC10150,2026-01-07 05:00:00,44.0,Female,Gastric Cancer,III,ALK,4.12,48.6,96.9,75,2.8,267,0.86,0.96,21.2,3.0,Trastuzumab,60.1,Progressive Disease,Low
+ONC10151,2026-01-07 06:00:00,66.0,Male,Pancreatic Cancer,IV,Unknown,2.49,47.9,97.4,75,10.0,170,0.59,1.39,20.3,2.0,Trastuzumab,50.0,Progressive Disease,Low
+ONC10152,2026-01-07 07:00:00,76.0,Male,Melanoma,IV,MET,3.57,30.0,97.6,60,5.1,281,1.21,1.63,22.8,2.0,Olaparib,98.1,Stable Disease,Moderate
+ONC10153,2026-01-07 08:00:00,65.0,Male,Liver Cancer,III,KRAS,6.76,59.6,98.3,76,9.7,302,1.02,1.49,24.7,3.0,Trastuzumab,89.9,Stable Disease,Moderate
+ONC10154,2026-01-07 09:00:00,43.0,Female,Renal Cancer,I,Unknown,2.15,47.9,89.9,84,11.3,94,0.98,0.2,26.9,2.0,Targeted Therapy,66.2,Stable Disease,Low
+ONC10155,2026-01-07 10:00:00,68.0,Unknown,Colorectal Cancer,IV,ALK,4.37,51.4,97.1,88,7.3,245,0.8,1.31,21.0,2.0,Cisplatin+Gemcitabine,63.4,Stable Disease,Low
+ONC10156,2026-01-07 11:00:00,60.0,Female,NSCLC,IV,BRAF,1.97,40.2,94.3,75,6.7,212,1.06,1.05,29.9,1.0,Olaparib,48.0,Complete Response,Low
+ONC10157,2026-01-07 12:00:00,51.0,Unknown,Pancreatic Cancer,III,KRAS,2.17,30.7,98.9,65,6.8,282,0.99,1.62,17.8,2.0,Sorafenib,86.5,Unknown,Moderate
+ONC10158,2026-01-07 13:00:00,45.0,Female,Breast Cancer,I,PIK3CA,3.18,36.3,91.4,68,6.6,180,1.39,1.47,19.5,4.0,Pembrolizumab,42.1,Progressive Disease,Moderate
+ONC10159,2026-01-07 14:00:00,60.0,Female,Liver Cancer,III,ROS1,2.92,66.3,99.1,98,7.7,258,0.74,1.67,25.8,2.0,Osimertinib,97.3,Stable Disease,Moderate
+ONC10160,2026-01-07 15:00:00,61.0,Female,Liver Cancer,III,TP53,3.7,46.9,92.2,89,9.8,326,0.96,0.98,24.5,2.0,FOLFOX,87.6,Unknown,Moderate
+ONC10161,2026-01-07 16:00:00,46.0,Female,Gastric Cancer,III,KRAS,2.72,54.5,99.5,63,9.3,214,0.44,1.79,24.9,2.0,Osimertinib,75.85,Unknown,Moderate
+ONC10162,2026-01-07 17:00:00,65.0,Unknown,Gastric Cancer,IV,HER2,5.07,4.7,97.9,77,8.4,150,0.4,1.57,24.4,1.0,FOLFOX,72.1,Partial Response,Low
+ONC10163,2026-01-07 18:00:00,70.0,Female,Breast Cancer,IV,KRAS,4.7,40.9,95.4,96,5.7,304,0.9,1.45,22.1,1.0,FOLFOX,84.6,Unknown,Moderate
+ONC10164,2026-01-07 19:00:00,76.0,Male,Renal Cancer,IV,TP53,1.12,29.9,97.8,79,6.0,242,0.79,0.59,27.3,1.0,Nivolumab,75.9,Stable Disease,Low
+ONC10165,2026-01-07 20:00:00,65.0,Male,Ovarian Cancer,IV,PD-L1,1.41,45.7,97.3,96,4.4,251,0.42,0.2,29.9,0.0,Sorafenib,64.7,Complete Response,Low
+ONC10166,2026-01-07 21:00:00,62.0,Unknown,Colorectal Cancer,IV,Unknown,3.02,56.7,96.9,77,6.6,185,1.12,2.34,28.7,3.0,FOLFOX,95.3,Unknown,High
+ONC10167,2026-01-07 22:00:00,64.0,Female,Breast Cancer,I,ALK,1.38,31.8,97.1,71,9.1,252,1.71,0.87,21.3,0.0,FOLFOX,68.7,Stable Disease,Low
+ONC10168,2026-01-07 23:00:00,51.0,Female,Colorectal Cancer,III,PD-L1,1.66,59.7,93.9,106,7.1,260,1.25,1.16,30.9,2.0,Pembrolizumab,58.3,Complete Response,Moderate
+ONC10169,2026-01-08 00:00:00,67.0,Male,Colorectal Cancer,III,PD-L1,2.92,61.1,97.8,96,8.2,265,0.89,1.49,25.5,1.0,Olaparib,82.0,Partial Response,Low
+ONC10170,2026-01-08 01:00:00,45.0,Male,Colorectal Cancer,III,EGFR,11.23,42.6,95.4,102,8.1,268,0.35,0.92,26.8,3.0,Olaparib,82.3,Progressive Disease,Moderate
+ONC10171,2026-01-08 02:00:00,40.0,Male,Pancreatic Cancer,IV,HER2,3.37,44.6,96.0,81,10.2,242,1.19,1.13,25.1,2.0,Chemotherapy,62.4,Progressive Disease,Low
+ONC10172,2026-01-08 03:00:00,49.0,Female,Melanoma,IV,MET,2.23,80.8,94.1,85,10.0,216,0.9,1.47,24.9,3.0,Nivolumab,38.5,Progressive Disease,Moderate
+ONC10173,2026-01-08 04:00:00,63.0,Female,Prostate Cancer,II,TP53,1.75,29.4,96.5,89,8.5,255,1.01,1.16,21.6,2.0,Sorafenib,106.7,Partial Response,Moderate
+ONC10174,2026-01-08 05:00:00,63.0,Male,Renal Cancer,III,TP53,0.8,52.3,96.9,104,9.8,264,1.2,1.3,31.7,1.0,Osimertinib,52.1,Partial Response,Low
+ONC10175,2026-01-08 06:00:00,86.0,Unknown,Ovarian Cancer,IV,MET,3.39,61.3,92.8,90,3.4,234,1.54,1.4,27.9,2.0,Osimertinib,86.6,Progressive Disease,Moderate
+ONC10176,2026-01-08 07:00:00,68.0,Male,Prostate Cancer,IV,BRAF,0.93,50.3,94.8,91,4.1,326,1.3,0.87,27.1,0.0,Chemotherapy,59.4,Stable Disease,Low
+ONC10177,2026-01-08 08:00:00,56.0,Female,Ovarian Cancer,III,BRCA2,2.92,16.5,92.7,90,6.9,268,1.59,1.49,23.2,0.0,Carboplatin+Paclitaxel,104.2,Unknown,Moderate
+ONC10178,2026-01-08 09:00:00,38.0,Unknown,Melanoma,III,BRCA1,1.91,20.9,95.2,95,5.1,273,1.68,1.84,26.4,2.0,Pembrolizumab,105.6,Progressive Disease,High
+ONC10179,2026-01-08 10:00:00,56.0,Male,Liver Cancer,IV,ROS1,4.91,55.3,97.6,84,7.2,214,1.45,1.09,30.6,3.0,Cisplatin+Gemcitabine,64.3,Complete Response,Moderate
+ONC10180,2026-01-08 11:00:00,44.0,Female,Breast Cancer,III,RET,1.55,103.1,98.1,88,9.6,278,1.25,1.6,28.0,1.0,Pembrolizumab,53.4,Progressive Disease,Low
+ONC10181,2026-01-08 12:00:00,60.0,Male,Gastric Cancer,IV,Unknown,10.19,52.5,93.3,82,9.1,259,1.33,1.36,24.1,0.0,Olaparib,131.4,Stable Disease,High
+ONC10182,2026-01-08 13:00:00,60.0,Male,Colorectal Cancer,IV,HER2,1.86,53.7,91.0,64,11.3,343,0.92,0.61,22.8,2.0,Pembrolizumab,91.1,Stable Disease,Moderate
+ONC10183,2026-01-08 14:00:00,49.0,Female,Gastric Cancer,III,ALK,2.08,41.1,97.2,94,6.5,227,0.96,0.97,22.3,1.0,Osimertinib,60.7,Progressive Disease,Low
+ONC10184,2026-01-08 15:00:00,50.0,Unknown,Pancreatic Cancer,II,BRCA2,3.44,53.1,91.2,79,6.3,268,1.38,0.83,23.4,1.0,Docetaxel,104.7,Stable Disease,Moderate
+ONC10185,2026-01-08 16:00:00,55.0,Unknown,Renal Cancer,III,EGFR,9.58,51.1,93.3,85,5.3,184,0.52,0.76,30.2,4.0,Olaparib,75.5,Progressive Disease,Moderate
+ONC10186,2026-01-08 17:00:00,44.0,Female,Liver Cancer,IV,KRAS,2.07,31.4,98.4,76,7.1,364,1.52,0.97,20.2,1.0,Targeted Therapy,37.5,Complete Response,Low
+ONC10187,2026-01-08 18:00:00,58.0,Female,Melanoma,IV,NTRK,6.84,47.9,96.4,72,7.3,272,1.02,1.04,31.6,2.0,FOLFOX,66.2,Partial Response,Low
+ONC10188,2026-01-08 19:00:00,54.0,Male,Liver Cancer,III,ALK,4.19,56.7,98.9,84,10.2,209,0.78,0.9,25.8,0.0,Sorafenib,63.3,Progressive Disease,Low
+ONC10189,2026-01-08 20:00:00,47.0,Female,Gastric Cancer,II,Unknown,3.75,50.6,93.0,71,8.1,339,1.31,0.94,21.5,0.0,Chemotherapy,69.2,Stable Disease,Low
+ONC10190,2026-01-08 21:00:00,65.0,Unknown,NSCLC,IV,ALK,9.39,61.5,95.5,107,11.9,253,0.98,1.27,29.4,2.0,Olaparib,75.85,Progressive Disease,Moderate
+ONC10191,2026-01-08 22:00:00,64.0,Male,NSCLC,III,RET,3.13,73.7,95.2,85,5.9,328,0.97,0.3,42.0,0.0,Chemotherapy,55.3,Complete Response,Low
+ONC10192,2026-01-08 23:00:00,50.0,Male,Colorectal Cancer,II,TP53,1.03,36.2,95.4,75,3.6,170,0.89,1.7,26.8,3.0,Carboplatin+Paclitaxel,38.2,Stable Disease,Moderate
+ONC10193,2026-01-09 00:00:00,67.0,Male,NSCLC,II,BRAF,5.77,39.6,99.7,73,6.1,182,1.41,1.39,18.9,2.0,Cisplatin+Gemcitabine,69.9,Partial Response,High
+ONC10194,2026-01-09 01:00:00,42.0,Female,Colorectal Cancer,III,ROS1,1.27,62.7,100.0,76,7.1,278,0.42,1.0,27.0,0.0,Carboplatin+Paclitaxel,93.1,Complete Response,Low
+ONC10195,2026-01-09 02:00:00,45.0,Male,Prostate Cancer,IV,KRAS,2.45,29.5,94.8,70,8.7,167,1.4,0.77,33.4,1.0,Targeted Therapy,33.5,Progressive Disease,Low
+ONC10196,2026-01-09 03:00:00,57.0,Female,NSCLC,IV,RET,8.41,11.1,100.0,85,3.2,159,1.07,0.88,29.0,2.0,Targeted Therapy,105.6,Complete Response,Moderate
+ONC10197,2026-01-09 04:00:00,48.0,Male,Gastric Cancer,III,TP53,3.83,39.7,96.8,88,6.6,293,1.43,1.44,24.4,2.0,Olaparib,67.9,Stable Disease,Moderate
+ONC10198,2026-01-09 05:00:00,38.0,Male,Pancreatic Cancer,IV,PD-L1,4.21,39.5,97.2,60,6.2,377,1.26,0.4,25.2,1.0,Docetaxel,98.8,Complete Response,Moderate
+ONC10199,2026-01-09 06:00:00,43.0,Male,Melanoma,IV,PD-L1,0.96,54.0,94.8,76,1.2,213,1.26,1.54,22.6,0.0,Sorafenib,100.4,Complete Response,Moderate
+ONC10200,2026-01-09 07:00:00,83.0,Male,Colorectal Cancer,IV,TP53,1.62,44.8,99.9,82,3.4,321,0.78,0.66,20.6,2.0,Sorafenib,76.7,Progressive Disease,Low
+ONC10201,2026-01-09 08:00:00,58.0,Male,Prostate Cancer,III,ALK,2.86,81.3,96.7,72,8.5,259,1.67,1.0,17.1,3.0,Carboplatin+Paclitaxel,54.3,Partial Response,Moderate
+ONC10202,2026-01-09 09:00:00,60.0,Male,Ovarian Cancer,IV,BRCA1,1.3,46.4,94.7,78,7.1,200,0.47,0.55,21.6,3.0,Targeted Therapy,70.2,Stable Disease,Low
+ONC10203,2026-01-09 10:00:00,59.0,Female,Pancreatic Cancer,IV,PD-L1,0.69,70.5,99.0,54,4.4,231,1.17,0.97,31.1,3.0,Chemotherapy,78.2,Complete Response,Moderate
+ONC10204,2026-01-09 11:00:00,60.0,Female,Colorectal Cancer,I,Unknown,7.35,87.3,95.2,68,8.3,219,0.96,1.58,20.7,1.0,Nivolumab,56.7,Complete Response,Low
+ONC10205,2026-01-09 12:00:00,34.0,Female,Ovarian Cancer,III,EGFR,2.78,66.9,95.3,95,1.2,258,0.65,1.63,22.7,1.0,Pembrolizumab,99.4,Stable Disease,Moderate
+ONC10206,2026-01-09 13:00:00,79.0,Unknown,NSCLC,IV,BRAF,2.05,66.8,95.0,62,4.5,182,1.04,0.57,28.4,3.0,Cisplatin+Gemcitabine,59.8,Stable Disease,Low
+ONC10207,2026-01-09 14:00:00,89.0,Female,Prostate Cancer,IV,EGFR,3.09,22.0,93.3,76,4.4,163,0.93,0.69,31.4,2.0,Nivolumab,70.2,Stable Disease,Low
+ONC10208,2026-01-09 15:00:00,69.0,Female,Liver Cancer,IV,BRAF,1.83,56.2,99.3,86,4.6,130,0.58,1.05,25.5,1.0,Pembrolizumab,61.7,Partial Response,Low
+ONC10209,2026-01-09 16:00:00,56.0,Unknown,Liver Cancer,IV,TP53,0.79,41.2,93.3,94,9.5,201,1.33,0.43,25.1,3.0,Cisplatin+Gemcitabine,82.5,Stable Disease,Moderate
+ONC10210,2026-01-09 17:00:00,73.0,Female,Prostate Cancer,II,HER2,8.15,15.1,98.6,85,6.3,230,1.28,1.5,22.0,2.0,Immunotherapy,75.85,Progressive Disease,Low
+ONC10211,2026-01-09 18:00:00,72.0,Female,Colorectal Cancer,II,Unknown,3.45,60.3,94.3,71,8.3,260,1.54,0.57,26.4,1.0,Osimertinib,93.3,Progressive Disease,Moderate
+ONC10212,2026-01-09 19:00:00,57.0,Male,Renal Cancer,IV,RET,5.12,11.5,97.9,81,7.9,175,0.73,1.56,21.9,0.0,Cisplatin+Gemcitabine,65.8,Stable Disease,Low
+ONC10213,2026-01-09 20:00:00,44.0,Female,Melanoma,II,KRAS,1.99,54.8,100.0,71,5.0,260,1.08,1.73,34.1,2.0,FOLFOX,75.0,Progressive Disease,Moderate
+ONC10214,2026-01-09 21:00:00,62.0,Male,Prostate Cancer,III,TP53,5.09,50.6,92.2,89,3.2,306,1.04,1.5,29.5,4.0,Nivolumab,69.8,Partial Response,Moderate
+ONC10215,2026-01-09 22:00:00,66.0,Male,Colorectal Cancer,I,TP53,2.82,72.0,98.3,90,1.2,292,0.93,0.39,26.8,3.0,FOLFOX,67.8,Partial Response,Moderate
+ONC10216,2026-01-09 23:00:00,60.0,Unknown,NSCLC,I,BRCA1,9.28,66.3,98.7,83,6.5,201,1.04,1.12,18.5,1.0,Cisplatin+Gemcitabine,62.6,Partial Response,Low
+ONC10217,2026-01-10 00:00:00,79.0,Male,Liver Cancer,IV,ROS1,5.65,74.0,94.4,83,10.2,258,0.67,1.35,29.0,1.0,Chemotherapy,71.2,Stable Disease,High
+ONC10218,2026-01-10 01:00:00,57.0,Unknown,Renal Cancer,II,RET,0.97,55.9,98.5,88,4.7,170,1.4,0.66,26.8,1.0,FOLFOX,74.5,Partial Response,Low
+ONC10219,2026-01-10 02:00:00,83.0,Female,Pancreatic Cancer,IV,BRAF,5.96,48.8,92.6,62,3.3,356,1.27,1.63,25.4,1.0,Trastuzumab,71.7,Progressive Disease,Low
+ONC10220,2026-01-10 03:00:00,67.0,Male,Liver Cancer,II,RET,5.77,66.8,98.0,52,8.8,258,0.6,1.49,23.2,4.0,Targeted Therapy,60.6,Stable Disease,Moderate
+ONC10221,2026-01-10 04:00:00,57.0,Unknown,Pancreatic Cancer,I,Unknown,2.71,46.6,93.7,50,9.9,350,1.61,0.2,22.3,0.0,Nivolumab,48.7,Partial Response,Low
+ONC10222,2026-01-10 05:00:00,42.0,Male,Gastric Cancer,III,ALK,1.39,52.6,96.2,72,4.4,219,0.73,1.3,17.9,0.0,Cisplatin+Gemcitabine,96.9,Partial Response,Low
+ONC10223,2026-01-10 06:00:00,83.0,Unknown,Renal Cancer,IV,TP53,2.45,88.9,98.3,88,6.5,255,1.44,0.85,27.0,2.0,Cisplatin+Gemcitabine,127.0,Partial Response,High
+ONC10224,2026-01-10 07:00:00,52.0,Unknown,Liver Cancer,IV,EGFR,1.9,71.1,89.8,68,4.7,131,1.53,1.2,21.2,2.0,Nivolumab,86.6,Complete Response,Moderate
+ONC10225,2026-01-10 08:00:00,32.0,Female,Gastric Cancer,IV,Unknown,2.55,47.0,92.6,73,6.5,358,0.95,0.88,29.4,2.0,Nivolumab,57.0,Unknown,Low
+ONC10226,2026-01-10 09:00:00,67.0,Unknown,Colorectal Cancer,III,PIK3CA,2.92,61.3,98.0,74,7.2,221,1.24,1.25,25.0,1.0,Targeted Therapy,27.1,Stable Disease,Low
+ONC10227,2026-01-10 10:00:00,56.0,Male,Colorectal Cancer,IV,ALK,0.51,38.7,96.0,83,6.4,231,1.12,0.67,23.0,1.0,Nivolumab,58.8,Complete Response,Low
+ONC10228,2026-01-10 11:00:00,53.0,Male,Pancreatic Cancer,III,PIK3CA,2.92,24.9,96.1,67,6.1,229,1.02,0.96,35.0,0.0,Olaparib,59.2,Partial Response,Low
+ONC10229,2026-01-10 12:00:00,70.0,Unknown,Melanoma,I,EGFR,2.67,25.3,100.0,89,6.2,212,1.6,1.43,20.1,0.0,Sorafenib,76.3,Stable Disease,Low
+ONC10230,2026-01-10 13:00:00,64.0,Male,Ovarian Cancer,IV,KRAS,1.71,44.8,99.0,66,12.2,175,1.43,1.19,24.0,2.0,FOLFOX,125.8,Stable Disease,High
+ONC10231,2026-01-10 14:00:00,73.0,Female,Ovarian Cancer,IV,Unknown,7.39,55.2,95.1,78,7.9,268,1.16,1.07,21.6,1.0,Immunotherapy,51.5,Progressive Disease,Low
+ONC10232,2026-01-10 15:00:00,47.0,Female,Gastric Cancer,III,RET,1.25,76.7,95.7,64,2.6,171,1.62,1.84,31.7,1.0,Carboplatin+Paclitaxel,121.1,Stable Disease,High
+ONC10233,2026-01-10 16:00:00,62.0,Male,NSCLC,IV,BRCA2,4.76,14.9,100.0,76,11.6,290,1.36,0.88,32.0,1.0,FOLFOX,61.5,Partial Response,Low
+ONC10234,2026-01-10 17:00:00,57.0,Female,Liver Cancer,III,BRCA2,2.29,48.9,90.5,98,6.9,154,1.14,0.66,25.8,3.0,Chemotherapy,96.1,Partial Response,High
+ONC10235,2026-01-10 18:00:00,60.0,Female,Liver Cancer,III,TP53,2.92,35.6,94.0,73,6.1,255,1.36,0.74,29.6,2.0,Olaparib,58.5,Stable Disease,Low
+ONC10236,2026-01-10 19:00:00,59.0,Male,Colorectal Cancer,I,PD-L1,5.27,29.5,98.5,77,6.6,247,1.52,0.26,29.6,2.0,Nivolumab,50.5,Complete Response,Low
+ONC10237,2026-01-10 20:00:00,82.0,Female,Gastric Cancer,I,MET,1.45,33.5,94.2,110,9.7,268,0.96,0.63,28.9,2.0,Nivolumab,75.0,Stable Disease,Moderate
+ONC10238,2026-01-10 21:00:00,35.0,Male,Renal Cancer,III,TP53,3.27,33.2,95.8,87,9.7,195,1.34,1.47,25.7,3.0,Nivolumab,83.4,Partial Response,Moderate
+ONC10239,2026-01-10 22:00:00,45.0,Male,Ovarian Cancer,IV,KRAS,6.53,45.8,97.1,73,3.6,302,1.07,1.21,23.8,1.0,Carboplatin+Paclitaxel,98.1,Complete Response,Moderate
+ONC10240,2026-01-10 23:00:00,63.0,Male,Pancreatic Cancer,IV,EGFR,1.74,57.9,98.0,75,5.2,167,1.15,1.1,25.4,0.0,FOLFOX,84.0,Unknown,Low
+ONC10241,2026-01-11 00:00:00,59.0,Female,Ovarian Cancer,I,Unknown,1.65,34.3,94.6,76,4.6,243,1.0,1.11,23.7,1.0,FOLFOX,90.2,Progressive Disease,Low
+ONC10242,2026-01-11 01:00:00,60.0,Male,NSCLC,III,Unknown,8.16,14.8,98.7,101,7.0,242,1.24,1.0,32.1,1.0,Carboplatin+Paclitaxel,107.1,Progressive Disease,Moderate
+ONC10243,2026-01-11 02:00:00,56.0,Unknown,Pancreatic Cancer,III,TP53,4.21,23.1,93.5,66,7.7,214,0.75,1.14,28.5,1.0,Carboplatin+Paclitaxel,48.5,Unknown,Low
+ONC10244,2026-01-11 03:00:00,68.0,Female,Gastric Cancer,III,ALK,3.31,30.2,94.7,81,7.7,127,0.91,0.84,25.1,0.0,Osimertinib,70.2,Complete Response,Low
+ONC10245,2026-01-11 04:00:00,70.0,Female,Prostate Cancer,III,TP53,8.58,32.9,100.0,58,6.2,280,0.87,0.55,33.2,1.0,Olaparib,68.7,Complete Response,Low
+ONC10246,2026-01-11 05:00:00,72.0,Unknown,NSCLC,I,KRAS,0.7,59.3,98.1,94,8.9,446,1.36,0.75,30.5,1.0,Cisplatin+Gemcitabine,83.2,Partial Response,Moderate
+ONC10247,2026-01-11 06:00:00,59.0,Male,Melanoma,III,TP53,5.35,68.5,92.4,80,5.1,298,0.74,1.35,24.5,2.0,Nivolumab,56.9,Partial Response,Low
+ONC10248,2026-01-11 07:00:00,58.0,Male,Pancreatic Cancer,IV,ROS1,2.95,66.5,92.4,74,7.8,131,1.16,0.75,26.7,1.0,Osimertinib,63.4,Complete Response,Low
+ONC10249,2026-01-11 08:00:00,61.0,Male,Gastric Cancer,IV,PIK3CA,0.76,30.7,95.2,67,4.1,99,1.02,0.93,19.5,1.0,Pembrolizumab,49.2,Stable Disease,Low
+ONC10250,2026-01-11 09:00:00,42.0,Female,Prostate Cancer,IV,TP53,1.14,92.8,95.1,82,6.7,167,0.49,0.96,25.1,2.0,Nivolumab,76.9,Stable Disease,Low
+ONC10251,2026-01-11 10:00:00,45.0,Male,Ovarian Cancer,III,ROS1,4.3,41.1,93.6,73,9.7,367,0.69,0.89,28.3,1.0,Targeted Therapy,89.6,Stable Disease,Low
+ONC10252,2026-01-11 11:00:00,56.0,Female,NSCLC,I,BRCA2,2.72,56.8,94.3,98,6.2,263,1.03,1.08,28.0,0.0,Nivolumab,49.1,Stable Disease,Low
+ONC10253,2026-01-11 12:00:00,65.0,Female,NSCLC,I,KRAS,3.62,33.9,97.0,89,10.4,282,1.13,1.51,29.5,3.0,Immunotherapy,116.1,Progressive Disease,High
+ONC10254,2026-01-11 13:00:00,44.0,Female,Pancreatic Cancer,IV,PIK3CA,19.66,41.2,96.8,49,5.0,288,0.35,0.2,28.9,2.0,Osimertinib,46.1,Unknown,Low
+ONC10255,2026-01-11 14:00:00,39.0,Male,NSCLC,III,ROS1,2.01,31.3,95.5,91,6.5,170,1.03,1.21,28.2,1.0,Targeted Therapy,57.2,Partial Response,Low
+ONC10256,2026-01-11 15:00:00,71.0,Unknown,Colorectal Cancer,II,PD-L1,2.67,47.9,95.6,77,7.2,232,1.69,1.79,26.4,0.0,Olaparib,41.8,Complete Response,Low
+ONC10257,2026-01-11 16:00:00,50.0,Female,Prostate Cancer,III,TP53,3.34,58.1,91.2,76,9.3,293,1.27,0.64,15.0,1.0,Docetaxel,97.0,Partial Response,Moderate
+ONC10258,2026-01-11 17:00:00,31.0,Female,Ovarian Cancer,I,PIK3CA,2.72,77.2,93.2,88,5.8,380,0.77,1.58,23.0,1.0,Targeted Therapy,81.5,Progressive Disease,Low
+ONC10259,2026-01-11 18:00:00,46.0,Female,Breast Cancer,IV,NTRK,12.08,47.8,95.2,95,7.8,220,0.44,0.88,15.0,3.0,Docetaxel,85.2,Partial Response,Moderate
+ONC10260,2026-01-11 19:00:00,67.0,Male,Pancreatic Cancer,IV,PD-L1,6.83,23.8,92.1,96,7.3,296,0.55,0.99,24.4,1.0,Chemotherapy,80.3,Complete Response,Low
+ONC10261,2026-01-11 20:00:00,64.0,Female,Gastric Cancer,III,HER2,1.21,48.9,97.3,90,6.6,267,1.75,0.47,27.4,1.0,Pembrolizumab,33.7,Unknown,Low
+ONC10262,2026-01-11 21:00:00,67.0,Male,NSCLC,II,BRCA2,4.52,10.9,93.9,90,9.8,315,1.12,1.4,28.1,1.0,Chemotherapy,71.6,Unknown,Low
+ONC10263,2026-01-11 22:00:00,68.0,Male,NSCLC,II,PIK3CA,1.98,47.5,97.5,78,10.5,326,1.06,1.34,28.2,1.0,Immunotherapy,94.0,Stable Disease,Moderate
+ONC10264,2026-01-11 23:00:00,50.0,Unknown,Renal Cancer,III,ALK,3.41,62.3,92.2,45,4.2,332,0.83,0.63,22.8,1.0,Olaparib,90.4,Progressive Disease,Low
+ONC10265,2026-01-12 00:00:00,60.0,Female,Colorectal Cancer,III,TP53,2.16,14.7,100.0,78,10.5,111,0.59,1.17,25.3,1.0,Docetaxel,56.5,Progressive Disease,Low
+ONC10266,2026-01-12 01:00:00,68.0,Male,Gastric Cancer,II,EGFR,1.63,65.2,93.1,45,11.2,301,1.38,0.36,24.3,0.0,Docetaxel,57.2,Partial Response,Low
+ONC10267,2026-01-12 02:00:00,60.0,Female,Melanoma,III,TP53,1.69,29.6,96.1,101,4.1,258,1.49,0.58,28.9,2.0,Docetaxel,39.1,Unknown,Moderate
+ONC10268,2026-01-12 03:00:00,60.0,Male,Pancreatic Cancer,I,ALK,2.51,37.6,97.9,97,7.8,301,0.9,1.0,29.8,2.0,Immunotherapy,54.9,Complete Response,Low
+ONC10269,2026-01-12 04:00:00,57.0,Male,Pancreatic Cancer,IV,HER2,7.22,44.8,93.8,82,6.7,272,1.22,0.32,26.1,1.0,Pembrolizumab,62.7,Stable Disease,Low
+ONC10270,2026-01-12 05:00:00,60.0,Male,Pancreatic Cancer,III,ALK,4.11,49.3,97.5,73,6.9,260,1.52,0.54,26.3,1.0,FOLFOX,72.1,Progressive Disease,Low
+ONC10271,2026-01-12 06:00:00,44.0,Male,Liver Cancer,III,BRCA1,8.89,32.9,97.4,91,10.5,276,1.3,1.93,17.8,1.0,Immunotherapy,40.6,Progressive Disease,Low
+ONC10272,2026-01-12 07:00:00,67.0,Male,Prostate Cancer,III,ALK,0.73,35.7,100.0,96,4.3,127,1.1,0.71,24.4,0.0,Osimertinib,112.3,Progressive Disease,Moderate
+ONC10273,2026-01-12 08:00:00,61.0,Male,Prostate Cancer,IV,BRCA1,1.62,55.0,94.7,107,9.9,326,1.07,0.2,23.9,1.0,FOLFOX,81.5,Complete Response,Low
+ONC10274,2026-01-12 09:00:00,56.0,Unknown,NSCLC,II,RET,2.93,56.6,94.4,83,9.7,229,1.25,0.79,22.1,2.0,Carboplatin+Paclitaxel,75.3,Unknown,Low
+ONC10275,2026-01-12 10:00:00,58.0,Male,Colorectal Cancer,III,EGFR,7.07,30.5,95.6,59,6.1,243,0.97,0.83,19.6,2.0,Trastuzumab,67.7,Complete Response,Low
+ONC10276,2026-01-12 11:00:00,70.0,Unknown,Renal Cancer,III,TP53,2.72,48.4,99.5,86,8.5,122,1.15,0.6,28.5,1.0,Docetaxel,94.7,Stable Disease,Moderate
+ONC10277,2026-01-12 12:00:00,58.0,Male,Liver Cancer,IV,KRAS,2.59,56.9,98.1,99,2.9,267,1.0,1.25,22.7,3.0,Nivolumab,82.4,Progressive Disease,Moderate
+ONC10278,2026-01-12 13:00:00,20.0,Male,Ovarian Cancer,IV,EGFR,2.48,15.5,100.0,75,9.2,114,1.07,1.25,22.9,1.0,Cisplatin+Gemcitabine,82.1,Partial Response,Low
+ONC10279,2026-01-12 14:00:00,51.0,Male,NSCLC,II,ALK,3.67,-4.3,98.7,69,5.6,257,0.35,0.73,24.2,1.0,Chemotherapy,88.0,Partial Response,Low
+ONC10280,2026-01-12 15:00:00,65.0,Unknown,Colorectal Cancer,III,TP53,3.92,59.0,95.0,73,9.1,238,0.63,1.72,29.4,1.0,Immunotherapy,111.1,Progressive Disease,Moderate
+ONC10281,2026-01-12 16:00:00,51.0,Unknown,Liver Cancer,III,BRCA2,2.33,29.9,95.4,78,6.3,204,0.92,0.84,29.7,3.0,FOLFOX,80.3,Stable Disease,Moderate
+ONC10282,2026-01-12 17:00:00,50.0,Female,Breast Cancer,IV,TP53,0.61,58.9,94.9,84,10.1,313,0.75,1.09,19.6,2.0,FOLFOX,108.2,Partial Response,Moderate
+ONC10283,2026-01-12 18:00:00,35.0,Male,Melanoma,IV,PIK3CA,1.7,37.5,94.0,68,8.1,242,0.76,0.68,22.1,3.0,Docetaxel,95.5,Unknown,Moderate
+ONC10284,2026-01-12 19:00:00,41.0,Male,Colorectal Cancer,I,PIK3CA,5.2,29.2,96.3,83,4.4,182,1.63,1.01,22.7,0.0,Olaparib,105.7,Progressive Disease,Moderate
+ONC10285,2026-01-12 20:00:00,49.0,Male,Gastric Cancer,IV,TP53,1.32,44.4,93.7,48,6.8,263,1.16,1.07,23.1,3.0,Trastuzumab,114.6,Stable Disease,High
+ONC10286,2026-01-12 21:00:00,35.0,Unknown,NSCLC,III,PD-L1,1.15,13.1,94.9,84,6.1,241,0.36,0.8,26.3,2.0,Targeted Therapy,117.7,Stable Disease,High
+ONC10287,2026-01-12 22:00:00,60.0,Unknown,Breast Cancer,IV,EGFR,2.21,48.0,98.5,106,7.9,317,1.22,1.84,24.0,2.0,Sorafenib,20.2,Partial Response,Moderate
+ONC10288,2026-01-12 23:00:00,72.0,Male,Renal Cancer,III,EGFR,2.59,37.5,95.7,93,14.9,142,0.59,1.39,24.2,2.0,Nivolumab,83.4,Complete Response,Moderate
+ONC10289,2026-01-13 00:00:00,54.0,Male,Prostate Cancer,III,EGFR,2.9,67.4,92.9,102,8.4,438,1.15,0.89,21.1,3.0,Trastuzumab,71.0,Stable Disease,Moderate
+ONC10290,2026-01-13 01:00:00,70.0,Female,Breast Cancer,IV,MET,8.09,46.9,97.4,94,6.9,304,1.01,0.83,31.5,0.0,Sorafenib,60.3,Partial Response,Low
+ONC10291,2026-01-13 02:00:00,61.0,Male,NSCLC,IV,TP53,2.85,15.9,99.2,68,7.8,91,0.92,1.51,16.7,0.0,Trastuzumab,95.3,Partial Response,Low
+ONC10292,2026-01-13 03:00:00,29.0,Female,Gastric Cancer,II,TP53,4.47,60.2,92.6,85,10.1,225,0.92,1.0,30.0,1.0,Pembrolizumab,87.1,Unknown,Low
+ONC10293,2026-01-13 04:00:00,90.0,Female,Pancreatic Cancer,III,RET,5.6,27.2,95.7,68,9.5,228,1.04,1.26,29.2,2.0,Chemotherapy,69.1,Progressive Disease,Low
+ONC10294,2026-01-13 05:00:00,40.0,Male,Melanoma,III,Unknown,4.34,67.7,93.2,95,8.5,300,1.31,1.14,25.2,1.0,Sorafenib,50.9,Progressive Disease,Low
+ONC10295,2026-01-13 06:00:00,41.0,Female,NSCLC,I,BRAF,6.8,26.5,98.6,91,5.5,259,0.84,1.26,20.2,2.0,Nivolumab,74.9,Progressive Disease,Low
+ONC10296,2026-01-13 07:00:00,61.0,Male,NSCLC,III,BRCA2,0.91,32.1,92.9,91,6.0,218,1.04,1.73,25.3,3.0,Cisplatin+Gemcitabine,85.4,Complete Response,Moderate
+ONC10297,2026-01-13 08:00:00,60.0,Unknown,Prostate Cancer,IV,BRCA1,1.46,50.7,96.9,91,3.8,134,1.21,0.9,25.3,1.0,Osimertinib,80.8,Progressive Disease,Low
+ONC10298,2026-01-13 09:00:00,62.0,Female,Melanoma,II,BRAF,0.76,49.7,97.8,88,4.7,247,0.52,0.2,29.3,1.0,Olaparib,56.2,Partial Response,Low
+ONC10299,2026-01-13 10:00:00,83.0,Female,NSCLC,III,ALK,1.06,31.8,98.4,89,9.1,241,0.84,1.08,27.4,2.0,Chemotherapy,55.7,Complete Response,Low
+ONC10300,2026-01-13 11:00:00,48.0,Male,Breast Cancer,IV,BRAF,8.04,59.0,94.8,114,5.0,256,1.31,0.96,24.5,1.0,FOLFOX,66.8,Progressive Disease,Low
+ONC10301,2026-01-13 12:00:00,66.0,Female,Melanoma,IV,Unknown,1.52,38.9,93.9,79,7.0,302,1.11,1.78,30.2,1.0,Osimertinib,72.1,Stable Disease,Low
+ONC10302,2026-01-13 13:00:00,55.0,Female,Breast Cancer,III,NTRK,2.07,30.3,94.6,93,5.3,229,1.04,1.82,24.2,2.0,Sorafenib,79.6,Unknown,Moderate
+ONC10303,2026-01-13 14:00:00,52.0,Female,NSCLC,II,RET,2.59,30.4,95.7,101,5.7,254,1.05,1.61,20.6,2.0,Pembrolizumab,68.1,Partial Response,Moderate
+ONC10304,2026-01-13 15:00:00,68.0,Female,Ovarian Cancer,IV,PIK3CA,1.82,-3.1,96.1,77,7.4,103,1.6,0.77,22.2,2.0,Carboplatin+Paclitaxel,100.2,Complete Response,Moderate
+ONC10305,2026-01-13 16:00:00,46.0,Male,Ovarian Cancer,I,BRCA1,1.09,57.4,99.0,90,8.2,289,0.55,0.86,29.0,2.0,Targeted Therapy,66.3,Stable Disease,Low
+ONC10306,2026-01-13 17:00:00,42.0,Female,Pancreatic Cancer,IV,Unknown,3.95,33.7,94.2,84,9.0,216,1.65,1.31,15.0,0.0,Nivolumab,59.5,Stable Disease,Low
+ONC10307,2026-01-13 18:00:00,68.0,Female,Gastric Cancer,III,TP53,1.12,59.7,95.7,77,6.8,227,1.01,1.53,26.7,1.0,Carboplatin+Paclitaxel,54.4,Partial Response,Low
+ONC10308,2026-01-13 19:00:00,36.0,Unknown,Renal Cancer,IV,NTRK,5.2,35.4,95.4,73,8.9,322,1.38,1.11,19.8,2.0,FOLFOX,107.4,Unknown,High
+ONC10309,2026-01-13 20:00:00,56.0,Male,Pancreatic Cancer,III,KRAS,2.41,49.1,96.3,61,7.9,275,0.86,0.78,26.6,1.0,Immunotherapy,96.1,Progressive Disease,Moderate
+ONC10310,2026-01-13 21:00:00,43.0,Female,Gastric Cancer,III,Unknown,1.95,24.8,97.2,82,4.3,200,1.04,1.27,26.6,2.0,Trastuzumab,81.0,Stable Disease,Moderate
+ONC10311,2026-01-13 22:00:00,67.0,Male,Colorectal Cancer,I,BRCA2,0.65,41.5,100.0,80,12.5,189,1.05,1.02,26.0,2.0,Olaparib,109.9,Unknown,Moderate
+ONC10312,2026-01-13 23:00:00,63.0,Female,Prostate Cancer,IV,RET,4.56,42.9,96.0,87,3.8,294,1.25,1.22,25.6,0.0,Cisplatin+Gemcitabine,110.3,Stable Disease,Moderate
+ONC10313,2026-01-14 00:00:00,56.0,Female,NSCLC,II,PD-L1,4.17,30.1,94.8,97,7.5,265,1.28,0.88,25.9,1.0,Carboplatin+Paclitaxel,58.3,Partial Response,Low
+ONC10314,2026-01-14 01:00:00,61.0,Female,NSCLC,III,TP53,2.68,37.8,99.3,87,1.7,216,1.22,0.2,30.7,2.0,Olaparib,98.8,Complete Response,Moderate
+ONC10315,2026-01-14 02:00:00,59.0,Male,Ovarian Cancer,IV,PD-L1,3.5,39.7,95.2,79,9.2,425,1.52,1.1,26.6,3.0,Carboplatin+Paclitaxel,47.4,Complete Response,Moderate
+ONC10316,2026-01-14 03:00:00,54.0,Unknown,NSCLC,III,TP53,7.42,19.1,96.6,73,7.2,150,1.41,0.58,20.1,1.0,FOLFOX,73.6,Partial Response,Low
+ONC10317,2026-01-14 04:00:00,44.0,Female,Renal Cancer,IV,KRAS,1.45,76.3,93.9,84,8.6,225,1.53,0.73,36.2,2.0,Chemotherapy,36.7,Progressive Disease,Low
+ONC10318,2026-01-14 05:00:00,65.0,Male,Melanoma,III,PD-L1,3.85,34.3,91.2,83,9.4,161,1.27,1.28,17.8,2.0,Chemotherapy,64.7,Partial Response,Low
+ONC10319,2026-01-14 06:00:00,77.0,Female,Ovarian Cancer,I,PIK3CA,0.64,35.8,93.6,89,13.1,267,0.87,1.23,25.7,2.0,FOLFOX,57.5,Complete Response,Low
+ONC10320,2026-01-14 07:00:00,63.0,Female,Colorectal Cancer,IV,KRAS,1.62,70.6,94.7,84,3.8,195,0.35,0.86,23.4,1.0,Targeted Therapy,76.0,Partial Response,Low
+ONC10321,2026-01-14 08:00:00,69.0,Male,Gastric Cancer,IV,EGFR,1.8,49.0,97.2,90,9.6,314,1.57,0.62,17.9,1.0,Sorafenib,64.6,Stable Disease,Low
+ONC10322,2026-01-14 09:00:00,70.0,Male,Breast Cancer,III,PIK3CA,2.63,48.7,96.4,57,9.0,268,0.64,1.36,16.6,2.0,Immunotherapy,68.5,Stable Disease,Low
+ONC10323,2026-01-14 10:00:00,47.0,Female,Gastric Cancer,III,HER2,2.04,27.9,96.5,96,10.5,302,1.11,0.43,24.3,2.0,Pembrolizumab,66.7,Stable Disease,Low
+ONC10324,2026-01-14 11:00:00,66.0,Unknown,Melanoma,III,RET,5.51,8.6,92.8,79,8.3,209,0.88,1.11,29.4,2.0,Osimertinib,99.1,Stable Disease,Moderate
+ONC10325,2026-01-14 12:00:00,55.0,Female,Ovarian Cancer,IV,ALK,3.01,66.4,95.5,83,10.3,313,0.52,1.0,26.3,4.0,Immunotherapy,59.0,Progressive Disease,Moderate
+ONC10326,2026-01-14 13:00:00,52.0,Female,Gastric Cancer,II,BRAF,2.92,26.2,98.7,70,4.7,97,0.73,1.03,25.7,0.0,Chemotherapy,97.2,Progressive Disease,Low
+ONC10327,2026-01-14 14:00:00,58.0,Male,NSCLC,III,TP53,3.41,37.9,98.5,69,14.3,321,1.17,0.98,24.7,0.0,FOLFOX,100.1,Progressive Disease,Low
+ONC10328,2026-01-14 15:00:00,54.0,Male,Renal Cancer,IV,PIK3CA,8.45,35.2,98.0,87,3.2,102,0.58,1.51,21.3,0.0,Docetaxel,42.9,Progressive Disease,Low
+ONC10329,2026-01-14 16:00:00,55.0,Male,Ovarian Cancer,IV,EGFR,5.21,55.5,95.6,104,4.0,318,1.24,0.67,19.4,1.0,Sorafenib,91.1,Progressive Disease,Moderate
+ONC10330,2026-01-14 17:00:00,51.0,Female,Melanoma,I,KRAS,2.92,48.1,97.3,98,7.4,307,0.53,1.33,20.9,3.0,Chemotherapy,59.3,Unknown,Moderate
+ONC10331,2026-01-14 18:00:00,61.0,Male,NSCLC,IV,KRAS,15.47,83.3,91.8,79,5.5,358,1.2,1.22,29.6,1.0,Chemotherapy,57.1,Progressive Disease,Low
+ONC10332,2026-01-14 19:00:00,34.0,Male,Liver Cancer,III,HER2,2.61,41.0,96.3,54,6.6,265,0.93,1.33,30.5,2.0,Immunotherapy,95.7,Unknown,Moderate
+ONC10333,2026-01-14 20:00:00,68.0,Unknown,Renal Cancer,IV,BRCA2,6.05,51.4,94.7,63,2.8,265,0.86,1.59,28.4,1.0,Cisplatin+Gemcitabine,74.3,Complete Response,Low
+ONC10334,2026-01-14 21:00:00,58.0,Female,Breast Cancer,II,Unknown,2.73,38.0,95.0,77,9.8,315,1.35,0.44,27.7,3.0,Osimertinib,37.4,Partial Response,Moderate
+ONC10335,2026-01-14 22:00:00,66.0,Male,NSCLC,IV,PIK3CA,1.06,43.2,93.2,71,11.5,236,0.92,1.4,24.3,1.0,FOLFOX,76.5,Unknown,Low
+ONC10336,2026-01-14 23:00:00,38.0,Male,Ovarian Cancer,IV,PIK3CA,3.49,47.8,100.0,77,7.4,173,1.04,0.55,27.3,1.0,Immunotherapy,75.85,Progressive Disease,Low
+ONC10337,2026-01-15 00:00:00,40.0,Male,Ovarian Cancer,III,TP53,2.35,55.1,93.9,90,4.9,199,1.28,0.98,23.5,4.0,Targeted Therapy,89.7,Partial Response,High
+ONC10338,2026-01-15 01:00:00,63.0,Male,Melanoma,II,Unknown,1.01,51.4,96.6,88,5.9,403,1.08,1.1,26.3,2.0,Chemotherapy,67.5,Progressive Disease,Low
+ONC10339,2026-01-15 02:00:00,43.0,Female,Ovarian Cancer,I,EGFR,3.0,50.5,96.2,54,10.0,254,0.95,1.14,22.4,3.0,Pembrolizumab,90.3,Unknown,Moderate
+ONC10340,2026-01-15 03:00:00,91.0,Female,Prostate Cancer,III,EGFR,0.67,58.3,92.3,105,8.3,122,1.14,1.43,24.7,1.0,Trastuzumab,52.8,Stable Disease,Low
+ONC10341,2026-01-15 04:00:00,78.0,Female,Pancreatic Cancer,IV,Unknown,3.54,30.4,91.1,76,6.1,230,1.19,1.47,16.5,0.0,Targeted Therapy,79.7,Unknown,Low
+ONC10342,2026-01-15 05:00:00,71.0,Male,Ovarian Cancer,IV,ALK,2.18,91.9,96.7,79,8.3,288,0.83,0.84,17.2,1.0,Olaparib,75.85,Unknown,Moderate
+ONC10343,2026-01-15 06:00:00,36.0,Unknown,Renal Cancer,IV,PIK3CA,3.42,44.0,100.0,95,7.8,203,1.1,1.16,24.7,2.0,FOLFOX,113.3,Stable Disease,High
+ONC10344,2026-01-15 07:00:00,45.0,Female,Gastric Cancer,IV,BRCA1,3.41,85.2,93.4,78,8.7,312,1.74,1.23,31.4,0.0,Nivolumab,81.8,Unknown,Low
+ONC10345,2026-01-15 08:00:00,80.0,Female,Prostate Cancer,I,KRAS,9.98,39.6,93.6,63,9.3,244,0.71,1.4,21.5,1.0,Sorafenib,68.2,Stable Disease,Low
+ONC10346,2026-01-15 09:00:00,38.0,Female,NSCLC,IV,ROS1,2.22,33.3,96.7,87,3.1,386,1.53,0.65,21.8,1.0,Docetaxel,101.2,Progressive Disease,Moderate
+ONC10347,2026-01-15 10:00:00,40.0,Female,Renal Cancer,III,RET,14.67,18.7,93.3,90,8.1,281,1.04,1.5,28.8,2.0,Sorafenib,29.2,Stable Disease,Moderate
+ONC10348,2026-01-15 11:00:00,49.0,Female,Breast Cancer,IV,KRAS,0.91,9.7,94.0,71,9.9,224,0.8,1.37,31.1,1.0,Nivolumab,74.5,Unknown,Low
+ONC10349,2026-01-15 12:00:00,64.0,Female,Breast Cancer,III,PD-L1,18.52,30.3,95.1,80,5.1,342,1.04,1.02,21.9,1.0,Cisplatin+Gemcitabine,100.3,Unknown,Moderate
+ONC10350,2026-01-15 13:00:00,52.0,Male,Ovarian Cancer,III,KRAS,2.62,54.1,95.6,95,8.6,328,1.22,1.3,20.4,2.0,Immunotherapy,62.2,Unknown,Low
+ONC10351,2026-01-15 14:00:00,52.0,Female,Prostate Cancer,IV,BRCA2,1.75,70.5,100.0,115,7.1,358,1.64,2.0,23.6,3.0,FOLFOX,84.6,Complete Response,High
+ONC10352,2026-01-15 15:00:00,63.0,Male,Renal Cancer,IV,KRAS,2.95,68.9,97.5,87,6.5,90,0.35,1.02,26.7,0.0,Targeted Therapy,78.7,Complete Response,Low
+ONC10353,2026-01-15 16:00:00,43.0,Female,NSCLC,III,MET,12.1,28.3,97.3,64,10.1,285,0.35,1.26,29.4,1.0,Cisplatin+Gemcitabine,80.7,Progressive Disease,Low
+ONC10354,2026-01-15 17:00:00,57.0,Female,Melanoma,II,HER2,12.06,48.4,96.0,105,8.7,206,0.83,0.72,24.8,1.0,FOLFOX,93.5,Complete Response,Moderate
+ONC10355,2026-01-15 18:00:00,66.0,Female,Renal Cancer,III,PD-L1,6.19,49.9,98.2,46,9.4,99,1.12,0.78,18.1,2.0,Osimertinib,500.0,Partial Response,Low
+ONC10356,2026-01-15 19:00:00,59.0,Male,Liver Cancer,III,PIK3CA,0.99,49.6,93.0,76,7.8,296,0.35,1.14,30.4,1.0,FOLFOX,86.8,Partial Response,Low
+ONC10357,2026-01-15 20:00:00,55.0,Male,Pancreatic Cancer,IV,BRAF,4.67,48.6,93.4,91,5.5,306,0.76,0.71,30.5,1.0,Targeted Therapy,73.8,Unknown,Low
+ONC10358,2026-01-15 21:00:00,42.0,Male,Liver Cancer,IV,PD-L1,0.49,37.0,96.3,77,5.3,120,0.79,0.72,24.7,3.0,Immunotherapy,90.1,Unknown,Moderate
+ONC10359,2026-01-15 22:00:00,41.0,Female,Pancreatic Cancer,II,EGFR,3.95,29.3,97.6,61,12.2,232,1.12,1.91,32.4,2.0,Carboplatin+Paclitaxel,57.5,Complete Response,Low
+ONC10360,2026-01-15 23:00:00,55.0,Female,Breast Cancer,I,BRCA1,2.46,54.9,95.2,83,2.3,243,1.16,1.11,16.6,2.0,Docetaxel,108.3,Progressive Disease,Moderate
+ONC10361,2026-01-16 00:00:00,66.0,Female,NSCLC,III,TP53,3.2,22.6,97.1,72,7.3,78,1.33,1.06,15.9,2.0,FOLFOX,66.5,Progressive Disease,Low
+ONC10362,2026-01-16 01:00:00,56.0,Male,Ovarian Cancer,III,HER2,5.4,27.4,100.0,82,3.4,157,1.2,0.63,23.4,0.0,Olaparib,45.2,Progressive Disease,Low
+ONC10363,2026-01-16 02:00:00,55.0,Unknown,Colorectal Cancer,I,HER2,11.58,66.0,96.3,88,9.3,227,1.31,0.81,24.9,3.0,Nivolumab,65.8,Progressive Disease,Moderate
+ONC10364,2026-01-16 03:00:00,52.0,Female,Prostate Cancer,I,EGFR,1.28,45.0,97.1,92,6.6,268,0.72,1.49,27.1,2.0,Carboplatin+Paclitaxel,59.0,Unknown,Low
+ONC10365,2026-01-16 04:00:00,66.0,Male,Breast Cancer,IV,EGFR,7.52,47.9,97.2,75,6.7,219,0.41,1.92,18.2,2.0,Osimertinib,104.2,Complete Response,Moderate
+ONC10366,2026-01-16 05:00:00,66.0,Female,Gastric Cancer,III,TP53,2.92,60.4,94.4,92,7.1,299,0.65,0.99,30.2,1.0,Carboplatin+Paclitaxel,75.7,Progressive Disease,Low
+ONC10367,2026-01-16 06:00:00,42.0,Male,Renal Cancer,I,EGFR,1.44,37.5,96.0,108,2.3,198,1.12,0.39,25.5,1.0,Targeted Therapy,97.5,Partial Response,Moderate
+ONC10368,2026-01-16 07:00:00,38.0,Unknown,Ovarian Cancer,II,TP53,9.54,60.4,98.9,86,7.8,280,0.92,0.6,30.8,1.0,Sorafenib,43.2,Stable Disease,Low
+ONC10369,2026-01-16 08:00:00,46.0,Female,NSCLC,III,HER2,1.56,34.0,96.9,81,8.4,198,1.44,0.7,28.6,0.0,Osimertinib,75.85,Unknown,Moderate
+ONC10370,2026-01-16 09:00:00,57.0,Unknown,Renal Cancer,III,TP53,2.68,68.0,97.5,87,12.2,213,1.03,0.44,27.3,1.0,Trastuzumab,107.7,Progressive Disease,Moderate
+ONC10371,2026-01-16 10:00:00,59.0,Unknown,Colorectal Cancer,III,BRAF,3.04,31.4,97.8,93,9.7,229,0.86,0.45,23.3,2.0,Cisplatin+Gemcitabine,62.5,Partial Response,Low
+ONC10372,2026-01-16 11:00:00,71.0,Male,Gastric Cancer,II,ALK,2.96,43.1,98.7,74,4.8,267,0.74,1.42,15.0,2.0,Sorafenib,58.2,Complete Response,Low
+ONC10373,2026-01-16 12:00:00,55.0,Female,Liver Cancer,III,MET,1.13,30.9,98.0,84,6.9,214,0.81,1.36,16.6,1.0,Sorafenib,77.6,Partial Response,Low
+ONC10374,2026-01-16 13:00:00,53.0,Male,Melanoma,I,KRAS,1.73,29.2,96.2,57,10.3,210,0.57,0.92,22.9,1.0,Nivolumab,82.3,Unknown,Low
+ONC10375,2026-01-16 14:00:00,57.0,Male,Liver Cancer,III,PIK3CA,3.35,57.0,96.3,71,10.0,112,1.37,0.66,27.4,2.0,Pembrolizumab,96.1,Progressive Disease,Moderate
+ONC10376,2026-01-16 15:00:00,49.0,Male,Prostate Cancer,IV,EGFR,5.58,77.3,94.4,55,7.1,197,0.57,1.06,32.8,3.0,Trastuzumab,45.7,Unknown,Low
+ONC10377,2026-01-16 16:00:00,48.0,Female,NSCLC,IV,HER2,2.92,40.6,96.8,81,1.2,149,0.63,1.05,22.8,2.0,Targeted Therapy,66.6,Complete Response,Low
+ONC10378,2026-01-16 17:00:00,59.0,Male,Breast Cancer,II,TP53,3.26,51.6,96.5,74,2.3,292,1.07,1.24,31.4,3.0,Osimertinib,94.7,Progressive Disease,Moderate
+ONC10379,2026-01-16 18:00:00,77.0,Female,Pancreatic Cancer,IV,Unknown,5.77,49.9,93.1,71,4.7,70,0.86,0.91,20.5,0.0,Osimertinib,94.1,Progressive Disease,Low
+ONC10380,2026-01-16 19:00:00,53.0,Female,Melanoma,II,MET,25.16,60.6,97.1,77,8.9,186,1.17,0.41,18.5,2.0,Cisplatin+Gemcitabine,75.6,Progressive Disease,Moderate
+ONC10381,2026-01-16 20:00:00,63.0,Male,Melanoma,IV,EGFR,9.96,103.8,91.8,107,5.1,442,0.35,0.85,34.9,3.0,Sorafenib,69.2,Unknown,Moderate
+ONC10382,2026-01-16 21:00:00,54.0,Male,Renal Cancer,III,KRAS,5.06,74.0,100.0,78,10.1,254,0.35,0.84,27.2,1.0,Nivolumab,99.3,Progressive Disease,High
+ONC10383,2026-01-16 22:00:00,26.0,Male,Melanoma,III,RET,2.7,27.8,95.3,108,5.1,373,1.28,0.71,28.6,2.0,Osimertinib,54.2,Stable Disease,Moderate
+ONC10384,2026-01-16 23:00:00,71.0,Male,Melanoma,IV,TP53,0.25,8.2,95.7,70,4.3,496,0.85,0.91,27.6,2.0,Cisplatin+Gemcitabine,80.4,Stable Disease,Low
+ONC10385,2026-01-17 00:00:00,46.0,Female,NSCLC,III,KRAS,1.07,71.1,94.4,99,2.7,89,0.85,0.86,28.3,2.0,Osimertinib,102.0,Stable Disease,Moderate
+ONC10386,2026-01-17 01:00:00,58.0,Female,Liver Cancer,II,ALK,3.15,56.4,94.4,89,6.5,350,1.27,1.2,30.6,0.0,Docetaxel,65.6,Unknown,Low
+ONC10387,2026-01-17 02:00:00,54.0,Male,Pancreatic Cancer,III,BRAF,2.84,48.7,98.3,83,7.7,212,1.04,1.06,23.1,4.0,Osimertinib,77.3,Progressive Disease,Moderate
+ONC10388,2026-01-17 03:00:00,72.0,Female,Ovarian Cancer,IV,NTRK,6.65,56.5,94.0,106,6.7,168,0.35,0.96,24.8,1.0,Targeted Therapy,77.2,Stable Disease,Low
+ONC10389,2026-01-17 04:00:00,72.0,Female,NSCLC,I,KRAS,4.88,47.4,96.2,57,4.5,332,1.11,1.29,26.4,0.0,Docetaxel,56.1,Stable Disease,Low
+ONC10390,2026-01-17 05:00:00,37.0,Male,Breast Cancer,III,ROS1,2.68,65.0,96.8,83,9.2,293,1.5,0.58,16.0,2.0,Trastuzumab,53.9,Stable Disease,Low
+ONC10391,2026-01-17 06:00:00,58.0,Female,Renal Cancer,I,KRAS,1.99,60.7,98.1,86,7.2,279,0.88,0.76,26.5,1.0,Carboplatin+Paclitaxel,84.9,Stable Disease,Low
+ONC10392,2026-01-17 07:00:00,51.0,Male,Melanoma,IV,BRAF,4.72,62.3,100.0,94,12.7,203,0.54,0.9,24.9,2.0,Nivolumab,88.3,Progressive Disease,Moderate
+ONC10393,2026-01-17 08:00:00,51.0,Female,Liver Cancer,I,KRAS,9.07,83.8,95.5,71,9.4,194,0.42,2.04,29.0,2.0,Docetaxel,105.5,Partial Response,High
+ONC10394,2026-01-17 09:00:00,63.0,Unknown,NSCLC,III,BRAF,7.21,37.7,93.8,97,7.5,254,0.55,0.72,27.3,1.0,Olaparib,86.1,Stable Disease,Low
+ONC10395,2026-01-17 10:00:00,64.0,Male,Liver Cancer,III,PIK3CA,1.83,87.2,94.6,97,4.6,144,0.83,0.2,20.2,1.0,Immunotherapy,70.8,Unknown,Low
+ONC10396,2026-01-17 11:00:00,60.0,Female,Ovarian Cancer,IV,ALK,2.72,37.4,98.7,60,13.4,225,0.93,1.0,29.6,2.0,FOLFOX,31.8,Complete Response,Low
+ONC10397,2026-01-17 12:00:00,39.0,Male,Ovarian Cancer,III,TP53,1.76,48.0,98.4,78,7.6,286,1.33,1.37,25.8,1.0,Olaparib,120.2,Partial Response,High
+ONC10398,2026-01-17 13:00:00,77.0,Unknown,NSCLC,III,ROS1,1.1,58.8,96.2,96,6.3,304,1.18,1.68,29.4,2.0,Osimertinib,133.1,Stable Disease,High
+ONC10399,2026-01-17 14:00:00,77.0,Male,Prostate Cancer,III,PD-L1,0.79,33.0,100.0,72,7.2,273,0.63,1.24,35.0,2.0,Sorafenib,84.4,Progressive Disease,Moderate
+ONC10400,2026-01-17 15:00:00,80.0,Unknown,Pancreatic Cancer,II,EGFR,1.41,36.5,95.1,81,7.4,210,1.42,1.29,29.6,0.0,Trastuzumab,69.0,Stable Disease,Low
+ONC10401,2026-01-17 16:00:00,61.0,Male,Colorectal Cancer,IV,TP53,4.05,47.9,100.0,91,7.8,294,1.0,1.74,25.3,2.0,Docetaxel,80.0,Progressive Disease,Moderate
+ONC10402,2026-01-17 17:00:00,45.0,Female,Prostate Cancer,IV,TP53,2.84,56.3,100.0,92,10.5,229,1.07,1.45,22.8,0.0,Docetaxel,77.3,Stable Disease,Low
+ONC10403,2026-01-17 18:00:00,58.0,Female,Colorectal Cancer,III,BRCA2,4.16,39.3,97.9,91,9.7,217,0.35,0.8,27.2,2.0,Olaparib,104.5,Complete Response,Moderate
+ONC10404,2026-01-17 19:00:00,57.0,Male,Gastric Cancer,III,Unknown,0.91,58.2,96.3,89,12.3,245,0.49,0.7,22.0,3.0,Targeted Therapy,53.3,Complete Response,Low
+ONC10405,2026-01-17 20:00:00,62.0,Unknown,Ovarian Cancer,II,TP53,2.67,43.3,98.2,64,4.9,251,0.46,1.06,23.0,3.0,Cisplatin+Gemcitabine,41.3,Unknown,Low
+ONC10406,2026-01-17 21:00:00,41.0,Male,Breast Cancer,IV,RET,2.49,31.8,89.8,70,7.3,207,0.63,1.28,21.1,2.0,Carboplatin+Paclitaxel,92.3,Partial Response,Moderate
+ONC10407,2026-01-17 22:00:00,44.0,Male,Ovarian Cancer,II,ROS1,6.77,48.7,95.6,61,4.5,197,1.41,0.2,25.4,0.0,Olaparib,64.5,Partial Response,Low
+ONC10408,2026-01-17 23:00:00,54.0,Female,Prostate Cancer,I,EGFR,2.14,42.6,98.4,86,10.6,279,0.74,1.53,20.3,1.0,FOLFOX,74.1,Complete Response,Low
+ONC10409,2026-01-18 00:00:00,91.0,Male,Pancreatic Cancer,III,NTRK,1.74,46.4,96.7,77,10.8,243,1.31,1.56,28.0,1.0,Trastuzumab,75.85,Progressive Disease,Low
+ONC10410,2026-01-18 01:00:00,82.0,Unknown,NSCLC,III,EGFR,1.54,63.8,98.2,73,6.9,357,1.02,0.91,17.8,2.0,Olaparib,101.5,Stable Disease,Moderate
+ONC10411,2026-01-18 02:00:00,86.0,Male,Prostate Cancer,IV,PIK3CA,4.17,46.9,92.4,85,7.1,241,1.0,1.46,23.6,0.0,Carboplatin+Paclitaxel,56.9,Partial Response,Low
+ONC10412,2026-01-18 03:00:00,51.0,Female,Ovarian Cancer,IV,ALK,5.63,57.0,96.6,74,8.8,322,0.66,0.78,34.3,1.0,Nivolumab,87.6,Progressive Disease,Low
+ONC10413,2026-01-18 04:00:00,47.0,Female,Pancreatic Cancer,III,TP53,2.22,42.1,96.1,83,7.4,308,0.98,0.46,23.8,1.0,Cisplatin+Gemcitabine,79.1,Stable Disease,Low
+ONC10414,2026-01-18 05:00:00,78.0,Female,Prostate Cancer,I,PIK3CA,1.15,29.6,96.3,87,8.6,263,1.48,1.93,30.0,0.0,Sorafenib,55.6,Complete Response,Low
+ONC10415,2026-01-18 06:00:00,59.0,Female,Ovarian Cancer,IV,BRCA1,1.64,33.3,99.0,64,9.3,240,1.06,0.92,29.0,1.0,Trastuzumab,88.4,Stable Disease,Low
+ONC10416,2026-01-18 07:00:00,86.0,Female,Liver Cancer,III,PD-L1,4.23,23.6,99.5,83,6.0,146,0.85,1.28,27.3,1.0,Trastuzumab,104.0,Stable Disease,Moderate
+ONC10417,2026-01-18 08:00:00,66.0,Female,Melanoma,I,BRAF,2.17,12.1,97.6,58,11.7,265,0.83,1.44,23.5,1.0,Trastuzumab,52.2,Complete Response,Low
+ONC10418,2026-01-18 09:00:00,41.0,Female,Renal Cancer,III,Unknown,1.99,55.2,92.9,68,5.9,219,0.92,1.08,28.5,1.0,Chemotherapy,112.0,Complete Response,Moderate
+ONC10419,2026-01-18 10:00:00,67.0,Male,Pancreatic Cancer,II,BRCA2,9.04,43.4,94.1,63,1.2,322,0.95,0.67,29.3,3.0,Osimertinib,61.5,Progressive Disease,Low
+ONC10420,2026-01-18 11:00:00,58.0,Male,Breast Cancer,III,BRAF,2.73,79.1,96.0,103,4.0,275,1.7,0.98,23.2,2.0,Carboplatin+Paclitaxel,53.7,Partial Response,Moderate
+ONC10421,2026-01-18 12:00:00,34.0,Female,Melanoma,III,HER2,3.85,48.8,99.3,80,5.2,219,1.24,1.23,26.7,2.0,Sorafenib,81.7,Stable Disease,Moderate
+ONC10422,2026-01-18 13:00:00,58.0,Male,Prostate Cancer,III,PIK3CA,2.03,46.8,97.9,65,6.3,197,0.83,1.56,25.8,2.0,Cisplatin+Gemcitabine,76.9,Partial Response,Low
+ONC10423,2026-01-18 14:00:00,75.0,Male,NSCLC,IV,TP53,2.55,36.7,95.6,73,4.7,82,0.91,0.78,23.4,4.0,Nivolumab,115.2,Unknown,High
+ONC10424,2026-01-18 15:00:00,48.0,Male,Pancreatic Cancer,IV,MET,1.67,36.9,95.3,95,5.3,212,0.35,1.15,21.1,2.0,Targeted Therapy,50.8,Progressive Disease,Low
+ONC10425,2026-01-18 16:00:00,81.0,Female,Colorectal Cancer,II,Unknown,8.64,53.6,95.8,70,6.0,289,1.02,1.48,28.5,0.0,Targeted Therapy,105.2,Partial Response,Moderate
+ONC10426,2026-01-18 17:00:00,60.0,Female,Melanoma,IV,TP53,1.82,41.3,94.2,77,7.9,161,1.16,0.2,23.3,1.0,Pembrolizumab,39.7,Stable Disease,Low
+ONC10427,2026-01-18 18:00:00,70.0,Female,Gastric Cancer,I,Unknown,0.81,70.8,96.4,64,4.9,167,1.3,1.36,30.8,0.0,Docetaxel,114.3,Stable Disease,Moderate
+ONC10428,2026-01-18 19:00:00,58.0,Male,NSCLC,II,BRAF,0.92,54.1,100.0,84,5.3,223,1.11,0.68,31.4,2.0,Olaparib,20.0,Stable Disease,Low
+ONC10429,2026-01-18 20:00:00,53.0,Female,Renal Cancer,III,Unknown,2.59,30.4,96.5,90,10.1,280,1.05,0.8,29.1,2.0,Targeted Therapy,60.5,Unknown,Low
+ONC10430,2026-01-18 21:00:00,66.0,Male,Renal Cancer,IV,EGFR,0.34,54.6,96.1,82,7.8,175,1.04,1.29,34.1,1.0,Nivolumab,95.8,Unknown,Moderate
+ONC10431,2026-01-18 22:00:00,66.0,Female,NSCLC,III,TP53,4.05,20.0,98.8,91,5.3,225,0.52,0.95,27.4,1.0,Docetaxel,105.8,Complete Response,Moderate
+ONC10432,2026-01-18 23:00:00,48.0,Female,Melanoma,IV,Unknown,2.6,38.8,97.8,90,4.0,260,1.24,0.98,32.1,3.0,Cisplatin+Gemcitabine,74.2,Unknown,Moderate
+ONC10433,2026-01-19 00:00:00,78.0,Male,Ovarian Cancer,IV,EGFR,5.37,83.1,98.3,85,6.4,397,0.35,1.66,25.2,3.0,Olaparib,76.8,Partial Response,Moderate
+ONC10434,2026-01-19 01:00:00,58.0,Unknown,Pancreatic Cancer,IV,PIK3CA,8.13,59.7,97.2,68,8.2,143,1.25,0.2,17.2,0.0,Targeted Therapy,65.2,Unknown,Low
+ONC10435,2026-01-19 02:00:00,65.0,Female,Ovarian Cancer,III,ALK,0.74,5.2,93.4,84,9.7,304,0.82,0.35,25.3,2.0,Osimertinib,78.9,Progressive Disease,Low
+ONC10436,2026-01-19 03:00:00,60.0,Male,Melanoma,III,ROS1,2.7,34.3,92.1,88,8.1,346,0.83,1.2,20.6,0.0,Osimertinib,66.3,Partial Response,Low
+ONC10437,2026-01-19 04:00:00,49.0,Male,NSCLC,IV,Unknown,2.23,28.7,94.3,68,7.1,168,1.73,0.62,26.1,3.0,Pembrolizumab,114.6,Stable Disease,High
+ONC10438,2026-01-19 05:00:00,47.0,Female,Melanoma,IV,KRAS,5.45,76.8,98.1,97,5.2,289,0.89,1.21,26.7,2.0,Chemotherapy,79.4,Stable Disease,Moderate
+ONC10439,2026-01-19 06:00:00,52.0,Unknown,Gastric Cancer,III,Unknown,4.01,49.6,96.3,95,9.0,261,0.8,1.17,17.7,0.0,Trastuzumab,92.1,Complete Response,Low
+ONC10440,2026-01-19 07:00:00,58.0,Unknown,Renal Cancer,III,BRAF,3.52,28.6,95.4,88,2.8,196,1.23,0.68,19.9,1.0,Targeted Therapy,86.5,Unknown,Low
+ONC10441,2026-01-19 08:00:00,35.0,Male,Melanoma,IV,Unknown,2.91,44.1,93.5,86,4.1,287,1.47,0.99,25.0,1.0,Chemotherapy,116.7,Unknown,High
+ONC10442,2026-01-19 09:00:00,47.0,Unknown,Ovarian Cancer,IV,KRAS,3.63,38.3,96.7,96,9.3,331,0.96,1.09,20.4,0.0,Targeted Therapy,97.7,Complete Response,Moderate
+ONC10443,2026-01-19 10:00:00,35.0,Female,Prostate Cancer,III,BRAF,3.36,25.1,96.8,123,5.5,288,1.24,1.37,18.4,2.0,Pembrolizumab,52.4,Stable Disease,Moderate
+ONC10444,2026-01-19 11:00:00,55.0,Male,Colorectal Cancer,IV,EGFR,1.15,73.5,96.9,75,5.9,214,1.04,0.86,30.8,1.0,Cisplatin+Gemcitabine,79.0,Unknown,Low
+ONC10445,2026-01-19 12:00:00,61.0,Female,Liver Cancer,IV,TP53,0.61,47.6,94.4,81,8.2,394,1.04,1.74,27.3,2.0,Sorafenib,75.7,Progressive Disease,Moderate
+ONC10446,2026-01-19 13:00:00,47.0,Female,Liver Cancer,III,NTRK,1.3,53.0,96.2,104,9.4,255,1.14,0.98,18.9,1.0,Cisplatin+Gemcitabine,58.1,Partial Response,Low
+ONC10447,2026-01-19 14:00:00,50.0,Male,Renal Cancer,III,TP53,1.25,69.0,96.1,85,1.2,272,0.95,1.18,30.5,1.0,Targeted Therapy,104.4,Complete Response,Moderate
+ONC10448,2026-01-19 15:00:00,62.0,Female,Breast Cancer,I,BRCA1,11.91,58.3,99.0,91,8.3,230,0.41,1.73,35.0,1.0,Cisplatin+Gemcitabine,75.0,Stable Disease,Low
+ONC10449,2026-01-19 16:00:00,64.0,Male,NSCLC,IV,HER2,4.31,76.9,96.1,81,4.6,249,0.47,0.77,25.0,1.0,Carboplatin+Paclitaxel,46.6,Progressive Disease,Low
+ONC10450,2026-01-19 17:00:00,46.0,Female,Pancreatic Cancer,I,TP53,6.6,37.9,95.6,93,6.1,246,0.82,0.92,19.4,2.0,Immunotherapy,29.1,Complete Response,Low
+ONC10451,2026-01-19 18:00:00,43.0,Female,Colorectal Cancer,I,TP53,11.81,59.3,98.6,83,7.3,281,1.32,1.52,28.5,2.0,Chemotherapy,76.5,Progressive Disease,Moderate
+ONC10452,2026-01-19 19:00:00,43.0,Unknown,Breast Cancer,III,BRCA2,8.57,34.0,91.8,73,6.8,118,0.66,0.94,25.7,4.0,Olaparib,64.0,Progressive Disease,Moderate
+ONC10453,2026-01-19 20:00:00,56.0,Unknown,Liver Cancer,IV,Unknown,6.41,65.0,98.6,74,9.3,286,0.8,0.8,32.7,3.0,Sorafenib,46.7,Partial Response,Low
+ONC10454,2026-01-19 21:00:00,58.0,Female,Renal Cancer,IV,NTRK,0.85,37.6,93.5,99,7.1,329,1.07,0.76,26.7,3.0,Sorafenib,67.8,Complete Response,High
+ONC10455,2026-01-19 22:00:00,68.0,Female,Prostate Cancer,III,BRCA1,11.17,56.4,94.2,53,7.1,263,0.81,1.19,34.1,1.0,Immunotherapy,45.9,Progressive Disease,Low
+ONC10456,2026-01-19 23:00:00,58.0,Female,NSCLC,I,PIK3CA,2.2,51.6,97.1,68,5.1,312,1.09,0.32,21.4,2.0,Trastuzumab,58.0,Progressive Disease,Low
+ONC10457,2026-01-20 00:00:00,52.0,Male,Gastric Cancer,III,EGFR,1.01,60.1,90.3,85,9.5,228,0.65,1.31,16.9,1.0,Nivolumab,100.3,Complete Response,Moderate
+ONC10458,2026-01-20 01:00:00,72.0,Male,Pancreatic Cancer,III,EGFR,4.86,51.2,96.6,82,8.5,119,0.98,0.9,28.2,1.0,Olaparib,63.7,Progressive Disease,Low
+ONC10459,2026-01-20 02:00:00,44.0,Male,Ovarian Cancer,II,PD-L1,3.28,55.0,96.7,71,5.5,252,1.95,1.13,25.3,1.0,Trastuzumab,112.6,Stable Disease,High
+ONC10460,2026-01-20 03:00:00,47.0,Female,Liver Cancer,III,HER2,1.82,64.9,98.5,73,8.2,148,0.86,0.97,24.3,1.0,Cisplatin+Gemcitabine,99.5,Partial Response,Moderate
+ONC10461,2026-01-20 04:00:00,62.0,Male,Gastric Cancer,IV,TP53,3.17,55.9,93.6,81,13.6,104,1.17,0.8,24.2,1.0,Sorafenib,72.7,Progressive Disease,Low
+ONC10462,2026-01-20 05:00:00,62.0,Male,Prostate Cancer,III,KRAS,3.57,65.8,100.0,82,10.9,291,1.22,1.45,24.4,4.0,FOLFOX,66.0,Partial Response,Moderate
+ONC10463,2026-01-20 06:00:00,48.0,Female,Ovarian Cancer,IV,MET,0.92,55.9,95.0,88,4.9,84,0.75,1.34,26.6,3.0,Pembrolizumab,41.5,Partial Response,Moderate
+ONC10464,2026-01-20 07:00:00,62.0,Female,Pancreatic Cancer,III,TP53,6.64,58.8,100.0,91,7.6,124,0.95,0.99,27.0,3.0,Cisplatin+Gemcitabine,108.8,Complete Response,High
+ONC10465,2026-01-20 08:00:00,38.0,Unknown,Colorectal Cancer,IV,TP53,6.46,-5.9,94.0,78,10.6,174,1.04,1.39,22.5,0.0,Targeted Therapy,108.4,Stable Disease,Moderate
+ONC10466,2026-01-20 09:00:00,69.0,Male,Prostate Cancer,I,BRCA2,12.25,92.8,98.1,88,5.9,331,0.82,1.04,28.3,2.0,Nivolumab,104.7,Complete Response,Moderate
+ONC10467,2026-01-20 10:00:00,46.0,Female,Ovarian Cancer,IV,HER2,1.17,71.7,91.2,97,9.4,241,1.46,1.08,19.2,0.0,FOLFOX,75.85,Stable Disease,Low
+ONC10468,2026-01-20 11:00:00,45.0,Female,Renal Cancer,II,PD-L1,7.66,13.2,94.8,81,5.1,293,0.88,0.62,24.7,2.0,Nivolumab,104.5,Partial Response,Moderate
+ONC10469,2026-01-20 12:00:00,45.0,Female,Breast Cancer,IV,BRCA2,1.4,53.6,97.9,71,9.8,288,1.09,1.27,19.3,3.0,Trastuzumab,87.3,Partial Response,Moderate
+ONC10470,2026-01-20 13:00:00,64.0,Male,Melanoma,I,HER2,4.26,76.8,98.0,91,5.7,247,1.12,1.17,29.9,2.0,Trastuzumab,66.6,Complete Response,Low
+ONC10471,2026-01-20 14:00:00,42.0,Female,Colorectal Cancer,III,PIK3CA,12.47,40.5,95.4,79,6.9,320,1.06,0.78,34.4,0.0,Osimertinib,88.3,Complete Response,Low
+ONC10472,2026-01-20 15:00:00,48.0,Male,NSCLC,III,PD-L1,0.36,53.9,100.0,65,9.5,288,1.44,1.91,24.2,1.0,Osimertinib,75.85,Partial Response,Low
+ONC10473,2026-01-20 16:00:00,56.0,Female,Ovarian Cancer,II,MET,3.34,57.8,96.4,85,7.4,301,0.73,0.22,27.7,2.0,Sorafenib,107.8,Complete Response,Moderate
+ONC10474,2026-01-20 17:00:00,55.0,Male,NSCLC,IV,HER2,12.05,59.1,92.5,96,5.7,283,1.48,1.21,20.5,1.0,Olaparib,49.9,Partial Response,Low
+ONC10475,2026-01-20 18:00:00,74.0,Female,Colorectal Cancer,IV,TP53,2.48,47.8,94.9,70,7.9,179,0.67,1.31,28.4,1.0,Olaparib,60.8,Partial Response,Low
+ONC10476,2026-01-20 19:00:00,57.0,Male,NSCLC,II,Unknown,1.42,71.0,92.4,80,6.9,333,1.5,1.09,27.9,1.0,Nivolumab,78.2,Progressive Disease,Low
+ONC10477,2026-01-20 20:00:00,50.0,Female,Gastric Cancer,III,PD-L1,2.92,51.3,96.4,77,5.2,316,1.3,1.38,36.5,3.0,Osimertinib,73.5,Progressive Disease,Moderate
+ONC10478,2026-01-20 21:00:00,47.0,Female,Melanoma,IV,BRAF,7.91,55.1,96.6,76,1.2,322,0.85,0.84,24.6,1.0,Targeted Therapy,64.9,Unknown,Low
+ONC10479,2026-01-20 22:00:00,71.0,Female,Colorectal Cancer,II,ALK,2.95,56.9,95.8,63,9.4,147,0.96,0.93,30.2,1.0,FOLFOX,75.85,Unknown,Low
+ONC10480,2026-01-20 23:00:00,50.0,Male,Ovarian Cancer,III,ALK,0.31,27.9,94.2,75,10.1,279,1.03,0.96,27.6,2.0,Trastuzumab,52.8,Progressive Disease,Low
+ONC10481,2026-01-21 00:00:00,41.0,Female,Prostate Cancer,II,BRCA2,4.84,80.1,97.8,98,6.9,213,1.14,1.21,21.1,2.0,Trastuzumab,84.0,Partial Response,Moderate
+ONC10482,2026-01-21 01:00:00,87.0,Male,Pancreatic Cancer,IV,PIK3CA,2.12,29.7,98.1,69,7.2,329,0.82,1.19,24.3,1.0,Olaparib,65.1,Progressive Disease,Low
+ONC10483,2026-01-21 02:00:00,55.0,Female,Colorectal Cancer,III,KRAS,2.68,43.1,96.0,70,8.4,290,0.52,1.13,36.8,2.0,Osimertinib,73.5,Unknown,High
+ONC10484,2026-01-21 03:00:00,67.0,Male,Prostate Cancer,IV,PD-L1,1.62,36.1,95.8,96,11.4,298,1.54,0.53,31.8,0.0,Trastuzumab,44.2,Partial Response,Low
+ONC10485,2026-01-21 04:00:00,68.0,Female,Colorectal Cancer,II,BRCA2,2.37,47.9,96.2,63,8.0,275,1.37,1.58,24.0,1.0,Immunotherapy,67.4,Stable Disease,Low
+ONC10486,2026-01-21 05:00:00,65.0,Female,Breast Cancer,III,EGFR,1.36,55.2,98.6,83,6.3,293,0.35,1.53,29.2,1.0,Trastuzumab,70.0,Stable Disease,Low
+ONC10487,2026-01-21 06:00:00,61.0,Female,Melanoma,III,BRCA2,3.58,56.3,95.0,78,11.1,250,0.64,0.46,22.1,1.0,Osimertinib,62.5,Complete Response,Low
+ONC10488,2026-01-21 07:00:00,45.0,Female,Liver Cancer,III,Unknown,1.43,75.0,96.2,93,3.4,289,1.72,2.26,25.1,0.0,Trastuzumab,35.8,Progressive Disease,Low
+ONC10489,2026-01-21 08:00:00,63.0,Female,Liver Cancer,IV,PIK3CA,1.35,26.7,97.9,73,9.8,171,0.65,0.59,27.3,1.0,Cisplatin+Gemcitabine,45.3,Progressive Disease,Low
+ONC10490,2026-01-21 09:00:00,58.0,Female,NSCLC,I,Unknown,3.93,79.1,92.9,99,6.1,288,1.41,0.86,21.0,1.0,Targeted Therapy,72.9,Progressive Disease,Low
+ONC10491,2026-01-21 10:00:00,68.0,Female,Renal Cancer,III,TP53,1.9,40.2,98.8,71,8.1,209,0.7,1.78,23.2,1.0,Osimertinib,71.1,Stable Disease,Low
+ONC10492,2026-01-21 11:00:00,61.0,Male,Breast Cancer,IV,TP53,0.36,35.5,100.0,104,9.8,173,1.19,0.84,26.1,2.0,Immunotherapy,125.1,Complete Response,High
+ONC10493,2026-01-21 12:00:00,49.0,Male,NSCLC,II,TP53,0.95,31.9,96.2,94,9.2,256,0.59,0.64,15.4,0.0,Cisplatin+Gemcitabine,107.5,Stable Disease,Moderate
+ONC10494,2026-01-21 13:00:00,48.0,Male,Ovarian Cancer,IV,TP53,5.52,65.9,94.9,74,8.2,242,0.87,0.52,23.1,1.0,Carboplatin+Paclitaxel,111.0,Progressive Disease,Moderate
+ONC10495,2026-01-21 14:00:00,41.0,Female,Prostate Cancer,IV,BRCA2,1.73,54.2,99.4,96,6.4,287,1.03,1.36,19.6,1.0,Cisplatin+Gemcitabine,85.4,Progressive Disease,Moderate
+ONC10496,2026-01-21 15:00:00,61.0,Unknown,NSCLC,IV,EGFR,4.36,31.4,97.6,67,10.2,230,0.35,0.95,18.7,2.0,Sorafenib,104.3,Complete Response,Moderate
+ONC10497,2026-01-21 16:00:00,35.0,Female,Breast Cancer,I,PIK3CA,2.47,74.6,95.4,72,4.4,246,0.76,1.69,21.0,0.0,FOLFOX,118.4,Partial Response,Moderate
+ONC10498,2026-01-21 17:00:00,59.0,Female,Pancreatic Cancer,II,PIK3CA,2.68,62.1,97.1,81,7.3,242,0.35,0.63,25.7,3.0,Nivolumab,85.2,Complete Response,Moderate
+ONC10499,2026-01-21 18:00:00,54.0,Male,Colorectal Cancer,IV,EGFR,7.0,41.2,98.6,78,2.1,222,1.56,0.49,17.5,3.0,Docetaxel,84.6,Progressive Disease,Moderate
+ONC10500,2026-01-21 19:00:00,57.0,Female,Renal Cancer,III,BRCA2,3.03,38.9,92.7,87,11.0,169,1.11,1.67,16.4,0.0,Sorafenib,57.4,Complete Response,Low
+ONC10501,2026-01-21 20:00:00,64.0,Male,Renal Cancer,IV,HER2,0.9,58.9,97.8,107,8.2,320,0.73,1.43,20.4,2.0,Chemotherapy,65.8,Stable Disease,Low
+ONC10502,2026-01-21 21:00:00,59.0,Male,Gastric Cancer,IV,PIK3CA,2.45,59.7,92.8,97,1.3,173,0.84,0.86,16.4,2.0,Chemotherapy,59.3,Complete Response,Low
+ONC10503,2026-01-21 22:00:00,65.0,Female,Pancreatic Cancer,I,TP53,5.87,28.0,95.9,92,8.8,172,0.87,1.0,28.3,1.0,Pembrolizumab,30.7,Complete Response,Low
+ONC10504,2026-01-21 23:00:00,54.0,Female,Prostate Cancer,IV,ALK,1.84,75.4,94.8,68,7.3,167,0.78,1.38,26.4,2.0,Immunotherapy,121.2,Complete Response,High
+ONC10505,2026-01-22 00:00:00,66.0,Female,Colorectal Cancer,IV,Unknown,1.29,43.7,97.4,81,9.4,315,1.3,0.91,32.1,2.0,Osimertinib,53.5,Unknown,Low
+ONC10506,2026-01-22 01:00:00,56.0,Male,Ovarian Cancer,III,BRCA2,3.32,25.8,94.2,98,6.6,268,1.54,1.3,28.9,0.0,Nivolumab,68.4,Complete Response,Low
+ONC10507,2026-01-22 02:00:00,46.0,Male,Prostate Cancer,IV,PD-L1,2.83,44.5,95.6,75,5.8,332,1.56,1.04,24.6,3.0,Carboplatin+Paclitaxel,77.0,Progressive Disease,Moderate
+ONC10508,2026-01-22 03:00:00,64.0,Male,Renal Cancer,III,PIK3CA,1.75,49.2,97.4,60,2.5,222,0.38,0.71,28.9,4.0,Immunotherapy,70.8,Unknown,Moderate
+ONC10509,2026-01-22 04:00:00,29.0,Male,Breast Cancer,IV,ALK,8.05,61.1,95.9,118,9.0,173,1.28,1.66,22.7,1.0,FOLFOX,37.1,Complete Response,Moderate
+ONC10510,2026-01-22 05:00:00,78.0,Unknown,Ovarian Cancer,IV,HER2,7.34,67.8,100.0,84,10.2,221,1.45,1.29,22.9,0.0,Olaparib,73.9,Complete Response,Low
+ONC10511,2026-01-22 06:00:00,83.0,Female,Pancreatic Cancer,II,ALK,5.63,-0.4,94.1,91,10.5,230,1.04,1.44,28.6,4.0,Chemotherapy,54.8,Complete Response,Moderate
+ONC10512,2026-01-22 07:00:00,56.0,Male,Gastric Cancer,II,RET,10.01,24.6,92.5,70,8.5,249,1.04,0.58,27.8,3.0,Pembrolizumab,79.7,Progressive Disease,Moderate
+ONC10513,2026-01-22 08:00:00,61.0,Female,Gastric Cancer,III,EGFR,2.87,39.7,97.9,90,6.6,258,0.61,0.91,23.1,2.0,Immunotherapy,69.1,Complete Response,Low
+ONC10514,2026-01-22 09:00:00,49.0,Unknown,Prostate Cancer,IV,TP53,2.5,67.2,97.1,61,6.2,247,1.9,1.16,28.9,1.0,Nivolumab,104.8,Partial Response,Moderate
+ONC10515,2026-01-22 10:00:00,57.0,Unknown,Renal Cancer,III,HER2,3.94,35.6,93.8,45,8.6,174,0.73,0.46,21.1,2.0,Cisplatin+Gemcitabine,87.0,Stable Disease,Moderate
+ONC10516,2026-01-22 11:00:00,51.0,Male,Breast Cancer,III,TP53,5.17,39.6,100.0,89,5.7,434,0.86,2.34,20.3,2.0,Chemotherapy,81.5,Partial Response,Moderate
+ONC10517,2026-01-22 12:00:00,58.0,Male,Colorectal Cancer,IV,TP53,0.52,26.5,93.5,72,5.6,355,0.5,1.1,25.7,3.0,Nivolumab,117.2,Unknown,High
+ONC10518,2026-01-22 13:00:00,44.0,Male,Prostate Cancer,IV,MET,3.27,44.9,98.8,93,8.3,191,0.45,0.82,28.2,1.0,FOLFOX,84.0,Progressive Disease,Low
+ONC10519,2026-01-22 14:00:00,54.0,Male,Liver Cancer,III,PD-L1,1.2,71.6,97.0,79,11.8,106,1.69,1.04,36.9,0.0,Olaparib,75.7,Complete Response,Low
+ONC10520,2026-01-22 15:00:00,73.0,Male,Colorectal Cancer,III,MET,3.71,46.5,98.3,61,9.8,193,1.07,1.5,25.8,3.0,Cisplatin+Gemcitabine,52.5,Unknown,Moderate
+ONC10521,2026-01-22 16:00:00,55.0,Female,Ovarian Cancer,III,TP53,5.04,40.4,99.8,66,1.2,56,0.6,1.07,31.6,3.0,FOLFOX,56.2,Progressive Disease,Low
+ONC10522,2026-01-22 17:00:00,81.0,Female,Pancreatic Cancer,IV,EGFR,2.92,86.9,99.4,111,3.7,313,0.95,0.37,25.6,3.0,Osimertinib,74.1,Partial Response,Moderate
+ONC10523,2026-01-22 18:00:00,40.0,Unknown,Breast Cancer,IV,Unknown,4.11,70.7,93.3,85,7.2,239,1.23,0.59,30.3,1.0,FOLFOX,37.0,Progressive Disease,Low
+ONC10524,2026-01-22 19:00:00,44.0,Male,Gastric Cancer,II,NTRK,4.26,72.8,99.0,93,13.1,134,0.53,1.31,34.3,2.0,FOLFOX,98.8,Unknown,Moderate
+ONC10525,2026-01-22 20:00:00,65.0,Male,Prostate Cancer,IV,PD-L1,3.84,46.8,94.7,79,5.1,360,1.84,0.99,19.6,1.0,Nivolumab,90.7,Complete Response,Moderate
+ONC10526,2026-01-22 21:00:00,73.0,Female,Gastric Cancer,III,TP53,2.88,90.1,96.5,99,3.6,214,1.17,0.91,25.0,2.0,Osimertinib,63.6,Partial Response,Low
+ONC10527,2026-01-22 22:00:00,18.0,Unknown,Renal Cancer,IV,ALK,3.1,42.3,93.2,94,4.3,195,0.83,1.87,24.9,1.0,Carboplatin+Paclitaxel,100.5,Stable Disease,Moderate
+ONC10528,2026-01-22 23:00:00,58.0,Female,Colorectal Cancer,II,HER2,2.37,76.3,93.1,92,12.2,260,1.02,0.62,19.7,0.0,Cisplatin+Gemcitabine,90.6,Unknown,Low
+ONC10529,2026-01-23 00:00:00,69.0,Female,Colorectal Cancer,III,Unknown,5.55,80.6,96.0,67,1.2,276,1.38,0.43,31.5,2.0,Chemotherapy,97.6,Partial Response,Moderate
+ONC10530,2026-01-23 01:00:00,63.0,Male,Ovarian Cancer,IV,ROS1,1.66,39.1,99.6,87,9.4,216,1.59,0.94,22.7,1.0,Immunotherapy,96.4,Progressive Disease,Moderate
+ONC10531,2026-01-23 02:00:00,59.0,Male,Ovarian Cancer,IV,TP53,2.22,47.3,97.8,72,7.8,281,0.97,0.48,33.5,0.0,Olaparib,55.9,Stable Disease,Low
+ONC10532,2026-01-23 03:00:00,50.0,Unknown,Prostate Cancer,IV,TP53,5.55,31.1,97.7,79,6.1,319,0.35,0.33,25.3,2.0,Nivolumab,71.2,Partial Response,Low
+ONC10533,2026-01-23 04:00:00,60.0,Female,Pancreatic Cancer,II,ALK,4.45,56.4,93.8,73,8.7,161,1.11,1.38,29.9,1.0,Immunotherapy,93.9,Partial Response,Moderate
+ONC10534,2026-01-23 05:00:00,61.0,Female,NSCLC,IV,ROS1,2.56,34.8,92.0,86,3.4,236,0.7,1.27,26.0,1.0,Cisplatin+Gemcitabine,61.1,Complete Response,Low
+ONC10535,2026-01-23 06:00:00,68.0,Male,NSCLC,IV,KRAS,2.92,43.4,95.6,126,7.0,194,0.45,1.57,18.7,1.0,Carboplatin+Paclitaxel,57.2,Complete Response,Low
+ONC10536,2026-01-23 07:00:00,74.0,Male,Pancreatic Cancer,I,KRAS,7.75,71.0,99.2,58,9.4,266,1.49,0.8,23.1,0.0,Immunotherapy,39.3,Stable Disease,Low
+ONC10537,2026-01-23 08:00:00,80.0,Unknown,NSCLC,III,TP53,5.26,47.9,96.6,91,5.6,189,1.78,0.88,30.9,0.0,Cisplatin+Gemcitabine,35.7,Partial Response,Low
+ONC10538,2026-01-23 09:00:00,85.0,Female,Gastric Cancer,III,PD-L1,10.64,19.9,95.0,75,1.2,331,0.84,0.64,25.7,2.0,Nivolumab,88.5,Progressive Disease,Moderate
+ONC10539,2026-01-23 10:00:00,46.0,Female,Pancreatic Cancer,III,BRAF,1.34,43.4,91.6,70,6.3,283,1.86,0.93,22.7,2.0,Targeted Therapy,89.5,Unknown,Moderate
+ONC10540,2026-01-23 11:00:00,61.0,Female,Liver Cancer,III,Unknown,5.7,22.3,94.8,72,4.4,230,0.48,1.53,31.1,1.0,Pembrolizumab,89.6,Stable Disease,Moderate
+ONC10541,2026-01-23 12:00:00,66.0,Unknown,Gastric Cancer,IV,PIK3CA,1.4,84.2,93.0,76,4.9,262,1.04,0.88,23.9,1.0,Docetaxel,74.3,Unknown,Low
+ONC10542,2026-01-23 13:00:00,44.0,Female,NSCLC,III,KRAS,1.78,62.3,98.1,67,6.7,238,0.35,0.91,27.3,1.0,Docetaxel,58.5,Unknown,Low
+ONC10543,2026-01-23 14:00:00,51.0,Unknown,Melanoma,IV,EGFR,3.26,61.7,94.4,60,4.0,129,1.33,1.46,23.8,2.0,Osimertinib,26.4,Unknown,Low
+ONC10544,2026-01-23 15:00:00,50.0,Female,Prostate Cancer,III,TP53,6.91,52.2,100.0,75,10.0,257,1.13,1.09,22.5,1.0,Immunotherapy,75.85,Complete Response,Moderate
+ONC10545,2026-01-23 16:00:00,49.0,Unknown,Liver Cancer,IV,ALK,1.46,62.7,96.5,89,7.1,346,1.31,1.13,24.3,2.0,Carboplatin+Paclitaxel,72.6,Stable Disease,Low
+ONC10546,2026-01-23 17:00:00,58.0,Female,Renal Cancer,IV,BRCA1,4.39,60.8,95.5,98,6.8,227,1.07,0.94,32.3,1.0,Pembrolizumab,78.3,Progressive Disease,Low
+ONC10547,2026-01-23 18:00:00,48.0,Male,Pancreatic Cancer,III,RET,6.02,54.8,95.4,64,8.2,184,0.83,1.38,21.5,1.0,Carboplatin+Paclitaxel,73.2,Complete Response,Low
+ONC10548,2026-01-23 19:00:00,51.0,Male,Breast Cancer,III,PD-L1,1.98,27.9,92.5,80,8.3,373,0.75,1.1,18.7,3.0,Chemotherapy,88.6,Partial Response,Moderate
+ONC10549,2026-01-23 20:00:00,65.0,Unknown,Renal Cancer,IV,TP53,1.93,46.8,96.1,75,8.2,163,0.44,1.35,27.2,1.0,Osimertinib,51.6,Stable Disease,Low
+ONC10550,2026-01-23 21:00:00,53.0,Male,Prostate Cancer,III,KRAS,3.3,41.8,97.0,80,11.3,270,0.83,0.44,18.9,1.0,Pembrolizumab,109.6,Unknown,Moderate
+ONC10551,2026-01-23 22:00:00,66.0,Female,Gastric Cancer,II,PIK3CA,4.19,57.4,98.9,80,7.7,268,1.04,0.2,25.7,1.0,Osimertinib,90.6,Complete Response,Moderate
+ONC10552,2026-01-23 23:00:00,68.0,Unknown,Gastric Cancer,III,HER2,2.92,51.1,91.8,78,4.0,300,1.0,0.68,33.8,1.0,Cisplatin+Gemcitabine,67.9,Stable Disease,Low
+ONC10553,2026-01-24 00:00:00,59.0,Unknown,Melanoma,III,Unknown,1.48,44.8,98.1,77,6.2,151,0.84,0.79,28.0,0.0,Trastuzumab,65.1,Stable Disease,Low
+ONC10554,2026-01-24 01:00:00,56.0,Female,Renal Cancer,III,NTRK,15.76,19.7,97.9,66,7.6,175,1.15,0.94,28.5,2.0,Targeted Therapy,76.2,Progressive Disease,Moderate
+ONC10555,2026-01-24 02:00:00,63.0,Male,Melanoma,III,KRAS,3.17,47.9,98.9,75,6.4,269,0.89,0.97,25.6,2.0,Docetaxel,83.5,Progressive Disease,Moderate
+ONC10556,2026-01-24 03:00:00,67.0,Unknown,Renal Cancer,III,ROS1,1.09,55.6,98.8,111,6.8,320,1.03,0.87,35.5,3.0,Carboplatin+Paclitaxel,53.6,Complete Response,Moderate
+ONC10557,2026-01-24 04:00:00,46.0,Female,Renal Cancer,IV,Unknown,1.6,63.3,97.4,96,8.0,244,1.07,0.85,29.3,1.0,Chemotherapy,87.7,Unknown,Moderate
+ONC10558,2026-01-24 05:00:00,58.0,Female,Melanoma,I,TP53,8.89,62.6,93.4,90,1.2,271,1.61,0.61,30.6,1.0,Trastuzumab,49.2,Partial Response,Low
+ONC10559,2026-01-24 06:00:00,66.0,Male,Pancreatic Cancer,III,PIK3CA,2.04,64.9,96.5,66,7.7,209,0.72,1.68,25.7,2.0,Targeted Therapy,44.7,Complete Response,Low
+ONC10560,2026-01-24 07:00:00,60.0,Male,Breast Cancer,IV,MET,1.08,47.9,92.1,83,8.2,193,0.88,1.0,24.1,1.0,Olaparib,75.85,Stable Disease,Low
+ONC10561,2026-01-24 08:00:00,61.0,Male,Gastric Cancer,III,ROS1,2.8,79.8,96.5,49,10.1,216,1.32,1.42,29.0,1.0,Cisplatin+Gemcitabine,75.4,Stable Disease,Low
+ONC10562,2026-01-24 09:00:00,64.0,Female,Melanoma,III,ALK,3.31,59.3,96.4,73,7.2,175,0.35,1.19,28.0,1.0,Targeted Therapy,39.4,Stable Disease,Low
+ONC10563,2026-01-24 10:00:00,48.0,Male,Liver Cancer,I,BRCA2,3.88,58.7,94.6,99,13.5,222,1.1,1.38,24.6,1.0,Sorafenib,40.3,Stable Disease,Low
+ONC10564,2026-01-24 11:00:00,71.0,Female,Breast Cancer,II,BRCA2,9.02,22.9,94.5,94,8.3,174,0.95,0.43,25.4,1.0,Pembrolizumab,90.0,Unknown,Moderate
+ONC10565,2026-01-24 12:00:00,36.0,Male,Ovarian Cancer,II,PD-L1,1.66,48.9,96.5,77,8.9,225,1.5,1.46,29.6,0.0,Olaparib,96.1,Stable Disease,Moderate
+ONC10566,2026-01-24 13:00:00,55.0,Female,Breast Cancer,III,PD-L1,1.15,12.5,98.9,84,8.5,201,1.66,0.65,20.4,2.0,Sorafenib,80.5,Partial Response,Moderate
+ONC10567,2026-01-24 14:00:00,81.0,Female,Renal Cancer,IV,PIK3CA,4.58,65.5,100.0,82,6.9,299,0.6,0.84,29.5,1.0,Targeted Therapy,77.8,Progressive Disease,Low
+ONC10568,2026-01-24 15:00:00,61.0,Unknown,Pancreatic Cancer,III,BRCA2,4.23,77.6,97.2,91,7.7,212,1.18,0.46,18.4,2.0,Immunotherapy,77.6,Complete Response,Moderate
+ONC10569,2026-01-24 16:00:00,36.0,Unknown,Ovarian Cancer,II,PD-L1,3.36,22.9,90.4,85,8.4,270,1.35,1.09,29.2,0.0,Sorafenib,76.9,Stable Disease,Low
+ONC10570,2026-01-24 17:00:00,59.0,Female,Prostate Cancer,IV,MET,5.93,58.3,98.1,91,4.3,260,1.53,0.95,25.3,1.0,Chemotherapy,78.1,Progressive Disease,Low
+ONC10571,2026-01-24 18:00:00,50.0,Male,Breast Cancer,IV,Unknown,0.72,67.6,94.4,85,6.2,353,1.03,1.23,23.9,3.0,Nivolumab,110.9,Progressive Disease,High
+ONC10572,2026-01-24 19:00:00,36.0,Female,Breast Cancer,IV,TP53,1.65,45.2,95.4,92,7.5,98,0.4,1.11,27.9,2.0,Nivolumab,73.5,Stable Disease,Low
+ONC10573,2026-01-24 20:00:00,44.0,Male,Colorectal Cancer,IV,PIK3CA,1.71,57.8,94.3,80,11.0,254,1.39,1.92,18.6,2.0,Cisplatin+Gemcitabine,69.0,Progressive Disease,Moderate
+ONC10574,2026-01-24 21:00:00,68.0,Male,NSCLC,IV,TP53,2.21,46.1,96.1,95,5.1,125,0.97,1.03,24.9,4.0,Targeted Therapy,99.9,Progressive Disease,High
+ONC10575,2026-01-24 22:00:00,58.0,Female,NSCLC,IV,PD-L1,9.98,45.2,97.3,66,6.2,207,0.59,1.35,29.0,2.0,Trastuzumab,27.4,Partial Response,Low
+ONC10576,2026-01-24 23:00:00,65.0,Male,Pancreatic Cancer,III,NTRK,1.2,47.9,96.5,71,6.3,264,0.97,0.87,29.1,1.0,Trastuzumab,70.6,Progressive Disease,Low
+ONC10577,2026-01-25 00:00:00,52.0,Male,Melanoma,III,BRCA1,1.27,51.5,95.2,95,8.3,306,1.12,1.0,32.8,1.0,Sorafenib,34.7,Progressive Disease,Low
+ONC10578,2026-01-25 01:00:00,59.0,Female,Renal Cancer,IV,TP53,1.62,34.5,91.1,98,5.9,177,1.25,0.47,19.1,1.0,Sorafenib,50.1,Progressive Disease,Low
+ONC10579,2026-01-25 02:00:00,45.0,Female,Melanoma,III,HER2,2.09,38.3,92.6,101,9.6,294,1.04,0.75,26.9,1.0,Immunotherapy,88.0,Partial Response,Moderate
+ONC10580,2026-01-25 03:00:00,53.0,Female,Gastric Cancer,III,HER2,1.72,38.5,94.2,80,6.1,135,0.75,1.83,27.5,2.0,Targeted Therapy,106.2,Progressive Disease,High
+ONC10581,2026-01-25 04:00:00,76.0,Male,Melanoma,I,KRAS,3.7,24.7,96.2,57,5.1,248,0.53,1.48,24.2,2.0,Targeted Therapy,68.4,Partial Response,Low
+ONC10582,2026-01-25 05:00:00,54.0,Male,Colorectal Cancer,IV,ROS1,2.27,43.4,95.3,91,7.6,325,1.26,1.14,15.8,1.0,Immunotherapy,93.2,Stable Disease,Moderate
+ONC10583,2026-01-25 06:00:00,65.0,Unknown,Ovarian Cancer,III,Unknown,6.86,58.2,97.9,65,3.6,251,1.44,1.0,18.8,1.0,Pembrolizumab,91.9,Stable Disease,Moderate
+ONC10584,2026-01-25 07:00:00,66.0,Male,Liver Cancer,I,KRAS,3.83,40.7,95.9,94,5.9,254,0.54,1.25,28.4,2.0,Olaparib,86.5,Unknown,Moderate
+ONC10585,2026-01-25 08:00:00,53.0,Male,Breast Cancer,III,TP53,1.41,10.4,93.5,90,7.5,219,1.12,1.01,19.1,1.0,Osimertinib,73.9,Progressive Disease,Low
+ONC10586,2026-01-25 09:00:00,49.0,Male,Renal Cancer,II,KRAS,2.92,43.4,91.5,90,5.8,115,0.76,1.23,31.9,1.0,FOLFOX,81.2,Progressive Disease,Low
+ONC10587,2026-01-25 10:00:00,44.0,Unknown,Gastric Cancer,IV,EGFR,3.81,58.9,97.1,86,10.0,187,1.27,0.96,25.4,1.0,Carboplatin+Paclitaxel,65.9,Partial Response,Low
+ONC10588,2026-01-25 11:00:00,48.0,Female,Breast Cancer,II,BRAF,2.89,44.6,100.0,77,9.0,200,1.36,0.94,26.9,1.0,Sorafenib,41.1,Partial Response,Low
+ONC10589,2026-01-25 12:00:00,40.0,Unknown,Prostate Cancer,III,TP53,3.89,45.2,93.9,87,7.1,332,0.45,1.93,20.7,2.0,Pembrolizumab,61.7,Unknown,Low
+ONC10590,2026-01-25 13:00:00,42.0,Unknown,Liver Cancer,III,TP53,2.45,34.8,95.5,68,8.1,154,0.35,1.07,30.8,2.0,Immunotherapy,37.6,Complete Response,Low
+ONC10591,2026-01-25 14:00:00,69.0,Female,Prostate Cancer,I,Unknown,11.9,71.9,98.1,70,5.9,256,0.76,1.77,21.9,1.0,FOLFOX,28.7,Partial Response,Low
+ONC10592,2026-01-25 15:00:00,56.0,Unknown,Breast Cancer,III,ALK,2.42,39.4,100.0,88,6.3,197,1.09,1.18,28.6,0.0,Nivolumab,107.8,Stable Disease,Moderate
+ONC10593,2026-01-25 16:00:00,23.0,Female,Renal Cancer,III,EGFR,1.16,55.2,93.2,68,5.6,422,0.57,1.08,29.3,2.0,FOLFOX,39.8,Progressive Disease,Low
+ONC10594,2026-01-25 17:00:00,47.0,Unknown,Prostate Cancer,III,TP53,1.95,75.8,92.0,102,10.9,295,1.4,0.77,33.4,1.0,Chemotherapy,120.2,Progressive Disease,High
+ONC10595,2026-01-25 18:00:00,67.0,Female,Prostate Cancer,III,TP53,8.43,39.8,94.6,91,6.2,387,1.81,0.94,25.4,1.0,Nivolumab,67.4,Stable Disease,Low
+ONC10596,2026-01-25 19:00:00,45.0,Male,Breast Cancer,II,TP53,2.06,63.0,97.1,71,10.7,196,0.51,1.65,26.0,3.0,Sorafenib,84.6,Progressive Disease,Moderate
+ONC10597,2026-01-25 20:00:00,64.0,Unknown,Renal Cancer,I,KRAS,3.69,46.5,92.7,105,6.3,161,0.8,1.59,18.5,4.0,Osimertinib,81.9,Progressive Disease,High
+ONC10598,2026-01-25 21:00:00,75.0,Female,Melanoma,IV,KRAS,0.39,84.2,97.4,95,8.7,249,1.27,0.63,27.0,3.0,Trastuzumab,101.9,Unknown,High
+ONC10599,2026-01-25 22:00:00,47.0,Female,Colorectal Cancer,IV,KRAS,6.53,59.9,99.5,70,2.9,252,1.02,1.04,23.9,0.0,Cisplatin+Gemcitabine,105.5,Partial Response,Moderate
+ONC10600,2026-01-25 23:00:00,61.0,Male,Melanoma,III,BRAF,3.08,67.2,94.6,80,8.0,285,1.58,1.54,25.3,1.0,Osimertinib,89.8,Complete Response,Moderate
+ONC10601,2026-01-26 00:00:00,61.0,Female,Colorectal Cancer,IV,HER2,2.36,44.1,99.0,73,6.2,164,1.65,0.78,27.0,1.0,Trastuzumab,100.7,Unknown,Moderate
+ONC10602,2026-01-26 01:00:00,62.0,Female,NSCLC,IV,BRCA1,1.92,89.8,97.1,100,5.1,132,0.64,1.47,20.0,3.0,Pembrolizumab,45.9,Progressive Disease,Moderate
+ONC10603,2026-01-26 02:00:00,61.0,Female,Ovarian Cancer,III,BRCA2,1.41,26.8,94.9,105,3.4,352,1.59,0.2,27.7,3.0,Olaparib,64.5,Stable Disease,Moderate
+ONC10604,2026-01-26 03:00:00,70.0,Male,Prostate Cancer,IV,Unknown,3.34,69.6,99.0,89,7.8,307,0.5,0.58,22.2,0.0,Carboplatin+Paclitaxel,61.4,Complete Response,Low
+ONC10605,2026-01-26 04:00:00,62.0,Female,Renal Cancer,IV,PIK3CA,1.01,69.2,94.1,93,2.7,114,1.46,1.28,27.8,4.0,Olaparib,61.9,Partial Response,Moderate
+ONC10606,2026-01-26 05:00:00,40.0,Unknown,Breast Cancer,III,Unknown,4.0,34.3,96.0,66,5.1,160,1.35,0.97,32.1,3.0,Pembrolizumab,68.4,Progressive Disease,Moderate
+ONC10607,2026-01-26 06:00:00,75.0,Female,Renal Cancer,II,PD-L1,3.91,97.8,95.6,67,5.4,151,0.89,0.67,18.0,3.0,Pembrolizumab,93.5,Complete Response,High
+ONC10608,2026-01-26 07:00:00,54.0,Male,Colorectal Cancer,I,ROS1,2.27,71.0,100.0,75,4.9,292,0.96,0.2,19.7,2.0,Carboplatin+Paclitaxel,107.9,Progressive Disease,Moderate
+ONC10609,2026-01-26 08:00:00,52.0,Unknown,Pancreatic Cancer,II,BRCA2,3.21,35.9,92.6,101,4.7,275,1.3,0.79,27.3,0.0,Targeted Therapy,75.8,Stable Disease,Low
+ONC10610,2026-01-26 09:00:00,62.0,Male,Liver Cancer,I,PIK3CA,14.08,38.3,95.3,86,8.7,267,1.06,1.27,22.0,2.0,Immunotherapy,46.3,Unknown,Low
+ONC10611,2026-01-26 10:00:00,61.0,Unknown,Renal Cancer,II,KRAS,1.25,26.7,98.2,64,8.9,325,0.95,1.54,23.5,2.0,Docetaxel,123.2,Stable Disease,High
+ONC10612,2026-01-26 11:00:00,52.0,Male,Gastric Cancer,I,ALK,3.77,52.3,95.0,103,4.1,251,1.43,1.48,28.7,2.0,Cisplatin+Gemcitabine,103.7,Progressive Disease,High
+ONC10613,2026-01-26 12:00:00,56.0,Female,Renal Cancer,III,PIK3CA,2.37,54.0,96.7,79,7.9,189,0.75,0.89,21.6,2.0,Pembrolizumab,107.2,Unknown,Moderate
+ONC10614,2026-01-26 13:00:00,69.0,Female,Pancreatic Cancer,IV,MET,1.64,72.1,97.3,51,9.5,65,1.56,0.34,26.6,1.0,Targeted Therapy,65.6,Complete Response,Low
+ONC10615,2026-01-26 14:00:00,58.0,Female,Liver Cancer,IV,EGFR,2.94,29.4,99.3,95,7.5,322,0.48,0.85,24.7,2.0,Olaparib,83.1,Stable Disease,Moderate
+ONC10616,2026-01-26 15:00:00,56.0,Male,Renal Cancer,III,TP53,1.64,64.8,100.0,69,5.3,105,0.96,0.29,34.5,2.0,Immunotherapy,87.4,Stable Disease,Moderate
+ONC10617,2026-01-26 16:00:00,46.0,Female,Pancreatic Cancer,III,BRAF,6.77,41.7,96.8,60,6.6,287,1.18,0.57,28.9,0.0,Docetaxel,83.8,Progressive Disease,Low
+ONC10618,2026-01-26 17:00:00,79.0,Female,Pancreatic Cancer,IV,KRAS,20.01,53.9,96.3,103,8.6,312,0.35,0.54,27.7,2.0,Osimertinib,88.9,Complete Response,Moderate
+ONC10619,2026-01-26 18:00:00,48.0,Male,Melanoma,III,ROS1,2.42,51.9,94.7,76,5.5,213,1.4,1.12,31.5,0.0,Docetaxel,72.1,Progressive Disease,Low
+ONC10620,2026-01-26 19:00:00,40.0,Male,Ovarian Cancer,IV,KRAS,1.61,63.2,95.6,97,4.7,135,0.65,1.17,29.4,0.0,Chemotherapy,73.6,Progressive Disease,Low
+ONC10621,2026-01-26 20:00:00,39.0,Female,Liver Cancer,IV,TP53,1.88,45.7,100.0,82,11.2,307,1.24,0.67,16.8,4.0,Sorafenib,81.6,Stable Disease,Moderate
+ONC10622,2026-01-26 21:00:00,55.0,Unknown,Melanoma,III,ROS1,2.92,29.8,94.3,70,5.9,288,0.91,1.27,25.8,2.0,FOLFOX,101.8,Stable Disease,Moderate
+ONC10623,2026-01-26 22:00:00,77.0,Male,Colorectal Cancer,IV,EGFR,2.85,51.8,94.6,73,6.8,293,1.35,0.73,21.3,1.0,Olaparib,121.5,Complete Response,High
+ONC10624,2026-01-26 23:00:00,57.0,Female,Melanoma,III,TP53,1.64,42.6,92.5,75,7.9,280,0.35,1.12,26.8,1.0,Olaparib,76.0,Stable Disease,Low
+ONC10625,2026-01-27 00:00:00,56.0,Female,Gastric Cancer,I,TP53,2.22,49.5,97.3,79,2.3,167,0.95,0.95,28.8,1.0,Osimertinib,80.5,Stable Disease,Low
+ONC10626,2026-01-27 01:00:00,52.0,Male,Liver Cancer,III,PD-L1,1.95,55.4,94.2,97,3.2,218,1.33,1.6,20.4,2.0,Cisplatin+Gemcitabine,88.7,Complete Response,Moderate
+ONC10627,2026-01-27 02:00:00,55.0,Female,Gastric Cancer,IV,RET,5.36,60.1,96.9,78,6.0,278,1.03,1.08,21.2,2.0,FOLFOX,83.2,Partial Response,Moderate
+ONC10628,2026-01-27 03:00:00,67.0,Female,Gastric Cancer,I,KRAS,3.82,66.8,97.5,73,3.3,252,1.71,1.78,24.0,1.0,Chemotherapy,43.1,Complete Response,Low
+ONC10629,2026-01-27 04:00:00,47.0,Unknown,Ovarian Cancer,III,TP53,9.3,19.0,98.1,72,6.5,228,0.5,1.33,26.6,2.0,Pembrolizumab,113.5,Stable Disease,High
+ONC10630,2026-01-27 05:00:00,67.0,Unknown,Gastric Cancer,III,EGFR,4.22,42.5,92.1,101,8.7,236,1.33,0.72,27.9,2.0,Olaparib,63.1,Stable Disease,Low
+ONC10631,2026-01-27 06:00:00,61.0,Unknown,Prostate Cancer,I,HER2,7.26,22.3,95.4,84,7.7,416,1.22,1.57,15.0,2.0,Osimertinib,89.1,Partial Response,Moderate
+ONC10632,2026-01-27 07:00:00,64.0,Male,Ovarian Cancer,III,PD-L1,5.46,38.8,98.6,72,6.1,273,1.44,0.47,17.9,1.0,Pembrolizumab,83.0,Stable Disease,Low
+ONC10633,2026-01-27 08:00:00,65.0,Male,NSCLC,III,BRCA1,1.57,17.9,94.3,81,12.3,385,1.01,0.87,19.4,1.0,Olaparib,44.1,Unknown,Low
+ONC10634,2026-01-27 09:00:00,55.0,Male,NSCLC,III,HER2,3.15,49.4,95.6,78,6.9,141,0.94,1.32,26.7,0.0,Osimertinib,75.6,Partial Response,Low
+ONC10635,2026-01-27 10:00:00,65.0,Female,Pancreatic Cancer,II,EGFR,8.92,51.4,95.7,100,6.0,258,0.95,0.82,17.2,1.0,Chemotherapy,40.0,Partial Response,Low
+ONC10636,2026-01-27 11:00:00,63.0,Female,Pancreatic Cancer,I,BRAF,1.83,34.0,95.0,62,4.6,356,1.16,1.0,32.0,2.0,Carboplatin+Paclitaxel,96.7,Complete Response,Moderate
+ONC10637,2026-01-27 12:00:00,33.0,Female,Pancreatic Cancer,III,Unknown,0.86,42.1,96.5,89,6.7,243,1.43,0.63,18.6,4.0,Cisplatin+Gemcitabine,71.7,Complete Response,Moderate
+ONC10638,2026-01-27 13:00:00,67.0,Female,Pancreatic Cancer,IV,TP53,9.16,46.8,92.8,77,3.8,169,0.65,1.31,29.0,2.0,Docetaxel,85.0,Progressive Disease,Moderate
+ONC10639,2026-01-27 14:00:00,65.0,Male,NSCLC,III,BRCA1,2.92,40.8,94.0,95,7.6,308,1.25,1.75,18.2,2.0,Immunotherapy,65.7,Complete Response,Moderate
+ONC10640,2026-01-27 15:00:00,62.0,Male,Prostate Cancer,IV,BRAF,4.07,44.4,94.7,87,8.3,105,1.28,0.75,29.7,1.0,Olaparib,108.5,Progressive Disease,Moderate
+ONC10641,2026-01-27 16:00:00,42.0,Female,Gastric Cancer,IV,ALK,9.07,42.6,99.7,78,6.1,251,1.28,1.43,25.5,2.0,Cisplatin+Gemcitabine,66.2,Progressive Disease,Low
+ONC10642,2026-01-27 17:00:00,78.0,Male,Breast Cancer,II,Unknown,3.12,57.4,96.7,58,5.7,271,1.54,0.2,28.0,0.0,Immunotherapy,123.1,Stable Disease,Moderate
+ONC10643,2026-01-27 18:00:00,68.0,Male,Renal Cancer,III,Unknown,8.76,68.7,95.5,109,8.1,256,1.03,0.48,27.0,1.0,Docetaxel,66.7,Progressive Disease,Low
+ONC10644,2026-01-27 19:00:00,58.0,Female,NSCLC,III,Unknown,2.91,54.5,93.0,82,3.7,142,0.82,0.83,24.3,1.0,Nivolumab,51.5,Progressive Disease,Low
+ONC10645,2026-01-27 20:00:00,67.0,Unknown,Pancreatic Cancer,III,ROS1,1.64,34.0,94.5,89,6.1,232,0.47,0.24,23.8,2.0,Carboplatin+Paclitaxel,60.6,Stable Disease,Low
+ONC10646,2026-01-27 21:00:00,48.0,Unknown,Breast Cancer,III,Unknown,6.63,34.0,93.1,73,4.3,315,1.51,0.49,35.2,2.0,Pembrolizumab,43.9,Progressive Disease,Low
+ONC10647,2026-01-27 22:00:00,52.0,Female,Breast Cancer,I,TP53,7.62,76.0,96.4,85,7.3,121,1.36,1.86,25.3,2.0,Immunotherapy,57.8,Stable Disease,Moderate
+ONC10648,2026-01-27 23:00:00,61.0,Male,Ovarian Cancer,III,EGFR,1.19,23.0,92.5,71,3.1,230,0.98,0.66,30.3,2.0,Trastuzumab,75.85,Stable Disease,Low
+ONC10649,2026-01-28 00:00:00,68.0,Male,Renal Cancer,III,BRAF,2.92,52.6,94.1,86,7.0,273,0.97,0.49,26.8,1.0,Trastuzumab,72.3,Progressive Disease,Low
+ONC10650,2026-01-28 01:00:00,43.0,Female,Liver Cancer,III,ROS1,5.75,54.7,100.0,95,6.9,190,0.88,0.88,21.2,0.0,Targeted Therapy,95.6,Progressive Disease,Low
+ONC10651,2026-01-28 02:00:00,66.0,Female,Renal Cancer,IV,EGFR,5.73,29.5,93.2,78,8.0,343,1.21,1.36,36.0,2.0,Olaparib,92.9,Complete Response,Moderate
+ONC10652,2026-01-28 03:00:00,60.0,Female,Gastric Cancer,III,Unknown,2.88,36.7,95.5,71,6.2,170,1.11,0.6,16.6,1.0,Chemotherapy,79.3,Stable Disease,Low
+ONC10653,2026-01-28 04:00:00,26.0,Male,Pancreatic Cancer,IV,HER2,2.81,44.4,97.5,75,13.1,230,0.38,1.3,24.5,0.0,Osimertinib,121.8,Complete Response,Moderate
+ONC10654,2026-01-28 05:00:00,74.0,Female,Gastric Cancer,III,HER2,4.51,55.7,97.0,67,5.0,177,1.15,1.31,24.1,0.0,Cisplatin+Gemcitabine,89.3,Partial Response,Low
+ONC10655,2026-01-28 06:00:00,57.0,Male,Gastric Cancer,III,PIK3CA,2.55,54.9,95.3,76,6.1,290,0.35,0.78,22.9,2.0,Cisplatin+Gemcitabine,66.8,Progressive Disease,Low
+ONC10656,2026-01-28 07:00:00,58.0,Unknown,Gastric Cancer,III,TP53,1.32,47.9,91.9,82,8.7,215,0.78,1.06,29.0,0.0,Targeted Therapy,109.4,Partial Response,Moderate
+ONC10657,2026-01-28 08:00:00,71.0,Male,Melanoma,II,ALK,1.81,45.0,94.1,96,6.4,203,1.09,1.54,23.4,2.0,Targeted Therapy,57.8,Stable Disease,Low
+ONC10658,2026-01-28 09:00:00,44.0,Male,Prostate Cancer,IV,PD-L1,3.1,63.1,96.3,106,8.5,179,1.77,0.32,29.2,2.0,Carboplatin+Paclitaxel,88.0,Stable Disease,Moderate
+ONC10659,2026-01-28 10:00:00,35.0,Unknown,Ovarian Cancer,II,HER2,1.78,32.7,99.5,69,8.3,234,1.11,0.91,25.1,2.0,Immunotherapy,64.8,Unknown,Low
+ONC10660,2026-01-28 11:00:00,58.0,Unknown,Ovarian Cancer,II,Unknown,4.04,24.2,94.3,66,7.2,209,0.83,1.16,20.3,0.0,Pembrolizumab,63.8,Stable Disease,Low
+ONC10661,2026-01-28 12:00:00,64.0,Male,Liver Cancer,III,Unknown,5.47,59.5,95.5,72,10.2,218,2.06,0.84,19.0,3.0,Cisplatin+Gemcitabine,87.0,Complete Response,High
+ONC10662,2026-01-28 13:00:00,69.0,Unknown,Breast Cancer,III,PIK3CA,7.46,28.3,90.3,102,1.5,261,0.7,1.47,30.9,2.0,Chemotherapy,56.0,Stable Disease,Low
+ONC10663,2026-01-28 14:00:00,52.0,Unknown,NSCLC,III,PIK3CA,1.18,80.1,95.5,85,6.4,248,1.08,1.9,20.4,1.0,Pembrolizumab,39.2,Partial Response,Low
+ONC10664,2026-01-28 15:00:00,49.0,Female,Gastric Cancer,IV,RET,19.88,44.7,95.0,60,5.1,310,0.48,0.36,24.5,1.0,Docetaxel,111.9,Partial Response,Moderate
+ONC10665,2026-01-28 16:00:00,57.0,Unknown,NSCLC,IV,TP53,1.61,32.6,96.3,76,7.8,257,0.35,0.99,21.1,2.0,Nivolumab,45.9,Stable Disease,Low
+ONC10666,2026-01-28 17:00:00,54.0,Unknown,NSCLC,IV,TP53,0.76,88.6,97.7,75,8.8,261,0.57,0.82,20.1,1.0,Trastuzumab,43.8,Complete Response,Low
+ONC10667,2026-01-28 18:00:00,57.0,Female,NSCLC,III,NTRK,8.7,39.5,92.9,57,7.1,188,1.19,0.41,20.1,1.0,Docetaxel,87.0,Progressive Disease,Low
+ONC10668,2026-01-28 19:00:00,62.0,Female,Breast Cancer,IV,MET,1.83,61.8,100.0,100,6.5,330,1.08,0.69,32.4,1.0,Pembrolizumab,80.2,Unknown,Low
+ONC10669,2026-01-28 20:00:00,55.0,Female,Breast Cancer,I,PD-L1,1.92,42.0,94.3,45,8.2,254,0.7,1.73,24.2,0.0,Sorafenib,64.6,Progressive Disease,Low
+ONC10670,2026-01-28 21:00:00,65.0,Female,Colorectal Cancer,III,HER2,4.35,38.6,91.7,90,8.2,340,0.59,1.53,24.3,3.0,Carboplatin+Paclitaxel,106.2,Partial Response,High
+ONC10671,2026-01-28 22:00:00,60.0,Male,Liver Cancer,IV,RET,4.22,10.9,95.9,76,7.8,289,0.52,0.95,27.3,2.0,Immunotherapy,57.6,Partial Response,Low
+ONC10672,2026-01-28 23:00:00,63.0,Male,Prostate Cancer,IV,NTRK,0.98,79.4,93.4,90,9.5,249,1.41,1.29,31.6,0.0,Trastuzumab,89.7,Complete Response,Low
+ONC10673,2026-01-29 00:00:00,79.0,Unknown,Melanoma,III,PIK3CA,2.39,55.4,99.5,82,9.1,215,0.48,1.34,22.6,4.0,Cisplatin+Gemcitabine,39.7,Stable Disease,Moderate
+ONC10674,2026-01-29 01:00:00,44.0,Female,Colorectal Cancer,I,HER2,2.54,74.9,95.1,71,7.0,194,1.34,0.88,27.5,0.0,Pembrolizumab,80.1,Stable Disease,Low
+ONC10675,2026-01-29 02:00:00,67.0,Male,Renal Cancer,II,Unknown,3.66,57.7,97.0,49,4.0,338,1.34,1.45,27.3,1.0,FOLFOX,99.0,Partial Response,Moderate
+ONC10676,2026-01-29 03:00:00,83.0,Unknown,NSCLC,IV,HER2,2.03,76.3,96.3,78,4.7,147,0.72,0.92,23.0,1.0,Cisplatin+Gemcitabine,23.2,Unknown,Low
+ONC10677,2026-01-29 04:00:00,82.0,Unknown,Prostate Cancer,III,ROS1,3.89,36.2,96.2,59,7.3,300,1.06,0.76,21.2,0.0,Cisplatin+Gemcitabine,88.5,Progressive Disease,Low
+ONC10678,2026-01-29 05:00:00,69.0,Female,Breast Cancer,II,TP53,3.53,24.3,98.6,78,10.0,389,1.15,1.27,25.2,2.0,Docetaxel,79.0,Progressive Disease,Moderate
+ONC10679,2026-01-29 06:00:00,43.0,Female,Prostate Cancer,III,PD-L1,2.3,43.0,95.1,60,8.9,211,1.46,1.11,23.1,3.0,Pembrolizumab,89.6,Unknown,Moderate
+ONC10680,2026-01-29 07:00:00,60.0,Female,Liver Cancer,IV,TP53,2.13,45.1,94.3,78,8.5,290,1.45,1.0,24.8,1.0,Docetaxel,113.7,Stable Disease,Moderate
+ONC10681,2026-01-29 08:00:00,65.0,Female,Breast Cancer,II,ALK,3.21,66.0,97.6,67,5.4,262,0.58,0.57,20.4,0.0,Nivolumab,86.8,Stable Disease,Low
+ONC10682,2026-01-29 09:00:00,73.0,Female,Renal Cancer,IV,KRAS,2.54,35.1,94.0,94,7.4,248,1.63,1.35,22.0,0.0,Cisplatin+Gemcitabine,47.6,Progressive Disease,Low
+ONC10683,2026-01-29 10:00:00,44.0,Unknown,Gastric Cancer,I,ALK,3.53,64.0,100.0,95,3.6,256,1.58,1.64,30.3,2.0,Carboplatin+Paclitaxel,85.5,Stable Disease,Moderate
+ONC10684,2026-01-29 11:00:00,68.0,Male,Prostate Cancer,III,BRCA2,0.74,83.8,94.4,79,7.2,149,0.88,1.26,24.3,0.0,Carboplatin+Paclitaxel,112.3,Unknown,Moderate
+ONC10685,2026-01-29 12:00:00,91.0,Male,Renal Cancer,IV,BRCA1,5.7,37.0,96.0,68,7.2,318,1.2,1.01,27.7,3.0,FOLFOX,86.2,Partial Response,Moderate
+ONC10686,2026-01-29 13:00:00,50.0,Male,Renal Cancer,II,PD-L1,6.57,35.4,96.8,97,8.5,128,0.74,0.51,29.0,1.0,Osimertinib,84.9,Complete Response,Low
+ONC10687,2026-01-29 14:00:00,71.0,Female,Pancreatic Cancer,IV,RET,1.43,24.6,100.0,64,6.0,207,2.05,0.81,29.7,2.0,Pembrolizumab,53.2,Unknown,Moderate
+ONC10688,2026-01-29 15:00:00,53.0,Male,Ovarian Cancer,III,BRCA2,1.61,28.8,96.7,83,7.7,151,1.04,1.12,21.1,2.0,Cisplatin+Gemcitabine,69.7,Partial Response,Low
+ONC10689,2026-01-29 16:00:00,40.0,Male,Renal Cancer,I,TP53,0.9,61.4,93.5,69,5.4,258,0.45,1.06,28.3,2.0,FOLFOX,103.6,Progressive Disease,Moderate
+ONC10690,2026-01-29 17:00:00,62.0,Unknown,Liver Cancer,III,PIK3CA,3.18,46.6,96.0,113,2.4,253,0.54,0.92,29.0,3.0,Olaparib,73.7,Unknown,Moderate
+ONC10691,2026-01-29 18:00:00,64.0,Female,NSCLC,I,HER2,5.35,59.4,99.1,97,2.6,296,0.58,0.93,26.5,1.0,Targeted Therapy,104.2,Unknown,Moderate
+ONC10692,2026-01-29 19:00:00,63.0,Female,Breast Cancer,III,PD-L1,1.21,23.8,99.7,49,7.0,231,1.31,1.83,18.2,3.0,Trastuzumab,68.2,Progressive Disease,Moderate
+ONC10693,2026-01-29 20:00:00,43.0,Female,NSCLC,II,EGFR,1.04,33.9,97.9,99,8.4,69,0.83,1.13,28.8,2.0,Olaparib,114.1,Complete Response,High
+ONC10694,2026-01-29 21:00:00,86.0,Female,Breast Cancer,III,BRAF,2.11,71.4,90.4,80,8.1,100,0.82,1.1,27.6,3.0,FOLFOX,97.2,Partial Response,Moderate
+ONC10695,2026-01-29 22:00:00,59.0,Female,Liver Cancer,II,TP53,1.89,46.0,92.2,76,10.4,202,1.64,1.0,26.5,2.0,Osimertinib,117.1,Complete Response,High
+ONC10696,2026-01-29 23:00:00,59.0,Male,Breast Cancer,III,MET,4.63,65.2,93.2,68,7.4,369,0.97,1.85,30.9,2.0,Immunotherapy,54.6,Partial Response,Low
+ONC10697,2026-01-30 00:00:00,66.0,Female,Liver Cancer,III,HER2,3.04,54.0,92.9,55,7.2,204,0.43,0.79,20.9,2.0,FOLFOX,73.3,Unknown,Low
+ONC10698,2026-01-30 01:00:00,60.0,Unknown,Gastric Cancer,I,ALK,5.84,35.1,99.0,78,6.1,276,1.22,1.61,24.3,2.0,Immunotherapy,103.6,Progressive Disease,Moderate
+ONC10699,2026-01-30 02:00:00,53.0,Male,Breast Cancer,IV,EGFR,0.99,83.3,100.0,87,8.6,220,0.35,0.69,18.6,0.0,FOLFOX,91.9,Stable Disease,Low
+ONC10700,2026-01-30 03:00:00,62.0,Unknown,Liver Cancer,IV,EGFR,4.92,55.7,97.5,89,9.1,272,1.02,1.0,25.1,2.0,Pembrolizumab,79.4,Partial Response,Low
+ONC10701,2026-01-30 04:00:00,76.0,Male,Renal Cancer,IV,Unknown,2.7,69.9,96.6,73,13.7,132,1.97,0.94,26.6,1.0,Carboplatin+Paclitaxel,40.5,Progressive Disease,Low
+ONC10702,2026-01-30 05:00:00,71.0,Female,Ovarian Cancer,II,EGFR,0.81,38.9,91.9,78,6.8,299,0.45,0.62,27.2,0.0,FOLFOX,101.7,Partial Response,Low
+ONC10703,2026-01-30 06:00:00,68.0,Female,Gastric Cancer,II,EGFR,2.43,69.2,96.7,105,9.0,268,0.81,1.23,27.0,2.0,Sorafenib,105.3,Unknown,High
+ONC10704,2026-01-30 07:00:00,36.0,Male,Breast Cancer,IV,MET,2.26,49.3,95.5,54,7.3,297,1.62,1.09,18.9,1.0,Pembrolizumab,75.6,Partial Response,Low
+ONC10705,2026-01-30 08:00:00,48.0,Unknown,NSCLC,III,PD-L1,0.54,20.7,94.7,68,4.4,135,1.18,0.77,22.1,1.0,Carboplatin+Paclitaxel,20.0,Unknown,Low
+ONC10706,2026-01-30 09:00:00,64.0,Female,Gastric Cancer,IV,TP53,4.93,67.3,98.5,85,10.4,254,0.86,0.86,23.9,2.0,FOLFOX,89.2,Complete Response,Moderate
+ONC10707,2026-01-30 10:00:00,87.0,Female,Breast Cancer,IV,TP53,1.58,83.9,88.4,65,5.4,196,1.17,1.0,31.3,2.0,Immunotherapy,65.2,Complete Response,Low
+ONC10708,2026-01-30 11:00:00,60.0,Unknown,Liver Cancer,III,PIK3CA,3.18,66.6,95.3,109,4.0,213,1.29,0.36,27.3,1.0,Trastuzumab,71.6,Stable Disease,Low
+ONC10709,2026-01-30 12:00:00,31.0,Unknown,Gastric Cancer,II,Unknown,0.72,10.6,97.3,86,6.0,248,1.51,0.74,29.8,3.0,Sorafenib,76.0,Partial Response,Moderate
+ONC10710,2026-01-30 13:00:00,47.0,Male,Gastric Cancer,IV,HER2,1.72,54.7,93.5,81,7.4,259,1.05,1.77,21.1,0.0,Cisplatin+Gemcitabine,40.4,Partial Response,Low
+ONC10711,2026-01-30 14:00:00,50.0,Female,Liver Cancer,IV,PD-L1,1.82,19.4,97.8,74,9.8,239,0.73,0.64,22.8,2.0,Osimertinib,86.2,Partial Response,Moderate
+ONC10712,2026-01-30 15:00:00,62.0,Unknown,Breast Cancer,IV,EGFR,2.57,37.3,93.6,70,5.4,263,1.49,1.41,23.8,2.0,Carboplatin+Paclitaxel,59.8,Stable Disease,Low
+ONC10713,2026-01-30 16:00:00,65.0,Male,Prostate Cancer,II,MET,2.32,52.8,96.0,70,4.7,294,0.89,0.79,28.3,3.0,Pembrolizumab,108.6,Complete Response,High
+ONC10714,2026-01-30 17:00:00,60.0,Male,Breast Cancer,IV,TP53,1.86,31.0,97.3,90,5.0,172,0.9,1.67,27.0,1.0,Pembrolizumab,81.3,Partial Response,Low
+ONC10715,2026-01-30 18:00:00,72.0,Male,Breast Cancer,IV,HER2,2.92,39.8,91.6,57,6.1,306,0.95,0.73,26.8,0.0,Sorafenib,79.7,Progressive Disease,Low
+ONC10716,2026-01-30 19:00:00,68.0,Female,Ovarian Cancer,IV,HER2,2.65,47.7,92.4,89,5.8,196,1.02,1.15,35.3,0.0,Osimertinib,57.4,Stable Disease,Low
+ONC10717,2026-01-30 20:00:00,79.0,Male,Renal Cancer,IV,BRCA1,2.71,27.0,96.2,78,10.4,203,1.19,0.2,19.4,4.0,Nivolumab,49.0,Complete Response,Moderate
+ONC10718,2026-01-30 21:00:00,59.0,Unknown,Gastric Cancer,III,BRCA2,3.1,41.8,93.2,67,8.9,217,0.35,1.3,26.6,0.0,Sorafenib,90.1,Partial Response,Low
+ONC10719,2026-01-30 22:00:00,67.0,Male,Renal Cancer,IV,KRAS,0.94,38.1,95.4,111,7.6,181,0.68,0.52,37.7,2.0,Cisplatin+Gemcitabine,77.0,Complete Response,Moderate
+ONC10720,2026-01-30 23:00:00,57.0,Female,Gastric Cancer,III,PD-L1,6.06,67.0,96.1,69,3.7,189,0.63,0.84,30.6,3.0,Carboplatin+Paclitaxel,96.3,Progressive Disease,Moderate
+ONC10721,2026-01-31 00:00:00,58.0,Female,NSCLC,III,KRAS,3.15,24.4,95.6,78,4.7,192,1.5,1.28,25.0,2.0,Trastuzumab,71.2,Partial Response,Low
+ONC10722,2026-01-31 01:00:00,61.0,Female,Ovarian Cancer,IV,BRAF,2.83,24.9,92.3,93,4.5,323,0.91,1.37,25.6,1.0,Cisplatin+Gemcitabine,105.0,Complete Response,Moderate
+ONC10723,2026-01-31 02:00:00,63.0,Female,Gastric Cancer,IV,MET,3.91,22.0,90.3,99,5.6,187,1.51,1.05,29.1,0.0,Chemotherapy,61.9,Partial Response,Low
+ONC10724,2026-01-31 03:00:00,59.0,Male,Colorectal Cancer,III,TP53,3.61,41.5,94.8,91,8.2,156,0.96,0.92,27.1,2.0,Carboplatin+Paclitaxel,61.1,Progressive Disease,Low
+ONC10725,2026-01-31 04:00:00,55.0,Male,Pancreatic Cancer,III,TP53,1.02,55.0,96.1,63,7.9,279,0.95,0.21,22.8,0.0,Trastuzumab,84.4,Complete Response,Low
+ONC10726,2026-01-31 05:00:00,58.0,Female,Renal Cancer,III,BRCA2,7.74,26.2,97.7,106,11.7,366,1.02,1.27,20.7,0.0,Osimertinib,82.6,Stable Disease,Low
+ONC10727,2026-01-31 06:00:00,54.0,Male,Colorectal Cancer,III,PD-L1,1.66,53.2,92.0,99,2.8,317,1.15,0.2,36.6,1.0,Trastuzumab,79.2,Progressive Disease,Low
+ONC10728,2026-01-31 07:00:00,47.0,Unknown,Gastric Cancer,III,PD-L1,1.22,65.4,95.5,84,3.8,415,0.7,1.19,21.6,2.0,Docetaxel,72.3,Unknown,Low
+ONC10729,2026-01-31 08:00:00,37.0,Male,Gastric Cancer,IV,Unknown,4.97,37.2,92.1,69,6.2,204,1.45,0.55,24.0,1.0,Immunotherapy,120.0,Partial Response,High
+ONC10730,2026-01-31 09:00:00,50.0,Female,Prostate Cancer,IV,ROS1,6.2,59.2,97.2,105,8.7,248,0.54,0.2,21.7,0.0,Carboplatin+Paclitaxel,81.9,Progressive Disease,Low
+ONC10731,2026-01-31 10:00:00,65.0,Male,Pancreatic Cancer,II,KRAS,3.94,45.6,93.0,74,10.1,257,0.54,0.57,17.6,1.0,Cisplatin+Gemcitabine,71.0,Stable Disease,Low
+ONC10732,2026-01-31 11:00:00,44.0,Female,Pancreatic Cancer,IV,TP53,2.56,41.2,94.8,86,7.5,358,0.68,1.0,18.9,1.0,FOLFOX,52.6,Progressive Disease,Low
+ONC10733,2026-01-31 12:00:00,62.0,Female,Liver Cancer,III,MET,16.47,66.4,95.7,94,7.7,156,1.42,0.95,33.8,1.0,Carboplatin+Paclitaxel,82.4,Complete Response,Moderate
+ONC10734,2026-01-31 13:00:00,61.0,Female,Melanoma,IV,EGFR,3.43,61.8,99.0,72,2.3,225,1.0,1.06,23.9,1.0,Nivolumab,66.9,Unknown,Low
+ONC10735,2026-01-31 14:00:00,61.0,Female,NSCLC,IV,Unknown,10.09,56.8,95.2,74,6.5,199,1.32,0.2,25.8,1.0,Osimertinib,80.7,Partial Response,Low
+ONC10736,2026-01-31 15:00:00,79.0,Male,NSCLC,III,BRCA2,4.36,18.1,93.7,78,10.0,236,1.29,0.83,27.7,2.0,Chemotherapy,73.3,Stable Disease,Low
+ONC10737,2026-01-31 16:00:00,74.0,Unknown,Prostate Cancer,III,Unknown,3.77,42.2,96.5,63,5.7,258,1.0,0.96,38.3,0.0,Docetaxel,75.9,Stable Disease,Low
+ONC10738,2026-01-31 17:00:00,64.0,Female,Renal Cancer,II,RET,1.87,29.8,97.5,82,1.2,278,0.99,1.43,34.0,0.0,Olaparib,51.5,Stable Disease,Low
+ONC10739,2026-01-31 18:00:00,80.0,Male,NSCLC,IV,ALK,3.86,47.1,95.2,90,6.4,198,0.35,0.96,27.0,1.0,Docetaxel,86.8,Unknown,Low
+ONC10740,2026-01-31 19:00:00,40.0,Female,Renal Cancer,III,KRAS,4.29,53.9,93.1,75,7.4,243,1.37,1.24,32.7,1.0,FOLFOX,116.7,Unknown,High
+ONC10741,2026-01-31 20:00:00,85.0,Male,Prostate Cancer,III,EGFR,2.03,69.2,93.2,102,5.8,191,0.77,1.74,24.0,0.0,Carboplatin+Paclitaxel,67.7,Complete Response,Low
+ONC10742,2026-01-31 21:00:00,81.0,Male,Gastric Cancer,I,TP53,1.19,42.9,91.1,75,5.2,170,1.08,1.23,17.5,1.0,Sorafenib,67.9,Progressive Disease,Low
+ONC10743,2026-01-31 22:00:00,50.0,Female,Pancreatic Cancer,III,BRCA1,6.48,54.8,95.9,89,9.1,282,0.46,0.83,32.9,3.0,Docetaxel,127.8,Complete Response,High
+ONC10744,2026-01-31 23:00:00,58.0,Male,Liver Cancer,I,ROS1,3.11,54.2,94.0,75,8.3,308,1.1,1.3,29.1,3.0,Carboplatin+Paclitaxel,82.7,Partial Response,Moderate
+ONC10745,2026-02-01 00:00:00,66.0,Male,Melanoma,III,EGFR,3.48,70.1,95.2,63,7.3,294,0.57,1.28,28.1,2.0,Immunotherapy,84.4,Unknown,Moderate
+ONC10746,2026-02-01 01:00:00,63.0,Male,Colorectal Cancer,IV,TP53,4.5,33.4,100.0,88,10.7,298,1.18,1.04,19.5,2.0,Targeted Therapy,69.7,Progressive Disease,Low
+ONC10747,2026-02-01 02:00:00,55.0,Male,Colorectal Cancer,IV,RET,13.16,48.2,95.4,75,5.4,155,0.61,0.5,28.4,2.0,Osimertinib,97.5,Partial Response,Moderate
+ONC10748,2026-02-01 03:00:00,42.0,Female,Pancreatic Cancer,IV,HER2,2.57,68.5,96.9,96,11.5,139,0.89,1.06,26.5,1.0,Pembrolizumab,75.85,Partial Response,Moderate
+ONC10749,2026-02-01 04:00:00,53.0,Male,Pancreatic Cancer,IV,ALK,3.39,20.2,97.2,78,9.7,209,1.0,1.11,26.9,1.0,Olaparib,66.3,Stable Disease,Low
+ONC10750,2026-02-01 05:00:00,70.0,Male,NSCLC,III,BRAF,1.77,47.9,95.9,74,8.2,262,1.06,0.71,16.5,1.0,Osimertinib,68.3,Partial Response,Low
+ONC10751,2026-02-01 06:00:00,54.0,Female,Prostate Cancer,III,TP53,2.96,81.6,95.2,81,4.0,286,1.04,1.64,24.0,1.0,Trastuzumab,42.7,Progressive Disease,Low
+ONC10752,2026-02-01 07:00:00,53.0,Unknown,Pancreatic Cancer,II,BRAF,2.61,59.3,92.6,98,8.8,332,0.51,1.21,20.5,2.0,Trastuzumab,80.1,Stable Disease,Moderate
+ONC10753,2026-02-01 08:00:00,75.0,Female,Gastric Cancer,I,BRCA1,1.72,56.1,92.2,128,6.2,286,1.22,0.74,34.4,2.0,Sorafenib,71.9,Unknown,Moderate
+ONC10754,2026-02-01 09:00:00,65.0,Female,Gastric Cancer,III,BRCA2,2.02,71.2,97.1,86,4.3,305,0.35,0.44,20.6,1.0,Targeted Therapy,52.5,Partial Response,Low
+ONC10755,2026-02-01 10:00:00,51.0,Male,Melanoma,I,HER2,6.78,41.6,97.9,66,6.6,293,1.11,1.16,23.1,0.0,Osimertinib,88.8,Stable Disease,Low
+ONC10756,2026-02-01 11:00:00,55.0,Female,Colorectal Cancer,IV,TP53,16.81,22.9,98.5,83,9.9,220,1.5,1.48,26.6,2.0,Targeted Therapy,60.3,Stable Disease,Moderate
+ONC10757,2026-02-01 12:00:00,75.0,Female,NSCLC,IV,EGFR,5.87,34.4,100.0,73,4.0,200,1.27,1.38,15.0,1.0,FOLFOX,57.1,Partial Response,Low
+ONC10758,2026-02-01 13:00:00,39.0,Male,Prostate Cancer,III,ALK,2.32,46.4,99.6,68,7.7,335,1.13,0.33,29.0,2.0,Docetaxel,102.6,Unknown,Moderate
+ONC10759,2026-02-01 14:00:00,49.0,Female,NSCLC,III,KRAS,2.92,38.8,100.0,96,4.4,256,0.62,0.47,30.4,1.0,Nivolumab,74.9,Stable Disease,Low
+ONC10760,2026-02-01 15:00:00,76.0,Male,Melanoma,IV,ALK,3.05,38.5,98.7,76,7.7,225,0.87,0.54,23.6,2.0,Cisplatin+Gemcitabine,86.5,Stable Disease,Moderate
+ONC10761,2026-02-01 16:00:00,61.0,Male,Renal Cancer,II,Unknown,1.02,35.0,92.3,99,4.0,171,1.65,0.73,19.9,2.0,Chemotherapy,88.1,Partial Response,Moderate
+ONC10762,2026-02-01 17:00:00,56.0,Female,Melanoma,II,KRAS,8.0,30.5,93.9,88,4.2,141,0.48,1.33,23.5,4.0,Targeted Therapy,76.9,Unknown,Moderate
+ONC10763,2026-02-01 18:00:00,63.0,Male,Ovarian Cancer,III,KRAS,2.31,50.3,99.3,79,9.5,260,1.39,0.86,34.3,0.0,Immunotherapy,53.6,Progressive Disease,Low
+ONC10764,2026-02-01 19:00:00,39.0,Male,Breast Cancer,IV,ALK,9.65,47.4,95.5,90,9.6,257,1.03,0.89,25.9,2.0,Trastuzumab,83.1,Unknown,Moderate
+ONC10765,2026-02-01 20:00:00,77.0,Female,NSCLC,IV,BRCA2,1.54,39.9,100.0,92,9.5,243,0.91,0.34,15.0,3.0,Immunotherapy,93.6,Progressive Disease,Moderate
+ONC10766,2026-02-01 21:00:00,33.0,Male,Pancreatic Cancer,IV,TP53,4.88,38.3,96.3,71,5.0,203,1.64,0.72,20.7,3.0,FOLFOX,93.5,Stable Disease,High
+ONC10767,2026-02-01 22:00:00,68.0,Female,Gastric Cancer,IV,PIK3CA,1.67,69.3,97.4,74,9.0,337,1.05,1.23,24.5,1.0,Osimertinib,87.4,Partial Response,Low
+ONC10768,2026-02-01 23:00:00,64.0,Female,Ovarian Cancer,IV,HER2,3.2,25.8,94.7,67,5.8,368,1.61,0.79,31.7,1.0,Osimertinib,61.1,Partial Response,Low
+ONC10769,2026-02-02 00:00:00,53.0,Male,Ovarian Cancer,I,PD-L1,1.8,39.1,95.3,113,7.6,314,1.45,1.36,28.6,1.0,Targeted Therapy,75.7,Complete Response,Moderate
+ONC10770,2026-02-02 01:00:00,41.0,Male,Gastric Cancer,III,RET,5.93,35.5,95.1,63,5.1,367,0.97,0.55,30.5,0.0,Cisplatin+Gemcitabine,106.5,Progressive Disease,Moderate
+ONC10771,2026-02-02 02:00:00,35.0,Female,NSCLC,IV,EGFR,1.57,49.2,93.8,71,7.2,217,1.3,0.7,30.2,1.0,Pembrolizumab,77.5,Progressive Disease,Low
+ONC10772,2026-02-02 03:00:00,48.0,Female,Prostate Cancer,III,ALK,2.53,74.5,96.7,58,9.4,287,1.21,0.2,20.7,0.0,Osimertinib,89.2,Progressive Disease,Low
+ONC10773,2026-02-02 04:00:00,59.0,Unknown,Renal Cancer,IV,HER2,6.39,51.8,95.7,67,14.9,257,1.01,0.52,33.3,2.0,Pembrolizumab,70.9,Partial Response,Low
+ONC10774,2026-02-02 05:00:00,65.0,Female,Prostate Cancer,IV,KRAS,5.91,81.2,96.1,93,5.3,194,1.27,1.16,27.8,1.0,Nivolumab,49.5,Complete Response,Low
+ONC10775,2026-02-02 06:00:00,70.0,Male,Renal Cancer,III,Unknown,0.94,53.3,94.6,55,11.0,355,1.06,1.6,17.7,2.0,Docetaxel,58.3,Partial Response,Low
+ONC10776,2026-02-02 07:00:00,63.0,Male,Melanoma,IV,TP53,4.01,53.9,100.0,91,6.1,182,1.72,0.2,29.9,1.0,Osimertinib,68.1,Unknown,Low
+ONC10777,2026-02-02 08:00:00,59.0,Male,Prostate Cancer,IV,BRCA1,8.77,53.7,95.2,81,5.8,171,1.24,1.06,28.5,1.0,Chemotherapy,38.3,Stable Disease,Low
+ONC10778,2026-02-02 09:00:00,79.0,Female,Breast Cancer,II,EGFR,3.25,39.7,96.7,90,6.8,239,1.22,1.48,26.8,2.0,Docetaxel,50.0,Complete Response,Low
+ONC10779,2026-02-02 10:00:00,71.0,Male,Colorectal Cancer,II,ROS1,8.71,58.5,99.0,97,3.9,258,1.33,0.79,19.6,1.0,Olaparib,73.2,Stable Disease,Low
+ONC10780,2026-02-02 11:00:00,45.0,Unknown,Breast Cancer,I,EGFR,2.23,39.2,94.2,89,12.5,191,0.8,1.03,34.8,2.0,FOLFOX,73.9,Stable Disease,Low
+ONC10781,2026-02-02 12:00:00,72.0,Female,Ovarian Cancer,II,BRCA2,4.81,45.8,92.3,70,9.1,236,1.78,0.39,17.2,1.0,Olaparib,75.1,Complete Response,Low
+ONC10782,2026-02-02 13:00:00,53.0,Unknown,Colorectal Cancer,IV,BRCA1,6.27,71.3,95.6,67,9.2,241,1.15,0.35,26.3,3.0,Trastuzumab,118.0,Progressive Disease,High
+ONC10783,2026-02-02 14:00:00,32.0,Female,Pancreatic Cancer,II,BRCA1,1.79,17.5,94.2,66,7.1,262,0.55,0.94,25.1,2.0,Targeted Therapy,80.7,Partial Response,Low
+ONC10784,2026-02-02 15:00:00,55.0,Male,Ovarian Cancer,III,PIK3CA,3.79,23.7,92.9,88,10.7,381,1.04,0.76,28.7,0.0,Nivolumab,93.4,Complete Response,Low
+ONC10785,2026-02-02 16:00:00,45.0,Unknown,NSCLC,I,HER2,1.86,68.3,97.1,110,11.3,313,1.35,1.35,21.3,2.0,Pembrolizumab,76.0,Partial Response,Moderate
+ONC10786,2026-02-02 17:00:00,46.0,Male,Colorectal Cancer,III,BRCA2,2.66,75.1,95.4,76,6.5,313,1.58,0.96,32.9,1.0,Olaparib,82.7,Complete Response,Low
+ONC10787,2026-02-02 18:00:00,47.0,Female,Prostate Cancer,II,HER2,3.66,47.0,92.6,84,3.6,177,0.74,0.7,33.6,1.0,Targeted Therapy,999.0,Unknown,Low
+ONC10788,2026-02-02 19:00:00,39.0,Female,NSCLC,III,TP53,5.16,41.7,98.8,83,10.1,252,1.07,0.69,28.4,0.0,Olaparib,70.0,Unknown,Low
+ONC10789,2026-02-02 20:00:00,71.0,Unknown,Melanoma,III,Unknown,4.21,19.8,93.6,98,4.2,239,1.04,0.95,23.4,3.0,Nivolumab,33.7,Complete Response,Moderate
+ONC10790,2026-02-02 21:00:00,91.0,Female,Prostate Cancer,IV,RET,5.42,68.9,97.2,74,3.7,250,1.32,1.58,22.7,2.0,Olaparib,105.5,Unknown,High
+ONC10791,2026-02-02 22:00:00,63.0,Female,Melanoma,II,TP53,2.92,23.4,95.0,63,10.4,197,1.57,0.2,20.2,1.0,Osimertinib,104.8,Complete Response,Moderate
+ONC10792,2026-02-02 23:00:00,37.0,Male,Liver Cancer,IV,BRCA1,0.47,51.3,94.9,90,10.4,151,1.04,0.89,23.3,4.0,Olaparib,65.9,Unknown,Moderate
+ONC10793,2026-02-03 00:00:00,58.0,Male,Prostate Cancer,III,PD-L1,2.92,11.6,99.7,91,7.6,269,0.92,1.22,20.2,0.0,Pembrolizumab,92.8,Partial Response,Low
+ONC10794,2026-02-03 01:00:00,65.0,Unknown,NSCLC,II,BRCA1,4.41,52.6,92.9,64,2.2,217,0.35,0.59,20.4,3.0,Targeted Therapy,76.5,Progressive Disease,Moderate
+ONC10795,2026-02-03 02:00:00,75.0,Female,Gastric Cancer,IV,ROS1,2.65,55.9,96.0,64,9.0,295,0.92,0.95,22.8,2.0,Osimertinib,66.4,Unknown,Low
+ONC10796,2026-02-03 03:00:00,71.0,Male,NSCLC,IV,BRAF,4.48,46.6,94.1,70,6.4,295,1.11,1.22,29.1,1.0,Docetaxel,95.8,Partial Response,Moderate
+ONC10797,2026-02-03 04:00:00,56.0,Female,Pancreatic Cancer,III,BRAF,3.33,41.3,95.5,93,10.7,314,1.62,1.09,29.0,1.0,Docetaxel,55.2,Stable Disease,Low
+ONC10798,2026-02-03 05:00:00,58.0,Female,Gastric Cancer,IV,PD-L1,2.74,55.0,93.8,80,6.3,183,1.25,1.56,23.8,1.0,Osimertinib,50.9,Complete Response,Low
+ONC10799,2026-02-03 06:00:00,58.0,Female,Colorectal Cancer,II,EGFR,1.79,97.7,96.9,53,7.0,239,1.08,2.14,26.8,2.0,Osimertinib,63.1,Partial Response,Low
+ONC10800,2026-02-03 07:00:00,54.0,Female,Ovarian Cancer,III,TP53,3.93,62.1,97.9,78,7.2,244,1.43,1.34,24.4,1.0,Osimertinib,89.9,Stable Disease,Moderate
+ONC10801,2026-02-03 08:00:00,61.0,Male,Breast Cancer,I,EGFR,3.97,38.3,92.0,80,12.5,254,1.01,0.49,31.8,0.0,Pembrolizumab,120.3,Progressive Disease,Moderate
+ONC10802,2026-02-03 09:00:00,44.0,Male,Colorectal Cancer,IV,PD-L1,2.92,50.3,95.1,80,1.8,331,1.51,1.0,25.4,1.0,Osimertinib,76.1,Progressive Disease,Low
+ONC10803,2026-02-03 10:00:00,50.0,Female,Liver Cancer,I,Unknown,1.93,66.1,100.0,73,5.0,266,1.13,0.88,31.5,1.0,Carboplatin+Paclitaxel,26.0,Complete Response,Low
+ONC10804,2026-02-03 11:00:00,52.0,Female,Gastric Cancer,IV,ROS1,2.3,24.7,97.1,78,11.1,451,1.15,0.7,26.8,2.0,Docetaxel,95.4,Progressive Disease,Moderate
+ONC10805,2026-02-03 12:00:00,69.0,Male,Ovarian Cancer,IV,PD-L1,1.16,30.5,94.6,60,9.0,108,1.02,1.5,29.3,2.0,Carboplatin+Paclitaxel,78.2,Unknown,Moderate
+ONC10806,2026-02-03 13:00:00,58.0,Female,Liver Cancer,III,KRAS,3.37,62.3,91.8,81,12.1,196,0.81,0.99,24.2,3.0,Cisplatin+Gemcitabine,70.7,Complete Response,Low
+ONC10807,2026-02-03 14:00:00,51.0,Male,Breast Cancer,IV,TP53,3.17,73.0,96.8,72,6.7,352,1.36,0.65,19.6,0.0,Carboplatin+Paclitaxel,66.3,Partial Response,Low
+ONC10808,2026-02-03 15:00:00,55.0,Male,Melanoma,III,Unknown,1.84,61.6,93.9,63,8.6,377,1.67,1.2,28.4,2.0,Carboplatin+Paclitaxel,66.5,Unknown,Low
+ONC10809,2026-02-03 16:00:00,73.0,Male,Melanoma,IV,PD-L1,2.45,61.0,93.7,87,11.5,314,0.44,0.92,24.4,2.0,Carboplatin+Paclitaxel,74.3,Unknown,Low
+ONC10810,2026-02-03 17:00:00,40.0,Female,Liver Cancer,III,Unknown,10.11,61.8,95.0,77,6.4,285,1.24,1.21,24.4,1.0,Immunotherapy,59.0,Stable Disease,Low
+ONC10811,2026-02-03 18:00:00,38.0,Male,Prostate Cancer,III,HER2,0.51,54.9,96.1,74,6.7,309,1.27,0.78,21.4,0.0,Trastuzumab,78.3,Progressive Disease,Low
+ONC10812,2026-02-03 19:00:00,85.0,Male,Colorectal Cancer,II,BRCA2,2.2,86.9,94.8,70,8.2,153,1.94,0.61,28.6,0.0,FOLFOX,95.6,Progressive Disease,Moderate
+ONC10813,2026-02-03 20:00:00,59.0,Female,NSCLC,II,KRAS,12.75,51.6,93.6,87,7.2,294,1.02,0.96,20.9,0.0,Carboplatin+Paclitaxel,130.8,Unknown,High
+ONC10814,2026-02-03 21:00:00,63.0,Female,Liver Cancer,II,BRAF,6.5,20.2,92.9,76,9.5,187,0.83,1.04,26.0,3.0,FOLFOX,46.9,Partial Response,Low
+ONC10815,2026-02-03 22:00:00,44.0,Female,Liver Cancer,IV,HER2,6.49,26.0,99.0,80,10.1,172,1.18,0.88,23.2,2.0,Carboplatin+Paclitaxel,73.8,Stable Disease,Low
+ONC10816,2026-02-03 23:00:00,69.0,Unknown,Gastric Cancer,III,TP53,1.9,43.2,94.3,63,8.4,166,1.41,1.97,24.1,2.0,Sorafenib,71.0,Progressive Disease,Moderate
+ONC10817,2026-02-04 00:00:00,54.0,Female,Colorectal Cancer,I,PD-L1,3.75,16.2,100.0,70,5.6,200,0.5,0.62,25.9,4.0,Sorafenib,48.7,Unknown,Moderate
+ONC10818,2026-02-04 01:00:00,63.0,Female,Prostate Cancer,IV,HER2,2.06,42.8,90.6,59,7.2,170,1.24,0.25,23.6,1.0,FOLFOX,65.8,Partial Response,Low
+ONC10819,2026-02-04 02:00:00,67.0,Male,Ovarian Cancer,IV,EGFR,1.99,31.4,95.3,86,4.2,308,1.19,1.11,24.5,1.0,Osimertinib,102.9,Complete Response,Moderate
+ONC10820,2026-02-04 03:00:00,71.0,Female,Renal Cancer,I,KRAS,2.37,38.2,96.0,61,7.2,310,1.04,1.06,26.7,2.0,Sorafenib,77.3,Complete Response,Low
+ONC10821,2026-02-04 04:00:00,45.0,Female,Prostate Cancer,IV,Unknown,1.7,37.0,94.9,60,4.8,235,1.49,1.0,27.5,3.0,FOLFOX,87.1,Partial Response,Moderate
+ONC10822,2026-02-04 05:00:00,58.0,Male,Breast Cancer,III,KRAS,2.43,59.8,93.6,74,9.4,238,1.05,0.76,25.9,1.0,Osimertinib,58.0,Complete Response,Low
+ONC10823,2026-02-04 06:00:00,58.0,Female,Prostate Cancer,II,KRAS,0.91,50.8,94.7,71,8.8,359,0.7,0.91,23.0,3.0,Nivolumab,55.7,Complete Response,Low
+ONC10824,2026-02-04 07:00:00,50.0,Male,Prostate Cancer,IV,HER2,2.92,47.9,96.6,70,2.8,305,1.03,0.8,23.4,1.0,Targeted Therapy,65.9,Complete Response,Low
+ONC10825,2026-02-04 08:00:00,57.0,Female,Pancreatic Cancer,IV,ALK,6.84,46.3,99.2,77,2.2,317,1.38,0.51,25.2,1.0,Trastuzumab,62.0,Stable Disease,Low
+ONC10826,2026-02-04 09:00:00,84.0,Female,Pancreatic Cancer,II,TP53,2.55,63.7,95.2,61,7.8,275,0.55,0.86,24.4,1.0,Sorafenib,58.1,Partial Response,Low
+ONC10827,2026-02-04 10:00:00,82.0,Male,Pancreatic Cancer,III,ALK,7.68,51.3,96.9,86,6.9,219,0.92,1.39,26.0,3.0,Carboplatin+Paclitaxel,92.5,Unknown,Moderate
+ONC10828,2026-02-04 11:00:00,81.0,Female,Renal Cancer,IV,NTRK,2.79,47.2,94.8,81,11.4,284,1.2,1.11,27.4,2.0,Carboplatin+Paclitaxel,59.3,Unknown,Low
+ONC10829,2026-02-04 12:00:00,60.0,Female,Colorectal Cancer,IV,PD-L1,2.98,21.9,95.4,108,8.5,198,1.18,1.6,19.0,4.0,Nivolumab,76.1,Progressive Disease,High
+ONC10830,2026-02-04 13:00:00,55.0,Unknown,Prostate Cancer,II,MET,4.29,63.4,97.2,72,7.0,268,1.13,0.48,27.1,3.0,FOLFOX,51.5,Partial Response,Low
+ONC10831,2026-02-04 14:00:00,75.0,Female,Ovarian Cancer,IV,EGFR,1.78,57.0,95.8,75,10.3,241,0.98,0.94,28.4,3.0,Pembrolizumab,79.7,Partial Response,Moderate
+ONC10832,2026-02-04 15:00:00,36.0,Female,Renal Cancer,III,TP53,5.6,45.2,94.1,75,4.5,371,0.95,1.34,24.0,2.0,Docetaxel,115.8,Partial Response,High
+ONC10833,2026-02-04 16:00:00,70.0,Male,Melanoma,III,HER2,0.47,55.6,96.3,77,6.8,327,1.01,0.82,24.3,4.0,Carboplatin+Paclitaxel,75.7,Progressive Disease,Moderate
+ONC10834,2026-02-04 17:00:00,64.0,Male,NSCLC,III,ALK,11.46,47.2,95.8,83,6.1,391,0.35,0.74,27.9,0.0,Cisplatin+Gemcitabine,77.6,Progressive Disease,Low
+ONC10835,2026-02-04 18:00:00,63.0,Female,Gastric Cancer,I,KRAS,1.53,23.5,95.7,66,8.9,275,0.67,0.56,33.6,1.0,Carboplatin+Paclitaxel,99.0,Progressive Disease,Moderate
+ONC10836,2026-02-04 19:00:00,55.0,Unknown,Renal Cancer,II,RET,3.09,61.3,99.6,77,5.2,277,0.83,0.94,27.8,0.0,Chemotherapy,119.5,Partial Response,Moderate
+ONC10837,2026-02-04 20:00:00,52.0,Female,Renal Cancer,I,KRAS,0.74,16.7,99.1,92,8.1,184,0.78,1.14,19.0,2.0,Olaparib,84.4,Progressive Disease,Moderate
+ONC10838,2026-02-04 21:00:00,52.0,Male,NSCLC,IV,KRAS,6.97,51.4,96.5,90,10.1,340,0.83,1.03,20.3,3.0,Chemotherapy,75.3,Stable Disease,Moderate
+ONC10839,2026-02-04 22:00:00,50.0,Male,Gastric Cancer,IV,EGFR,4.05,30.7,91.8,59,4.3,184,0.76,1.69,23.9,2.0,FOLFOX,81.2,Unknown,Moderate
+ONC10840,2026-02-04 23:00:00,61.0,Female,Breast Cancer,III,EGFR,2.92,41.8,97.1,106,7.7,102,0.68,1.44,27.2,1.0,Osimertinib,112.0,Complete Response,High
+ONC10841,2026-02-05 00:00:00,43.0,Male,Colorectal Cancer,III,HER2,5.85,25.7,99.4,65,3.1,142,0.42,0.64,23.6,3.0,FOLFOX,49.7,Stable Disease,Low
+ONC10842,2026-02-05 01:00:00,63.0,Male,Gastric Cancer,IV,TP53,4.53,38.1,99.1,89,4.4,137,1.15,1.07,25.9,2.0,Docetaxel,64.3,Stable Disease,Low
+ONC10843,2026-02-05 02:00:00,55.0,Male,Liver Cancer,II,BRAF,2.24,32.6,97.7,66,7.5,281,0.85,0.79,31.7,1.0,Nivolumab,58.6,Stable Disease,Low
+ONC10844,2026-02-05 03:00:00,77.0,Unknown,Colorectal Cancer,IV,PD-L1,2.48,37.5,92.7,97,10.7,225,1.07,0.2,23.9,2.0,Osimertinib,74.9,Progressive Disease,Low
+ONC10845,2026-02-05 04:00:00,74.0,Male,Gastric Cancer,IV,EGFR,4.1,64.3,93.8,91,9.1,298,1.09,1.1,23.0,1.0,Cisplatin+Gemcitabine,67.7,Partial Response,Low
+ONC10846,2026-02-05 05:00:00,68.0,Female,Pancreatic Cancer,IV,BRAF,3.91,36.5,96.9,82,4.6,256,1.1,0.9,15.5,0.0,Osimertinib,77.7,Complete Response,Low
+ONC10847,2026-02-05 06:00:00,56.0,Female,NSCLC,IV,EGFR,1.18,51.9,97.3,59,9.2,199,1.01,1.67,25.4,1.0,Pembrolizumab,36.1,Partial Response,Low
+ONC10848,2026-02-05 07:00:00,59.0,Female,Melanoma,IV,KRAS,1.38,52.7,99.3,62,11.5,257,0.45,1.15,25.0,0.0,Trastuzumab,52.0,Partial Response,Low
+ONC10849,2026-02-05 08:00:00,55.0,Unknown,Renal Cancer,II,TP53,1.16,49.9,94.0,66,4.6,251,1.47,0.39,29.2,1.0,FOLFOX,81.3,Complete Response,Low
+ONC10850,2026-02-05 09:00:00,27.0,Male,Gastric Cancer,III,TP53,1.96,70.2,99.4,75,1.2,243,1.51,1.06,32.2,3.0,Sorafenib,71.3,Partial Response,Moderate
+ONC10851,2026-02-05 10:00:00,71.0,Female,NSCLC,II,TP53,1.01,80.7,96.6,79,5.6,278,0.73,1.12,30.7,1.0,Chemotherapy,93.3,Complete Response,Moderate
+ONC10852,2026-02-05 11:00:00,58.0,Female,Colorectal Cancer,IV,ALK,5.44,34.2,93.5,92,6.5,252,0.92,1.15,30.7,1.0,Immunotherapy,74.3,Stable Disease,Low
+ONC10853,2026-02-05 12:00:00,35.0,Male,Prostate Cancer,III,EGFR,2.12,73.5,90.2,99,8.3,228,0.83,1.59,27.9,1.0,Cisplatin+Gemcitabine,63.0,Progressive Disease,Low
+ONC10854,2026-02-05 13:00:00,48.0,Female,Melanoma,IV,EGFR,1.28,30.0,97.6,77,6.8,182,0.74,0.84,23.9,1.0,Cisplatin+Gemcitabine,98.7,Progressive Disease,Moderate
+ONC10855,2026-02-05 14:00:00,68.0,Female,Gastric Cancer,IV,PIK3CA,3.22,57.6,91.6,62,5.3,146,1.19,0.2,25.9,2.0,Nivolumab,90.7,Partial Response,Moderate
+ONC10856,2026-02-05 15:00:00,63.0,Unknown,Pancreatic Cancer,III,BRCA1,1.87,20.6,99.0,102,3.6,317,0.93,0.48,33.9,0.0,Olaparib,107.3,Progressive Disease,Moderate
+ONC10857,2026-02-05 16:00:00,84.0,Female,Pancreatic Cancer,II,EGFR,1.53,62.1,97.0,89,7.2,218,0.64,0.93,28.3,1.0,Chemotherapy,122.7,Partial Response,High
+ONC10858,2026-02-05 17:00:00,68.0,Female,Ovarian Cancer,II,ALK,1.79,25.4,98.7,68,6.9,210,0.85,0.8,27.7,3.0,Osimertinib,77.0,Complete Response,Moderate
+ONC10859,2026-02-05 18:00:00,57.0,Male,Ovarian Cancer,III,PIK3CA,3.94,49.8,97.2,67,9.7,276,1.1,2.08,21.4,1.0,Sorafenib,97.5,Unknown,Moderate
+ONC10860,2026-02-05 19:00:00,58.0,Female,Liver Cancer,III,MET,1.03,45.6,93.4,74,3.3,255,1.09,0.74,26.0,1.0,Nivolumab,67.6,Stable Disease,Low
+ONC10861,2026-02-05 20:00:00,52.0,Male,Prostate Cancer,IV,MET,4.01,53.4,95.3,80,4.9,215,1.33,0.32,21.2,2.0,FOLFOX,74.2,Unknown,Low
+ONC10862,2026-02-05 21:00:00,53.0,Unknown,Renal Cancer,I,EGFR,2.13,74.0,96.1,121,6.3,276,0.84,0.68,36.0,2.0,Olaparib,110.1,Progressive Disease,High
+ONC10863,2026-02-05 22:00:00,58.0,Female,Breast Cancer,II,MET,5.44,54.8,98.0,64,7.8,181,1.55,0.24,28.5,0.0,Cisplatin+Gemcitabine,116.5,Stable Disease,Moderate
+ONC10864,2026-02-05 23:00:00,53.0,Male,Gastric Cancer,III,TP53,3.58,39.3,98.3,107,10.3,249,0.75,1.63,23.5,1.0,Olaparib,67.5,Progressive Disease,High
+ONC10865,2026-02-06 00:00:00,84.0,Female,Breast Cancer,IV,BRAF,3.61,46.5,100.0,70,4.4,224,1.11,0.81,24.5,0.0,Cisplatin+Gemcitabine,100.9,Partial Response,Low
+ONC10866,2026-02-06 01:00:00,68.0,Female,Pancreatic Cancer,I,TP53,1.65,46.0,97.3,74,4.1,198,1.31,1.09,33.0,3.0,Targeted Therapy,106.3,Partial Response,High
+ONC10867,2026-02-06 02:00:00,91.0,Female,Liver Cancer,III,KRAS,7.92,56.0,96.3,99,14.4,249,1.09,0.96,25.6,3.0,Chemotherapy,76.9,Stable Disease,Moderate
+ONC10868,2026-02-06 03:00:00,73.0,Female,Renal Cancer,I,TP53,8.82,21.2,99.5,83,7.3,311,0.77,1.0,30.3,1.0,Carboplatin+Paclitaxel,78.2,Partial Response,Low
+ONC10869,2026-02-06 04:00:00,66.0,Female,Liver Cancer,IV,PD-L1,4.28,49.8,97.4,62,7.0,127,0.58,0.6,21.3,0.0,Cisplatin+Gemcitabine,54.9,Partial Response,Low
+ONC10870,2026-02-06 05:00:00,65.0,Male,Gastric Cancer,II,EGFR,7.69,46.5,97.2,89,6.7,228,1.75,1.17,21.0,0.0,Cisplatin+Gemcitabine,88.5,Partial Response,Moderate
+ONC10871,2026-02-06 06:00:00,59.0,Female,Gastric Cancer,IV,EGFR,5.46,40.3,95.5,91,1.2,375,1.07,0.61,32.8,2.0,Cisplatin+Gemcitabine,97.8,Progressive Disease,Moderate
+ONC10872,2026-02-06 07:00:00,59.0,Female,Ovarian Cancer,III,RET,4.34,36.4,98.7,69,8.3,268,1.22,0.39,24.3,3.0,Docetaxel,70.9,Progressive Disease,Moderate
+ONC10873,2026-02-06 08:00:00,43.0,Male,Gastric Cancer,III,PIK3CA,3.07,49.3,93.7,54,7.4,214,0.39,0.5,18.7,3.0,Nivolumab,50.5,Stable Disease,Low
+ONC10874,2026-02-06 09:00:00,50.0,Male,Colorectal Cancer,IV,HER2,0.88,74.9,100.0,67,9.0,251,0.89,1.17,27.6,2.0,Pembrolizumab,84.2,Stable Disease,Moderate
+ONC10875,2026-02-06 10:00:00,37.0,Unknown,Breast Cancer,II,TP53,4.33,46.3,94.5,71,13.2,315,1.53,0.91,27.3,1.0,Targeted Therapy,64.3,Complete Response,Low
+ONC10876,2026-02-06 11:00:00,62.0,Male,Renal Cancer,II,PD-L1,7.76,65.8,99.1,89,5.6,246,0.78,1.28,26.8,0.0,Chemotherapy,73.2,Stable Disease,Low
+ONC10877,2026-02-06 12:00:00,49.0,Female,Melanoma,III,Unknown,2.04,59.4,92.5,78,5.2,234,1.69,0.34,23.2,1.0,Sorafenib,45.0,Unknown,Low
+ONC10878,2026-02-06 13:00:00,56.0,Female,Colorectal Cancer,III,TP53,8.22,51.4,96.9,91,8.3,251,1.53,1.25,28.2,3.0,Nivolumab,36.3,Complete Response,Moderate
+ONC10879,2026-02-06 14:00:00,75.0,Female,Breast Cancer,IV,Unknown,6.39,8.9,93.9,55,8.4,269,1.79,1.35,28.0,2.0,Chemotherapy,69.7,Progressive Disease,Moderate
+ONC10880,2026-02-06 15:00:00,57.0,Female,Ovarian Cancer,IV,PIK3CA,2.72,29.9,93.8,83,4.6,176,1.03,0.65,27.4,3.0,Nivolumab,41.9,Partial Response,Low
+ONC10881,2026-02-06 16:00:00,35.0,Unknown,Prostate Cancer,III,ROS1,3.19,52.9,94.6,69,6.6,337,1.09,1.41,30.2,0.0,Cisplatin+Gemcitabine,71.4,Partial Response,Low
+ONC10882,2026-02-06 17:00:00,51.0,Female,Liver Cancer,IV,NTRK,5.24,51.1,93.1,87,5.4,222,1.53,1.19,31.0,1.0,Osimertinib,102.3,Partial Response,Moderate
+ONC10883,2026-02-06 18:00:00,61.0,Male,Pancreatic Cancer,IV,BRCA2,3.81,51.9,97.6,69,9.3,162,0.88,0.67,18.4,2.0,Immunotherapy,87.4,Unknown,Moderate
+ONC10884,2026-02-06 19:00:00,44.0,Male,Prostate Cancer,IV,KRAS,2.92,54.6,96.1,79,5.9,249,0.51,1.91,15.0,2.0,Targeted Therapy,83.4,Stable Disease,Moderate
+ONC10885,2026-02-06 20:00:00,62.0,Male,Liver Cancer,III,Unknown,1.68,17.6,97.6,84,7.9,255,1.38,1.3,26.4,1.0,Pembrolizumab,38.1,Partial Response,Low
+ONC10886,2026-02-06 21:00:00,50.0,Female,Breast Cancer,IV,BRAF,2.92,47.1,97.6,62,13.0,244,0.89,0.68,25.0,2.0,Sorafenib,62.9,Stable Disease,Low
+ONC10887,2026-02-06 22:00:00,28.0,Unknown,Prostate Cancer,IV,RET,1.47,35.0,97.8,91,9.3,210,0.76,0.64,25.1,2.0,Nivolumab,96.1,Unknown,Moderate
+ONC10888,2026-02-06 23:00:00,67.0,Male,Gastric Cancer,III,RET,3.26,33.1,91.6,91,9.0,237,0.88,0.66,24.4,1.0,Immunotherapy,107.2,Stable Disease,Moderate
+ONC10889,2026-02-07 00:00:00,56.0,Female,NSCLC,III,EGFR,3.24,37.9,98.3,85,8.1,224,0.93,0.2,22.2,0.0,Targeted Therapy,108.2,Stable Disease,Moderate
+ONC10890,2026-02-07 01:00:00,79.0,Male,NSCLC,III,ROS1,4.39,38.6,94.9,62,5.8,394,0.66,0.68,28.4,4.0,Trastuzumab,63.2,Partial Response,Moderate
+ONC10891,2026-02-07 02:00:00,51.0,Male,Ovarian Cancer,III,PIK3CA,4.14,30.6,98.6,77,7.5,345,0.48,0.94,23.5,2.0,Cisplatin+Gemcitabine,54.9,Stable Disease,Low
+ONC10892,2026-02-07 03:00:00,53.0,Male,NSCLC,III,EGFR,2.83,72.3,93.8,82,7.6,296,1.57,1.14,24.4,1.0,Carboplatin+Paclitaxel,115.0,Stable Disease,High
+ONC10893,2026-02-07 04:00:00,62.0,Female,Colorectal Cancer,I,Unknown,0.86,54.5,94.4,93,7.6,216,0.87,1.67,22.8,2.0,Nivolumab,51.8,Partial Response,Low
+ONC10894,2026-02-07 05:00:00,42.0,Male,Pancreatic Cancer,IV,Unknown,3.86,32.4,98.1,78,9.2,300,1.59,0.72,32.0,0.0,Docetaxel,62.8,Stable Disease,Low
+ONC10895,2026-02-07 06:00:00,61.0,Female,Pancreatic Cancer,IV,TP53,2.55,61.8,95.6,69,5.5,313,1.37,0.57,30.6,1.0,Docetaxel,55.6,Partial Response,Low
+ONC10896,2026-02-07 07:00:00,45.0,Female,Renal Cancer,III,EGFR,4.74,39.0,95.0,50,7.9,148,0.96,1.09,19.3,1.0,Carboplatin+Paclitaxel,111.6,Partial Response,Moderate
+ONC10897,2026-02-07 08:00:00,66.0,Female,Melanoma,III,MET,3.08,43.9,95.9,78,11.0,369,1.08,2.11,18.2,2.0,Chemotherapy,94.0,Partial Response,Moderate
+ONC10898,2026-02-07 09:00:00,85.0,Unknown,NSCLC,II,BRCA1,2.91,64.6,94.6,72,4.9,294,1.39,0.62,19.3,1.0,Olaparib,108.4,Progressive Disease,Moderate
+ONC10899,2026-02-07 10:00:00,70.0,Male,NSCLC,III,TP53,5.14,48.4,92.3,68,9.5,177,1.22,0.69,31.9,0.0,Sorafenib,58.5,Complete Response,Low
+ONC10900,2026-02-07 11:00:00,57.0,Female,Gastric Cancer,IV,TP53,4.82,31.0,97.3,81,4.3,307,0.86,1.5,20.2,1.0,Pembrolizumab,92.8,Stable Disease,Moderate
+ONC10904,2026-02-07 12:00:00,64.0,Female,NSCLC,III,KRAS,2.58,41.3,96.0,79,6.0,377,0.77,0.94,16.5,2.0,Trastuzumab,104.6,Stable Disease,Moderate
+ONC10905,2026-02-07 13:00:00,65.0,Male,Colorectal Cancer,IV,ALK,16.96,62.5,98.7,48,5.3,222,1.03,0.69,19.5,0.0,Targeted Therapy,63.3,Complete Response,Low
+ONC10906,2026-02-07 14:00:00,36.0,Male,Breast Cancer,III,BRCA1,8.63,39.7,95.5,71,2.0,245,1.55,0.86,28.5,3.0,Targeted Therapy,101.3,Complete Response,High
+ONC10907,2026-02-07 15:00:00,62.0,Male,Melanoma,IV,TP53,9.87,61.4,95.3,77,9.6,381,1.07,1.13,24.6,0.0,Pembrolizumab,52.1,Partial Response,Low
+ONC10908,2026-02-07 16:00:00,58.0,Male,Pancreatic Cancer,III,EGFR,2.39,7.7,94.2,49,11.5,274,1.9,1.06,30.7,1.0,FOLFOX,81.6,Progressive Disease,Moderate
+ONC10909,2026-02-07 17:00:00,57.0,Female,Gastric Cancer,IV,TP53,0.56,81.5,96.5,71,10.1,228,0.72,1.15,32.1,3.0,Sorafenib,46.7,Complete Response,Low
+ONC10910,2026-02-07 18:00:00,61.0,Female,Liver Cancer,IV,PIK3CA,5.01,55.1,93.7,80,8.7,315,1.1,0.75,25.8,0.0,Trastuzumab,42.0,Partial Response,Low
+ONC10911,2026-02-07 19:00:00,67.0,Male,Pancreatic Cancer,IV,MET,1.1,69.2,94.7,69,9.3,200,1.31,1.2,34.4,1.0,Osimertinib,87.7,Partial Response,Moderate
+ONC10912,2026-02-07 20:00:00,41.0,Unknown,Colorectal Cancer,III,HER2,5.36,47.9,99.4,71,8.0,243,1.75,1.5,22.4,2.0,Chemotherapy,66.6,Progressive Disease,Moderate
+ONC10913,2026-02-07 21:00:00,65.0,Male,Melanoma,III,BRCA1,0.34,41.9,96.8,81,3.6,299,1.82,1.41,26.1,4.0,Sorafenib,112.0,Partial Response,High
+ONC10914,2026-02-07 22:00:00,58.0,Female,Pancreatic Cancer,IV,EGFR,1.08,48.6,94.9,74,5.3,151,1.42,0.57,27.1,0.0,Pembrolizumab,79.8,Stable Disease,Low
+ONC10915,2026-02-07 23:00:00,54.0,Female,Melanoma,IV,PD-L1,6.56,46.7,100.0,89,7.5,276,0.82,1.21,26.8,3.0,Carboplatin+Paclitaxel,99.3,Complete Response,High
+ONC10916,2026-02-08 00:00:00,38.0,Male,Pancreatic Cancer,IV,TP53,6.29,29.8,98.5,92,8.2,250,1.12,0.92,28.8,0.0,Nivolumab,53.4,Partial Response,Low
+ONC10917,2026-02-08 01:00:00,65.0,Male,Colorectal Cancer,IV,BRCA1,2.37,16.5,95.8,87,7.8,337,0.83,1.18,30.8,3.0,Trastuzumab,60.6,Unknown,Moderate
+ONC10918,2026-02-08 02:00:00,50.0,Male,NSCLC,III,TP53,4.55,65.5,96.5,52,8.0,216,0.65,0.92,23.9,0.0,Carboplatin+Paclitaxel,83.6,Unknown,Low
+ONC10919,2026-02-08 03:00:00,47.0,Female,Melanoma,III,ROS1,0.68,45.2,98.5,73,5.8,191,0.42,0.81,34.1,2.0,Chemotherapy,66.7,Unknown,Low
+ONC10920,2026-02-08 04:00:00,33.0,Unknown,Melanoma,III,RET,1.02,47.8,99.6,86,9.2,305,1.17,1.14,31.9,0.0,Carboplatin+Paclitaxel,89.0,Progressive Disease,Low
+ONC10921,2026-02-08 05:00:00,74.0,Unknown,Pancreatic Cancer,III,Unknown,0.75,45.4,97.7,89,11.6,202,0.92,0.41,22.0,0.0,Carboplatin+Paclitaxel,68.5,Progressive Disease,Low
+ONC10922,2026-02-08 06:00:00,55.0,Male,NSCLC,II,ALK,3.39,52.3,100.0,80,4.0,259,0.71,1.14,29.0,1.0,Immunotherapy,51.3,Complete Response,Low
+ONC10923,2026-02-08 07:00:00,56.0,Female,Ovarian Cancer,III,MET,2.83,45.5,94.6,92,4.6,316,1.19,1.29,24.6,2.0,Docetaxel,50.4,Stable Disease,Low
+ONC10924,2026-02-08 08:00:00,63.0,Male,Gastric Cancer,IV,PIK3CA,1.41,40.4,95.8,85,7.0,201,1.31,1.41,15.0,1.0,Cisplatin+Gemcitabine,27.5,Partial Response,Low
+ONC10925,2026-02-08 09:00:00,61.0,Male,Colorectal Cancer,II,HER2,1.54,57.8,93.7,84,7.2,256,1.25,1.26,18.4,0.0,Sorafenib,96.0,Unknown,Moderate
+ONC10926,2026-02-08 10:00:00,78.0,Unknown,Ovarian Cancer,II,KRAS,5.27,60.2,94.5,78,6.0,177,1.08,1.04,28.6,2.0,Pembrolizumab,43.8,Partial Response,Low
+ONC10927,2026-02-08 11:00:00,79.0,Female,Melanoma,I,BRCA1,11.31,61.0,94.4,93,10.6,288,1.18,0.88,19.7,3.0,FOLFOX,70.6,Progressive Disease,Moderate
+ONC10928,2026-02-08 12:00:00,60.0,Female,Gastric Cancer,II,HER2,1.19,47.9,99.1,73,8.6,220,1.79,1.33,23.0,2.0,Pembrolizumab,98.3,Progressive Disease,High
+ONC10929,2026-02-08 13:00:00,72.0,Unknown,NSCLC,III,HER2,2.08,63.8,95.1,86,7.9,180,1.26,1.1,28.8,2.0,Osimertinib,88.0,Progressive Disease,Moderate
+ONC10930,2026-02-08 14:00:00,47.0,Female,Melanoma,II,EGFR,1.9,55.4,97.5,52,5.2,324,1.04,0.91,24.7,3.0,Carboplatin+Paclitaxel,85.4,Partial Response,Moderate
+ONC10931,2026-02-08 15:00:00,45.0,Male,Melanoma,IV,Unknown,4.28,75.2,97.0,65,5.0,194,1.26,0.6,31.9,1.0,Carboplatin+Paclitaxel,74.5,Partial Response,Low
+ONC10932,2026-02-08 16:00:00,36.0,Female,Melanoma,IV,KRAS,8.8,54.7,94.3,48,9.5,322,1.24,1.48,28.9,2.0,Docetaxel,89.3,Stable Disease,Moderate
+ONC10933,2026-02-08 17:00:00,52.0,Female,Prostate Cancer,IV,ALK,4.71,77.6,93.7,106,6.4,203,0.94,0.63,25.6,1.0,Cisplatin+Gemcitabine,92.6,Complete Response,Moderate
+ONC10934,2026-02-08 18:00:00,36.0,Unknown,Gastric Cancer,III,PIK3CA,2.88,47.9,97.1,79,3.7,262,0.84,1.53,30.6,1.0,Targeted Therapy,59.2,Partial Response,Low
+ONC10935,2026-02-08 19:00:00,61.0,Unknown,Prostate Cancer,I,Unknown,2.23,35.2,97.1,93,5.8,204,0.81,1.1,19.1,2.0,Carboplatin+Paclitaxel,89.6,Unknown,Moderate
+ONC10936,2026-02-08 20:00:00,80.0,Male,Melanoma,IV,HER2,8.74,24.1,90.6,68,4.3,329,1.8,0.84,18.4,0.0,Immunotherapy,60.7,Progressive Disease,Low
+ONC10937,2026-02-08 21:00:00,79.0,Female,NSCLC,III,NTRK,1.35,46.5,96.7,71,7.8,236,0.88,0.61,36.4,0.0,Chemotherapy,36.9,Partial Response,Low
+ONC10938,2026-02-08 22:00:00,69.0,Female,Gastric Cancer,I,HER2,2.28,55.8,92.5,83,7.6,191,1.03,1.13,29.8,3.0,Osimertinib,101.7,Complete Response,High
+ONC10939,2026-02-08 23:00:00,47.0,Male,Ovarian Cancer,IV,KRAS,17.89,35.7,95.0,81,7.0,371,1.18,0.63,24.0,3.0,Osimertinib,67.5,Complete Response,Moderate
+ONC10940,2026-02-09 00:00:00,34.0,Male,Gastric Cancer,IV,PIK3CA,5.04,54.6,96.8,83,9.3,305,1.08,0.9,27.1,1.0,Osimertinib,72.9,Progressive Disease,Low
+ONC10941,2026-02-09 01:00:00,66.0,Male,NSCLC,III,MET,4.42,74.1,94.4,82,8.6,221,1.12,0.94,33.6,1.0,Osimertinib,77.5,Complete Response,Low
+ONC10942,2026-02-09 02:00:00,43.0,Male,Colorectal Cancer,IV,BRAF,0.97,43.2,96.7,93,9.1,299,0.83,1.88,27.5,2.0,Immunotherapy,72.7,Unknown,Moderate
+ONC10943,2026-02-09 03:00:00,84.0,Male,Breast Cancer,III,MET,1.92,35.8,95.4,63,6.0,262,0.63,0.65,26.6,2.0,FOLFOX,65.0,Progressive Disease,Low
+ONC10944,2026-02-09 04:00:00,67.0,Female,Breast Cancer,I,RET,7.05,47.8,98.1,58,4.7,319,0.95,0.89,21.7,0.0,Pembrolizumab,74.2,Unknown,Low
+ONC10945,2026-02-09 05:00:00,51.0,Male,Melanoma,II,HER2,4.64,39.1,93.1,81,7.0,300,1.26,1.42,24.7,1.0,Targeted Therapy,99.9,Complete Response,Moderate
+ONC10946,2026-02-09 06:00:00,54.0,Male,Liver Cancer,III,BRAF,3.61,66.9,100.0,65,5.0,247,0.67,1.19,32.0,2.0,Pembrolizumab,90.1,Stable Disease,Moderate
+ONC10947,2026-02-09 07:00:00,48.0,Female,Renal Cancer,III,TP53,2.61,72.1,96.4,83,5.2,266,1.53,0.51,25.6,1.0,Cisplatin+Gemcitabine,27.8,Stable Disease,Low
+ONC10948,2026-02-09 08:00:00,60.0,Female,Gastric Cancer,I,EGFR,1.75,42.2,94.8,56,9.7,251,1.7,1.05,19.9,0.0,Olaparib,59.2,Complete Response,Low
+ONC10949,2026-02-09 09:00:00,46.0,Female,Colorectal Cancer,I,PIK3CA,6.48,43.8,91.9,97,9.0,189,0.73,1.37,27.7,1.0,Targeted Therapy,90.2,Progressive Disease,Moderate
+ONC10950,2026-02-09 10:00:00,55.0,Male,NSCLC,III,BRCA1,2.7,37.4,97.3,77,10.1,246,1.35,1.32,31.7,2.0,Docetaxel,78.8,Complete Response,Moderate
+ONC10951,2026-02-09 11:00:00,69.0,Unknown,Renal Cancer,I,TP53,5.59,38.9,93.2,88,9.6,375,1.46,0.96,25.5,2.0,Olaparib,70.7,Partial Response,Low
+ONC10952,2026-02-09 12:00:00,60.0,Female,Prostate Cancer,II,TP53,4.55,72.4,93.5,80,7.6,356,1.04,1.23,25.7,1.0,Docetaxel,39.0,Partial Response,Low
+ONC10953,2026-02-09 13:00:00,45.0,Male,Liver Cancer,IV,BRCA1,3.5,60.0,95.5,85,10.0,151,1.44,0.68,27.6,0.0,Sorafenib,98.5,Partial Response,Moderate
+ONC10954,2026-02-09 14:00:00,48.0,Unknown,Ovarian Cancer,IV,BRAF,3.68,104.0,94.7,88,5.0,235,1.04,1.56,29.5,1.0,Targeted Therapy,89.0,Complete Response,Moderate
+ONC10955,2026-02-09 15:00:00,77.0,Female,Prostate Cancer,III,MET,5.51,43.6,95.4,65,4.8,215,0.72,0.4,24.4,1.0,Carboplatin+Paclitaxel,71.2,Stable Disease,Low
+ONC10956,2026-02-09 16:00:00,59.0,Male,Breast Cancer,IV,NTRK,3.23,40.5,93.8,66,9.2,274,1.2,0.95,26.5,1.0,FOLFOX,59.4,Unknown,Low
+ONC10957,2026-02-09 17:00:00,69.0,Female,Melanoma,III,KRAS,0.89,54.1,97.3,52,8.3,338,1.77,1.15,24.9,2.0,Targeted Therapy,121.2,Partial Response,High
+ONC10958,2026-02-09 18:00:00,48.0,Female,Liver Cancer,III,ALK,3.3,75.5,100.0,64,8.2,189,1.58,0.66,35.4,1.0,Trastuzumab,81.0,Complete Response,Low
+ONC10959,2026-02-09 19:00:00,57.0,Female,Colorectal Cancer,III,RET,1.27,42.8,99.0,97,6.7,349,0.82,0.94,31.9,2.0,Trastuzumab,81.7,Progressive Disease,Moderate
+ONC10960,2026-02-09 20:00:00,44.0,Female,Gastric Cancer,III,EGFR,2.25,56.6,93.4,95,8.8,224,1.16,0.31,27.5,2.0,Nivolumab,79.0,Stable Disease,Moderate
+ONC10961,2026-02-09 21:00:00,58.0,Male,Ovarian Cancer,III,BRAF,3.53,64.4,99.0,77,4.9,276,1.12,1.28,30.8,1.0,Chemotherapy,55.6,Complete Response,Low
+ONC10962,2026-02-09 22:00:00,54.0,Female,Pancreatic Cancer,III,KRAS,6.13,23.3,98.4,87,13.8,249,1.59,1.38,27.0,2.0,Cisplatin+Gemcitabine,95.9,Progressive Disease,Moderate
+ONC10963,2026-02-09 23:00:00,73.0,Male,Renal Cancer,III,Unknown,2.12,32.7,96.4,67,5.7,329,0.84,1.13,29.1,1.0,Trastuzumab,96.3,Progressive Disease,Moderate
+ONC10964,2026-02-10 00:00:00,77.0,Male,Ovarian Cancer,II,TP53,3.94,92.8,99.5,75,9.2,249,1.23,0.41,23.9,3.0,Pembrolizumab,72.2,Progressive Disease,Moderate
+ONC10965,2026-02-10 01:00:00,45.0,Male,Prostate Cancer,II,BRCA2,2.56,50.9,98.5,88,6.5,227,1.25,1.39,34.7,1.0,Sorafenib,35.4,Unknown,Low
+ONC10966,2026-02-10 02:00:00,85.0,Male,Colorectal Cancer,IV,EGFR,1.87,58.1,97.7,69,4.0,202,1.19,1.16,24.7,2.0,Targeted Therapy,57.9,Stable Disease,Low
+ONC10967,2026-02-10 03:00:00,56.0,Male,NSCLC,IV,Unknown,3.27,53.2,92.2,96,4.6,326,0.99,1.01,28.2,1.0,Carboplatin+Paclitaxel,88.8,Stable Disease,Moderate
+ONC10968,2026-02-10 04:00:00,60.0,Male,NSCLC,II,BRAF,13.32,64.3,94.1,100,9.8,224,0.6,0.62,26.3,1.0,Chemotherapy,65.1,Stable Disease,Low
+ONC10969,2026-02-10 05:00:00,58.0,Unknown,Colorectal Cancer,III,RET,2.66,39.8,93.0,77,5.9,214,0.91,0.39,24.1,0.0,Trastuzumab,109.2,Unknown,Moderate
+ONC10970,2026-02-10 06:00:00,52.0,Female,Melanoma,I,PD-L1,5.25,52.0,100.0,79,4.9,330,1.52,1.28,26.5,1.0,Carboplatin+Paclitaxel,77.8,Complete Response,Low
+ONC10971,2026-02-10 07:00:00,53.0,Male,NSCLC,II,Unknown,1.59,52.4,96.8,84,7.8,250,1.49,0.79,34.3,0.0,Olaparib,93.3,Partial Response,Low
+ONC10972,2026-02-10 08:00:00,62.0,Unknown,Prostate Cancer,III,RET,1.4,36.0,98.8,70,10.6,276,1.04,1.7,31.2,3.0,Trastuzumab,88.9,Stable Disease,Moderate
+ONC10973,2026-02-10 09:00:00,57.0,Female,Gastric Cancer,II,PIK3CA,7.99,48.2,93.3,69,6.6,194,1.04,0.85,25.4,0.0,Sorafenib,77.0,Progressive Disease,Low
+ONC10974,2026-02-10 10:00:00,58.0,Female,Pancreatic Cancer,III,ALK,6.01,65.7,98.3,84,4.1,205,1.04,0.75,26.9,2.0,Sorafenib,70.7,Complete Response,Low
+ONC10975,2026-02-10 11:00:00,52.0,Male,Liver Cancer,III,TP53,6.47,58.2,98.2,83,11.0,304,1.25,1.15,17.8,3.0,Docetaxel,96.7,Progressive Disease,Moderate
+ONC10976,2026-02-10 12:00:00,56.0,Male,Breast Cancer,IV,PIK3CA,9.5,59.7,93.6,93,9.4,327,1.26,0.35,27.1,3.0,Docetaxel,76.2,Progressive Disease,Moderate
+ONC10977,2026-02-10 13:00:00,82.0,Female,Breast Cancer,II,TP53,3.51,56.4,99.9,69,4.0,157,0.9,0.97,31.9,0.0,Nivolumab,64.2,Partial Response,Low
+ONC10978,2026-02-10 14:00:00,40.0,Female,Colorectal Cancer,IV,KRAS,1.78,27.9,100.0,87,6.1,226,0.82,0.3,28.5,0.0,Nivolumab,107.4,Stable Disease,Moderate
+ONC10979,2026-02-10 15:00:00,68.0,Female,Pancreatic Cancer,III,TP53,2.92,31.2,96.2,116,6.5,281,1.28,0.25,25.4,1.0,Nivolumab,45.6,Progressive Disease,Low
+ONC10980,2026-02-10 16:00:00,60.0,Male,Melanoma,III,PD-L1,1.99,42.6,99.7,89,11.1,278,0.55,1.14,24.3,3.0,Immunotherapy,80.7,Partial Response,Moderate
+ONC10981,2026-02-10 17:00:00,67.0,Unknown,Breast Cancer,II,BRCA1,12.54,54.3,97.7,90,5.8,231,0.73,0.96,22.1,2.0,Immunotherapy,111.1,Partial Response,High
+ONC10982,2026-02-10 18:00:00,41.0,Female,Melanoma,IV,EGFR,3.14,46.8,93.3,71,9.5,216,1.43,1.35,20.5,1.0,Carboplatin+Paclitaxel,67.4,Progressive Disease,Low
+ONC10983,2026-02-10 19:00:00,68.0,Female,Prostate Cancer,I,TP53,5.69,47.0,96.6,77,6.4,339,1.4,1.1,20.5,2.0,Docetaxel,55.0,Partial Response,Low
+ONC10984,2026-02-10 20:00:00,44.0,Unknown,Melanoma,IV,PIK3CA,6.11,26.3,99.7,85,8.6,324,0.92,1.48,28.2,3.0,Sorafenib,50.7,Progressive Disease,Moderate
+ONC10985,2026-02-10 21:00:00,52.0,Male,Prostate Cancer,IV,TP53,5.02,36.5,92.9,83,7.5,336,0.62,1.23,19.0,0.0,Trastuzumab,91.3,Complete Response,Low
+ONC10986,2026-02-10 22:00:00,57.0,Unknown,Breast Cancer,IV,BRCA1,7.51,40.0,91.9,58,11.4,489,0.93,0.83,21.0,1.0,Cisplatin+Gemcitabine,56.1,Complete Response,Low
+ONC10987,2026-02-10 23:00:00,51.0,Male,NSCLC,III,TP53,3.55,76.6,92.8,54,9.0,202,1.04,0.84,26.4,0.0,Sorafenib,60.3,Partial Response,Low
+ONC10988,2026-02-11 00:00:00,58.0,Female,Colorectal Cancer,III,BRAF,2.61,28.4,94.4,68,9.2,278,1.04,0.77,28.8,1.0,Immunotherapy,75.85,Progressive Disease,Low
+ONC10989,2026-02-11 01:00:00,53.0,Unknown,Breast Cancer,III,BRCA1,0.59,33.3,94.7,98,7.3,240,1.21,0.71,32.2,3.0,FOLFOX,67.6,Progressive Disease,Moderate
+ONC10990,2026-02-11 02:00:00,50.0,Male,Liver Cancer,III,BRCA2,3.54,22.4,97.7,63,8.1,327,1.01,1.34,24.5,0.0,Trastuzumab,107.4,Unknown,Moderate
+ONC10991,2026-02-11 03:00:00,70.0,Female,NSCLC,III,Unknown,1.07,31.7,98.6,68,10.1,295,1.05,1.98,15.9,3.0,Targeted Therapy,100.8,Partial Response,High
+ONC10992,2026-02-11 04:00:00,44.0,Unknown,Pancreatic Cancer,III,PIK3CA,3.51,65.5,97.2,97,5.4,174,0.91,0.75,23.2,2.0,Trastuzumab,89.6,Progressive Disease,Moderate
+ONC10993,2026-02-11 05:00:00,59.0,Female,Melanoma,III,HER2,2.01,90.7,93.5,57,9.1,266,1.54,1.26,24.7,2.0,Cisplatin+Gemcitabine,81.8,Stable Disease,Moderate
+ONC10994,2026-02-11 06:00:00,40.0,Male,Melanoma,I,BRAF,4.99,44.1,96.9,71,5.5,247,1.71,1.18,28.3,0.0,FOLFOX,104.5,Unknown,Moderate
+ONC10995,2026-02-11 07:00:00,52.0,Female,Prostate Cancer,IV,EGFR,1.6,67.8,94.1,66,5.9,55,1.84,1.25,23.3,4.0,Chemotherapy,64.1,Stable Disease,Moderate
+ONC10996,2026-02-11 08:00:00,58.0,Unknown,Liver Cancer,III,EGFR,1.23,78.5,99.6,93,7.6,392,0.7,1.54,28.4,0.0,Olaparib,63.2,Stable Disease,Low
+ONC10997,2026-02-11 09:00:00,54.0,Male,Melanoma,I,EGFR,2.43,19.5,96.0,67,6.6,328,1.31,1.12,21.1,4.0,FOLFOX,27.0,Stable Disease,Moderate
+ONC10998,2026-02-11 10:00:00,35.0,Male,Ovarian Cancer,I,TP53,1.16,47.9,93.3,75,10.5,221,1.08,1.05,26.8,1.0,Sorafenib,114.3,Unknown,Moderate
+ONC10999,2026-02-11 11:00:00,64.0,Male,Liver Cancer,III,MET,3.95,40.9,98.2,84,11.4,183,0.86,1.1,28.3,2.0,FOLFOX,103.3,Progressive Disease,Moderate
+ONC11000,2026-02-11 12:00:00,58.0,Female,Ovarian Cancer,I,Unknown,3.45,43.6,95.8,50,7.8,196,1.31,0.82,20.8,1.0,Trastuzumab,72.3,Complete Response,Low

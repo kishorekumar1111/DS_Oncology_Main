@@ -1,0 +1,10 @@
+Metric,Score
+Accuracy,0.845
+Macro Precision,0.8430853823010686
+Macro Recall,0.7125568551007148
+Macro F1,0.7455333179970861
+MCC,0.718091919424084
+Cross Validation Mean F1,0.7307619040505962
+Cross Validation Std,0.028415927316882486
+Average Prediction Confidence,0.61395
+Overconfident Wrong Predictions,0.0

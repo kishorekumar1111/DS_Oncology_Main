@@ -1,0 +1,22 @@
+PERSONALIZED PRECISION ONCOLOGY
+STAGE 01 - EVALUATION ENGINEER
+
+MODEL EVALUATION REPORT
+=======================
+
+Accuracy: 0.8450
+Macro Precision: 0.8431
+Macro Recall: 0.7126
+Macro F1: 0.7455
+MCC: 0.7181
+
+Cross Validation Mean F1: 0.7308
+Cross Validation Std: 0.0284
+
+Average Prediction Confidence: 0.6139
+High Confidence Wrong Predictions: 0
+
+Overconfidence Status: No high-confidence wrong predictions detected
+
+Evaluation completed on an unseen test cohort.
+Errors and high-confidence errors were saved for further investigation.

@@ -1,0 +1,32 @@
+Age,Sex,Cancer_Type,Cancer_Stage,Gene_Mutation,ctDNA_Level,Protein_Biomarker,SpO2,Heart_Rate,WBC_Count,Platelet_Count,Creatinine,Bilirubin,BMI,ECOG_Status,Treatment,Dose_mg,Treatment_Response,Actual_Risk,Predicted_Risk,Prediction_Confidence,Confidence_Level,Correct_Prediction,Overconfident_Error
+66.0,Female,Pancreatic Cancer,III,PD-L1,2.45,36.7,98.0,89,13.6,257,1.01,0.86,29.1,0.0,Immunotherapy,97.1,Stable Disease,Low,Moderate,0.65,Moderate Confidence,False,False
+91.0,Female,Prostate Cancer,IV,RET,5.42,68.9,97.2,74,3.7,250,1.32,1.58,22.7,2.0,Olaparib,105.5,Unknown,High,Moderate,0.6133333333333333,Moderate Confidence,False,False
+67.0,Male,Pancreatic Cancer,IV,MET,1.1,69.2,94.7,69,9.3,200,1.31,1.2,34.4,1.0,Osimertinib,87.7,Partial Response,Moderate,Low,0.5366666666666666,Moderate Confidence,False,False
+71.0,Unknown,Melanoma,III,Unknown,4.21,19.8,93.6,98,4.2,239,1.04,0.95,23.4,3.0,Nivolumab,33.7,Complete Response,Moderate,Low,0.46,Low Confidence,False,False
+77.0,Female,Pancreatic Cancer,IV,Unknown,5.77,49.9,93.1,71,4.7,70,0.86,0.91,20.5,0.0,Osimertinib,94.1,Progressive Disease,Low,Moderate,0.44666666666666666,Low Confidence,False,False
+55.0,Unknown,Prostate Cancer,II,MET,4.29,63.4,97.2,72,7.0,268,1.13,0.48,27.1,3.0,FOLFOX,51.5,Partial Response,Low,Moderate,0.4866666666666667,Low Confidence,False,False
+53.0,Male,Breast Cancer,IV,EGFR,0.99,83.3,100.0,87,8.6,220,0.35,0.69,18.6,0.0,FOLFOX,91.9,Stable Disease,Low,Moderate,0.4533333333333333,Low Confidence,False,False
+66.0,Female,Renal Cancer,III,PD-L1,6.19,49.9,98.2,46,9.4,99,1.12,0.78,18.1,2.0,Osimertinib,500.0,Partial Response,Low,Moderate,0.5033333333333333,Moderate Confidence,False,False
+56.0,Male,NSCLC,IV,Unknown,3.27,53.2,92.2,96,4.6,326,0.99,1.01,28.2,1.0,Carboplatin+Paclitaxel,88.8,Stable Disease,Moderate,Low,0.52,Moderate Confidence,False,False
+60.0,Female,Gastric Cancer,II,HER2,1.19,47.9,99.1,73,8.6,220,1.79,1.33,23.0,2.0,Pembrolizumab,98.3,Progressive Disease,High,Moderate,0.62,Moderate Confidence,False,False
+58.0,Female,Prostate Cancer,II,HER2,3.13,33.5,98.2,84,10.8,312,1.87,0.65,27.6,1.0,Immunotherapy,123.2,Partial Response,High,Moderate,0.45,Low Confidence,False,False
+52.0,Female,Prostate Cancer,IV,BRCA2,1.75,70.5,100.0,115,7.1,358,1.64,2.0,23.6,3.0,FOLFOX,84.6,Complete Response,High,Moderate,0.6533333333333333,Moderate Confidence,False,False
+62.0,Unknown,Liver Cancer,IV,EGFR,4.92,55.7,97.5,89,9.1,272,1.02,1.0,25.1,2.0,Pembrolizumab,79.4,Partial Response,Low,Moderate,0.5733333333333334,Moderate Confidence,False,False
+52.0,Male,Ovarian Cancer,III,KRAS,2.62,54.1,95.6,95,8.6,328,1.22,1.3,20.4,2.0,Immunotherapy,62.2,Unknown,Low,Moderate,0.5666666666666667,Moderate Confidence,False,False
+62.0,Female,Liver Cancer,III,MET,16.47,66.4,95.7,94,7.7,156,1.42,0.95,33.8,1.0,Carboplatin+Paclitaxel,82.4,Complete Response,Moderate,Low,0.6266666666666667,Moderate Confidence,False,False
+69.0,Male,Prostate Cancer,I,BRCA2,12.25,92.8,98.1,88,5.9,331,0.82,1.04,28.3,2.0,Nivolumab,104.7,Complete Response,Moderate,High,0.4033333333333333,Low Confidence,False,False
+46.0,Female,Colorectal Cancer,I,PIK3CA,6.48,43.8,91.9,97,9.0,189,0.73,1.37,27.7,1.0,Targeted Therapy,90.2,Progressive Disease,Moderate,Low,0.5,Moderate Confidence,False,False
+71.0,Male,Ovarian Cancer,IV,ALK,2.18,91.9,96.7,79,8.3,288,0.83,0.84,17.2,1.0,Olaparib,75.85,Unknown,Moderate,Low,0.7033333333333334,Moderate Confidence,False,False
+64.0,Male,Ovarian Cancer,IV,KRAS,1.71,44.8,99.0,66,12.2,175,1.43,1.19,24.0,2.0,FOLFOX,125.8,Stable Disease,High,Moderate,0.48,Low Confidence,False,False
+73.0,Female,Prostate Cancer,II,HER2,8.15,15.1,98.6,85,6.3,230,1.28,1.5,22.0,2.0,Immunotherapy,75.85,Progressive Disease,Low,Moderate,0.5066666666666667,Moderate Confidence,False,False
+62.0,Female,Breast Cancer,I,Unknown,4.55,47.9,96.4,101,3.0,238,0.67,0.5,24.6,0.0,Sorafenib,95.2,Unknown,Low,Moderate,0.5466666666666666,Moderate Confidence,False,False
+75.0,Female,Breast Cancer,IV,Unknown,6.39,8.9,93.9,55,8.4,269,1.79,1.35,28.0,2.0,Chemotherapy,69.7,Progressive Disease,Moderate,Low,0.4666666666666667,Low Confidence,False,False
+71.0,Female,Breast Cancer,II,BRCA2,9.02,22.9,94.5,94,8.3,174,0.95,0.43,25.4,1.0,Pembrolizumab,90.0,Unknown,Moderate,Low,0.49666666666666665,Low Confidence,False,False
+36.0,Unknown,Renal Cancer,IV,NTRK,5.2,35.4,95.4,73,8.9,322,1.38,1.11,19.8,2.0,FOLFOX,107.4,Unknown,High,Moderate,0.5966666666666667,Moderate Confidence,False,False
+46.0,Female,NSCLC,III,HER2,1.56,34.0,96.9,81,8.4,198,1.44,0.7,28.6,0.0,Osimertinib,75.85,Unknown,Moderate,Low,0.78,Moderate Confidence,False,False
+36.0,Female,Renal Cancer,III,TP53,5.6,45.2,94.1,75,4.5,371,0.95,1.34,24.0,2.0,Docetaxel,115.8,Partial Response,High,Moderate,0.5,Moderate Confidence,False,False
+64.0,Male,Liver Cancer,IV,PD-L1,10.65,63.4,92.2,87,6.3,206,1.45,1.1,33.9,2.0,Cisplatin+Gemcitabine,100.2,Unknown,High,Moderate,0.52,Moderate Confidence,False,False
+44.0,Male,Colorectal Cancer,IV,PIK3CA,1.71,57.8,94.3,80,11.0,254,1.39,1.92,18.6,2.0,Cisplatin+Gemcitabine,69.0,Progressive Disease,Moderate,Low,0.4533333333333333,Low Confidence,False,False
+52.0,Male,Prostate Cancer,IV,TP53,5.02,36.5,92.9,83,7.5,336,0.62,1.23,19.0,0.0,Trastuzumab,91.3,Complete Response,Low,Moderate,0.48,Low Confidence,False,False
+59.0,Female,Liver Cancer,II,TP53,1.89,46.0,92.2,76,10.4,202,1.64,1.0,26.5,2.0,Osimertinib,117.1,Complete Response,High,Moderate,0.47,Low Confidence,False,False
+40.0,Male,Ovarian Cancer,III,TP53,2.35,55.1,93.9,90,4.9,199,1.28,0.98,23.5,4.0,Targeted Therapy,89.7,Partial Response,High,Moderate,0.5666666666666667,Moderate Confidence,False,False
